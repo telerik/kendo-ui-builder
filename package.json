@@ -1,0 +1,26 @@
+{
+  "name": "kendo-ui-builder",
+  "version": "1.0.0",
+  "description": "Documentation repo for Kendo UI Builder",
+  "main": "gulp docs",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/telerik/kendo-ui-builder.git"
+  },
+  "author": "Kendo UI Builder Team",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/telerik/kendo-ui-builder/issues"
+  },
+  "homepage": "https://github.com/telerik/kendo-ui-builder#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-help": "^1.6.1"
+  }
+}
