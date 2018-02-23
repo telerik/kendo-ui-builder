@@ -1,0 +1,1 @@
+window.moduleDirectives = (window.moduleDirectives || []);
