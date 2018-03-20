@@ -1,4 +1,9 @@
 window.moduleDirectives = (window.moduleDirectives || []).concat([{
+    module: '@progress/kendo-angular-layout',
+    main: 'dist/cdn/js/kendo-angular-layout.js',
+    match: 'LayoutModule',
+    import: 'LayoutModule'
+}, {
     module: '@progress/kendo-angular-grid',
     main: 'dist/cdn/js/kendo-angular-grid.js',
     match: '(kendo-grid|GridModule)',
@@ -23,6 +28,20 @@ window.moduleDirectives = (window.moduleDirectives || []).concat([{
     main: 'dist/cdn/js/kendo-angular-inputs.js',
     match: '(InputsModule|kendo-slider|kendo-switch|kendo-maskedtextbox|kendo-numerictextbox)',
     import: 'InputsModule'
+}, {
+    module: '@progress/kendo-angular-dateinputs',
+    main: 'dist/cdn/js/kendo-angular-dateinputs.js',
+    match: '(DateInputsModule|kendo-calendar|kendo-dateinput|kendo-datepicker|kendo-timepicker)',
+    import: 'DateInputsModule'
+}, {
+    module: '@progress/kendo-angular-buttons',
+    main: 'dist/cdn/js/kendo-angular-buttons.js',
+    match: '(ButtonsModule|kendoButton|kendo-buttongroup|kendo-splitbutton|kendo-dropdownbutton)',
+    import: 'ButtonsModule'
+}, {
+    module: '@progress/kendo-angular-label',
+    main: 'dist/cdn/js/kendo-angular-label.js',
+    match: '(LabelModule|label)', import: 'LabelModule'
 }, {
     module: '@progress/kendo-angular-intl',
     main: 'dist/cdn/js/kendo-angular-intl.js',
