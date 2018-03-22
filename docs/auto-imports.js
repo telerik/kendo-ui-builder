@@ -49,16 +49,16 @@ window.moduleDirectives = (window.moduleDirectives || []).concat([{
     module: '@progress/kendo-angular-l10n',
     main: 'dist/cdn/js/kendo-angular-l10n.js',
 }, {
-    module: '@angular/forms',
-    match: '(FormsModule|ReactiveFormsModule)',
-    import: 'FormsModule, ReactiveFormsModule',
-    main: 'bundles/forms.umd.js',
-    defaultExtension: 'js'
-}, {
     module: '@progress/kendo-data-query',
     main: 'dist/cdn/js/kendo-data-query.js'
 }, {
     module: '@progress/kendo-drawing',
     main: 'dist/es/main.js'
-}]);
+}, {
+    module: '@progress/kendo-angular-charts',
+    main: 'dist/cdn/js/kendo-angular-charts.js',
+    match: '(kendo-chart|ChartsModule|kendo-sparkline)',
+    import: 'ChartsModule'
+}
+]);
 
