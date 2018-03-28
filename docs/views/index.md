@@ -58,6 +58,6 @@ For more information, refer to the tutorial on [adding and editing Blank views](
 
 * [Editing Views]({% slug editloginviews_tutorials_kuib %})
 * [Data Providers]({% slug dataproviders_kendouibuilder %})
-* [Data Sources]({% slug dataprovidersandsources_kendouibuilder %})
+* [Data Sources]({% slug datasources_kendouibuilder %})
 * [Modules]({% slug modules_kendouibuilder %})
 * [Quick Start Guide]({% slug quickstartguide_kendouibuilder %})
