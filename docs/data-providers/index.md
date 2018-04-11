@@ -1,29 +1,17 @@
 ---
-title: Data Providers
-page_title: Data Providers  | Kendo UI Builder
-description: "In the Kendo UI Designer application, data providers are data services that provide access to data and associated logic."
-slug: dataproviders_kendouibuilder
-position: 2
+title: Overview
+page_title: Overview - Data Providers - Kendo UI Builder
+description: "Use the available data services and data sources which are supported by the Kendo UI Builder tool for creating and managing Angular and AngularJS-based web applications."
+slug: dataprovidersoverview_kuib
+position: 1
 ---
 
-# Data Providers
+# Data Providers Overview
 
-Data providers are data services that provide access to data and associated logic.
+Data providers are data services that provide access to the data you want to render and to the associated business logic of your project.
 
-## Overview
+Each data provider is represented by one service URI. The data provider defines a single data service but can apply one or more data sources. You can also create multiple data providers.
 
-Each data provider is represented by one service URI. A data provider defines a single data service and one or more [data sources]({% slug datasources_kendouibuilder %}). It is also possible to create multiple data providers.
+The Builder supports the provision of the [OData]({% slug ... %}), [Progress Data]({% slug ... %}), and [generic REST]({% slug ... %}) data services and the respective usage of [data sources]({% slug ... %}).  
 
-For more information, refer to the tutorial on [how to add and edit data providers]({% slug editproviders_tutorials_kuib %}).
-
-## Getting Started/Configuration
-
-...
-
-## See Also
-
-* [Editing Data Providers]({% slug editproviders_tutorials_kuib %})
-* [Data Sources]({% slug datasources_kendouibuilder %})
-* [Modules]({% slug modules_kendouibuilder %})
-* [Views]({% slug views_kendouibuilder %})
-* [Quick Start Guide]({% slug quickstartguide_kendouibuilder %})
+## Suggested Links

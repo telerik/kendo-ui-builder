@@ -1,12 +1,12 @@
 ---
-title: Views
-page_title: Views | Kendo UI Builder
-description: "In the Kendo UI Designer application, views are the screens that make up each module."
-slug: views_kendouibuilder
-position: 5
+title: Overview
+page_title: Overview - Views - Kendo UI Builder
+description: "Learn how to use the views which are provided by the Kendo UI Builder tool for creating and managing Angular and AngularJS-based web applications."
+slug: viewsoverview_kuib
+position: 1
 ---
 
-# Views
+# Views Overview
 
 Views are the screens that make up each [module]({% slug modules_kendouibuilder %}).
 
@@ -50,14 +50,4 @@ The Blank view also allows you to specify multiple data source instances per vie
 
 For more information, refer to the tutorial on [adding and editing Blank views]({% slug editblankviews_tutorials_kuib %}).
 
-## Getting Started/Configuration
-
-...
-
-## See Also
-
-* [Editing Views]({% slug editloginviews_tutorials_kuib %})
-* [Data Providers]({% slug dataproviders_kendouibuilder %})
-* [Data Sources]({% slug datasources_kendouibuilder %})
-* [Modules]({% slug modules_kendouibuilder %})
-* [Quick Start Guide]({% slug quickstartguide_kendouibuilder %})
+## Suggested Links

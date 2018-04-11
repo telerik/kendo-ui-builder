@@ -1,12 +1,14 @@
 ---
-title: Kendo UI Designer Overview
-page_title: Kendo UI Designer Overview | Kendo UI Builder
-description: "The Kendo UI Designer application helps you design, build, and preview one-page web applications with responsive user interfaces for your business application projects."
-slug: overview_designer_kendouibuilder
+title: Getting Started with Kendo UI Designer
+page_title: Getting Started with Kendo UI Designer | Kendo UI Builder
+description: "Get started with the Kendo UI Designer tool for designing, building, and previewing one-page web applications with responsive user interfaces for business application projects."
+slug: getstarted_kuib
 position: 1
 ---
 
-# Kendo UI Designer
+# Getting Started with Kendo UI Designer
+
+Kendo UI Builder separates the user interface settings from the business logic of the project. The UI configuration options are delivered by the modules and views and are known under the common name of Kendo UI Designer.
 
 The Kendo UI Designer is part of the [Kendo UI® Builder by Progress®]({% slug overview_kendouibuilder %}).
 
@@ -36,26 +38,31 @@ The Kendo UI Designer requires the following prerequisites:
 * ...
 * ...
 
-**TO BE DECIDED** BELOW IS A SUGGESTED STRUCTURE (IF APPLICABLE). TOPICS MIGHT BE SHIFTED TO SEPARATE ARTICLES.
+## Installation
 
-### Components
+> By default, the installation of Kendo UI Builder stops all running application instances. Because this might lead to loss of data, make sure you stop any such instances.
 
-## Configuration
+1. If not already created, set up your client account at ...
+1. Go to .. and click the Windows Installer.
 
-## Browser Support
+  > The Windows Installer notifies that you need Node.js but does not install it automatically.
 
-## Operating System Support
+1. Click `KendoUIBuilder.exe` to download the Builder. The `.rar` file is automatically stored in ...
+1. Click ... to open the Builder and load the dashboard.  
 
-## Bundle Support
+## Uninstallation
 
-## Accessibility
+1. Go to ...
+1. Right-click ...
+1. Select ...
 
-## Keyboard Navigation
+## Suggested Links
 
-## See Also
-
-* [Data Providers]({% slug dataproviders_kendouibuilder %})
-* [Data Sources]({% slug datasources_kendouibuilder %})
-* [Modules]({% slug modules_kendouibuilder %})
-* [Views]({% slug views_kendouibuilder %})
-* [Tutorials]({% slug quickstartguide_kendouibuilder %})
+* [Troubleshooting]()
+* [Frequently Asked Questions]()
+* [Modules]()
+* [Views]()
+* [Components]()
+* [Data Providers]()
+* [Extension Points]()
+* [Frameworks]()
