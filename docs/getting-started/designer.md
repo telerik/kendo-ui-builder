@@ -1,26 +1,20 @@
 ---
 title: Getting Started with Kendo UI Designer
 page_title: Getting Started with Kendo UI Designer | Kendo UI Builder
-description: "Get started with the Kendo UI Designer tool for designing, building, and previewing one-page web applications with responsive user interfaces for business application projects."
-slug: getstarted_kuib
+description: "Get started with the Kendo UI Designer tool for designing, building, and previewing one-page responsive web applications for business application projects."
+slug: getstarted_kdesigner
 position: 1
 ---
 
 # Getting Started with Kendo UI Designer
 
-Kendo UI Builder separates the user interface settings from the business logic of the project. The UI configuration options are delivered by the modules and views and are known under the common name of Kendo UI Designer.
+The Kendo UI Designer is part of the [Kendo UI Builder]({% slug intro_kuib %}) and is responsible for the management of the user interface (UI) application logic.
 
-The Kendo UI Designer is part of the [Kendo UI® Builder by Progress®]({% slug overview_kendouibuilder %}).
+The Designer includes the modules and the views and enables you to visually design, build, and preview one-page web applications with responsive UIs for business projects. It uses a collection of predefined, data-driven views and allows the creation of custom layouts by dragging and dropping components into the Blank (custom) view. The development of the UI is based on Kendo UI, Bootstrap, Angular, and AngularJS.
 
-## Overview
+For more information on how to create UI with the Designer, refer to the [Quick Start Guide]({% slug quickstartguide_kendouibuilder %}). For more information on how to use the Designer with OpenEdge business applications, refer to the [official Progress<sup>®</sup> Software Documentation](https://www.progress.com/documentation/kendo-ui-builder).  
 
-The Designer is an application that allows you to visually design, build, and preview one-page web applications with responsive user interfaces (UI) for business projects. It uses a collection of predefined, data-driven views and allows the creation of custom layouts by dragging and dropping components into a blank view. The development of the UI is based on Kendo UI, Bootstrap, and AngularJS.
-
-For more information on how to create applications with the Kendo UI Designer, refer to the [Quick Start Guide]({% slug quickstartguide_kendouibuilder %}).
-
-For more information on how to use the Kendo UI Designer with OpenEdge business applications, refer to the [Progress<sup>®</sup> Software Documentation web site](https://documentation.progress.com/index.html#page/progdocindex/kendo-ui-builder-by-progress.html).  
-
-## Getting Started
+## Basic Concepts
 
 The data definition is stored in JSON meta-data that is separate from the Kendo UI implementation. The meta-data is then used by the integrated Kendo UI Generator to generate the HTML5/CSS and JavaScript files that you build for an application. The application generation also allows you to immediately preview the app in the Designer using live data. You can then eventually deploy the app to separate web servers for further development testing and production.
 
