@@ -5,8 +5,14 @@ description: "Use and implement the Kendo UI Schedulers when working with the Ke
 slug: schedulerscomp_kuib
 ---
 
-# Schedulers Components
+# Schedulers
 
-...
+Schedulers display and help manage tasks and appointments.  
+
+## Calendar
+
+The Calendar...
+
+<!-- screen -->
 
 ## Suggested Links

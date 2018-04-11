@@ -8,25 +8,27 @@ position: 1
 
 # Components Overview
 
-The components are part of the custom Blank view of the Builder.
+The components represent the widgets that will be rendered by the application.
 
-The Builder supports built-in components that are ready to use and also enables you to create and implement custom components in your project.
+They are part of the [Blank view]({% slug customviews_kuib %}) and you can add them to your project only when you work with that custom view. The Builder supports two types of components&mdash;built-in and ready-to-use, and [custom]({% slug customcomp_kuib %}). The built-in components are either native Kendo UI components for Angular or integrated with AngularJS, or are generally inspired by the Kendo UI suites.
 
-## Built-In
+The built-in components are grouped into the following categories:
 
-The built-in components are either native Kendo UI components for Angular or AngularJS, or are generally inspired by the Kendo UI suites. To add a built-in component, drag-and-drop it to the desired location in the current view.
-
-For an easy retrieval, the built-in components are split into the following categories:
-* Charts       
-* Data management        
-* Editors        
-* Media        
-* Navigation        
-* Schedulers        
-* Layout       
-
-## Custom
-
-For more information, refer to the article on [implementing custom components]().
+* [Charts]({% slug chartscomp_kuib %})       
+* [Data management]({% slug datamanagementcomp_kuib %})        
+* [Editors]({% slug editorscomp_kuib %})
+* [Layout]({% slug layoutcomp_kuib %})       
+* [Media]({% slug mediacomp_kuib %})
+* [Navigation]({% slug navigationcomp_kuib %})
+* [Schedulers]({% slug schedulerscomp_kuib %})
 
 ## Suggested Links
+
+* [Charts]({% slug chartscomp_kuib %})       
+* [Custom Components]({% slug customcomp_kuib %})
+* [Data Management Components]({% slug datamanagementcomp_kuib %})        
+* [Editors]({% slug editorscomp_kuib %})
+* [Layout Components]({% slug layoutcomp_kuib %})  
+* [Media Components]({% slug mediacomp_kuib %})
+* [Navigation Components]({% slug navigationcomp_kuib %})
+* [Schedulers]({% slug schedulerscomp_kuib %})

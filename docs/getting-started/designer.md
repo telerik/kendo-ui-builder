@@ -8,23 +8,13 @@ position: 1
 
 # Getting Started with Kendo UI Designer
 
-The Kendo UI Designer is part of the [Kendo UI Builder]({% slug intro_kuib %}) and is responsible for the management of the user interface (UI) application logic.
+Kendo UI® Designer by Progress® is part of the [Kendo UI Builder]({% slug intro_kuib %}) and includes the [modules]({% slug modulesoverview_kuib %}) and the [views]({% slug viewsoverview_kuib %}).
 
-The Designer includes the modules and the views and enables you to visually design, build, and preview one-page web applications with responsive UIs for business projects. It uses a collection of predefined, data-driven views and allows the creation of custom layouts by dragging and dropping components into the Blank (custom) view. The development of the UI is based on Kendo UI, Bootstrap, Angular, and AngularJS.
+The Designer enables you to visually design, build, and preview one-page web applications with responsive user interfaces (UIs) for business projects. It uses a collection of predefined, data-driven views and allows the creation of custom layouts by dragging and dropping components into the custom (Blank) view. The development of the UI is based on Kendo UI, Bootstrap, Angular, and AngularJS. For more information, refer to the [Quick Start Guide]({% slug quickstartguide_kendouibuilder %}).
 
-For more information on how to create UI with the Designer, refer to the [Quick Start Guide]({% slug quickstartguide_kendouibuilder %}). For more information on how to use the Designer with OpenEdge business applications, refer to the [official Progress<sup>®</sup> Software Documentation](https://www.progress.com/documentation/kendo-ui-builder).  
+To start using the Designer, provide the [prerequisites](#toc-prerequisites) and follow the [installation process](#toc-installation).
 
-## Basic Concepts
-
-The data definition is stored in JSON meta-data that is separate from the Kendo UI implementation. The meta-data is then used by the integrated Kendo UI Generator to generate the HTML5/CSS and JavaScript files that you build for an application. The application generation also allows you to immediately preview the app in the Designer using live data. You can then eventually deploy the app to separate web servers for further development testing and production.
-
-You design a web app from inputs that include a set of Kendo UI templates from which you can select to create functional views within one or more app modules. Each module can contain one or more user-created views, and each view can be bound to one or more data source tables that you select, depending on the view. You can have multiple [data providers]({% slug dataproviders_kendouibuilder %}) defined for an app, and depending on the view, you can select one or more of these data providers from which to then bind [data sources]({% slug datasources_kendouibuilder %}) to that view. Some user-created views bind to only one data source at a time, while others allow binding to multiple data sources.
-
-[Modules]({% slug modules_kendouibuilder %}) and [their views]({% slug views_kendouibuilder %}), data providers and their data sources, can all be configured with corresponding properties. These property settings then help to define the meta-data for your app, which is saved separately for each module and data provider that you define.
-
-Finally, you can customize each view with code extensions for both view event handlers and custom sections that are available in the layout of every view. There are also additional extension points available for both basic and more advanced app customization.
-
-### Prerequisites
+## Prerequisites
 
 The Kendo UI Designer requires the following prerequisites:
 
@@ -34,12 +24,12 @@ The Kendo UI Designer requires the following prerequisites:
 
 ## Installation
 
-> By default, the installation of Kendo UI Builder stops all running application instances. Because this might lead to loss of data, make sure you stop any such instances.
+> By default, the installation of the Builder interrupts all running application instances&mdash;to avoid possible data loss, stop such running instances if any.
 
 1. If not already created, set up your client account at ...
 1. Go to .. and click the Windows Installer.
 
-  > The Windows Installer notifies that you need Node.js but does not install it automatically.
+  > The Windows Installer notifies you to install Node.js but does not install it automatically.
 
 1. Click `KendoUIBuilder.exe` to download the Builder. The `.rar` file is automatically stored in ...
 1. Click ... to open the Builder and load the dashboard.  
@@ -52,11 +42,11 @@ The Kendo UI Designer requires the following prerequisites:
 
 ## Suggested Links
 
-* [Troubleshooting]()
-* [Frequently Asked Questions]()
-* [Modules]()
-* [Views]()
-* [Components]()
-* [Data Providers]()
-* [Extension Points]()
-* [Frameworks]()
+* [Troubleshooting]({% slug troubleshooting_kuib %})
+* [Frequently Asked Questions]({% slug faq_kuib %})
+* [Modules]({% slug modulesoverview_kuib %})
+* [Views]({% slug viewsoverview_kuib %})
+* [Components]({% slug overviewcomp_kuib %})
+* [Data Providers]({% slug dataprovidersoverview_kuib %})
+* [Extension Points]({% slug extensionpoints_kuib %})
+* [Frameworks]({% slug angular_kuib %})

@@ -7,6 +7,12 @@ slug: mediacomp_kuib
 
 # Media Components
 
-...
+Media components display visual or dynamic content in a user-friendly way.  
+
+## Image
+
+The Image...
+
+<!-- screen -->
 
 ## Suggested Links

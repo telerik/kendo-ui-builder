@@ -7,6 +7,18 @@ slug: datamanagementcomp_kuib
 
 # Data Management Components
 
-...
+Data management components enable users to interact with data and handle data operations such as filtering, selection, and reordering.
+
+## Grid
+
+The Grid...
+
+<!-- screen -->
+
+## ListView
+
+The ListView...
+
+<!-- screen -->
 
 ## Suggested Links

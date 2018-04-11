@@ -11,3 +11,7 @@ position: 13
 ...
 
 ## Suggested Links
+
+* [Getting Started with the Kendo UI Builder]({% slug getstarted_kuib %})
+* [Getting Started with the Kendo UI Designer]({% slug getstarted_kdesigner %})
+* [Frequently Asked Questions (FAQ)]({% slug faq_kuib %})

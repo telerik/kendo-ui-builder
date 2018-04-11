@@ -10,8 +10,6 @@ position: 1
 
 To start using the Builder, provide the [prerequisites](#toc-prerequisites) and follow the [installation process](#toc-installation).  
 
-For more information on how to integrate the Builder into OpenEdge business applications, refer to the [official Progress<sup>®</sup> Software Documentation](https://www.progress.com/documentation/kendo-ui-builder).  
-
 ## Prerequisites
 
 * Windows (x64)
@@ -19,7 +17,7 @@ For more information on how to integrate the Builder into OpenEdge business appl
 
 ## Installation
 
-> By default, the installation of Kendo UI Builder stops all running application instances. Because this might lead to loss of data, make sure you stop any such instances.
+> By default, the installation of the Builder interrupts all running application instances&mdash;to avoid possible data loss, stop such running instances if any.
 
 1. If not already created, set up your client account at ...
 1. Go to .. and click the Windows Installer.
@@ -37,11 +35,11 @@ For more information on how to integrate the Builder into OpenEdge business appl
 
 ## Suggested Links
 
-* [Troubleshooting]()
-* [Frequently Asked Questions]()
-* [Modules]()
-* [Views]()
-* [Components]()
-* [Data Providers]()
-* [Extension Points]()
-* [Frameworks]()
+* [Troubleshooting]({% slug troubleshooting_kuib %})
+* [Frequently Asked Questions]({% slug faq_kuib %})
+* [Modules]({% slug modulesoverview_kuib %})
+* [Views]({% slug viewsoverview_kuib %})
+* [Components]({% slug overviewcomp_kuib %})
+* [Data Providers]({% slug dataprovidersoverview_kuib %})
+* [Extension Points]({% slug extensionpoints_kuib %})
+* [Frameworks]({% slug angular_kuib %})

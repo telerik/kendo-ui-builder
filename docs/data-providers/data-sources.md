@@ -1,3 +1,13 @@
+---
+title: Data Sources
+page_title: Data Sources - Data Providers - Kendo UI Builder
+description: "Use the data sources which are supported by the Kendo UI Builder tool for creating and managing Angular and AngularJS-based web applications."
+slug: dataspurces_kuib
+position: 5
+---
+
+# Data Sources
+
 Data sources are single tables found within the data providers.
 
 The data sources represent tables from the single data service that you can bind to views. This data service can represent a single point of authentication for one or more services and represents the URI of a server web application that supports the specified services.

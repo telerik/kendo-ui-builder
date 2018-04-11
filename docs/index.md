@@ -10,19 +10,9 @@ position: 0
 
 Kendo UI® Builder by Progress® (Kendo UI Builder) is a tool for creating and managing web applications.
 
-The Builder separates the user interface (UI) settings (views and modules) from the business logic of the project which runs on the application server. The UIs are specifically used to revamp existing business applications and enable them to support the implementation of Kendo UI components.
+The Builder separates the user interface (UI) settings&mdash;views and modules&mdash;from the business logic of the project which runs on the application server. The UIs are also convenient for revamping existing applications and enabling them to support the implementation of Kendo UI components. In addition, the tool delivers extension points for customization and supports the creation of Angular and AngularJS-based projects.
 
-The Builder tool also delivers extension points for customizing the styles, templates, views, and components from which the deployable application is generated, and supports the creation of Angular and AngularJS-based projects. For more information on the framework-specific features, refer to [Frameworks]().
-
-## Basic Concepts
-
-The data definition is stored in JSON meta-data that is separate from the UI implementation. The meta-data is then used by the integrated Generator to generate the HTML5, CSS, and JavaScript files that are built for the application. The generation of the application also allows you to immediately preview the project in the Kendo UI Designer by applying live data. You can then deploy the application to separate web servers for further development testing and production.
-
-You design a web app from inputs that include a set of Kendo UI templates from which you can select to create functional views within one or more app modules. Each module can contain one or more user-created views, and each view can be bound to one or more data source tables that you select, depending on the view. You can have multiple [data providers]({% slug dataproviders_kendouibuilder %}) defined for an app, and depending on the view, you can select one or more of these data providers from which to then bind [data sources]({% slug datasources_kendouibuilder %}) to that view. Some user-created views bind to only one data source at a time, while others allow binding to multiple data sources.
-
-[Modules]({% slug modules_kendouibuilder %}) and [their views]({% slug views_kendouibuilder %}), data providers and their data sources, can all be configured with corresponding properties. These property settings then help to define the meta-data for your app, which is saved separately for each module and data provider that you define.
-
-Finally, you can customize each view with code extensions for both view event handlers and custom sections that are available in the layout of every view. There are also additional extension points available for both basic and more advanced app customization.
+For more information on how to integrate the Builder into OpenEdge business applications, refer to the [official Progress<sup>®</sup> Software Documentation](https://www.progress.com/documentation/kendo-ui-builder).  
 
 ## Building Blocks
 
@@ -45,38 +35,51 @@ KUIB -> Modules         -> Views          -> System
 
 ### Modules
 
-The modules are the building blocks of each web application and consist of:
+Modules consist of:
 
 * Views&mdash;Provide the setting and outlook options for the current application page.
-    * The [system views]({% slug ... %}) are built-in and cannot be edited.
-    * The [predefined views]({% slug ... %}) offer a predefined layout which can be used in the application either as they are or after you update them.
-    * The [custom (user-defined) view]({% slug ... %}) is the Blank view which can be created and customized according to the requirements of the business project. The user-defined view allows you to add, edit, or remove both predefined and custom components.  
+    * The [system views]({% slug systemviews_kuib %}) are built-in and cannot be edited.
+    * The [predefined views]({% slug predefinedviews_kuib %}) offer a predefined layout which can be used in the application either as they are or after you update them.
+    * The [custom (user-defined) view]({% slug customviews_kuib %}) is the Blank view which can be created and customized according to the requirements of the business project. The user-defined view allows you to add, edit, or remove both predefined and custom components.  
 * Components&mdash;Represent the widgets that will be rendered by the application and can be added to a Blank view.
-    * The [predefined components]({% slug ... %}) offer a predefined layout which can be used in the application either as they are or after you update them.
-    * The [custom (user-defined) component]({% slug ... %}) is a blank component which can be created and customized according to the requirements of the business project.
+    * The [predefined components]({% slug overviewcomp_kuib %}) offer a predefined layout which can be used in the application either as they are or after you update them.
+    * The [custom (user-defined) component]({% slug customcomp_kuib %}) is a blank component which can be created and customized according to the requirements of the business project.
 
-The modules and the views which enable you to manage the application UI comprise the [Kendo UI Designer]({% slug getstarted_kdesigner %}).
+> The modules and the views, which handle the UI of the application, comprise the [Kendo UI Designer]({% slug getstarted_kdesigner %}).
 
 ### Data Providers
 
-The data providers are responsible for the data connectivity of the application. They provide services for establishing the connection between the data you want to display and the data source you want to use.
-* The [data services]({% slug ... %}) support the input of third-party or custom service endpoints.
-* The [data sources]({% slug ... %}) contain the datasets and enable you to display all the available data or only a specific data portion.
+Data providers handle the data connectivity of the application. They enable services for establishing the connection between the data you want to display and the data source you want to use.
+
+* The [data services]({% slug dataprovidersoverview_kuib %}) support the input of third-party or custom service endpoints.
+* The [data sources]({% slug dataspurces_kuib %}) contain the datasets and enable you to display all available or a specific portion of data.
 
 ### Extension Points
 
-The extension points are the parts of the web application that you can customize.
-* The [style extension points]({% slug ... %}) deliver global customization options that apply to the application level as well as custom settings for the current theme, view, or component.  
-* The [template extension points]({% slug ... %}) deliver customization options for specific content rendering and content processing optimization.
-* The [view extension points]({% slug ... %}) deliver customization options that can be applied to a particular view.  
-* The [component extension points]({% slug ... %}) deliver customization options that can be applied to a particular component.
+Extension points are the parts of the web application that you can customize.
+
+* The [styles extension points]({% slug customstyles_kuib %}) deliver options for customizing the appearance of the whole application or of the current theme, view, or component.  
+* The [templates extension points]({% slug customtemplatestyles_kuib %}) deliver options for customizing the content optimization and rendition.
+* The [views extension points]({% slug customviews_kuib %}) deliver options for customizing each view.  
+* The [components extension points]({% slug customcomponents_kuib %}) deliver options for customizing each component.
+
+## Basic Approaches
+
+The data definitions of the application are stored in JSON metadata that is separate from the UI implementation. The metadata is then used by the integrated Generator to compile the HTML5, CSS, and JavaScript files that are built for and used by the application. The generation of the application also allows you to immediately preview the project in the Designer by applying live data. For further development testing and production, you can then deploy the application to separate web servers.
+
+To create functional views within one or more application modules, you need to submit inputs which include a set of selectable Kendo UI templates. Each application module can contain one or more user-defined (custom) views and, depending on the data you want to render, you can bind each view to one or more data sources. The Builder allows you to define multiple data providers for an application&mdash;depending on the specific view, you can select one or more data providers and bind that view to a portion of the data or to all the data from a data source. As a result, some views can be bound to one data source at a time while others can be bound to multiple data sources.
+
+By using their corresponding properties, you can configure the [modules]({% slug modulesoverview_kuib %}) and their [views]({% slug viewsoverview_kuib %}), and the [data providers]({% slug dataprovidersoverview_kuib %}) and their [data sources]({% slug dataspurces_kuib %}). These properties help define the application metadata which is separately saved for each module and data provider that you define.
+
+The Builder also enables you to customize each view through code extensions, which manage its event handlers, and the custom sections in the view layout. Other available extension points that are subject to customization are the styles, templates, and components in the application.
 
 ## Suggested Links
 
-* [Kendo UI Designer]()
-* [Modules]()
-* [Views]()
-* [Components]()
-* [Data Providers]()
-* [Extension Points]()
-* [Frameworks]()
+* [Getting Started with the Kendo UI Builder]({% slug getstarted_kuib %})
+* [Getting Started with the Kendo UI Designer]({% slug getstarted_kdesigner %})
+* [Modules]({% slug modulesoverview_kuib %})
+* [Views]({% slug viewsoverview_kuib %})
+* [Components]({% slug overviewcomp_kuib %})
+* [Data Providers]({% slug dataprovidersoverview_kuib %})
+* [Extension Points]({% slug extensionpoints_kuib %})
+* [Frameworks]({% slug angular_kuib %})

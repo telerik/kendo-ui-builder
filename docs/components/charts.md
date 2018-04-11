@@ -7,6 +7,36 @@ slug: chartscomp_kuib
 
 # Charts
 
-...
+Charts allow users to visualize and output graphical representations of data.
+
+## Area Charts
+
+The Area Charts...
+
+<!-- screen -->
+
+## Bar Charts
+
+The Bar Charts...
+
+<!-- screen -->
+
+## Donut Charts
+
+The Donut Charts...
+
+<!-- screen -->
+
+## Line Charts
+
+The Line Charts...
+
+<!-- screen -->
+
+## Pie Charts
+
+The Pie Chart...
+
+<!-- screen -->
 
 ## Suggested Links
