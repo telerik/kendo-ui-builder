@@ -1,27 +1,15 @@
 ---
-title: Overview
-page_title: Overview - Views - Kendo UI Builder
-description: "Learn how to use the views which are provided by the Kendo UI Builder tool for creating and managing Angular and AngularJS-based web applications."
-slug: viewsoverview_kuib
-position: 1
+title: Unauthorized
+page_title: Unauthorized - Views - Kendo UI Builder
+description: "Learn how to use the system Unauthorized view which is provided by the Kendo UI Builder tool for creating and managing Angular and AngularJS-based web applications."
+slug: unauthorized_kuib
 ---
 
-# Views Overview
+# Unauthorized View
 
-Views are the screens that comprise each [module]({% slug modules_kendouibuilder %}) and, together with the modules, they comprise the Kendo UI Designer.
+The built-in Application module contains login page and landing page views, which are initially available for you.
 
+For more information, refer to the tutorial on [adding and editing Login views]({% slug editblankviews_tutorials_kuib %}).
 
-
-The Designer provides two types of views:
-* Data-driven&mdash;Composed of predefined templates that the Designer populates with your data sources.
-* Custom&mdash;Also known as Blank views. The modules you create can contain one or more views that you can customize.
-
-## View Types
-
-The available views are:
-
-* [System]({% slug ... %})
-* [Predefined]({% slug ... %})
-* [Custom (Blank)]({% slug ... %})
 
 ## Suggested Links

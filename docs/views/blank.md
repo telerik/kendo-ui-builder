@@ -1,16 +1,13 @@
 ---
-title: Custom
-page_title: Custom - Views - Kendo UI Builder
+title: Blank
+page_title: Blank - Views - Kendo UI Builder
 description: "Learn how to customize views and implement them in your project when working with the Kendo UI Builder tool for creating and managing Angular and AngularJS-based web applications."
 slug: customviews_kuib
-position: 4
 ---
 
-# Custom Views
+# Blank View
 
-### Blank
-
-Blank views allow you to create your own custom view by dragging and dropping rows and columns to create a layout and then adding functional components to it.
+Blank views are views which allow you to create your own custom view by dragging and dropping rows and columns to create a layout and then adding functional components to it.
 
 The Blank view template supports a variety of components for you to define a view instance, including layout (rows and columns), data management (e.g., editable Grid), editor (e.g., Text Box), scheduling (e.g., Calendar), navigation (e.g., Toolbar), and custom HTML components. With these components you can implement a wide variety of view instances with a look and feel limited only by the components that you include and the layouts you specify.
 
