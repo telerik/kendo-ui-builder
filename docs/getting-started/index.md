@@ -35,6 +35,7 @@ To start using the Builder, provide the [prerequisites](#toc-prerequisites) and 
 
 ## Suggested Links
 
+* [Getting Started with the Kendo UI Designer]({% slug getstarted_kdesigner %})
 * [Troubleshooting]({% slug troubleshooting_kuib %})
 * [Frequently Asked Questions]({% slug faq_kuib %})
 * [Modules]({% slug modulesoverview_kuib %})
