@@ -8,6 +8,6 @@ position: 100
 
 # Custom Components
 
-The Builder provides options for creating, customizing, and implementing custom components in the web application. 
+The Builder provides options for creating, editing, and implementing custom components in the web application. 
 
 ## Suggested Links

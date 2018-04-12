@@ -10,7 +10,7 @@ position: 1
 
 Data providers are data services that provide access to the data you want to render and to the associated business logic of your project.
 
-Each data provider is represented by one service URI. The data provider defines a single data service but can apply one or more data sources. You can also create multiple data providers.
+Each data provider is represented by a single service URI. While the data provider defines one data service, it can still apply one or more data sources. You can also create multiple data providers.
 
 The Builder supports the provision of the [OData]({% slug ... %}), [Progress Data]({% slug ... %}), and [generic REST]({% slug ... %}) data services and the respective usage of [data sources]({% slug ... %}).
 
