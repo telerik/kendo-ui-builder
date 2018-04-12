@@ -42,6 +42,7 @@ The Kendo UI Designer requires the following prerequisites:
 
 ## Suggested Links
 
+* [Getting Started with the Kendo UI Builder]({% slug getstarted_kuib %})
 * [Troubleshooting]({% slug troubleshooting_kuib %})
 * [Frequently Asked Questions]({% slug faq_kuib %})
 * [Modules]({% slug modulesoverview_kuib %})

@@ -8,7 +8,7 @@ position: 1
 
 # Kendo UI Builder Dashboard
 
-The dashboard of the Kendo UI Builder stores all your created and imported projects.
+The dashboard of the Kendo UI Builder stores all your created, imported, and migrated projects.
 
 ## Initial Load
 
