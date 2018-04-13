@@ -38,8 +38,8 @@ KUIB -> Modules         -> Views          -> System
 Modules consist of:
 
 * Views&mdash;Provide the setting and outlook options for the current application page.
-    * The [system views]({% slug systemviews_kuib %}) are built-in and cannot be edited.
-    * The [predefined views]({% slug predefinedviews_kuib %}) offer a predefined layout which can be used in the application either as they are or after you update them.
+    * The [system views]({% slug systemviews_kuib %}) are built-in and cannot be modified.
+    * The [predefined views]({% slug predefinedviews_kuib %}) are built-in and offer a predefined layout which can be modified.
     * The [custom (user-defined) view]({% slug customviews_kuib %}) is the Blank view which can be created and customized according to the requirements of the business project. The user-defined view allows you to add, edit, or remove both predefined and custom components.  
 * Components&mdash;Represent the widgets that will be rendered by the application and can be added to a Blank view.
     * The [predefined components]({% slug overviewcomp_kuib %}) offer a predefined layout which can be used in the application either as they are or after you update them.
