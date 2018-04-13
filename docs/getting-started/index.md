@@ -24,14 +24,22 @@ To start using the Builder, provide the [prerequisites](#toc-prerequisites) and 
 
   > The Windows Installer notifies you to install Node.js but does not install it automatically.
 
-1. Click `KendoUIBuilder.exe` to download the Builder. The `.rar` file is automatically stored in ...
-1. Click ... to open the Builder and load the dashboard.  
+1. Double-click the `KendoUIBuilder.exe` file.
+2. Click **Next**.
+3. Enter the serial number and the control code. Click **Next**.
+4. (Optional) By default, the `.rar` file is automatically stored/installed in `C:\Progress\KendoUIBuilder`. To update the default destination folder of the installed Kendo UI Builder, click **Change**, update the location, and click **Next**.
+5. Click **Install** to start the installation.
+1. (Optional) To review or update any installation settings, click **Back**.
+6. Click **Finish** after the installation completes.
+
+If the installation is unsuccessful, check the `KendoUIBuilderOEInstall.log` file which is located in the `%TEMP%` folder and see the details.
 
 ## Uninstallation
 
-1. Go to ...
-1. Right-click ...
-1. Select ...
+> The uninstallation of the Builder does not uninstall Node.js.
+
+1. Run the `KendoUIBuilderForOE.exe` file that was used during the installation of the Builder. Click **Remove**.
+1. Open **Control Panel** > **Programs and Features**. Right-click **Kendo UI Builder** and select **Uninstall**.
 
 ## Suggested Links
 
