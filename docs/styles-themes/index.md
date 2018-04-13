@@ -10,24 +10,8 @@ position: 1
 
 All available themes in the Builder are bundled and ready to use.
 
-Originally, the Kendo UI components that are integrated with AngularJS support more themes than the Kendo UI components for Angular do. To keep the parity between the two frameworks, the lacking themes for Angular were generated with the [Kendo UI Theme Builder]().  
+Kendo UI for jQuery, which delivers the widgets that are integrated with AngularJS, supports more themes than Kendo UI for Angular. To keep the parity between the two frameworks, the lacking themes for Angular were generated with the [Kendo UI Theme Builder](). All themes for the Angular framework except for the Default Orange, Bootstrap v4, and Material (currently, in beta) were generated with the Theme Builder beforehand.
 
-The following table lists the support of each theme by the Kendo UI widgets for jQuery, which provide the integration with AngularJS, and by the Kendo UI components for Angular.
-
-|Theme          |AngularJS                |Angular  
-|:---           |:---                     |:---     
-|Black          |Supported by Kendo UI    |Generated with Theme Builder
-|Blue Opal      |Supported by Kendo UI    |Generated with Theme Builder
-|Bootstrap v3   |Supported by Kendo UI    |Generated with Theme Builder
-|Bootstrap v4   |Supported by Kendo UI    |Supported by Kendo UI
-|Default        |Supported by Kendo UI    |Generated with Theme Builder
-|Default Orange |Supported by Kendo UI    |Supported by Kendo UI
-|Flat           |Supported by Kendo UI    |Generated with Theme Builder
-|High Contrast  |Supported by Kendo UI    |Generated with Theme Builder
-|Material       |Supported by Kendo UI    |Supported by Kendo UI (beta)
-|Metro          |Supported by Kendo UI    |Generated with Theme Builder
-|Moonlight      |Supported by Kendo UI    |Generated with Theme Builder
-|Nova           |Supported by Kendo UI    |Generated with Theme Builder
-|Silver         |Supported by Kendo UI    |Generated with Theme Builder
+For more information on the themes that are supported by Kendo UI for jQuery, refer to the article on [Less-based]() and [SASS-based]() themes. For more information on the themes that are supported by Kendo UI for Angular, refer to the overview of [themes and styling]().
 
 ## Suggested Links
