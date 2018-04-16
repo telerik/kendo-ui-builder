@@ -7,6 +7,6 @@ slug: landingpage_kuib
 
 # Landing Page View
 
-...
+The Landing Page view, together with the Login view, is built-in view and is initially available as part of the Application Module.
 
 ## Suggested Links

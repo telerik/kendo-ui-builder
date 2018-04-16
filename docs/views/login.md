@@ -7,9 +7,6 @@ slug: login_kuib
 
 # Login View
 
-The built-in Application module contains login page and landing page views, which are initially available for you.
-
-For more information, refer to the tutorial on [adding and editing Login views]({% slug editblankviews_tutorials_kuib %}).
-
+The Login view, together with the Landing Page view, is built-in and is initially available as part of the Application Module.
 
 ## Suggested Links

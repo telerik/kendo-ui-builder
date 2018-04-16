@@ -7,6 +7,8 @@ slug: image_kuib
 
 # Image
 
-The Image...
+The Image is a media component that renders static visual content.
+
+You can use the Image to work with the `.bmp`, `.jpg`, `.gif`, and `.png` file extensions.
 
 <!-- screen -->

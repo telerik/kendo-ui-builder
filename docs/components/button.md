@@ -7,6 +7,8 @@ slug: button_kuib
 
 # Button
 
-The Button...
+Buttons detect user interaction and trigger a corresponding event.
+
+The Button enables you to display an icon from the Kendo UI theme sprite.
 
 <!-- screen -->

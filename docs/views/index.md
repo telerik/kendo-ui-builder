@@ -8,6 +8,8 @@ position: 0
 
 # Views Overview
 
+The Views represent the screens for the functions which build up each module.
+
 <div class="container-fluid">
 <div class="row separator-bottom">
 <div class="col-md-4 card-list-info">

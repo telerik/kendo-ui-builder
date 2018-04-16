@@ -1,24 +1,39 @@
 ---
 title: Dashboard
 page_title: Dashboard | Kendo UI Builder
-description: "Get started with the Kendo UI Builder tool for creating and managing Angular and AngularJS-based web applications."
-slug: getstarted_kuib
-position: 1
+description: "Manage the state of your existing applications in the Kendo UI Designer by using the options of its Dashboard."
+slug: dashboard_kuib
+position: 3
 ---
 
 # Kendo UI Builder Dashboard
 
-The dashboard of the Kendo UI Builder stores all your created, imported, and migrated projects.
+The Dashboard of the Kendo UI Builder stores the cards of all your previously created, imported, and migrated projects ?? and is part of the Kendo UI Designer.
 
 ## Initial Load
 
-When you load the Builder for the first time and you have no current projects yet, the Dashboard renders only the UI with the selectable options to create or import an application.
+When you load the Designer for the first time and you have no current projects yet, the Dashboard renders only the UI with the selectable options to create or import an application.
 
 <!-- screen -->
 
-## Cards
+## Managing Existing Projects
 
-Once you create, import, or migrate an application, the Dashboard stores the project and displays a card for it. Depending on the status of each application, the Dashboard adds a tag to the card which indicates what further actions are required for the successful integration of the project.
+Once you create or import an application, the Dashboard displays a card for the project. If you already have projects from previous releases or import external applications, and launch the Designer, the Dashboard attempts to import these projects. Depending on the status of each project, the Dashboard adds a tag to the card which indicates what further actions are required for the successful integration of the project.
+
+* **UpToDate** indicates that the application was successfully imported and does not require further actions.
+* **Migration Required** indicates that the versions of the application and of the Builder metadata differ, and that the Designer is not able to automatically handle the migration to the metadata format of the Builder. For more information, refer to the article on [migration]({% slug migration_kuib %}).
+* **Incompatible** indicates that the versions of the application and of the Builder metadata differ. While the Builder detects this issue, it does not automatically handle the migration to the metadata format of the Builder. To handle this issue, either manually migrate the application and its metadata, or recreate the project with the Builder. For more information, refer to the article on [migration]({% slug ... %}).
+* **Unavailable** indicates that due to an unspecified reason, the Designer is not able to load the application metadata. To handle this issue, either:
+    * Manually migrate the application and its metadata, or
+    * Recreate the project with the Builder.
+
+<!-- screen -->
+
+To handle the respective state of a project, use the **Gear** options. The **Gear** icon provides options to duplicate, migrate, remove, or delete an existing application.
+
+<!-- screen -->
+
+To display the log messages when you debug or troubleshoot a problem, use the **Output** bar.
 
 <!-- screen -->
 

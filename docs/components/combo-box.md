@@ -7,6 +7,9 @@ slug: combobox_kuib
 
 # Combo Box
 
-The Combo Box ...
+Combo Boxes let users choose from a list of options.
+
+You can relate the Combo Box as a parent-child pair to support cascading. The cascading Combo Box is a series of two or more Combo Boxes where each Combo Box is filtered based on the selected option in the previous Combo Box.
+
 
 <!-- screen -->
