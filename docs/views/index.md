@@ -8,10 +8,6 @@ position: 0
 
 # Views Overview
 
-## Custom Views
-
-Custom views are... Also known as Blank views. The modules you create can contain one or more views that you can customize.
-
 <div class="container-fluid">
 <div class="row separator-bottom">
 <div class="col-md-4 card-list-info">
