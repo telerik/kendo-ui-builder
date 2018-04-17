@@ -1,77 +1,54 @@
 ---
-title: Kendo UI Builder Overview
-page_title: Kendo UI Builder Overview | Kendo UI Builder
-description: "The Kendo UI Builder application helps you create web-based user interfaces for your business application projects."
-slug: overview_kendouibuilder
-position: 0
+title: Getting Started with Kendo UI Builder
+page_title: Getting Started with Kendo UI Builder | Kendo UI Builder
+description: "Get started with the Kendo UI Builder tool for creating and managing Angular and AngularJS-based web applications."
+slug: getstarted_kuib
+position: 1
 ---
 
-# Kendo UI Builder Overview
+# Getting Started with Kendo UI Builder
 
-Kendo UI Builder is an application that creates web-based user interfaces (UIs).
+To start using the Builder, provide the [prerequisites](#toc-prerequisites) and follow the [installation process](#toc-installation).  
 
-For more information on how to integrate the Kendo UI<sup>®</sup> Builder by Progress<sup>®</sup> (Kendo UI Builder) into OpenEdge business applications, refer to the [Progress<sup>®</sup> Software Documentation web site](https://documentation.progress.com/index.html#page/progdocindex/kendo-ui-builder-by-progress.html).  
+## Prerequisites
 
-## Overview
+* Windows (x64)
+* Node.js v6 or later
 
-The UIs that are created by the Kendo UI Builder are specifically used to revamp existing business applications so that they support the implementation of the Kendo UI components. Practically, by using the Kendo UI Builder you separate the UI from the business logic that runs on the application server. The tooling shipped by the Builder delivers responsive web UIs as deployable web applications and supports future UI upgrades of the initial web application by using customizable templates and metadata from which the deployable web application is generated.
+## Installation
 
-## Getting Started
+> By default, the installation of the Builder interrupts all running application instances&mdash;to avoid possible data loss, stop such running instances if any.
 
-### Prerequisites
+1. If not already created, set up your client account at ...
+1. Go to .. and click the Windows Installer.
 
-To install Kendo UI Builder, make sure you have installed in advance:
+  > The Windows Installer notifies you to install Node.js but does not install it automatically.
 
-* Windows 64-bit.
-* ...
-* ...
-* ...
+1. Double-click the `KendoUIBuilder.exe` file.
+2. Click **Next**.
+3. Enter the serial number and the control code. Click **Next**.
+4. (Optional) By default, the `.rar` file is automatically stored/installed in `C:\Progress\KendoUIBuilder`. To update the default destination folder of the installed Kendo UI Builder, click **Change**, update the location, and click **Next**.
+5. Click **Install** to start the installation.
+1. (Optional) To review or update any installation settings, click **Back**.
+6. Click **Finish** after the installation completes.
 
-### Installation
+If the installation is unsuccessful, check the `KendoUIBuilderOEInstall.log` file which is located in the `%TEMP%` folder and see the details.
 
-> **Important**
->
-> By default, the installation of Kendo UI Builder stops all running application instances. Because this might lead to loss of data, make sure you stop any such instances.
+## Uninstallation
 
-To install Kendo UI Builder:
+> The uninstallation of the Builder does not uninstall Node.js.
 
-1. step 1
-2. step 2
-3. ...
-4. ...
-5. ...
+1. Run the `KendoUIBuilderForOE.exe` file that was used during the installation of the Builder. Click **Remove**.
+1. Open **Control Panel** > **Programs and Features**. Right-click **Kendo UI Builder** and select **Uninstall**.
 
-### Uninstallation
+## Suggested Links
 
-To uninstall Kendo UI Builder:
-
-1. step 1
-2. step 2
-3. ...
-4. ...
-5. ...
-
-**TO BE DECIDED** BELOW IS A SUGGESTED STRUCTURE (IF APPLICABLE). TOPICS MIGHT BE SHIFTED TO SEPARATE ARTICLES.  
-
-## Components
-
-## Configuration
-
-## Browser Support
-
-## Operating System Support
-
-## Bundle Support
-
-## Accessibility
-
-## Keyboard Navigation
-
-## See Also
-
-* [Overview of the Kendo UI Designer]({% slug overview_designer_kendouibuilder %})
-* [Data Providers]({% slug dataproviders_kendouibuilder %})
-* [Data Sources]({% slug datasources_kendouibuilder %})
-* [Modules]({% slug modules_kendouibuilder %})
-* [Views]({% slug views_kendouibuilder %})
-* [Tutorials]({% slug quickstartguide_kendouibuilder %})
+* [Getting Started with the Kendo UI Designer]({% slug getstarted_kdesigner %})
+* [Troubleshooting]({% slug troubleshooting_kuib %})
+* [Frequently Asked Questions]({% slug faq_kuib %})
+* [Modules]({% slug modulesoverview_kuib %})
+* [Views]({% slug viewsoverview_kuib %})
+* [Components]({% slug overviewcomp_kuib %})
+* [Data Providers]({% slug dataprovidersoverview_kuib %})
+* [Extension Points]({% slug extensionpoints_kuib %})
+* [Frameworks]({% slug angular_kuib %})
