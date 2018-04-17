@@ -13,6 +13,6 @@ The Blank view template supports a variety of components for you to define a vie
 
 The Blank view also allows you to specify multiple data source instances per view instance. These data source instances can be bound to different content components, often with the use of corresponding models that represent data items (records in the data source). However, the display and update of data in a view instance requires additional programming, depending on the components you include in the view and how their data bindings are implemented. This programming is aided by generated view factory and template (custom section) files, as well as a helper class for accessing data sources used in the view.
 
-For more information, refer to the tutorial on [adding and editing Blank views]({% slug editblankviews_tutorials_kuib %}).
+For more information, refer to the tutorial on [adding and editing Blank views]().
 
 ## Suggested Links

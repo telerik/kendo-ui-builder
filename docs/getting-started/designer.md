@@ -10,7 +10,7 @@ position: 2
 
 The Kendo UI Designer is part of the [Kendo UI® Builder by Progress®]({% slug intro_kuib %}) and facilitates the creation of the applications by handling the building of the web-based user interface through the [modules]({% slug modulesoverview_kuib %}) and the [views]({% slug viewsoverview_kuib %}).
 
-The Designer is an application which enables you to visually design, build, and preview one-page web applications with responsive user interfaces (UIs) for business projects. It uses a collection of predefined, data-driven views and allows the creation of custom layouts by dragging and dropping components into the custom (Blank) view. The development of the UI is based on Kendo UI, Bootstrap, Angular, and AngularJS. For more information, refer to the [Quick Start Guide]({% slug quickstartguide_kendouibuilder %}).
+The Designer is an application which enables you to visually design, build, and preview one-page web applications with responsive user interfaces (UIs) for business projects. It uses a collection of predefined, data-driven views and allows the creation of custom layouts by dragging and dropping components into the custom (Blank) view. The development of the UI is based on Kendo UI, Bootstrap, Angular, and AngularJS. For more information, refer to the [Quick Start Guide]().
 
 To start using the Designer, provide the [prerequisites](#toc-prerequisites) and follow the [installation process](#toc-installation).
 

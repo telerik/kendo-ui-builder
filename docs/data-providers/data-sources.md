@@ -22,7 +22,7 @@ To specify the data server, use the following options:
 
 You can create the data sources automatically or manually. To use the automatic approach, define the data sources when you first create the data provider. To use the manual approach, define the data sources by adding them to the data provider after you create it.
 
-For more information, refer to the tutorial on [how to add and edit data sources]({% slug editsources_tutorials_kuib %}).
+For more information, refer to the tutorial on [how to add and edit data sources]().
 
 ## Data Binding
 

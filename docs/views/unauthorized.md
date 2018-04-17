@@ -9,7 +9,7 @@ slug: unauthorized_kuib
 
 The built-in Application module contains login page and landing page views, which are initially available for you.
 
-For more information, refer to the tutorial on [adding and editing Login views]({% slug editblankviews_tutorials_kuib %}).
+For more information, refer to the tutorial on [adding and editing Login views]().
 
 
 ## Suggested Links

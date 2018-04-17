@@ -38,9 +38,9 @@ KUIB -> Modules         -> Views          -> System
 Modules consist of:
 
 * Views&mdash;Provide the setting and outlook options for the current application page.
-    * The [system views]({% slug systemviews_kuib %}) are built-in and cannot be modified.
-    * The [predefined views]({% slug predefinedviews_kuib %}) are built-in and offer a predefined layout which can be modified.
-    * The [custom (user-defined) view]({% slug customviews_kuib %}) is the Blank view which can be created and customized according to the requirements of the business project. The user-defined view allows you to add, edit, or remove both predefined and custom components.  
+    * The [system views]() are built-in and cannot be modified.
+    * The [predefined views]() are built-in and offer a predefined layout which can be modified.
+    * The [custom (user-defined) view]() is the Blank view which can be created and customized according to the requirements of the business project. The user-defined view allows you to add, edit, or remove both predefined and custom components.  
 * Components&mdash;Represent the widgets that will be rendered by the application and can be added to a Blank view.
     * The [predefined components]({% slug overviewcomp_kuib %}) offer a predefined layout which can be used in the application either as they are or after you update them.
     * The [custom (user-defined) component]({% slug customcomp_kuib %}) is a blank component which can be created and customized according to the requirements of the business project.
@@ -59,9 +59,9 @@ Data providers handle the data connectivity of the application. They enable serv
 Extension points are the parts of the web application that you can customize.
 
 * The [styles extension points]({% slug customstyles_kuib %}) deliver options for customizing the appearance of the whole application or of the current theme, view, or component.  
-* The [templates extension points]({% slug customtemplatestyles_kuib %}) deliver options for customizing the content optimization and rendition.
+* The [templates extension points]() deliver options for customizing the content optimization and rendition.
 * The [views extension points]({% slug customviews_kuib %}) deliver options for customizing each view.  
-* The [components extension points]({% slug customcomponents_kuib %}) deliver options for customizing each component.
+* The [components extension points]() deliver options for customizing each component.
 
 ## Basic Approaches
 
