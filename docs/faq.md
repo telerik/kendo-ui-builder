@@ -3,7 +3,7 @@ title: Frequently Asked Questions
 page_title: Frequently Asked Questions | Kendo UI Builder
 description: "Find the answers to your questions about the Kendo UI Builder tool for creating and managing Angular and AngularJS-based web applications."
 slug: faq_kuib
-position: 12
+position: 13
 ---
 
 # FAQ

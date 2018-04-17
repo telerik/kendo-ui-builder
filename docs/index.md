@@ -8,9 +8,11 @@ position: 0
 
 # Introduction to Kendo UI Builder
 
-Kendo UI® Builder by Progress® (Kendo UI Builder) is a tool for creating and managing web applications.
+Kendo UI® Builder by Progress® is a tool for creating and managing web applications.
 
-The Builder separates the user interface (UI) settings&mdash;views and modules&mdash;from the business logic of the project which runs on the application server. The UIs are also convenient for revamping existing applications and enabling them to support the implementation of Kendo UI components. In addition, the tool delivers extension points for customization and supports the creation of Angular and AngularJS-based projects.
+The Builder separates the user interface (UI)&mdash;views and modules&mdash;from the project business logic which runs on the application server. The views and modules comprise Kendo UI® Designer by Progress®. For more information on the Designer, refer to the article on [getting started with the Kendo UI Designer]({% slug getstarted_kdesigner %}).
+
+You can also use the Builder for revamping existing applications and enabling them to support the implementation of Kendo UI components. In addition, the Builder provides extension points for customizing the functional units of the application and can be used in the Angular and AngularJS frameworks.
 
 For more information on how to integrate the Builder into OpenEdge business applications, refer to the [official Progress<sup>®</sup> Software Documentation](https://www.progress.com/documentation/kendo-ui-builder).  
 
@@ -26,37 +28,35 @@ KUIB -> Modules         -> Views          -> System
                                                                                 -> Custom
     -> Data Providers   -> Data Services
                         -> Data Sources
-    -> Extension Points -> Style          -> Theme
-                                          -> View
-                                          -> Application
+    -> Extension Points -> Style          -> Theme Styles
+                                          -> View Styles
+                                          -> Application Styles
                         -> Template
                         -> View
                         -> Component
 
 ### Modules
 
-Modules consist of:
+The Modules consist of:
 
 * Views&mdash;Provide the setting and outlook options for the current application page.
-    * The [system views]() are built-in and cannot be modified.
-    * The [predefined views]() are built-in and offer a predefined layout which can be modified.
-    * The [custom (user-defined) view]() is the Blank view which can be created and customized according to the requirements of the business project. The user-defined view allows you to add, edit, or remove both predefined and custom components.  
+    * The [system views]({% slug viewsoverview_kuib %}) are built-in and cannot be modified.
+    * The [predefined views]({% slug viewsoverview_kuib %}) are built-in and offer a predefined layout which can be modified.
+    * The [custom (user-defined) view]({% slug viewsoverview_kuib %}) is the Blank view which can be created and customized according to the requirements of the business project. The user-defined view allows you to add, edit, or remove both predefined and custom components.  
 * Components&mdash;Represent the widgets that will be rendered by the application and can be added to a Blank view.
-    * The [predefined components]() offer a predefined layout which can be used in the application either as they are or after you update them.
-    * The [custom (user-defined) component]() is a blank component which can be created and customized according to the requirements of the business project.
-
-> The modules and the views, which handle the UI of the application, comprise the [Kendo UI Designer]({% slug getstarted_kdesigner %}).
+    * The [predefined components]({% slug overviewcomp_kuib %}) offer a predefined layout which can be used in the application either as they are or after you update them.
+    * The [custom (user-defined) component]({% slug overviewcomp_kuib %}) is a blank component which can be created and customized according to the requirements of the business project.
 
 ### Data Providers
 
-Data providers handle the data connectivity of the application. They enable services for establishing the connection between the data you want to display and the data source you want to use.
+The Data Providers handle the data connectivity of the application. They enable services for establishing the connection between the data you want to display and the data source you want to use.
 
-* The [data services]() support the input of third-party or custom service endpoints.
-* The [data sources]() contain the datasets and enable you to display all available or a specific portion of data.
+* The [data services]({% slug odata_kuib %}) support the input of third-party or custom service endpoints.
+* The [data sources]({% slug dataspurces_kuib %}) contain the datasets and enable you to display all available or a specific portion of data.
 
 ### Extension Points
 
-Extension points are the parts of the web application that you can customize.
+The Extension Points are the parts of the web application that you can customize.
 
 * The [styles extension points]() deliver options for customizing the appearance of the whole application or of the current theme, view, or component.  
 * The [templates extension points]() deliver options for customizing the content optimization and rendition.
