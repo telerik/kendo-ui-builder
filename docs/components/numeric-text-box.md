@@ -1,12 +1,12 @@
 ---
-title: Numeric Text Box
-page_title: Numeric Text Box - Components - Kendo UI Builder
-description: "Use and implement the Numeric Text Box when working with the Kendo UI Builder tool for creating and managing Angular and AngularJS-based web applications."
+title: NumericTextBox
+page_title: NumericTextBox - Components - Kendo UI Builder
+description: "Use and implement the NumericTextBox when working with the Kendo UI Builder tool for creating and managing Angular and AngularJS-based web applications."
 slug: numerictextbox_kuib
 ---
 
-# Numeric Text Box
+# NumericTextBox
 
-The Numeric Text Box ...
+The NumericTextBox ...
 
 <!-- screen -->
