@@ -42,8 +42,8 @@ Modules consist of:
     * The [predefined views]() are built-in and offer a predefined layout which can be modified.
     * The [custom (user-defined) view]() is the Blank view which can be created and customized according to the requirements of the business project. The user-defined view allows you to add, edit, or remove both predefined and custom components.  
 * Components&mdash;Represent the widgets that will be rendered by the application and can be added to a Blank view.
-    * The [predefined components]({% slug overviewcomp_kuib %}) offer a predefined layout which can be used in the application either as they are or after you update them.
-    * The [custom (user-defined) component]({% slug customcomp_kuib %}) is a blank component which can be created and customized according to the requirements of the business project.
+    * The [predefined components]() offer a predefined layout which can be used in the application either as they are or after you update them.
+    * The [custom (user-defined) component]() is a blank component which can be created and customized according to the requirements of the business project.
 
 > The modules and the views, which handle the UI of the application, comprise the [Kendo UI Designer]({% slug getstarted_kdesigner %}).
 
@@ -51,16 +51,16 @@ Modules consist of:
 
 Data providers handle the data connectivity of the application. They enable services for establishing the connection between the data you want to display and the data source you want to use.
 
-* The [data services]({% slug dataprovidersoverview_kuib %}) support the input of third-party or custom service endpoints.
-* The [data sources]({% slug dataspurces_kuib %}) contain the datasets and enable you to display all available or a specific portion of data.
+* The [data services]() support the input of third-party or custom service endpoints.
+* The [data sources]() contain the datasets and enable you to display all available or a specific portion of data.
 
 ### Extension Points
 
 Extension points are the parts of the web application that you can customize.
 
-* The [styles extension points]({% slug customstyles_kuib %}) deliver options for customizing the appearance of the whole application or of the current theme, view, or component.  
+* The [styles extension points]() deliver options for customizing the appearance of the whole application or of the current theme, view, or component.  
 * The [templates extension points]() deliver options for customizing the content optimization and rendition.
-* The [views extension points]({% slug customviews_kuib %}) deliver options for customizing each view.  
+* The [views extension points]() deliver options for customizing each view.  
 * The [components extension points]() deliver options for customizing each component.
 
 ## Basic Approaches
@@ -69,7 +69,7 @@ The data definitions of the application are stored in JSON metadata that is sepa
 
 To create functional views within one or more application modules, you need to submit inputs which include a set of selectable Kendo UI templates. Each application module can contain one or more user-defined (custom) views and, depending on the data you want to render, you can bind each view to one or more data sources. The Builder allows you to define multiple data providers for an application&mdash;depending on the specific view, you can select one or more data providers and bind that view to a portion of the data or to all the data from a data source. As a result, some views can be bound to one data source at a time while others can be bound to multiple data sources.
 
-By using their corresponding properties, you can configure the [modules]({% slug modulesoverview_kuib %}) and their [views]({% slug viewsoverview_kuib %}), and the [data providers]({% slug dataprovidersoverview_kuib %}) and their [data sources]({% slug dataspurces_kuib %}). These properties help define the application metadata which is separately saved for each module and data provider that you define.
+By using their corresponding properties, you can configure the [modules]() and their [views](), and the [data providers]() and their [data sources](). These properties help define the application metadata which is separately saved for each module and data provider that you define.
 
 The Builder also enables you to customize each view through code extensions, which manage its event handlers, and the custom sections in the view layout. Other available extension points that are subject to customization are the styles, templates, and components in the application.
 
