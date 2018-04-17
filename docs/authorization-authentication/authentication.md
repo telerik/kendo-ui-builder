@@ -1,8 +1,8 @@
 ---
-title: Authorization and Roles
-page_title: Authorization and Roles - Setup & Migration - Kendo UI Builder
-description: "Set and authorize the admin roles when working with the Kendo UI Builder tool for creating and managing Angular and AngularJS-based web applications."
-slug: rolesauthoriz_kuib
+title: Authentication
+page_title: Authentication - Setup & Migration - Kendo UI Builder
+description: "..."
+slug: authentication_kuib
 position: 2
 ---
 
