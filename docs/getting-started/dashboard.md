@@ -22,7 +22,7 @@ Once you create or import an application, the Dashboard displays a card for the 
 
 * **UpToDate** indicates that the application was successfully imported and does not require further actions.
 * **Migration Required** indicates that the versions of the application and of the Builder metadata differ, and that the Designer is not able to automatically handle the migration to the metadata format of the Builder. For more information, refer to the article on [migration]({% slug migration_kuib %}).
-* **Incompatible** indicates that the versions of the application and of the Builder metadata differ. While the Builder detects this issue, it does not automatically handle the migration to the metadata format of the Builder. To handle this issue, either manually migrate the application and its metadata, or recreate the project with the Builder. For more information, refer to the article on [migration]({% slug ... %}).
+* **Incompatible** indicates that the versions of the application and of the Builder metadata differ. While the Builder detects this issue, it does not automatically handle the migration to the metadata format of the Builder. To handle this issue, either manually migrate the application and its metadata, or recreate the project with the Builder. For more information, refer to the article on [migration]().
 * **Unavailable** indicates that due to an unspecified reason, the Designer is not able to load the application metadata. To handle this issue, either:
     * Manually migrate the application and its metadata, or
     * Recreate the project with the Builder.

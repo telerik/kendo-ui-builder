@@ -31,7 +31,7 @@ The built-in components are grouped into the following categories:
 <div class="col-md-8">
     <ul class="card-list row">
     <li class="col-xs-4 col-md-3">
-        <a href="{% slug ... %}">
+        <a href="">
            <svg id="area" viewBox="0 0 70 70">
                 <defs>
                     <linearGradient id="gradient" x1="0%" y1="0%" x2="0%" y2="100%">
@@ -46,7 +46,7 @@ The built-in components are grouped into the following categories:
         </a>
     </li>
         <li class="col-xs-4 col-md-3">
-            <a href="{% slug ... %}">
+            <a href="">
                <svg id="area" viewBox="0 0 70 70">
                     <defs>
                         <linearGradient id="gradient" x1="0%" y1="0%" x2="0%" y2="100%">
@@ -60,21 +60,21 @@ The built-in components are grouped into the following categories:
                 <p>Bar Charts</p>
             </a>
         </li><li class="col-xs-4 col-md-3">
-            <a href="{% slug ... %}">
+            <a href="">
                 <svg id="bar" viewBox="0 0 70 70">
                     <path d="..." />
                 </svg>
                 <p>Donut Charts</p>
             </a>
         </li><li class="col-xs-4 col-md-3">
-            <a href="{% slug ... %}">
+            <a href="">
                 <svg id="boxplot" viewBox="0 0 70 70">
                     <path class="cls-1" d="..." />
                 </svg>
                 <p>Line Charts</p>
             </a>
           </li><li class="col-xs-4 col-md-3">
-              <a href="{% slug ... %}">
+              <a href="">
                  <svg id="area" viewBox="0 0 70 70">
                       <defs>
                           <linearGradient id="gradient" x1="0%" y1="0%" x2="0%" y2="100%">
@@ -99,14 +99,14 @@ The built-in components are grouped into the following categories:
 <div class="col-md-8">
     <ul class="card-list row">
     <li class="col-xs-4 col-md-3">
-        <a href="{% slug ... %}">
+        <a href="">
             <svg id="pie" viewBox="0 0 70 70">
                 <path d="..." />
             </svg>
             <p>Grid</p>
         </a>
     </li><li class="col-xs-4 col-md-3">
-            <a href="{% slug ... %}">
+            <a href="">
                 <svg id="donut" viewBox="0 0 70 70">
                     <path d="..." />
                 </svg>
@@ -124,168 +124,168 @@ The built-in components are grouped into the following categories:
 <div class="col-md-8">
     <ul class="card-list row">
     <li class="col-xs-4 col-md-3">
-        <a href="{% slug ... %}">
+        <a href="">
             <svg id="pie" viewBox="0 0 70 70">
                 <path d="..." />
             </svg>
             <p>Auto Complete</p>
         </a>
     </li><li class="col-xs-4 col-md-3">
-            <a href="{% slug ... %}">
+            <a href="">
                 <svg id="donut" viewBox="0 0 70 70">
                     <path d="..." />
                 </svg>
                 <p>Boolean Radio Button List</p>
             </a>
       </li><li class="col-xs-4 col-md-3">
-              <a href="{% slug ... %}">
+              <a href="">
                   <svg id="donut" viewBox="0 0 70 70">
                       <path d="..." />
                   </svg>
                   <p>Check Box</p>
               </a>
           </li><li class="col-xs-4 col-md-3">
-                  <a href="{% slug ... %}">
+                  <a href="">
                       <svg id="donut" viewBox="0 0 70 70">
                           <path d="..." />
                       </svg>
                       <p>Combo Box</p>
                   </a>
               </li><li class="col-xs-4 col-md-3">
-                      <a href="{% slug ... %}">
+                      <a href="">
                           <svg id="donut" viewBox="0 0 70 70">
                               <path d="..." />
                           </svg>
                           <p>Currency Text Box</p>
                       </a>
               </li><li class="col-xs-4 col-md-3">
-                      <a href="{% slug ... %}">
+                      <a href="">
                           <svg id="donut" viewBox="0 0 70 70">
                               <path d="..." />
                           </svg>
                           <p>Date Picker</p>
                       </a>
               </li><li class="col-xs-4 col-md-3">
-                      <a href="{% slug ... %}">
+                      <a href="">
                           <svg id="donut" viewBox="0 0 70 70">
                               <path d="..." />
                           </svg>
                           <p>Date Time Picker</p>
                       </a>
                 </li><li class="col-xs-4 col-md-3">
-                        <a href="{% slug ... %}">
+                        <a href="">
                             <svg id="donut" viewBox="0 0 70 70">
                                 <path d="..." />
                             </svg>
                             <p>Disabled Text Box</p>
                         </a>
                 </li><li class="col-xs-4 col-md-3">
-                              <a href="{% slug ... %}">
+                              <a href="">
                                   <svg id="donut" viewBox="0 0 70 70">
                                       <path d="..." />
                                   </svg>
                                   <p>Drop Down List</p>
                               </a>
                 </li><li class="col-xs-4 col-md-3">
-                            <a href="{% slug ... %}">
+                            <a href="">
                                 <svg id="donut" viewBox="0 0 70 70">
                                     <path d="..." />
                                 </svg>
                                 <p>Editor</p>
                             </a>
                 </li><li class="col-xs-4 col-md-3">
-                                  <a href="{% slug ... %}">
+                                  <a href="">
                                       <svg id="donut" viewBox="0 0 70 70">
                                           <path d="..." />
                                       </svg>
                                       <p>Email Text Box</p>
                                   </a>
                 </li><li class="col-xs-4 col-md-3">
-                        <a href="{% slug ... %}">
+                        <a href="">
                             <svg id="donut" viewBox="0 0 70 70">
                                 <path d="..." />
                             </svg>
                             <p>Integer Text Box</p>
                         </a>
                 </li><li class="col-xs-4 col-md-3">
-                        <a href="{% slug ... %}">
+                        <a href="">
                             <svg id="donut" viewBox="0 0 70 70">
                                 <path d="..." />
                             </svg>
                             <p>Label</p>
                         </a>
                 </li><li class="col-xs-4 col-md-3">
-                        <a href="{% slug ... %}">
+                        <a href="">
                             <svg id="donut" viewBox="0 0 70 70">
                                 <path d="..." />
                             </svg>
                             <p>Masked Text Box</p>
                         </a>
                 </li><li class="col-xs-4 col-md-3">
-                        <a href="{% slug ... %}">
+                        <a href="">
                             <svg id="donut" viewBox="0 0 70 70">
                                 <path d="..." />
                             </svg>
                             <p>Numeric Text Box</p>
                         </a>
                 </li><li class="col-xs-4 col-md-3">
-                        <a href="{% slug ... %}">
+                        <a href="">
                             <svg id="donut" viewBox="0 0 70 70">
                                 <path d="..." />
                             </svg>
                             <p>Password Text Box</p>
                         </a>
                 </li><li class="col-xs-4 col-md-3">
-                        <a href="{% slug ... %}">
+                        <a href="">
                             <svg id="donut" viewBox="0 0 70 70">
                                 <path d="..." />
                             </svg>
                             <p>Percent Text Box</p>
                         </a>
                 </li><li class="col-xs-4 col-md-3">
-                        <a href="{% slug ... %}">
+                        <a href="">
                             <svg id="donut" viewBox="0 0 70 70">
                                 <path d="..." />
                             </svg>
                             <p>Percent Value Text Box</p>
                         </a>
                 </li><li class="col-xs-4 col-md-3">
-                        <a href="{% slug ... %}">
+                        <a href="">
                             <svg id="donut" viewBox="0 0 70 70">
                                 <path d="..." />
                             </svg>
                             <p>Phone Text Box</p>
                         </a>
                 </li><li class="col-xs-4 col-md-3">
-                        <a href="{% slug ... %}">
+                        <a href="">
                             <svg id="donut" viewBox="0 0 70 70">
                                 <path d="..." />
                             </svg>
                             <p>Radio Button List</p>
                         </a>
                 </li><li class="col-xs-4 col-md-3">
-                        <a href="{% slug ... %}">
+                        <a href="">
                             <svg id="donut" viewBox="0 0 70 70">
                                 <path d="..." />
                             </svg>
                             <p>Slider</p>
                         </a>
                 </li><li class="col-xs-4 col-md-3">
-                        <a href="{% slug ... %}">
+                        <a href="">
                             <svg id="donut" viewBox="0 0 70 70">
                                 <path d="..." />
                             </svg>
                             <p>Text Area</p>
                         </a>
                 </li><li class="col-xs-4 col-md-3">
-                        <a href="{% slug ... %}">
+                        <a href="">
                             <svg id="donut" viewBox="0 0 70 70">
                                 <path d="..." />
                             </svg>
                             <p>Text Box</p>
                         </a>
                 </li><li class="col-xs-4 col-md-3">
-                        <a href="{% slug ... %}">
+                        <a href="">
                             <svg id="donut" viewBox="0 0 70 70">
                                 <path d="..." />
                             </svg>
@@ -303,14 +303,14 @@ The built-in components are grouped into the following categories:
 <div class="col-md-8">
     <ul class="card-list row">
     <li class="col-xs-4 col-md-3">
-        <a href="{% slug ... %}">
+        <a href="">
             <svg id="pie" viewBox="0 0 70 70">
                 <path d="..." />
             </svg>
             <p>Row</p>
           </a>
         </li><li class="col-xs-4 col-md-3">
-            <a href="{% slug ... %}">
+            <a href="">
                 <svg id="pie" viewBox="0 0 70 70">
                     <path d="..." />
                 </svg>
@@ -327,7 +327,7 @@ The built-in components are grouped into the following categories:
     <div class="col-md-8">
         <ul class="card-list row">
         <li class="col-xs-4 col-md-3">
-            <a href="{% slug ... %}">
+            <a href="">
                 <svg id="pie" viewBox="0 0 70 70">
                     <path d="..." />
                 </svg>
@@ -344,28 +344,28 @@ The built-in components are grouped into the following categories:
         <div class="col-md-8">
             <ul class="card-list row">
             <li class="col-xs-4 col-md-3">
-                <a href="{% slug ... %}">
+                <a href="">
                     <svg id="pie" viewBox="0 0 70 70">
                         <path d="..." />
                     </svg>
                     <p>Button</p>
                   </a>
             </li><li class="col-xs-4 col-md-3">
-                <a href="{% slug ... %}">
+                <a href="">
                     <svg id="pie" viewBox="0 0 70 70">
                         <path d="..." />
                     </svg>
                     <p>Expander</p>
                   </a>
             </li><li class="col-xs-4 col-md-3">
-                <a href="{% slug ... %}">
+                <a href="">
                     <svg id="pie" viewBox="0 0 70 70">
                         <path d="..." />
                     </svg>
                     <p>Tab Strip</p>
                   </a>
             </li><li class="col-xs-4 col-md-3">
-                <a href="{% slug ... %}">
+                <a href="">
                     <svg id="pie" viewBox="0 0 70 70">
                         <path d="..." />
                     </svg>
@@ -382,7 +382,7 @@ The built-in components are grouped into the following categories:
             <div class="col-md-8">
                 <ul class="card-list row">
                 <li class="col-xs-4 col-md-3">
-                    <a href="{% slug ... %}">
+                    <a href="">
                         <svg id="pie" viewBox="0 0 70 70">
                             <path d="..." />
                         </svg>
@@ -399,7 +399,7 @@ The built-in components are grouped into the following categories:
 <div class="col-md-8">
     <ul class="card-list row">
     <li class="col-xs-4 col-md-3">
-        <a href="{% slug ... %}">
+        <a href="">
             <svg id="pie" viewBox="0 0 70 70">
                 <path d="..." />
             </svg>

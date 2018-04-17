@@ -10,6 +10,6 @@ position: 1
 
 Modules are the building blocks of your application.
 
-They represent a single business function, such as an order entry or inventory, which are later packaged into a single application. By default, when you start creating an application, the Builder loads the [Application Module]({% slug ... %}). It consists of two system views which serve as a starting point&mdash;a customizable log-in screen and a landing page.
+They represent a single business function, such as an order entry or inventory, which are later packaged into a single application. By default, when you start creating an application, the Builder loads the [Application Module](). It consists of two system views which serve as a starting point&mdash;a customizable log-in screen and a landing page.
 
 ## Suggested Links
