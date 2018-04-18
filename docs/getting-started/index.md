@@ -1,5 +1,5 @@
 ---
-title: Getting Started with Kendo UI Builder
+title: Builder
 page_title: Getting Started with Kendo UI Builder | Kendo UI Builder
 description: "Get started with the Kendo UI Builder tool for creating and managing Angular and AngularJS-based web applications."
 slug: getstarted_kuib

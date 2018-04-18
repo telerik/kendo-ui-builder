@@ -1,5 +1,5 @@
 ---
-title: Getting Started with Kendo UI Designer
+title: Designer
 page_title: Getting Started with Kendo UI Designer | Kendo UI Builder
 description: "Get started with the Kendo UI Designer tool for designing, building, and previewing one-page responsive web applications for business application projects."
 slug: getstarted_kdesigner
