@@ -12,6 +12,5 @@ This article lists the answers to the most frequently asked questions (FAQs) abo
 
 ## Suggested Links
 
-* [Getting Started with the Kendo UI Builder]({% slug getstarted_kuib %})
-* [Getting Started with the Kendo UI Designer]({% slug getstarted_kdesigner %})
+* [Installing the Kendo UI Builder]({% slug getstarted_kuib %})
 * [Troubleshooting]({% slug troubleshooting_kuib %})

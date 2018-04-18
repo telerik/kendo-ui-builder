@@ -8,9 +8,7 @@ position: 0
 
 # Introduction to Kendo UI Builder
 
-Kendo UI® Builder by Progress® is a tool for creating and managing web applications.
-
-The Builder separates the user interface (UI)&mdash;views and modules&mdash;from the project business logic which runs on the application server. The views and modules comprise Kendo UI® Designer by Progress®. For more information on the Designer, refer to the article on [getting started with the Kendo UI Designer]({% slug getstarted_kdesigner %}).
+Kendo UI® Builder by Progress® is a tool for creating and managing web applications which separates the user interface (UI) from the project business logic which runs on the application server.
 
 You can also use the Builder for revamping existing applications and enabling them to support the implementation of Kendo UI components. In addition, the Builder provides extension points for customizing the functional units of the application and can be used in the Angular and AngularJS frameworks.
 
@@ -65,7 +63,7 @@ The Extension Points are the parts of the web application that you can customize
 
 ## Basic Approaches
 
-The data definitions of the application are stored in JSON metadata that is separate from the UI implementation. The metadata is then used by the integrated Generator to compile the HTML5, CSS, and JavaScript files that are built for and used by the application. The generation of the application also allows you to immediately preview the project in the Designer by applying live data. For further development testing and production, you can then deploy the application to separate web servers.
+The data definitions of the application are stored in JSON metadata that is separate from the UI implementation. The metadata is then used by the integrated Generator to compile the HTML5, CSS, and JavaScript files that are built for and used by the application. The generation of the application also allows you to immediately preview the project in the Builder by applying live data. For further development testing and production, you can then deploy the application to separate web servers.
 
 To create functional views within one or more application modules, you need to submit inputs which include a set of selectable Kendo UI templates. Each application module can contain one or more user-defined (custom) views and, depending on the data you want to render, you can bind each view to one or more data sources. The Builder allows you to define multiple data providers for an application&mdash;depending on the specific view, you can select one or more data providers and bind that view to a portion of the data or to all the data from a data source. As a result, some views can be bound to one data source at a time while others can be bound to multiple data sources.
 
@@ -75,8 +73,7 @@ The Builder also enables you to customize each view through code extensions, whi
 
 ## Suggested Links
 
-* [Getting Started with the Kendo UI Builder]({% slug getstarted_kuib %})
-* [Getting Started with the Kendo UI Designer]({% slug getstarted_kdesigner %})
+* [Installing the Kendo UI Builder]({% slug getstarted_kuib %})
 * [Modules]({% slug modulesoverview_kuib %})
 * [Views]({% slug viewsoverview_kuib %})
 * [Components]({% slug overviewcomp_kuib %})
