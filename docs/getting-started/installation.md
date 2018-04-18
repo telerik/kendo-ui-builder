@@ -1,14 +1,14 @@
 ---
-title: Builder
-page_title: Getting Started with Kendo UI Builder | Kendo UI Builder
-description: "Get started with the Kendo UI Builder tool for creating and managing Angular and AngularJS-based web applications."
+title: Installation
+page_title: Installation | Kendo UI Builder
+description: "Learn how to install and uninstall the Kendo UI Builder tool for creating and managing Angular and AngularJS-based web applications."
 slug: getstarted_kuib
 position: 1
 ---
 
-# Getting Started with Kendo UI Builder
+# Installation
 
-To start using the Builder, provide the [prerequisites](#toc-prerequisites) and follow the [installation process](#toc-installation).  
+To start using the Kendo UI Builder, provide the [prerequisites](#toc-prerequisites) and follow the [installation process](#toc-installation).  
 
 ## Prerequisites
 
@@ -43,12 +43,8 @@ If the installation is unsuccessful, check the `KendoUIBuilderOEInstall.log` fil
 
 ## Suggested Links
 
-* [Getting Started with the Kendo UI Designer]({% slug getstarted_kdesigner %})
-* [Troubleshooting]({% slug troubleshooting_kuib %})
+* [Dashboard]({% slug dashboard_kuib %})
+* [Designing the Application]({% slug designingtheapp_kuib %})
+* [Debugging and Releasing]({% slug debugging_kuib %})
 * [Frequently Asked Questions]({% slug faq_kuib %})
-* [Modules]({% slug modulesoverview_kuib %})
-* [Views]({% slug viewsoverview_kuib %})
-* [Components]({% slug overviewcomp_kuib %})
-* [Data Providers]({% slug dataprovidersoverview_kuib %})
-* [Extension Points]({% slug extensionpoints_kuib %})
-* [Frameworks]({% slug angular_kuib %})
+* [Troubleshooting]({% slug troubleshooting_kuib %})

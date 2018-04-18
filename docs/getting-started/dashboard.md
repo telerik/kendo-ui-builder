@@ -3,16 +3,16 @@ title: Dashboard
 page_title: Dashboard | Kendo UI Builder
 description: "Manage the state of your existing applications in the Kendo UI Designer by using the options of its Dashboard."
 slug: dashboard_kuib
-position: 3
+position: 2
 ---
 
-# Kendo UI Builder Dashboard
+# Dashboard
 
-The Dashboard of the Kendo UI Builder stores the cards of all your previously created, imported, and migrated projects ?? and is part of the Kendo UI Designer.
+The Dashboard of the Kendo UI Builder stores the cards of all your previously created, imported, and migrated projects.
 
 ## Initial Load
 
-When you load the Designer for the first time and you have no current projects yet, the Dashboard renders only the UI with the selectable options to create or import an application.
+When you load the Builder for the first time and you have no current projects yet, the Dashboard renders only the UI with the selectable options to create or import an application.
 
 <!-- screen -->
 
@@ -22,41 +22,19 @@ The Dashboard provides basic UI options which enable you to access information a
 
 ### Cards and Tags
 
-Once you create or import an application, the Dashboard displays a card for the project. If you already have projects from previous releases or import external applications, the Dashboard attempts to import these projects when you launch it. As a result and depending on the status of each project, the Dashboard adds a tag to the project card. These tags indicate the further actions you are required to take for the successful integration of the project.
+Once you create or import an application, the Dashboard displays a card for the project and stores it for future references. If you already have projects from previous releases or if you import external applications, the Dashboard attempts to import these projects by handling matching the versions of the application metadata and the versions of the metadata which the Builder supports. Depending on the outcome of this match, the Dashboard adds a tag to the card of each project which reflects the current status of the project. For more information, refer to the article on [migration]({% slug migration_kuib %}).
 
-The available tags are:
-
-* **UpToDate**&mdash;The application was successfully imported and does not require further actions.
-* **Migration Required**&mdash;The versions of the application and of the Builder metadata differ, and the Designer is not able to automatically update the project metadata to the metadata formats that are supported by the Builder. For more information, refer to the article on [migration]({% slug migration_kuib %}).
-* **Incompatible**&mdash;The versions of the application and of the Builder metadata differ,  and the Designer is not able to automatically update the project metadata to the metadata formats that are supported by the Builder.
-
-    To handle this issue, either:
-      * Manually migrate the application and its metadata, or
-      * Recreate the project with the Builder.
-
-    For more information, refer to the article on [migration]({% slug migration_kuib %}).
-
-* **Unavailable**&mdash;Due to unspecified reasons, the Designer is not able to load the project metadata.
-
-    To handle this issue, either:
-      * Manually migrate the application and its metadata, or
-      * Recreate the project with the Builder.
-
-<!-- screen -->
-
-### Status Options
-
-To handle the status of a project, use the **Gear** options. The **Gear** icon provides options to duplicate, migrate, remove, or delete an existing application. For more information, refer to the section on the [application status and migration]({% slug migration_kuib %}).
-
-<!-- screen -->
+// screen
 
 ### Log Messages
 
-To display the log messages when you debug or troubleshoot a problem, use the **Output** bar.
+The **Output** bar displays the log messages which are intended to facilitate the debugging or troubleshooting processes.
 
-<!-- screen -->
+// screen
 
 ## Suggested Links
 
-* [Getting Started with the Kendo UI Builder]({% slug getstarted_kuib %})
-* [Getting Started with the Kendo UI Designer]({% slug getstarted_kdesigner %})
+* [Installing the Kendo UI Builder]({% slug getstarted_kuib %})
+* [Designing the Application]({% slug designingtheapp_kuib %})
+* [Debugging and Releasing]({% slug debugging_kuib %})
+* [Managing the Application Status and Migration]({% slug migration_kuib %})
