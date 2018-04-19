@@ -8,11 +8,13 @@ position: 3
 
 # Designing the Application
 
-The **App Design** page provides options to define and update the properties of the application and to set up its design by enabling you to add and edit its modules and data providers.  
+From its **App Design** page, the Builder enables you to set and update application properties and to add and edit its modules and data providers.  
 
-## Creating Applications
+## Managing Application Settings
 
-To create an application:
+The **App Design** page provides options for creating or deleting an application, editing its properties, and defining user roles.
+
+### Creating Applications
 
 1. On the Dashboard, select the **Create App** option. As a result, the **Create App** page opens.
 1. On the **Create App** page, select the framework by clicking on it (**Target Framework**).
@@ -24,38 +26,38 @@ To create an application:
 
 // screen
 
-## Editing Application Properties
+### Editing Application Properties
 
-1. On the **Design App** page, go to the card of the application.
+1. On the **App Design** page, go to the card of the application.
 1. Open the **Gear** drop-down options list and select **Properties**. As a result, the **Edit App** dialog box opens.
 1. In **Edit App**, update the properties you want.
 1. Click **Save** to save your changes, or click **Cancel** to discard your updates.
 
 // screen  
 
-## Deleting Applications
+### Deleting Applications
 
 1. On the Dashboard, go to the card of the application.
 1. Open the **Gear** drop-down options list and select **Delete**.
 
 > Apart from the delete operation, the **Gear** menu on the application card provides options for duplicating, exporting, removing, and revealing the application. For more information, refer to the documentation on the [application status and migration]({% slug migration_kuib %}).
 
-## Defining User Roles
+### Defining User Roles
 
 1. On the Dashboard, go to the card of the application.
 1. Open the **Gear** drop-down options list and select **Roles**. As a result, the **Authorization Roles** dialog box opens.
 1. Define a user role (**Roles**) and click **Add Role**. As a result, the user role is added to the list below.
 1. Click **Save** to save your changes, or click **Cancel** to discard your updates.
 
-## Importing Applications
+### Importing Applications
 
 ...
 
-## Adding Modules
+## Managing Module Settings
 
 By default, the **App Design** page provides the built-in App Module which contains the Login, Landing Page, Unauthorized, and App Layout views. For more information, refer to the articles on [modules]({% slug modulesoverview_kuib %}) and [views]({% slug viewsoverview_kuib %}).
 
-To add a module:
+### Adding Modules
 
 1. On the **App Design** page, click **Add Module**. As a result, the **Add Module** dialog box appears.
 1. Provide the name of the module (**Name**).
@@ -66,7 +68,7 @@ To add a module:
 
 // screen
 
-## Editing Module Properties
+### Editing Module Properties
 
 1. On the **Design App** page, go to the card of the module.
 1. Open the **Gear** drop-down options list and select **Properties**. As a result, the **Edit Module** dialog box opens.
@@ -75,18 +77,18 @@ To add a module:
 
 // screen
 
-## Deleting Modules
+### Deleting Modules
 
 1. On the **App Design** page, go to the card of the module.
 1. Open the **Gear** drop-down options list and select **Delete**.
 
 The order of the modules on the **App Design** page corresponds to the order in which they will be rendered by the application at runtime. To reorder the modules, drag and drop them within the list.
 
-## Adding Data Providers
+## Managing Data Provider Settings
 
 The **App Design** page provides the options to define the settings for the data providers. For more information, refer to the article on [data providers]({% slug dataprovidersoverview_kuib %}).
 
-To add a data provider:
+### Adding Data Providers
 
 1. On the **App Design** page, click **Add Data Provider**. As a result, the **Add Data Provider** dialog box appears.
 1. Select the data service you want to utilize (**OData**, **Generic REST**, **Progress Data**).
@@ -99,7 +101,7 @@ To add a data provider:
 
 // screen
 
-## Editing Data Provider Properties
+### Editing Data Provider Properties
 
 1. On the **Design App** page, go to the card of the data provider.
 1. Open the **Gear** drop-down options list and select **Properties**. As a result, the **Edit Data Provider** dialog box opens.
@@ -108,7 +110,7 @@ To add a data provider:
 
 // screen
 
-## Deleting Data Providers
+### Deleting Data Providers
 
 1. On the **App Design** page, go to the card of the data provider.
 1. Open the **Gear** drop-down options list and select **Delete**.
