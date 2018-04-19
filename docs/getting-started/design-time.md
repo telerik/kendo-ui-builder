@@ -82,6 +82,8 @@ By default, the **App Design** page provides the built-in App Module which conta
 1. On the **App Design** page, go to the card of the module.
 1. Open the **Gear** drop-down options list and select **Delete**.
 
+### Reordering Modules 
+
 The order of the modules on the **App Design** page corresponds to the order in which they will be rendered by the application at runtime. To reorder the modules, drag and drop them within the list.
 
 ## Managing Data Provider Settings
