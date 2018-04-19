@@ -31,6 +31,8 @@ Once the application is created, the Builder loads the **App Design** page.
 
 The **App Design** page provides the UI for generating, reviewing, and publishing your application. For more information, refer to the article on [bundling and packaging]({% slug bundlepackage_kuib %}).
 
+// screen
+
 ### Modules
 
 By default, the **App Design** page provides the built-in App Module which contains the Login and the App Layout views. For more information, refer to the articles on [modules]({% slug modulesoverview_kuib %}) and [views]({% slug viewsoverview_kuib %}).
@@ -42,6 +44,8 @@ From the **App Design** page you can:
 * Edit the user-defined module properties, delete a module or its views by using the **Gear** menu on the module card.
 * Add or edit views in a module by clicking its card.
 
+// screen
+
 ### Data Providers
 
 The **App Design** page provides the options to define the settings for the data providers on root level. For more information, refer to the article on [data providers]({% slug dataprovidersoverview_kuib %}).
@@ -51,6 +55,8 @@ From the **App Design** page you can:
 * Add a data provider by clicking **Add Data Provider**.
 * Edit the properties or delete a data provider by using the **Gear** drop-down options list of the card.
 * Add or edit a data source by using the **Gear** drop-down options list of the card.
+
+// screen 
 
 ## Suggested Links
 
