@@ -8,11 +8,13 @@ position: 1
 
 # Frameworks Overview
 
-Currently, the Builder supports the Angular and AngularJS frameworks.
+Currently, the Kendo UI Builder supports the Angular and AngularJS frameworks and you can deploy your web project in the Angular and AngularJS environments.
 
-The ultimate goal is for the Builder to a complete parity with the existing Kendo UI suites and support the React and Vue frameworks.
+The ultimate goal of the Builder is to provide a complete parity with the existing Kendo UI suites and support the React and Vue frameworks.
+
+// what are the differences, why
 
 ## Suggested Links
 
-* [Angular Support]()
-* [AngularJS Support]()
+* [Angular Integration]()
+* [AngularJS Integration]()
