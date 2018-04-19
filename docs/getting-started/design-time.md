@@ -1,7 +1,7 @@
 ---
 title: Designing
 page_title: Designing | Kendo UI Builder
-description: "..."
+description: "Create your web application and manage its root level operation from the App Design page which is provided by the Kendo UI Builder."
 slug: designingtheapp_kuib
 position: 3
 ---
@@ -27,7 +27,7 @@ When you select the **Create App** option from the Dashboard, the Builder loads 
 
 Once the application is created, the Builder loads the **App Design** page.
 
-### Authorization Roles
+### Authentication and Roles
 
 The **App Design** page provides options for setting the user roles, access rights, and authorization rules that will apply to the application. For more information, refer to the documentation on [authentication and authorization]({% slug authentication_kuib %}).
 
@@ -77,4 +77,4 @@ From the **App Design** page you can:
 
 * [Installing the Kendo UI Builder]({% slug getstarted_kuib %})
 * [Dashboard]({% slug dashboard_kuib %})
-* [Debugging and Releasing]({% slug debugging_kuib %})
+* [Debugging the Application]({% slug debugging_kuib %})

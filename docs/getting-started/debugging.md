@@ -1,12 +1,12 @@
 ---
 title: Debugging
 page_title: Debugging | Kendo UI Builder
-description: "..."
+description: "Use the deployment options which are supported by the Kendo UI Builder and debug your project."
 slug: debugging_kuib
 position: 4
 ---
 
-# Debugging
+# Debugging the Application
 
 The Builder provides options for debugging the application while you are still developing it and the project is not yet ready to be released.
 

@@ -12,7 +12,7 @@ Kendo UI® Builder by Progress® is a tool for creating and managing web applica
 
 It separates the user interface (UI) from the project business logic which runs on the application server.
 
-You can also use the Builder for revamping existing applications and enabling them to support the implementation of Kendo UI components. In addition, the Builder provides extension points for customizing the functional units of the application and can be used in the Angular and AngularJS frameworks.
+You can also use the Builder for revamping existing applications and enabling them to support the implementation of Kendo UI components. In addition, the Builder provides extension points for customizing the functional units of the application and, currently, can be used in the Angular and AngularJS frameworks.
 
 For more information on how to integrate the Builder into OpenEdge business applications, refer to the [official Progress<sup>®</sup> Software Documentation](https://www.progress.com/documentation/kendo-ui-builder).  
 
@@ -58,10 +58,10 @@ The Data Providers handle the data connectivity of the application. They enable 
 
 The Extension Points are the parts of the web application that you can customize.
 
-* The [styles extension points]() deliver options for customizing the appearance of the whole application or of the current theme, view, or component.  
-* The [templates extension points]() deliver options for customizing the content optimization and rendition.
-* The [views extension points]() deliver options for customizing each view.  
-* The [components extension points]() deliver options for customizing each component.
+* The [styles extension points]({% slug extendingstyles_kuib %}) deliver options for customizing the appearance of the whole application or of the current theme, view, or component.  
+* The [templates extension points]({% slug extendingtemplatestyles_kuib %}) deliver options for customizing the content optimization and rendition.
+* The [views extension points]({% slug extendingviews_kuib %}) deliver options for customizing each view.  
+* The [components extension points]({% slug extendingcomponents_kuib %}) deliver options for customizing each component.
 
 ## Basic Approaches
 
