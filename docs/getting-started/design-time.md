@@ -35,12 +35,16 @@ The **App Design** page provides options for setting the user roles, access righ
 
 ### Deployment
 
-The **App Design** page provides the UI for generating, reviewing, debugging, and publishing your application. For more information, refer to the article on [debuggging]({% slug debugging_kuib %}) and [bundling and packaging]({% slug bundlepackage_kuib %}).
+The **App Design** page provides options for generating and locally running your application so that you can debug and prepare the project for deployment. For more information, refer to the article on [debuggging]({% slug debugging_kuib %}).
+
+> You can also access the deployment options from the toolbar that is available in each view.
 
 From the **App Design** page you can:
 
-* Preview the project on the local server and in your default browser.
-* Generate a deployment version of the latest HTML and JavaScript source code for the application in the Debug or Release mode.
+* Generate the latest source code and outputs it in a local folder.
+* Start the local dev server and open the application in your default browser.
+* Trigger the Watch mode of the Builder and debug the project at runtime.
+* Build the application and prepare it for deployment in your environment in the debug or release mode.
 
 // screen
 
