@@ -23,7 +23,7 @@ When you select the **Create App** option from the Dashboard, the Builder loads 
 
 // screen  
 
-## Managing App Level Operations
+## Managing Root Level Operations
 
 Once the application is created, the Builder loads the **App Design** page.
 
@@ -42,7 +42,7 @@ From the **App Design** page you can:
 * Edit the user-defined module properties, delete a module or its views by using the **Gear** menu on the module card.
 * Add or edit views in a module by clicking its card.
 
-## Data Providers
+### Data Providers
 
 The **App Design** page provides the options to define the settings for the data providers on root level. For more information, refer to the article on [data providers]({% slug dataprovidersoverview_kuib %}).
 
