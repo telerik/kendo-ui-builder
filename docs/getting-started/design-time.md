@@ -10,7 +10,7 @@ position: 3
 
 The Builder provides options to set the properties of the application and to add or edit its modules, views, and components.  
 
-## Creating the Application
+## Creating Applications
 
 When you select the **Create App** option from the Dashboard, the Builder loads the **Create App** page where you set the properties of the application.
 
@@ -22,6 +22,10 @@ When you select the **Create App** option from the Dashboard, the Builder loads 
 1. Save the settings.
 
 // screen  
+
+## Importing Applications
+
+...
 
 ## Managing Root Level Operations
 
