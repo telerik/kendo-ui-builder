@@ -27,9 +27,20 @@ When you select the **Create App** option from the Dashboard, the Builder loads 
 
 Once the application is created, the Builder loads the **App Design** page.
 
+### Authorization Roles
+
+The **App Design** page provides options for setting the user roles, access rights, and authorization rules that will apply to the application. For more information, refer to the documentation on [authentication and authorization]({% slug authentication_kuib %}).
+
+// screen
+
 ### Deployment
 
-The **App Design** page provides the UI for generating, reviewing, and publishing your application. For more information, refer to the article on [bundling and packaging]({% slug bundlepackage_kuib %}).
+The **App Design** page provides the UI for generating, reviewing, debugging, and publishing your application. For more information, refer to the article on [debuggging]({% slug debugging_kuib %}) and [bundling and packaging]({% slug bundlepackage_kuib %}).
+
+From the **App Design** page you can:
+
+* Preview the project on the local server and in your default browser.
+* Generate a deployment version of the latest HTML and JavaScript source code for the application in the Debug or Release mode.
 
 // screen
 
@@ -56,7 +67,7 @@ From the **App Design** page you can:
 * Edit the properties or delete a data provider by using the **Gear** drop-down options list of the card.
 * Add or edit a data source by using the **Gear** drop-down options list of the card.
 
-// screen 
+// screen
 
 ## Suggested Links
 
