@@ -8,7 +8,9 @@ position: 0
 
 # Introduction to Kendo UI Builder
 
-Kendo UI® Builder by Progress® is a tool for creating and managing web applications which separates the user interface (UI) from the project business logic which runs on the application server.
+Kendo UI® Builder by Progress® is a tool for creating and managing web applications.
+
+It separates the user interface (UI) from the project business logic which runs on the application server.
 
 You can also use the Builder for revamping existing applications and enabling them to support the implementation of Kendo UI components. In addition, the Builder provides extension points for customizing the functional units of the application and can be used in the Angular and AngularJS frameworks.
 
