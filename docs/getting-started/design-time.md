@@ -1,6 +1,6 @@
 ---
-title: Designing the Application
-page_title: Designing the Application | Kendo UI Builder
+title: Designing
+page_title: Designing | Kendo UI Builder
 description: "..."
 slug: designingtheapp_kuib
 position: 3
@@ -8,27 +8,49 @@ position: 3
 
 # Designing the Application
 
-## App Design Page
+The Builder provides options to set the properties of the application and to add or edit its modules, views, and components.  
 
-Once the application is created, the Builder loads the initial **App Design** application page which allows you to set the generic operations and units of the application.
+## Creating the Application
 
-### Modules Section
+When you select the **Create App** option from the Dashboard, the Builder loads the **Create App** page where you set the properties of the application.
 
-The **App Design** page displays the default, built-in App Module, which contains the Login and the App Layout views. For more information, refer to the articles on [modules]() and [views]().
+1. Choose the framework.
+1. Provide the name of the project.
+1. Select the theme from the drop-down options list.
+1. Set the location.
+1. (Optional) Provide a description of the project.
+1. Save the settings.
 
-> The App Module cannot be deleted.
+// screen  
 
-* To add a new module, click **Add Module**.
-* To change the order of the modules, drag and drop them within the list. The order of the modules on this page corresponds to the order in which they will be rendered by the application at runtime.
-* To edit the user-defined module properties, delete a module or its views, use the **Gear** menu on the module card.
-* To add or edit views in a module, click its card.
+## Managing App Level Operations
 
-## Data Providers Section
+Once the application is created, the Builder loads the **App Design** page.
 
-* To add a Data Provider, click **Add Data Provider**. Once added, the **App Design** page displays its card.
-* To edit the properties or delete a Data Provider, use the **Gear** drop-down options list.
-* To add or edit a Data Source, use the card **Gear** drop-down options list.
+### Deployment
 
+The **App Design** page provides the UI for generating, reviewing, and publishing your application. For more information, refer to the article on [bundling and packaging]({% slug bundlepackage_kuib %}).
+
+### Modules
+
+By default, the **App Design** page provides the built-in App Module which contains the Login and the App Layout views. For more information, refer to the articles on [modules]({% slug modulesoverview_kuib %}) and [views]({% slug viewsoverview_kuib %}).
+
+From the **App Design** page you can:
+
+* Add a new module by clicking **Add Module**.
+* Change the order of the modules by dragging and dropping them within the list. The order of the modules on this page corresponds to the order in which they will be rendered by the application at runtime.
+* Edit the user-defined module properties, delete a module or its views by using the **Gear** menu on the module card.
+* Add or edit views in a module by clicking its card.
+
+## Data Providers
+
+The **App Design** page provides the options to define the settings for the data providers on root level. For more information, refer to the article on [data providers]({% slug dataprovidersoverview_kuib %}).
+
+From the **App Design** page you can:
+
+* Add a data provider by clicking **Add Data Provider**.
+* Edit the properties or delete a data provider by using the **Gear** drop-down options list of the card.
+* Add or edit a data source by using the **Gear** drop-down options list of the card.
 
 ## Suggested Links
 

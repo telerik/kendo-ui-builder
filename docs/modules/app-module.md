@@ -8,6 +8,6 @@ position: 2
 
 # Application Module
 
-...
+> The App Module cannot be deleted.
 
 ## Suggested Links
