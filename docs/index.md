@@ -52,7 +52,7 @@ The Modules consist of:
 The Data Providers handle the data connectivity of the application. They enable services for establishing the connection between the data you want to display and the data source you want to use.
 
 * The [data services]({% slug odata_kuib %}) support the input of third-party or custom service endpoints.
-* The [data sources]({% slug dataspurces_kuib %}) contain the datasets and enable you to display all available or a specific portion of data.
+* The [data sources]({% slug datasources_kuib %}) contain the datasets and enable you to display all available or a specific portion of data.
 
 ### Extension Points
 
