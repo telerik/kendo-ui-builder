@@ -47,10 +47,10 @@ The data providers handle the data connectivity of the application.
 ### Extension Points
 
 The extension points are the properties which allow you to customize parts of the web application.
-* The [custom themes]({% slug extendingstyles_kuib %}) represent extension points for customizing the appearance of the application.  
-* The [custom CSS]({% slug extendingtemplatestyles_kuib %}) represent extension points for customizing the styles of the application.
-* The [custom code]({% slug extendingviews_kuib %}) represents the extension point for customizing the backend of the application.  
-* The [custom views]({% slug extendingcomponents_kuib %}) represent the extension points for customizing the views of the application.
+* The [custom themes]({% slug extendingthemes_kuib %}) represent extension points for customizing the appearance of the application.  
+* The [custom CSS]({% slug extendingcss_kuib %}) represent extension points for customizing the styles of the application.
+* The [custom code]({% slug extendingcode_kuib %}) represents the extension point for customizing the backend of the application.  
+* The [custom views]({% slug extendingviews_kuib %}) represent the extension points for customizing the views of the application.
 * The [custom components]({% slug extendingcomponents_kuib %}) represent the extension points for customizing the components of the application.
 
 ## Approaches for Building Applications
