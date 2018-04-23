@@ -46,14 +46,14 @@ The data providers handle the data connectivity of the application.
 
 ### Extension Points
 
-The extension points are the parts of the web application that you can customize.
+The extension points are the properties which allow you to customize parts of the web application.
 * The [custom themes]({% slug extendingstyles_kuib %}) represent extension points for customizing the appearance of the application.  
 * The [custom CSS]({% slug extendingtemplatestyles_kuib %}) represent extension points for customizing the styles of the application.
 * The [custom code]({% slug extendingviews_kuib %}) represents the extension point for customizing the backend of the application.  
 * The [custom views]({% slug extendingcomponents_kuib %}) represent the extension points for customizing the views of the application.
 * The [custom components]({% slug extendingcomponents_kuib %}) represent the extension points for customizing the components of the application.
 
-## Basic Approaches for Building Applications
+## Approaches for Building Applications
 
 The data definitions of the application are stored in JSON metadata that is separate from the UI implementation. The metadata is then used by the integrated Generator to compile the HTML5, CSS, and JavaScript files that are built for and used by the application. The generation of the application also allows you to immediately preview the project in the Builder by applying live data. For further development testing and production, you can then deploy the application to separate web servers.
 
