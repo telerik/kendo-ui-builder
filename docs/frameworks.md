@@ -1,12 +1,12 @@
 ---
-title: Overview  
-page_title: Frameworks Overview | Kendo UI Builder
+title: Frameworks  
+page_title: Frameworks | Kendo UI Builder
 description: "Learn the specifics when using the Kendo UI Builder tool for creating and managing Angular-based web applications."
 slug: frameworks_kuib
 position: 2
 ---
 
-# Frameworks Overview
+# Frameworks
 
 The Kendo UI Builder supports the Angular and AngularJS frameworks.
 
