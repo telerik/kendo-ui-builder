@@ -8,12 +8,9 @@ position: 2
 
 # Frameworks
 
-The Kendo UI Builder supports the Angular and AngularJS frameworks.
+The Builder enables you to implement [native Kendo UI for Angular components](https://www.telerik.com/kendo-angular-ui/components/) and [Kendo UI for jQuery widgets, which are integrated with AngularJS](https://docs.telerik.com/kendo-ui/AngularJS/introduction).
 
-Not all properties and functionalities of the Kendo UI components are supported currently.
-The functionalities of the Kendo UI components supported by the Builder might not fully correspond to the functionalities and properties of the Kendo UI components for Angular or of the AngularJS-integrated Kendo UI widgets for jQuery.
-
-For more information on the support of the framework-specific features the Builder supports, refer to the articles on Angular and AngularJS.
+For both frameworks, you can implement Kendo UI components in the Blank view. However, the features and functionalities of the Kendo UI components which are supported by the Builder might not fully correspond to the features and functionalities of the Kendo UI components for Angular or of the AngularJS-integrated Kendo UI widgets for jQuery. For more information on the framework-specific features which the Builder supports, refer to the articles on Angular and AngularJS.
 
 Kendo versions differ with regard to the properties, also some features differ and are built on top of the exisiting ones.
 

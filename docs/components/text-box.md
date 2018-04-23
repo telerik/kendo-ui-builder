@@ -1,12 +1,12 @@
 ---
-title: Text Box
-page_title: Text Box - Components - Kendo UI Builder
-description: "Use and implement the Text Box when working with the Kendo UI Builder tool for creating and managing Angular and AngularJS-based web applications."
+title: TextBox
+page_title: TextBox - Components - Kendo UI Builder
+description: "Use and implement the TextBox when working with the Kendo UI Builder tool for creating and managing Angular and AngularJS-based web applications."
 slug: textbox_kuib
 ---
 
-# Text Box
+# TextBox
 
-The Text Box ...
+The TextBox ...
 
 <!-- screen -->

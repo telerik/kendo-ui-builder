@@ -1,12 +1,12 @@
 ---
-title: URL Text Box
-page_title: URL Text Box - Components - Kendo UI Builder
-description: "Use and implement the URL Text Box when working with the Kendo UI Builder tool for creating and managing Angular and AngularJS-based web applications."
+title: URL TextBox
+page_title: URL TextBox - Components - Kendo UI Builder
+description: "Use and implement the URL TextBox when working with the Kendo UI Builder tool for creating and managing Angular and AngularJS-based web applications."
 slug: urltextbox_kuib
 ---
 
-# URL Text Box
+# URL TextBox
 
-The URL Text Box ...
+The URL TextBox ...
 
 <!-- screen -->

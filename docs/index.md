@@ -22,7 +22,7 @@ For more information on how to use the Kendo UI Builder for creating or updating
 
 Basically, the Builder provides its options through the delivery of [modules](#toc-modules) and [data providers](#toc-data-providers), and [extension points](#toc-extension-points) which enable you to customize specific aspects of the generated application.
 
-<img src="../images/building_blocks_intro_kuib.png" class="img-responsive" alt="The Building Blocks of the Kendo UI Builder"/>
+<img src="images/building_blocks_intro_kuib.png" class="img-responsive" alt="The Building Blocks of the Kendo UI Builder"/>
 
 ### Modules, Views, and Components
 
