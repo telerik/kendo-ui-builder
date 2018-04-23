@@ -1,12 +1,12 @@
 ---
-title: Migration
-page_title: Migration - Setup & Migration - Kendo UI Builder
+title: Status & Migration
+page_title: Status & Migration | Kendo UI Builder
 description: "Migrate existing applications to the Kendo UI Builder tool for creating and managing Angular and AngularJS-based web applications."
 slug: migration_kuib
-position: 3
+position: 10
 ---
 
-# Migration
+# Status & Migration
 
 The Builder provides options for migrating existing applications.
 
@@ -15,14 +15,13 @@ The version of the application metadata might not be supported by the Builder. T
 The available tags are:
 
 * **UpToDate**&mdash;The application was successfully migrated and does not require further actions.
-* **Migration Required**&mdash;The versions of the application and of the Builder metadata differ, and the Designer is not able to automatically update the project metadata to the metadata formats that are supported by the Builder. For more information, refer to the article on [migration]({% slug migration_kuib %}).
-* **Incompatible**&mdash;Indicates that either due to a breaking change, a major difference in the metadata versions exists so that the Builder does not support such a version, or the version of the supported metadata by the Builder is earlier than the metadata version of the application, and the Builder cannot automatically migrate the project. For more information, refer to the article on [migration]({% slug migration_kuib %}).
-* **Unavailable**&mdash;Though the project metadata is present on the Dashboard, the project was removed from its location and, therefore, the Builder is not able to load it. For more information, refer to the article on [migration]({% slug migration_kuib %}).
+* **Migration Required**&mdash;The versions of the application and of the Builder metadata differ, and the Builder is not able to automatically update the project metadata to the metadata formats that it supports.
+* **Incompatible**
+    * The Builder does not support the version of the application metadata because, due to a breaking change, a major difference in the metadata versions exists, or
+    * The Builder cannot automatically migrate the project because the version of the metadata it supports is earlier than the version of the application metadata.
+* **Unavailable**&mdash;Though the project metadata is present on the Dashboard, The project was removed from its location and only its metadata is still present on the Dashboard.  , therefore, the Builder is not able to load it. For more information, refer to the article on [migration]({% slug migration_kuib %}).
 
 
-The available tags are:
-
-* **UpToDate**&mdash;The application was successfully migrated and does not require further actions.
 * **Migration Required**&mdash;The versions of the application and of the Builder metadata differ, and the Designer is not able to automatically update the project metadata to the metadata formats that are supported by the Builder. For more information, refer to the article on [migration]({% slug migration_kuib %}).
 * **Incompatible**&mdash;Indicates that either due to a breaking change, a major difference in the metadata versions exists so that the Builder does not support such a version, or the version of the supported metadata by the Builder is earlier than the metadata version of the application, and the Builder cannot automatically migrate the project.
 
