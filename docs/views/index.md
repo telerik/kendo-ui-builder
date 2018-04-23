@@ -14,7 +14,7 @@ The Views represent the screens for the functions which build up each module.
 <div class="row separator-bottom">
 <div class="col-md-4 card-list-info">
     <h2>System Views</h2>
-    <p>The system views are built-in views which are ready to use as they are and cannot be modified.</p>
+    <p>The system views are built in the App Module. They cannot be deleted and you cannot create new system views. Some of the system view properties can be modified. For example, in the App Layout view you can reorder and modify the layout of the generated application.</p>
 </div>
 <div class="col-md-8">
     <ul class="card-list row">
@@ -67,8 +67,8 @@ The Views represent the screens for the functions which build up each module.
 </div>
 <div class="row separator-bottom">
 <div class="col-md-4 card-list-info">
-    <h2>Predefined Views</h2>
-    <p>The predefined views are built-in and offer a predefined layout which can be modified. They are data-driven and are composed of predefined templates which get populated with data from indicated data sources.</p>
+    <h2>Predefined</h2>
+    <p>The predefined views offer a predefined layout and set of functionalities. The layout cannot be changed but some of the view properties can be modified. For example, you can update the data to which you will bind the Data Grid Form view, configure the columns it will display, or group its fields, but the view will always deliver the Grid to the left and the form field to the right.</p>
 </div>
 <div class="col-md-8">
     <ul class="card-list row">
@@ -113,8 +113,8 @@ The Views represent the screens for the functions which build up each module.
 </div>
 <div class="row separator-bottom">
 <div class="col-md-4 card-list-info">
-    <h2>Custom Views</h2>
-    <p>The custom views are blank views which allow a full-scale customization and implementation of specific project requirements.</p>
+    <h2>Blank</h2>
+    <p>The Blank view is based on the Bootstrap fluid grid system&mdash;you can customize the layout of the Blank view by dragging and dropping rows and columns. The Blank view provides support for implementing predefined and custom-tailored components by dragging and dropping them within the view.</p>
 </div>
 <div class="col-md-8">
     <ul class="card-list row">

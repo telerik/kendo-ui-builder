@@ -8,9 +8,9 @@ position: 1
 
 # Components Overview
 
-The components represent the widgets that will be rendered by the application.
+The components represent the widgets that will be rendered by the web application.
 
-They are part of the [Blank view]({% slug customviews_kuib %}) and you can add them to your project only when you work with that custom view. The Builder supports two types of components&mdash;built-in and ready-to-use, and [custom]({% slug customcomp_kuib %}). The built-in components are either native Kendo UI components for Angular or integrated with AngularJS, or are generally inspired by the Kendo UI suites.
+Components can only be added to and used in the [Blank view]({% slug customviews_kuib %}). The Builder supports two types of components&mdash;built-in and ready-to-use, and [custom]({% slug customcomp_kuib %}). The built-in components are either native Kendo UI components for Angular or integrated with AngularJS, or are generally inspired by the Kendo UI suites.
 
 <div class="container-fluid">
 <div class="row separator-bottom">
@@ -34,8 +34,7 @@ They are part of the [Blank view]({% slug customviews_kuib %}) and you can add t
             </svg>
             <p>Area Charts</p>
         </a>
-    </li>
-        <li class="col-xs-4 col-md-3">
+    </li><li class="col-xs-4 col-md-3">
             <a href="">
                <svg id="area" viewBox="0 0 70 70">
                     <defs>
@@ -90,20 +89,20 @@ They are part of the [Blank view]({% slug customviews_kuib %}) and you can add t
     <ul class="card-list row">
     <li class="col-xs-4 col-md-3">
         <a href="">
-            <svg id="pie" viewBox="0 0 70 70">
+            <svg id="grid" viewBox="0 0 70 70">
                 <path d="..." />
             </svg>
             <p>Grid</p>
         </a>
     </li><li class="col-xs-4 col-md-3">
-            <a href="">
-                <svg id="donut" viewBox="0 0 70 70">
-                    <path d="..." />
-                </svg>
-                <p>List View</p>
-            </a>
-        </li>
-    </ul>
+        <a href="">
+            <svg id="lisview" viewBox="0 0 70 70">
+                <path d="..." />
+            </svg>
+            <p>ListView</p>
+        </a>
+    </li>
+  </ul>
 </div>
 </div>
 <div class="row separator-bottom">
@@ -121,168 +120,168 @@ They are part of the [Blank view]({% slug customviews_kuib %}) and you can add t
             <p>Auto Complete</p>
         </a>
     </li><li class="col-xs-4 col-md-3">
-            <a href="">
-                <svg id="donut" viewBox="0 0 70 70">
-                    <path d="..." />
-                </svg>
-                <p>Boolean Radio Button List</p>
-            </a>
-      </li><li class="col-xs-4 col-md-3">
-              <a href="">
-                  <svg id="donut" viewBox="0 0 70 70">
-                      <path d="..." />
-                  </svg>
-                  <p>Check Box</p>
-              </a>
-          </li><li class="col-xs-4 col-md-3">
-                  <a href="">
-                      <svg id="donut" viewBox="0 0 70 70">
-                          <path d="..." />
-                      </svg>
-                      <p>Combo Box</p>
-                  </a>
-              </li><li class="col-xs-4 col-md-3">
-                      <a href="">
-                          <svg id="donut" viewBox="0 0 70 70">
-                              <path d="..." />
-                          </svg>
-                          <p>Currency Text Box</p>
-                      </a>
-              </li><li class="col-xs-4 col-md-3">
-                      <a href="">
-                          <svg id="donut" viewBox="0 0 70 70">
-                              <path d="..." />
-                          </svg>
-                          <p>Date Picker</p>
-                      </a>
-              </li><li class="col-xs-4 col-md-3">
-                      <a href="">
-                          <svg id="donut" viewBox="0 0 70 70">
-                              <path d="..." />
-                          </svg>
-                          <p>Date Time Picker</p>
-                      </a>
-                </li><li class="col-xs-4 col-md-3">
-                        <a href="">
-                            <svg id="donut" viewBox="0 0 70 70">
-                                <path d="..." />
-                            </svg>
-                            <p>Disabled Text Box</p>
-                        </a>
-                </li><li class="col-xs-4 col-md-3">
-                              <a href="">
-                                  <svg id="donut" viewBox="0 0 70 70">
-                                      <path d="..." />
-                                  </svg>
-                                  <p>Drop Down List</p>
-                              </a>
-                </li><li class="col-xs-4 col-md-3">
-                            <a href="">
-                                <svg id="donut" viewBox="0 0 70 70">
-                                    <path d="..." />
-                                </svg>
-                                <p>Editor</p>
-                            </a>
-                </li><li class="col-xs-4 col-md-3">
-                                  <a href="">
-                                      <svg id="donut" viewBox="0 0 70 70">
-                                          <path d="..." />
-                                      </svg>
-                                      <p>Email Text Box</p>
-                                  </a>
-                </li><li class="col-xs-4 col-md-3">
-                        <a href="">
-                            <svg id="donut" viewBox="0 0 70 70">
-                                <path d="..." />
-                            </svg>
-                            <p>Integer Text Box</p>
-                        </a>
-                </li><li class="col-xs-4 col-md-3">
-                        <a href="">
-                            <svg id="donut" viewBox="0 0 70 70">
-                                <path d="..." />
-                            </svg>
-                            <p>Label</p>
-                        </a>
-                </li><li class="col-xs-4 col-md-3">
-                        <a href="">
-                            <svg id="donut" viewBox="0 0 70 70">
-                                <path d="..." />
-                            </svg>
-                            <p>Masked Text Box</p>
-                        </a>
-                </li><li class="col-xs-4 col-md-3">
-                        <a href="">
-                            <svg id="donut" viewBox="0 0 70 70">
-                                <path d="..." />
-                            </svg>
-                            <p>Numeric Text Box</p>
-                        </a>
-                </li><li class="col-xs-4 col-md-3">
-                        <a href="">
-                            <svg id="donut" viewBox="0 0 70 70">
-                                <path d="..." />
-                            </svg>
-                            <p>Password Text Box</p>
-                        </a>
-                </li><li class="col-xs-4 col-md-3">
-                        <a href="">
-                            <svg id="donut" viewBox="0 0 70 70">
-                                <path d="..." />
-                            </svg>
-                            <p>Percent Text Box</p>
-                        </a>
-                </li><li class="col-xs-4 col-md-3">
-                        <a href="">
-                            <svg id="donut" viewBox="0 0 70 70">
-                                <path d="..." />
-                            </svg>
-                            <p>Percent Value Text Box</p>
-                        </a>
-                </li><li class="col-xs-4 col-md-3">
-                        <a href="">
-                            <svg id="donut" viewBox="0 0 70 70">
-                                <path d="..." />
-                            </svg>
-                            <p>Phone Text Box</p>
-                        </a>
-                </li><li class="col-xs-4 col-md-3">
-                        <a href="">
-                            <svg id="donut" viewBox="0 0 70 70">
-                                <path d="..." />
-                            </svg>
-                            <p>Radio Button List</p>
-                        </a>
-                </li><li class="col-xs-4 col-md-3">
-                        <a href="">
-                            <svg id="donut" viewBox="0 0 70 70">
-                                <path d="..." />
-                            </svg>
-                            <p>Slider</p>
-                        </a>
-                </li><li class="col-xs-4 col-md-3">
-                        <a href="">
-                            <svg id="donut" viewBox="0 0 70 70">
-                                <path d="..." />
-                            </svg>
-                            <p>Text Area</p>
-                        </a>
-                </li><li class="col-xs-4 col-md-3">
-                        <a href="">
-                            <svg id="donut" viewBox="0 0 70 70">
-                                <path d="..." />
-                            </svg>
-                            <p>Text Box</p>
-                        </a>
-                </li><li class="col-xs-4 col-md-3">
-                        <a href="">
-                            <svg id="donut" viewBox="0 0 70 70">
-                                <path d="..." />
-                            </svg>
-                            <p>Time Picker</p>
-                        </a>
-                    </li>
-    </ul>
+        <a href="">
+            <svg id="donut" viewBox="0 0 70 70">
+                <path d="..." />
+            </svg>
+            <p>Boolean Radio Button List</p>
+        </a>
+    </li><li class="col-xs-4 col-md-3">
+        <a href="">
+            <svg id="donut" viewBox="0 0 70 70">
+                <path d="..." />
+            </svg>
+            <p>Check Box</p>
+        </a>
+    </li><li class="col-xs-4 col-md-3">
+        <a href="">
+            <svg id="donut" viewBox="0 0 70 70">
+                <path d="..." />
+            </svg>
+            <p>ComboBox</p>
+        </a>
+    </li><li class="col-xs-4 col-md-3">
+        <a href="">
+            <svg id="donut" viewBox="0 0 70 70">
+                <path d="..." />
+            </svg>
+            <p>Currency TextBox</p>
+        </a>
+    </li><li class="col-xs-4 col-md-3">
+        <a href="">
+            <svg id="donut" viewBox="0 0 70 70">
+                <path d="..." />
+            </svg>
+            <p>DatePicker</p>
+        </a>
+    </li><li class="col-xs-4 col-md-3">
+        <a href="">
+            <svg id="donut" viewBox="0 0 70 70">
+                <path d="..." />
+            </svg>
+            <p>DateTimePicker</p>
+        </a>
+    </li><li class="col-xs-4 col-md-3">
+        <a href="">
+            <svg id="donut" viewBox="0 0 70 70">
+                <path d="..." />
+            </svg>
+            <p>Disabled TextBox</p>
+        </a>
+    </li><li class="col-xs-4 col-md-3">
+        <a href="">
+            <svg id="donut" viewBox="0 0 70 70">
+                <path d="..." />
+            </svg>
+            <p>DropDownList</p>
+        </a>
+    </li><li class="col-xs-4 col-md-3">
+        <a href="">
+            <svg id="donut" viewBox="0 0 70 70">
+                <path d="..." />
+            </svg>
+            <p>Editor</p>
+        </a>
+    </li><li class="col-xs-4 col-md-3">
+        <a href="">
+            <svg id="donut" viewBox="0 0 70 70">
+                <path d="..." />
+            </svg>
+            <p>Email TextBox</p>
+        </a>
+    </li><li class="col-xs-4 col-md-3">
+        <a href="">
+            <svg id="integertextbox" viewBox="0 0 70 70">
+                <path d="..." />
+            </svg>
+            <p>Integer TextBox</p>
+        </a>
+    </li><li class="col-xs-4 col-md-3">
+        <a href="">
+            <svg id="label" viewBox="0 0 70 70">
+                <path d="..." />
+            </svg>
+            <p>Label</p>
+        </a>
+    </li><li class="col-xs-4 col-md-3">
+        <a href="">
+            <svg id="askedtexbox" viewBox="0 0 70 70">
+                <path d="..." />
+            </svg>
+            <p>MaskedTextBox</p>
+        </a>
+    </li><li class="col-xs-4 col-md-3">
+        <a href="">
+            <svg id="donut" viewBox="0 0 70 70">
+                <path d="..." />
+            </svg>
+            <p>NumericTextBox</p>
+        </a>
+    </li><li class="col-xs-4 col-md-3">
+        <a href="">
+            <svg id="donut" viewBox="0 0 70 70">
+                <path d="..." />
+            </svg>
+            <p>Password TextBox</p>
+        </a>
+    </li><li class="col-xs-4 col-md-3">
+        <a href="">
+            <svg id="donut" viewBox="0 0 70 70">
+                <path d="..." />
+            </svg>
+            <p>Percent TextBox</p>
+        </a>
+    </li><li class="col-xs-4 col-md-3">
+        <a href="">
+            <svg id="donut" viewBox="0 0 70 70">
+                <path d="..." />
+            </svg>
+            <p>Percent Value TextBox</p>
+        </a>
+    </li><li class="col-xs-4 col-md-3">
+        <a href="">
+            <svg id="donut" viewBox="0 0 70 70">
+                <path d="..." />
+            </svg>
+            <p>Phone TextBox</p>
+        </a>
+    </li><li class="col-xs-4 col-md-3">
+        <a href="">
+            <svg id="donut" viewBox="0 0 70 70">
+                <path d="..." />
+            </svg>
+            <p>Radio Button List</p>
+        </a>
+    </li><li class="col-xs-4 col-md-3">
+        <a href="">
+            <svg id="donut" viewBox="0 0 70 70">
+                <path d="..." />
+            </svg>
+            <p>Slider</p>
+        </a>
+    </li><li class="col-xs-4 col-md-3">
+        <a href="">
+            <svg id="donut" viewBox="0 0 70 70">
+                <path d="..." />
+            </svg>
+            <p>TextArea</p>
+        </a>
+    </li><li class="col-xs-4 col-md-3">
+        <a href="">
+            <svg id="donut" viewBox="0 0 70 70">
+                <path d="..." />
+            </svg>
+            <p>TextBox</p>
+        </a>
+    </li><li class="col-xs-4 col-md-3">
+        <a href="">
+            <svg id="donut" viewBox="0 0 70 70">
+                <path d="..." />
+            </svg>
+            <p>Time Picker</p>
+        </a>
+    </li>
+  </ul>
 </div>
 </div>
 <div class="row separator-bottom">
@@ -300,87 +299,91 @@ They are part of the [Blank view]({% slug customviews_kuib %}) and you can add t
             <p>Row</p>
           </a>
         </li><li class="col-xs-4 col-md-3">
-            <a href="">
-                <svg id="pie" viewBox="0 0 70 70">
-                    <path d="..." />
-                </svg>
-                <p>Col</p>
-              </a>
-            </li>
-      </ul>
-    </div>
-    <div class="row separator-bottom">
-    <div class="col-md-4 card-list-info">
-        <h2>Media</h2>
-        <p>The Media components display visual or dynamic content in a user-friendly way..</p>
-    </div>
-    <div class="col-md-8">
-        <ul class="card-list row">
-        <li class="col-xs-4 col-md-3">
-            <a href="">
-                <svg id="pie" viewBox="0 0 70 70">
-                    <path d="..." />
-                </svg>
-                <p>Image</p>
-              </a>
-            </li>
-          </ul>
-        </div>
-        <div class="row separator-bottom">
-        <div class="col-md-4 card-list-info">
-            <h2>Navigation</h2>
-            <p>The Navigation components display data in a particular, usually hierarchical, order so that it is easier to trace the relations between the data.</p>
-        </div>
-        <div class="col-md-8">
-            <ul class="card-list row">
-            <li class="col-xs-4 col-md-3">
-                <a href="">
-                    <svg id="pie" viewBox="0 0 70 70">
-                        <path d="..." />
-                    </svg>
-                    <p>Button</p>
-                  </a>
-            </li><li class="col-xs-4 col-md-3">
-                <a href="">
-                    <svg id="pie" viewBox="0 0 70 70">
-                        <path d="..." />
-                    </svg>
-                    <p>Expander</p>
-                  </a>
-            </li><li class="col-xs-4 col-md-3">
-                <a href="">
-                    <svg id="pie" viewBox="0 0 70 70">
-                        <path d="..." />
-                    </svg>
-                    <p>Tab Strip</p>
-                  </a>
-            </li><li class="col-xs-4 col-md-3">
-                <a href="">
-                    <svg id="pie" viewBox="0 0 70 70">
-                        <path d="..." />
-                    </svg>
-                    <p>Toolbar</p>
-                  </a>
-                </li>
-              </ul>
-            </div>
-            <div class="row separator-bottom">
-            <div class="col-md-4 card-list-info">
-                <h2>Schedulers</h2>
-                <p>The Schedulers display and help manage tasks and appointments.</p>
-            </div>
-            <div class="col-md-8">
-                <ul class="card-list row">
-                <li class="col-xs-4 col-md-3">
-                    <a href="">
-                        <svg id="pie" viewBox="0 0 70 70">
-                            <path d="..." />
-                        </svg>
-                        <p>Calendar</p>
-                      </a>
-                </li>
-            </ul>
-          </div>
+          <a href="">
+              <svg id="pie" viewBox="0 0 70 70">
+                  <path d="..." />
+              </svg>
+              <p>Col</p>
+          </a>
+      </li>
+  </ul>
+</div>
+</div>
+<div class="row separator-bottom">
+<div class="col-md-4 card-list-info">
+    <h2>Media</h2>
+    <p>The Media components display visual or dynamic content in a user-friendly way.</p>
+</div>
+<div class="col-md-8">
+    <ul class="card-list row">
+    <li class="col-xs-4 col-md-3">
+        <a href="">
+            <svg id="pie" viewBox="0 0 70 70">
+                <path d="..." />
+            </svg>
+            <p>Image</p>
+       </a>
+    </li>
+  </ul>
+</div>
+</div>
+<div class="row separator-bottom">
+<div class="col-md-4 card-list-info">
+  <h2>Navigation</h2>
+  <p>The Navigation components display data in a particular, usually hierarchical, order so that it is easier to trace the relations between the data.</p>
+</div>
+<div class="col-md-8">
+  <ul class="card-list row">
+  <li class="col-xs-4 col-md-3">
+      <a href="">
+          <svg id="pie" viewBox="0 0 70 70">
+              <path d="..." />
+          </svg>
+          <p>Button</p>
+        </a>
+  </li><li class="col-xs-4 col-md-3">
+      <a href="">
+          <svg id="pie" viewBox="0 0 70 70">
+              <path d="..." />
+          </svg>
+          <p>Expander</p>
+        </a>
+  </li><li class="col-xs-4 col-md-3">
+      <a href="">
+          <svg id="pie" viewBox="0 0 70 70">
+              <path d="..." />
+          </svg>
+          <p>Tab Strip</p>
+        </a>
+  </li><li class="col-xs-4 col-md-3">
+      <a href="">
+          <svg id="pie" viewBox="0 0 70 70">
+              <path d="..." />
+          </svg>
+          <p>Toolbar</p>
+        </a>
+      </li>
+    </ul>
+</div>
+</div>
+<div class="row separator-bottom">
+<div class="col-md-4 card-list-info">
+      <h2>Schedulers</h2>
+      <p>The Schedulers display and help manage tasks and appointments.</p>
+</div>
+<div class="col-md-8">
+      <ul class="card-list row">
+      <li class="col-xs-4 col-md-3">
+          <a href="">
+              <svg id="pie" viewBox="0 0 70 70">
+                  <path d="..." />
+              </svg>
+              <p>Calendar</p>
+            </a>
+      </li>
+  </ul>
+</div>
+</div>
 <div class="row separator-bottom">
 <div class="col-md-4 card-list-info">
     <h2>Custom</h2>
@@ -397,6 +400,6 @@ They are part of the [Blank view]({% slug customviews_kuib %}) and you can add t
           </a>
         </li>
       </ul>
-    </div>
+</div>
 </div>
 </div>

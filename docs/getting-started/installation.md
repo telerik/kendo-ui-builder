@@ -12,7 +12,7 @@ To start using the Kendo UI Builder, provide the [prerequisites](#toc-prerequisi
 
 ## Prerequisites
 
-* Windows (x64)
+* For Windows, Windows (x64). For Mac, Mac OS ...
 * Node.js v6 or later
 
 ## Installation

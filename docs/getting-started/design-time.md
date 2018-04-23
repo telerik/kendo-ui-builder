@@ -10,7 +10,7 @@ position: 3
 
 From its **App Design** page, the Builder enables you to set and update application properties and to add and edit its modules and data providers.  
 
-## Managing Application Settings
+## Managing Applications
 
 The **App Design** page provides options for creating or deleting an application, editing its properties, and defining user roles.
 
@@ -53,7 +53,7 @@ The **App Design** page provides options for creating or deleting an application
 
 ...
 
-## Managing Module Settings
+## Managing Modules
 
 By default, the **App Design** page provides the built-in App Module which contains the Login, Landing Page, Unauthorized, and App Layout views. For more information, refer to the articles on [modules]({% slug modulesoverview_kuib %}) and [views]({% slug viewsoverview_kuib %}).
 
@@ -82,11 +82,11 @@ By default, the **App Design** page provides the built-in App Module which conta
 1. On the **App Design** page, go to the card of the module.
 1. Open the **Gear** drop-down options list and select **Delete**.
 
-### Reordering Modules 
+### Reordering Modules
 
 The order of the modules on the **App Design** page corresponds to the order in which they will be rendered by the application at runtime. To reorder the modules, drag and drop them within the list.
 
-## Managing Data Provider Settings
+## Managing Data Providers
 
 The **App Design** page provides the options to define the settings for the data providers. For more information, refer to the article on [data providers]({% slug dataprovidersoverview_kuib %}).
 

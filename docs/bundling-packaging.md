@@ -1,6 +1,6 @@
 ---
 title: Bundling & Packaging
-page_title: Bundling & Packaging - Setup & Migration - Kendo UI Builder
+page_title: Bundling & Packaging | Kendo UI Builder
 description: "Bundle and package the generated applications when working with the Kendo UI Builder tool for creating and managing Angular and AngularJS-based web applications."
 slug: bundlepackage_kuib
 position: 12
@@ -14,6 +14,6 @@ Generate to generate the HTML and JavaScript source code for the app based on th
 * Debug: Test deployment on a web server.
 * Release: Production deployment on a web server.
 
-command line mode !! podavash mu deployment tool i toi go puska tam 
+command line mode !! podavash mu deployment tool i toi go puska tam
 
 ## Suggested Links

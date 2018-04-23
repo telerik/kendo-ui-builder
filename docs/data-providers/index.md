@@ -8,7 +8,7 @@ position: 1
 
 # Data Providers Overview
 
-Data providers are data services which provide access to the data sources you want to render to support the associated business logic of your project.
+Data providers enable services for establishing the connection between the data you want to display and the data source you want to use. 
 
 Each data provider is represented by a single service URI. While a data provider defines one data service, you can still define one or more data sources from the same data service to a single data provider. You can also create multiple data providers.
 
