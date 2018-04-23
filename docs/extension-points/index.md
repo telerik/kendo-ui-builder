@@ -8,6 +8,10 @@ position: 1
 
 # Extension Points Overview
 
-...
+The extension points are exposed properties which allow the customization of the web application.
+
+
+
+
 
 ## Suggested Links

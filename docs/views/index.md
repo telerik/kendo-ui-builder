@@ -129,4 +129,3 @@ The Views represent the screens for the functions which build up each module.
       </ul>
     </div>
 </div>
-</div>

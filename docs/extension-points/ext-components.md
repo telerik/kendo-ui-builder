@@ -8,6 +8,8 @@ position: 3
 
 # Extending Components
 
-...
+
+
+// how to customize the components - scenario? 
 
 ## Suggested Links

@@ -8,6 +8,12 @@ position: 2
 
 # Extending Views
 
-...
+// how to customize a view - scenario?
+
+## Styles
+
+When you create a view, the Builder generates a custom `.css` file in which you can define specific styles for that view and edit them through the **Edit CSS** button. To use the view styles, define the CSS classes for the view by utilizing the `list` CSS class property.
+
+
 
 ## Suggested Links

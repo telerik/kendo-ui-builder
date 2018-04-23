@@ -403,3 +403,7 @@ Components can only be added to and used in the [Blank view]({% slug customviews
 </div>
 </div>
 </div>
+
+## Suggested Links
+
+* [Blank View]({% slug customviews_kuib %})

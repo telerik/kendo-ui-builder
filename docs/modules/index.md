@@ -8,8 +8,12 @@ position: 1
 
 # Modules Overview
 
-Modules are the building blocks of your application.
+Modules represent the functional units of the web application and are collections of views.
 
-They represent a single business function, such as an order entry or inventory, which are later packaged into a single application. By default, when you start creating an application, the Builder loads the [Application Module](). It consists of two system views which serve as a starting point&mdash;a customizable log-in screen and a landing page.
+By default, the Builder provides a built-in App Module for each application once it is created. For more information, refer to the article on the [App Module]({% slug appmodule_kuib %}).
+
+Depending on the requirements of your project, you can create additional modules and add one or more views to each of them.  
+
+// screen? 
 
 ## Suggested Links

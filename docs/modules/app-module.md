@@ -8,13 +8,12 @@ position: 2
 
 # Application Module
 
-With the creation of each application, the Builder delivers the App Module which cannot be deleted.
+With the creation of each application, the Builder provides the App Module.
 
-It contains the App Layout, Landing Page, Login, and Unauthorized Page views.
+It contains the App Layout, Landing Page, Login, and Unauthorized Page system views.
 
 > The App Module cannot be deleted.
 
-You can create new and additional modules which can also contain one or more views. 
-
+// screen?
 
 ## Suggested Links
