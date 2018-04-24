@@ -37,4 +37,5 @@ The **Output** bar displays the log messages which are intended to facilitate th
 * [Installing the Kendo UI Builder]({% slug getstarted_kuib %})
 * [Designing the Application]({% slug designingtheapp_kuib %})
 * [Debugging and Releasing]({% slug debugging_kuib %})
+* [Basic Approaches for Building Applications]({% slug fewclicks_kuib %})
 * [Managing the Application Status and Migration]({% slug migration_kuib %})

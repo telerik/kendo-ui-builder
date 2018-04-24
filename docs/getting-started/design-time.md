@@ -122,3 +122,4 @@ The **App Design** page provides the options to define the settings for the data
 * [Installing the Kendo UI Builder]({% slug getstarted_kuib %})
 * [Dashboard]({% slug dashboard_kuib %})
 * [Debugging the Application]({% slug debugging_kuib %})
+* [Basic Approaches for Building Applications]({% slug fewclicks_kuib %})

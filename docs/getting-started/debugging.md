@@ -34,3 +34,4 @@ To debug your project:
 * [Installing the Kendo UI Builder]({% slug getstarted_kuib %})
 * [Dashboard]({% slug dashboard_kuib %})
 * [Designing the Application]({% slug designingtheapp_kuib %})
+* [Basic Approaches for Building Applications]({% slug fewclicks_kuib %})
