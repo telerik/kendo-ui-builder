@@ -14,6 +14,6 @@ By default, the Builder provides a built-in App Module for each application once
 
 Depending on the requirements of your project, you can create additional modules and add one or more views to each of them.  
 
-// screen? 
+// screen?
 
 ## Suggested Links

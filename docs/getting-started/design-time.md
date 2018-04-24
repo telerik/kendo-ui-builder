@@ -59,9 +59,15 @@ By default, the **App Design** page provides the built-in App Module which conta
 
 ### Adding Modules
 
+you can customize the mosule by adding an icon and colors for the background and the icon.
+the name of the modules is restrictive - error message `Invalid format. Only letters, numbers, "_" and "-" are allowed. Name can't start with digit or dash and should contain at least one letter.`
+The label is the name that is displayed in the menu and the landing page of the generated app.
+description apperas as a tooltip in the lanfding page of the generated app.
+only the name is required.
+
 1. On the **App Design** page, click **Add Module**. As a result, the **Add Module** dialog box appears.
 1. Provide the name of the module (**Name**).
-1. Define the label of the module (**Label**).
+1. (Optional) Define the label of the module (**Label**).
 1. (Optional) Provide a description of the project (**Description**).
 1. Define the access rights (**Roles**).
 1. Click **Add Module** to close the **Add Module** dialog box. As a result, the **App Design** page displays the card for your new module with its defined properties.
