@@ -35,7 +35,7 @@ The views provide the settings and functionalities that are available for each a
 * The Builder also allows you to implement custom views you have created.   
 
 The components can be used in the Blank view only.  
-* The [built-in components]({% slug overviewcomp_kuib %}) are built-in and offer a predefined set of functionalities. Based on the similar features they deliver, the components are grouped into subsets such as Data Management or Layout components.
+* The [built-in components]({% slug overviewcomp_kuib %}) offer a predefined set of functionalities. Based on the similar features they deliver, the components are grouped into subsets such as Data Management or Layout components.
 * The Builder also allows you to implement custom components you have created.   
 
 ### Data Providers
