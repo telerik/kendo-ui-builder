@@ -30,12 +30,12 @@ The modules are the functional units of the web application and each module repr
 
 The views provide the settings and functionalities that are available for each application page.
 * The [system views]({% slug viewsoverview_kuib %}#toc-system) are built-in views located in the App Module.
-* The [predefined views]({% slug viewsoverview_kuib %}#toc-predefined) offer a predefined layout which cannot be modified. They aim at facilitating the implementation of the most common use cases.
+* The [built-in views]({% slug viewsoverview_kuib %}#toc-predefined) offer a predefined layout which cannot be modified. They aim at facilitating the implementation of the most common use cases.
 * The [user-defined view]({% slug viewsoverview_kuib %}#toc-blank) is the Blank view. It allows you to add, edit, or remove both predefined and custom components, and to modify its layout and functionalities according to the requirements of your business project.  
 * The Builder also allows you to implement custom views you have created.   
 
 The components can be used in the Blank view only.  
-* The [predefined components]({% slug overviewcomp_kuib %}) are built-in and offer a predefined set of functionalities. Based on the similar features they deliver, the components are grouped into subsets such as Data Management or Layout components.
+* The [built-in components]({% slug overviewcomp_kuib %}) are built-in and offer a predefined set of functionalities. Based on the similar features they deliver, the components are grouped into subsets such as Data Management or Layout components.
 * The Builder also allows you to implement custom components you have created.   
 
 ### Data Providers
@@ -52,16 +52,6 @@ The extension points are the properties which allow you to customize parts of th
 * The [custom code]({% slug extendingcode_kuib %}) represents the extension point for customizing the backend of the application.  
 * The [custom views]({% slug extendingviews_kuib %}) represent the extension points for customizing the views of the application.
 * The [custom components]({% slug extendingcomponents_kuib %}) represent the extension points for customizing the components of the application.
-
-## Approaches for Building Applications
-
-The data definitions of the application are stored in JSON metadata that is separate from the UI implementation. The metadata is then used by the integrated Generator to compile the HTML5, CSS, and JavaScript files that are built for and used by the application. The generation of the application also allows you to immediately preview the project in the Builder by applying live data. For further development testing and production, you can then deploy the application to separate web servers.
-
-To create functional views within one or more modules, you need to include a set of Kendo UI or custom components. Each module can contain one or more user-defined (custom) views and, depending on the data you want to render, you can bind each view to one or more data sources. The Builder allows you to define multiple data providers for an application&mdash;depending on the specific view, you can select one or more data providers and bind that view to a portion of the data or to all the data from a data source. As a result, some views can be bound to one data source at a time while others can be bound to multiple data sources.
-
-By using their corresponding properties, you can configure the [modules]({% slug modulesoverview_kuib %}) and their [views]({% slug viewsoverview_kuib %}), and the [data providers]({% slug dataprovidersoverview_kuib %}) and their [data sources]({% slug datasources_kuib %}). These properties help define the application metadata which is separately saved for each module and data provider that you define.
-
-You can also customize each view through code extensions, which manage its event handlers, and the custom sections in the view layout. Other available extension points relate to the customization of themes, CSS, and components.
 
 ## Suggested Links
 
