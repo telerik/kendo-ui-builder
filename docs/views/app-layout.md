@@ -7,6 +7,11 @@ slug: applayout_kuib
 
 # App Layout View
 
-...
+layout of the whole app
+nside its content, the other views are embedded, as a placeholder for all
+has the status of a blank - allows drag and drop columns and rows, - view plus specific components (navigation) which are in addition
+
+
+// screen  
 
 ## Suggested Links

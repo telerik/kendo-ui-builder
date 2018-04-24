@@ -10,10 +10,6 @@ position: 1
 
 Data providers enable services for establishing the connection between the data you want to display and the data source you want to use.
 
-Each data provider is represented by a single service URI. While a data provider defines one data service, you can still define one or more data sources from the same data service to a single data provider. You can also create multiple data providers.
-
-A data service is defined by a JSON file on the web server and you can specify it by using its URI. The data provider definition also identifies the authentication model which is required to access the data server (web application) it supports.
-
 <div class="container-fluid">
 <div class="row separator-bottom">
 <div class="col-md-4 card-list-info">

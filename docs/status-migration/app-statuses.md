@@ -1,12 +1,12 @@
 ---
-title: Status & Migration
-page_title: Status & Migration | Kendo UI Builder
-description: "Migrate existing applications to the Kendo UI Builder tool for creating and managing Angular and AngularJS-based web applications."
-slug: migration_kuib
-position: 10
+title: Application Statuses
+page_title: Application Statuses - Status & Migration - Kendo UI Builder
+description: "Handle the status of your application so that it is up to date when working with the Kendo UI Builder tool."
+slug: status_kuib
+position: 1
 ---
 
-# Application Statuses & Migration
+# Application Statuses
 
 You can migrate existing and imported applications to the Builder.
 

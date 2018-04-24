@@ -8,12 +8,12 @@ position: 1
 
 # Modules Overview
 
-Modules represent the functional units of the web application and are collections of views.
+The modules are the functional units of the web application and represent collections of views.
 
-By default, the Builder provides a built-in App Module for each application once it is created. For more information, refer to the article on the [App Module]({% slug appmodule_kuib %}).
+Depending on the requirements of your project, you can add one or more views to each of the modules you create. For more information on how to create, edit, or delete a module, refer to the article on [designing the application]({% slug designingtheapp_kuib %}#toc-managing-modules).
 
-Depending on the requirements of your project, you can create additional modules and add one or more views to each of them.  
+The App Module is the default built-in module that the Builder adds to each newly created application. For more information, refer to the article on the [App Module]({% slug appmodule_kuib %}).
 
-// screen?
+// screen
 
 ## Suggested Links

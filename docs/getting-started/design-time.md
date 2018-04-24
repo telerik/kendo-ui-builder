@@ -8,11 +8,11 @@ position: 3
 
 # Designing the Application
 
-From its **App Design** page, the Builder enables you to set and update application properties and to add and edit its modules and data providers.  
+The Builder enables you to set and update application properties and to add and edit its modules and data providers.  
 
-## Managing Applications
+## Application Settings
 
-The **App Design** page provides options for creating or deleting an application, editing its properties, and defining user roles.
+The **Dashboard** page provides options for creating or deleting an application, editing its properties, and defining user roles.
 
 ### Creating Applications
 
@@ -29,7 +29,7 @@ The **App Design** page provides options for creating or deleting an application
 ### Editing Application Properties
 
 1. On the **App Design** page, go to the card of the application.
-1. Open the **Gear** drop-down options list and select **Properties**. As a result, the **Edit App** dialog box opens.
+1. Open the **Settings** drop-down options list and select **Properties**. As a result, the **Edit App** dialog box opens.
 1. In **Edit App**, update the properties you want.
 1. Click **Save** to save your changes, or click **Cancel** to discard your updates.
 
@@ -38,9 +38,9 @@ The **App Design** page provides options for creating or deleting an application
 ### Deleting Applications
 
 1. On the Dashboard, go to the card of the application.
-1. Open the **Gear** drop-down options list and select **Delete**.
+1. Open the **Settings** drop-down options list and select **Delete**.
 
-> Apart from the delete operation, the **Gear** menu on the application card provides options for duplicating, exporting, removing, and revealing the application. For more information, refer to the documentation on the [application status and migration]({% slug migration_kuib %}).
+> Apart from the delete operation, the **Settings** menu on the application card provides other options for managing the Builder projects. For more information, refer to the documentation on the [application status and migration]({% slug migration_kuib %}).
 
 ### Defining User Roles
 
@@ -53,7 +53,7 @@ The **App Design** page provides options for creating or deleting an application
 
 ...
 
-## Managing Modules
+## Module Settings
 
 By default, the **App Design** page provides the built-in App Module which contains the Login, Landing Page, Unauthorized, and App Layout views. For more information, refer to the articles on [modules]({% slug modulesoverview_kuib %}) and [views]({% slug viewsoverview_kuib %}).
 
@@ -92,7 +92,7 @@ only the name is required.
 
 The order of the modules on the **App Design** page corresponds to the order in which they will be rendered by the application at runtime. To reorder the modules, drag and drop them within the list.
 
-## Managing Data Providers
+## Data Provider Settings
 
 The **App Design** page provides the options to define the settings for the data providers. For more information, refer to the article on [data providers]({% slug dataprovidersoverview_kuib %}).
 
@@ -106,6 +106,10 @@ The **App Design** page provides the options to define the settings for the data
 1. (Optional) By default, the automatic creation of data sources is activated. To set it to manual, uncheck the **Auto-create Data Sources** checkbox.
 1. Set the authentication type of the user roles by selecting an option from the **Authentication Type** drop-down list.
 1. Click **Add Data Provider** to close the **Add Data Provider** dialog box. As a result, the **App Design** page displays the card for your new data provider with its defined properties.
+
+if you do nnot select the default auto create data source, youhave ti set it manually,
+do not support the setting of relations betwen the data sources when you add them manually.
+after the geeration each data source is mapped to each Kendo UI data source in angJS, in ang mapped to the ds that are provided by the Builder plus the respective crud operations, error handling, etc. 
 
 // screen
 

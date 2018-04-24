@@ -7,7 +7,12 @@ slug: stackeddatagrids_kuib
 
 # Stacked Data Grids View
 
-...
+master detail grid
+visible always initially
+selection of the first is always selected
 
+similar to hierarchy but all are visible, selection cannot be lost
+
+// screen 
 
 ## Suggested Links

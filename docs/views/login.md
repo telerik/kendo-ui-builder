@@ -7,6 +7,9 @@ slug: login_kuib
 
 # Login View
 
+system view
+some of its properties can be edited vie the property grid (tollbar on the right, there are exposed the ones that can be changed)
+
 The Login view, together with the Landing Page view, is built-in and is initially available as part of the Application Module.
 
 ## Suggested Links

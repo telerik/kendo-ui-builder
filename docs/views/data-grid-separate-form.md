@@ -7,6 +7,10 @@ slug: datagridseparateform_kuib
 
 # Data Grid Separate Form View
 
-...
+the and the grid form are 100 % of the view
+when the form is on, the grid ishidden
+readonly and readonly-to-edit mode - click the row of the grid, see the fomr in view mode, then edit button to edit the form
+
+// screen 
 
 ## Suggested Links

@@ -8,8 +8,8 @@ position: 3
 
 # Extending Components
 
+differences between ang and angjs
 
-
-// how to customize the components - scenario? 
+// how to customize the components - scenario?
 
 ## Suggested Links

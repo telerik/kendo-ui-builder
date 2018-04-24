@@ -7,6 +7,11 @@ slug: customviews_kuib
 
 # Blank View
 
+empty view, drag and drop all you want
+plus nth number of data sources you can bind to
+
+templates all that we have predefined components 
+
 Blank views are views which allow you to create your own custom view by dragging and dropping rows and columns to create a layout and then adding functional components to it.
 
 The Blank view template supports a variety of components for you to define a view instance, including layout (rows and columns), data management (e.g., editable Grid), editor (e.g., Text Box), scheduling (e.g., Calendar), navigation (e.g., Toolbar), and custom HTML components. With these components you can implement a wide variety of view instances with a look and feel limited only by the components that you include and the layouts you specify.

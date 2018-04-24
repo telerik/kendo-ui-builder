@@ -8,6 +8,13 @@ position: 5
 
 # Data Sources
 
+all is data sources
+an abstraction for the data - meta description for the data the endpoint returns
+
+Each data provider is represented by a single service URI. While a data provider defines one data service, you can still define one or more data sources from the same data service to a single data provider. You can also create multiple data providers.
+
+A data service is defined by a JSON file on the web server and you can specify it by using its URI. The data provider definition also identifies the authentication model which is required to access the data server (web application) it supports.
+
 The data sources are the datasets that you render in the application and are located within the data providers.
 
 They represent tables from the single data service that you can bind to views. This data service can be a single point of authentication for one or more services and represents the URI of a server web application that supports the specified services.

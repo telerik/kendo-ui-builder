@@ -8,6 +8,16 @@ position: 4
 
 # REST
 
+you can write regardless of the framework, just you need to have the endpoint to call it
+every source for th ecrud operation defines its own endpoint
+
+the data provider - supports base url, so that you can define them for each data asource and each data operation
+
+builder does not support hierarchy data sources, you can call the service but cannot reklate it through the builder
+
+has many options not just update create etc
+manually to add all fields - set types, editors, because it does not contain metadata and builder has no schema of the data.  
+
 ## Adding a Generic REST Data Service
 
 1. Click Add Data Provider on the app design page. This displays the Add Data Provider dialog.

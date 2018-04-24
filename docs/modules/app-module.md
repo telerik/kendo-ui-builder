@@ -8,12 +8,15 @@ position: 2
 
 # Application Module
 
-With the creation of each application, the Builder provides the App Module.
+The Builder adds an App Module each time you create a new application.
 
-It contains the App Layout, Landing Page, Login, and Unauthorized Page system views.
+The App Module contains the built-in [App Layout]({% slug applayout_kuib %}), [Landing Page]({% slug landingpage_kuib %}), [Login]({% slug login_kuib %}), and [Unauthorized Page]({% slug unauthorized_kuib %}) system views.
 
-> The App Module cannot be deleted and has no roles.
+> The App Module cannot be deleted and does not provide options for setting user roles.
 
-// screen?
+// screen
 
 ## Suggested Links
+
+* [Overview of Modules]({% slug %})
+* [Handling Module Settings]({% slug %}#toc-module-settings)
