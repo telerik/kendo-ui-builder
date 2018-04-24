@@ -1,12 +1,12 @@
 ---
-title: With Just a Few Clicks
-page_title: With Just a Few Clicks | Kendo UI Builder
+title: With a Few Clicks
+page_title: With a Few Clicks | Kendo UI Builder
 description: "Learn the basic approaches you can apply to easily and quickly build your web application with the Kendo UI Builder."
 slug: fewclicks_kuib
-position: 4
+position: 5
 ---
 
-# With Just a Few Clicks
+# With a Few Clicks
 
 The development process of web applications with the Builder aims at applying approaches that are easy to grasp and put into practice.
 
