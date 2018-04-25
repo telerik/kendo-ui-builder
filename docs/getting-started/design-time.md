@@ -8,32 +8,35 @@ position: 3
 
 # Designing the Application
 
-The Builder enables you to set and update application properties and to add and edit its modules and data providers.  
+The Builder enables you to set and update application properties and to add and edit its modules and data providers.
+
+> All **Name** fields are restrictive. If the symbols you placed in them are not supported, the following error message is displayed: `Invalid format. Only letters, numbers, "_" and "-" are allowed. Name can't start with digit or dash and should contain at least one letter.`
 
 ## Application Settings
 
-The **Dashboard** page provides options for creating or deleting an application, editing its properties, and defining user roles.
+The Dashboard provides options for creating or deleting an application, editing its properties, and defining user roles.
 
 ### Creating Applications
 
-1. On the Dashboard, select the **Create App** option. As a result, the **Create App** page opens.
-1. On the **Create App** page, select the framework by clicking on it (**Target Framework**).
-1. Provide the name of the project (**Name**).
-1. Select the theme from the drop-down options list (**Theme**).
-1. Set the location (**Location**).
-1. (Optional) Provide a description of the project (**Description**).
-1. Click **Save** to close the **Create App** dialog box. As a result, the Dashboard displays the card for your new project with its defined properties.
+1. On the Dashboard, select the **Create App** option. As a result, the **Create App** dialog box opens.
+1. In **Create App** > **Target Framework**, select the framework by clicking on the option.
+1. In **Name**, provide the name of the project.
+1. In **Theme**, select the theme from the drop-down options list.
+1. In **Location**, set the location.
+1. (Optional) In **Description**, provide a short description of the project.
+1. Click **Save** to close the **Create App** dialog box. As a result, the Dashboard displays the card for your new project with the properties you defined.
 
-// screen
+// screen?
 
 ### Editing Application Properties
 
-1. On the **App Design** page, go to the card of the application.
-1. Open the **Settings** drop-down options list and select **Properties**. As a result, the **Edit App** dialog box opens.
+1. On the Dashboard, go to the card of the application.
+1. Click the **Settings** icon to open the drop-down options list.
+1. Select **Properties**. As a result, the **Edit App** dialog box opens.
 1. In **Edit App**, update the properties you want.
-1. Click **Save** to save your changes, or click **Cancel** to discard your updates.
+1. Click **Save** to save or **Cancel** to discard your changes.
 
-// screen  
+// screen?
 
 ### Deleting Applications
 
@@ -109,7 +112,7 @@ The **App Design** page provides the options to define the settings for the data
 
 if you do nnot select the default auto create data source, youhave ti set it manually,
 do not support the setting of relations betwen the data sources when you add them manually.
-after the geeration each data source is mapped to each Kendo UI data source in angJS, in ang mapped to the ds that are provided by the Builder plus the respective crud operations, error handling, etc. 
+after the geeration each data source is mapped to each Kendo UI data source in angJS, in ang mapped to the ds that are provided by the Builder plus the respective crud operations, error handling, etc.
 
 // screen
 

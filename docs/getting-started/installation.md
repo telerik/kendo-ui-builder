@@ -12,10 +12,14 @@ To start using the Kendo UI Builder, provide the [prerequisites](#toc-prerequisi
 
 ## Prerequisites
 
+// TODO
+
 * For Windows, Windows (x64). For Mac, Mac OS ...
 * Node.js v6 or later
 
 ## Installation
+
+// TODO
 
 > By default, the installation of the Builder interrupts all running application instances&mdash;to avoid possible data loss, stop such running instances if any.
 
@@ -36,6 +40,8 @@ If the installation is unsuccessful, check the `KendoUIBuilderOEInstall.log` fil
 
 ## Uninstallation
 
+// TODO
+
 > The uninstallation of the Builder does not uninstall Node.js.
 
 1. Run the `KendoUIBuilderForOE.exe` file that was used during the installation of the Builder. Click **Remove**.
@@ -45,7 +51,7 @@ If the installation is unsuccessful, check the `KendoUIBuilderOEInstall.log` fil
 
 * [Dashboard]({% slug dashboard_kuib %})
 * [Designing the Application]({% slug designingtheapp_kuib %})
-* [Debugging and Releasing]({% slug debugging_kuib %})
-* [Basic Approaches for Building Applications]({% slug fewclicks_kuib %})
+* [Debugging the Application]({% slug debugging_kuib %})
+* [Basic Approaches for Building the Application]({% slug fewclicks_kuib %})
 * [Frequently Asked Questions]({% slug faq_kuib %})
 * [Troubleshooting]({% slug troubleshooting_kuib %})

@@ -8,23 +8,25 @@ position: 2
 
 # Dashboard
 
-When you start the Builder, its initial Dashboard page appears.
+When you open the Builder, it loads the initial Dashboard page.
 
-The Dashboard is the user interface that assists you when creating the application and setting its properties. The Dashboard page maintains **Cards** and **List** views which store your Builder projects.
+The Dashboard is the user interface that assists you when you create the application and handle its settings. The Dashboard page maintains the **Cards** and **List** views from where you can access the projects in the Builder.
+
+// screen of card and list views in one
 
 ## Initial Load
 
-When you load the Builder for the first time and you have no current projects yet, the Dashboard provides options to create or import an application. For more information on creating new projects, refer to the article on [designing the application]({% slug designingtheapp_kuib %}#toc-applications-settings).
+When you load the Builder for the first time and you have no current projects yet, the Dashboard provides the **Create App** option for creating a new project and the **Import App** option for importing existing projects. For more information on creating and importing applications, and managing their modules and data providers, refer to the article on [designing the application]({% slug designingtheapp_kuib %}#toc-applications-settings).
 
-// screen
+// screen on initial load view
 
 ## Cards and Tags
 
 Once you create or import an application, the Dashboard displays a status card in the **Cards** view and a list item in the **List** view for the project.
 
-If you already have projects from previous releases or if you import external applications, the Builder compares the versions of the application metadata and of the metadata which the Builder supports. If the Builder detects differences between the metadata versions and cannot automatically match them, the Dashboard renders a tag per card which reflects the status of the project and indicates the further actions that are needed. For more information, refer to the documentation on [applications statuses]({% slug status_kuib %}) and [migration]({% slug migration_kuib %}).
+When you already have projects in the Builder from previous releases or if you import external applications, the tool compares the versions of the application metadata and the metadata that is supported by the Builder, and tries to update to the latest available versions. If due to a reason the Builder was not able to successfully proceed with the migration, it renders a tag in the application card (or list item) which reflects the status of the project and indicates what further actions are needed. For more information, refer to the documentation on [handling the status tags]({% slug statustags_kuib %}) and [migration]({% slug migration_kuib %}).
 
-// screen
+// screen of tags
 
 ## Log Messages
 
@@ -36,6 +38,7 @@ The **OUTPUT** bar displays the log messages which are intended to facilitate th
 
 * [Installing the Kendo UI Builder]({% slug getstarted_kuib %})
 * [Designing the Application]({% slug designingtheapp_kuib %})
-* [Debugging and Releasing]({% slug debugging_kuib %})
+* [Debugging the Application]({% slug debugging_kuib %})
 * [Basic Approaches for Building Applications]({% slug fewclicks_kuib %})
-* [Managing the Application Status and Migration]({% slug migration_kuib %})
+* [Handling the Status Tags]({% slug statustags_kuib %})
+* [Migration]({% slug migration_kuib %})
