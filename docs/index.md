@@ -20,7 +20,7 @@ For more information on how to use the Builder for creating and updating OpenEdg
 
 ## Building Blocks
 
-Basically, the Builder provides its options through the delivery of:
+Basically, the Builder provides its options through:
 * [Modules](#toc-modules-views-and-components)
 * [Data providers](#toc-data-providers)
 * [Extension points](#toc-extension-points)
@@ -33,28 +33,26 @@ The modules are the functional units of the web application and each module repr
 
 The views provide the settings and functionalities that are available for each application page.
 * The [system views]({% slug viewsoverview_kuib %}#toc-system) are built-in views located in the App Module.
-* The [built-in views]({% slug viewsoverview_kuib %}#toc-predefined) offer a predefined layout which cannot be modified. They aim at facilitating the implementation of the most common use cases.
-* The [user-defined view]({% slug viewsoverview_kuib %}#toc-blank) is the Blank view. It allows you to add, edit, or remove both predefined and custom components, and to modify its layout and functionalities according to the requirements of your business project.  
-* The Builder also allows you to implement custom views you have created.   Extension points link
+* The [built-in views]({% slug viewsoverview_kuib %}#toc-predefined) offer a predefined layout. They aim at facilitating the implementation of the most common scenarios.
+* The [user-defined view]({% slug viewsoverview_kuib %}#toc-blank) is the Blank view. The Blank view provides options for adding, editing, and removing the predefined and custom components, and allows you to modify its layout and functionalities according to the requirements of your business project.  
+* The Builder also allows you to implement any [custom views]({% slug extendingviews_kuib %}) you have created.
 
 The components can be used in the Blank view only.  
 * The [built-in components]({% slug overviewcomp_kuib %}) offer a predefined set of functionalities. Based on the similar features they deliver, the components are grouped into subsets such as Data Management or Layout components.
-* The Builder also allows you to implement custom components you have created.  Extension points link 
+* The Builder also allows you to implement any [custom components]({% slug extendingcomponents_kuib %}) you have created.  
 
 ### Data Providers
 
-The data providers handle the data connectivity of the application.
-* The [data services]({% slug odata_kuib %}) support the input of third-party or custom service endpoints.
-* The [data sources]({% slug datasources_kuib %}) contain the sets of data.
+The data providers handle the data connectivity of the application by supporting the input of third-party or custom service endpoints, and the utilization of the available [data sources]({% slug datasources_kuib %}).
 
 ### Extension Points
 
-The extension points are the properties which enable you to customize specific aspects of the generated application.
-* The [custom themes]({% slug extendingthemes_kuib %}) represent extension points for customizing the appearance of the application.  
-* The [custom CSS]({% slug extendingcss_kuib %}) represent extension points for customizing the styles of the application.
-* The [custom code]({% slug extendingcode_kuib %}) represents the extension point for customizing the backend of the application.  
-* The [custom views]({% slug extendingviews_kuib %}) represent the extension points for customizing the views of the application.
-* The [custom components]({% slug extendingcomponents_kuib %}) represent the extension points for customizing the components of the application.
+The extension points enable you to customize specific aspects of the generated application.
+* The [theme extension points]({% slug extendingthemes_kuib %}) provide options for customizing the appearance of the application.  
+* The [CSS extension points]({% slug extendingcss_kuib %}) provide options for customizing the styles of the application.
+* The [code extension points]({% slug extendingcode_kuib %}) provide options for customizing the backend of the application.  
+* The [view extension points]({% slug extendingviews_kuib %}) provide options for customizing the views of the application.
+* The [component extension points]({% slug extendingcomponents_kuib %}) provide options for customizing the components of the application.
 
 ## Suggested Links
 

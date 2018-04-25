@@ -8,7 +8,7 @@ position: 4
 
 # Extending Code
 
-customization before and after app generation 
+customization before and after app generation
 
 // how to customize the code - scenario?
 

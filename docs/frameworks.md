@@ -20,6 +20,6 @@ When the Builder generates an Angular application, it transpiles the code in ECM
 
 ## Suggested Links
 
-* [Official Documentation of Kendo UI for Angular](https://www.telerik.com/kendo-angular-ui/components/)
-* [Official Documentation of Kendo UI for jQuery](https://docs.telerik.com/kendo-ui/introduction)
+* [Kendo UI for Angular Documentation](https://www.telerik.com/kendo-angular-ui/components/)
+* [Kendo UI for jQuery Documentation](https://docs.telerik.com/kendo-ui/introduction)
 * [AngularJS Integration of Kendo UI Widgets for jQuery](https://docs.telerik.com/kendo-ui/AngularJS/introduction)
