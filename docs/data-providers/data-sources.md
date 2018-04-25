@@ -8,6 +8,9 @@ position: 5
 
 # Data Sources
 
+do not support the setting of relations betwen the data sources when you add them manually.
+after the geeration each data source is mapped to each Kendo UI data source in angJS, in ang mapped to the ds that are provided by the Builder plus the respective crud operations, error handling, etc.
+
 all is data sources
 an abstraction for the data - meta description for the data the endpoint returns
 
