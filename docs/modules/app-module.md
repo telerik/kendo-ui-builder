@@ -18,5 +18,5 @@ The App Module contains the built-in [App Layout]({% slug applayout_kuib %}), [L
 
 ## Suggested Links
 
-* [Overview of Modules]({% slug %})
-* [Handling Module Settings]({% slug %}#toc-module-settings)
+* [Overview of Modules]({% slug modulesoverview_kuib %})
+* [Handling Module Settings]({% slug designingtheapp_kuib %}#toc-module-settings)

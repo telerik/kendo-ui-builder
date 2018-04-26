@@ -17,3 +17,6 @@ The App Module is the default built-in module that the Builder adds to each newl
 // screen
 
 ## Suggested Links
+
+* [Application Module]({% slug appmodule_kuib %})
+* [Handling Module Settings]({% slug designingtheapp_kuib %}#toc-module-settings)
