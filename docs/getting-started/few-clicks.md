@@ -8,7 +8,7 @@ position: 5
 
 # With a Few Clicks
 
-The development process of web applications with the Builder aims at applying approaches that are easy to grasp and put into practice.
+The development process of web applications with the Builder aims at applying approaches that are easily to grasped and put into practice.
 
 The data definitions of the application are stored in JSON metadata that is separate from the UI implementation. The metadata is then used by the integrated Generator to compile the HTML5, CSS, and JavaScript files that are built for and used by the application. The generation of the application also allows you to immediately preview the project in the Builder by applying live data. For further development testing and production, you can then deploy the application to separate web servers.
 
@@ -20,8 +20,9 @@ You can also customize each view through code extensions, which manage its event
 
 ## Suggested Links
 
-* [Dashboard]({% slug dashboard_kuib %})
 * [Designing the Application]({% slug designingtheapp_kuib %})
-* [Debugging and Releasing]({% slug debugging_kuib %})
+* [Debugging the Application]({% slug debugging_kuib %})
+* [Dashboard]({% slug dashboard_kuib %})
+* [Installing the Kendo UI Builder]({% slug getstarted_kuib %})
 * [Frequently Asked Questions]({% slug faq_kuib %})
 * [Troubleshooting]({% slug troubleshooting_kuib %})

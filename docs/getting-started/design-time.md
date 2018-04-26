@@ -150,7 +150,7 @@ The Builder provides settings for managing the data providers. For more informat
 
 ## Suggested Links
 
-* [Installing the Kendo UI Builder]({% slug getstarted_kuib %})
-* [Dashboard]({% slug dashboard_kuib %})
 * [Debugging the Application]({% slug debugging_kuib %})
 * [Basic Approaches for Building Applications]({% slug fewclicks_kuib %})
+* [Dashboard]({% slug dashboard_kuib %})
+* [Installing the Kendo UI Builder]({% slug getstarted_kuib %})
