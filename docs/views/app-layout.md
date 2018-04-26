@@ -7,11 +7,16 @@ slug: applayout_kuib
 
 # App Layout View
 
-layout of the whole app
-nside its content, the other views are embedded, as a placeholder for all
-has the status of a blank - allows drag and drop columns and rows, - view plus specific components (navigation) which are in addition
+The App Layout view is one of the built-in system views which are delivered by the default Application Module.
 
+The App Layout view:
+
+* Provides the layout of the whole application.
+* Serves as a placeholder for all application views by allowing you to embed the other views inside its content.
+* Has a similar functional status as the Blank view because it supports the dragging and dropping of columns and rows and of specific navigation components.
 
 // screen  
 
 ## Suggested Links
+
+* [Views]({% slug viewsoverview_kuib %})
