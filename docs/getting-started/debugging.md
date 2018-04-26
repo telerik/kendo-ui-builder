@@ -25,7 +25,9 @@ The Builder provides the generate, open in browser, start, and build options whi
 
 // screen
 
-## Debugging the Application
+## The Process
+
+To debug the application: 
 
 1. On the Dashboard, click the card (or list item) of the application to open the **App Design** page.
 1. On the **App Design** page, click **Start** > **Open in Browser** to locally review the application in your default browser.

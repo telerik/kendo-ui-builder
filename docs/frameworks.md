@@ -10,7 +10,9 @@ position: 2
 
 In your web project, the Builder enables you to implement [native Kendo UI for Angular components](https://www.telerik.com/kendo-angular-ui/components/) and [Kendo UI for jQuery widgets which are integrated with AngularJS](https://docs.telerik.com/kendo-ui/AngularJS/introduction).
 
-For both the Angular and AngularJS frameworks you can add the components to the Blank view only. The component properties and functionalities which are supported by the Builder might not have a full parity with the properties and functionalities which Kendo UI for Angular and Kendo UI for jQuery deliver. If the behavior of the Builder components differs for each framework, this framework-specific information is included in the corresponding feature article. For example, the customization approaches of the application code differ in Angular and AngularJS, and the respective details are included into the topic on the [code extension points]({% slug extendingcode_kuib %}).
+For both the Angular and AngularJS frameworks you can add the components to the Blank view only. The component properties and functionalities which are supported by the Builder might not have a full parity with the properties and functionalities which Kendo UI for Angular and Kendo UI for jQuery deliver.
+
+If the behavior of the Builder components differs for each framework, this framework-specific information is included in the corresponding feature article. For example, the customization approaches of the application code differ in Angular and AngularJS, and the respective details are included into the topic on the [code extension points]({% slug extendingcode_kuib %}).
 
 The Builder supports:
 * Angular version 5 or later
