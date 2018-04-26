@@ -114,7 +114,7 @@ The views are the functional screens of the modules and, practically, each view 
 <div class="row separator-bottom">
 <div class="col-md-4 card-list-info">
     <h2>User-Defined</h2>
-    <p>In the Builder, the user-defined view is the Blank view. which allows you to add, edit, and delete built-in and custom components, and, generally, enable you to build it in a way that corresponds to specific requirements. The  provide option for Blank view is based on the Bootstrap fluid grid system&mdash;you can customize the layout of the Blank view by dragging and dropping rows and columns. The Blank view provides support for implementing predefined and custom-tailored components by dragging and dropping them within the view.</p>
+    <p>In the Builder, the user-defined view is the Blank view. The Blank view enables you to meet more complex project requirements and is based on the Bootstrap fluid grid system. This means that by dragging and dropping rows and columns you can customize its layout and also add, edit, and delete built-in and custom components.</p>
 </div>
 <div class="col-md-8">
     <ul class="card-list row">
@@ -129,3 +129,7 @@ The views are the functional screens of the modules and, practically, each view 
       </ul>
     </div>
 </div>
+
+## Suggested Links
+
+* [Custom Views]({% slug extendingviews_kuib %})
