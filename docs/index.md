@@ -31,7 +31,7 @@ Basically, the Builder provides its options through:
 
 The modules are the functional units of the web application and each module represents a collection of views. With the creation of each new application, the Builder provides the built-in [App Module]({% slug appmodule_kuib %}) which contains predefined, system views. While you build your web application, you can add, modify, and remove the modules your project requires. For more information on handling the module settings, refer to the article on [designing the application]({% slug designingtheapp_kuib %}#toc-module-settings). For more information on the module functionalities, refer to the documentation on the [modules]({% slug modulesoverview_kuib %}).
 
-The views provide the settings and functionalities that are available for each application page.
+The views provide the settings and functionalities that are available for each application page and comprise the modules.
 * The [system views]({% slug viewsoverview_kuib %}#toc-system) are built-in views located in the App Module.
 * The [built-in views]({% slug viewsoverview_kuib %}#toc-predefined) offer a predefined layout. They aim at facilitating the implementation of the most common scenarios.
 * The [user-defined view]({% slug viewsoverview_kuib %}#toc-blank) is the Blank view. The Blank view provides options for adding, editing, and removing the predefined and custom components, and allows you to modify its layout and functionalities according to the requirements of your business project.  
