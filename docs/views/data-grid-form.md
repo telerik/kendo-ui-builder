@@ -7,11 +7,19 @@ slug: datagridform_kuib
 
 # Data Grid Form View
 
-grid plus data driven form
-selection of the grid updates the form
-crud operation provided
-handles common scenario grid plus detailed data in right plus option for editing in the form
-the form is with two columns only for now - not able to be modified,, only 2 columns
+The Data Grid Form view is one of the built-in views that are provided by the Builder for facilitating common use-case scenarios.  
+
+## Basic Features
+
+* Represents a Grid component with a data-driven form field. When the user makes a selection in the Grid, the form field updates accordingly.
+* The ratio between the Grid and the form field is 2:3.
+* Supports CRUD (create, read, update, and delete) data operations.
+* Supports form editing through the **Read-Only** and **Read-Only-to-Editing** modes.
+* Supports error handling.
+* Allows you to set and edit its basic functionalities. For more information on the settings that are subject to modification, refer to the right-hand vertical toolbar (property grid) of the view.
+* Through the **Settings** menu against each view in the view panel, you can edit the root properties of the view, as well as duplicate, move, and delete the view.
+
+## Preview
 
 // screen
 

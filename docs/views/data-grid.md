@@ -7,11 +7,20 @@ slug: datagrid_kuib
 
 # Data Grid View
 
-grid w/o form
-top, middle, bottom sections plus title
-crud operations and error handling
-only the most important properties exposed
-fast setuo for the grid so use this one
+The Data Grid view is one of the built-in views that are provided by the Builder for facilitating common use-case scenarios.  
+
+## Basic Features
+
+* Represents a Grid component with a title and top, middle, and bottom sections.
+* Supports CRUD (create, read, update, and delete) data operations.
+* Supports editing through the **Read-Only**, **Incell**, **Inline**, and **Popup** modes. 
+* Supports error handling.
+* Allows you to set and edit its basic functionalities. For more information on the settings that are subject to modification, refer to the right-hand vertical toolbar (property grid) of the view.
+* Through the **Settings** menu against each view in the view panel, you can edit the root properties of the view, as well as duplicate, move, and delete the view.
+
+## Preview
+
+// screen
 
 ## Suggested Links
 
