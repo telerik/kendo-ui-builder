@@ -9,7 +9,7 @@ slug: stackeddatagrids_kuib
 
 The Stacked Data Grids view is one of the built-in views that are provided by the Builder for facilitating common use-case scenarios.  
 
-## Basic Features
+## Features
 
 * Represents a master-detail Grid component. The child grids are always visible and the selection is always persisted.
 * Supports CRUD (create, read, update, and delete) data operations.

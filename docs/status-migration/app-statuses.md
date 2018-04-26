@@ -18,15 +18,15 @@ The available status tags are:
 * **Migration Required**&mdash;The versions of the application metadata and the metadata supported by the Builder differ, and the Builder was not able to automatically migrate the project. For more information, refer to the article on [migration]({% slug migration_kuib %}).
 * **Incompatible**&mdash;Either the Builder does not support the version of the application metadata due to a breaking change, or the version of the metadata the Builder supports is earlier than the version of the application metadata.
 
-  To handle the **Incompatible** application status, manually migrate the application. For more information, refer to the article on [migration]({% slug migration_kuib %}).
+    To handle the **Incompatible** application status, manually migrate the application. For more information, refer to the article on [migration]({% slug migration_kuib %}).
 
 * **Unavailable**&mdash;The Builder works with the metadata of the application and, based on it, generates all other application files. That is why if the metadata of the application is removed from its file system location, the application card (or list item) on the Dashboard becomes inactive and renders the **Unavailable** tag.
 
-  To handle the **Unavailable** application status:
+    To handle the **Unavailable** application status:
 
-  1. Remove all application files from the file system location.
-  2. Remove the application card (or list item) from the Dashboard.
-  3. Create the application again.
+    1. Remove all application files from the file system location.
+    2. Remove the application card (or list item) from the Dashboard.
+    3. Create the application again.
 
 ## Suggested Links
 

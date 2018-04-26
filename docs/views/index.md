@@ -14,7 +14,7 @@ The views are the functional screens of the modules and, practically, each view 
 <div class="row separator-bottom">
 <div class="col-md-4 card-list-info">
     <h2>System</h2>
-    <p>The system views are built in the Application Module.</p> <p>Even though the system views cannot be created or deleted, some of their properties allow you to modify them. For example, in the App Layout system view, you can reorder and edit the layout of the generated application.</p>
+    <p>The system views are built in the Application Module. Even though the system views cannot be created or deleted, some of their properties allow you to modify them.</p> <p>For example, in the App Layout system view, you can reorder and edit the layout of the generated application.</p>
 </div>
 <div class="col-md-8">
     <ul class="card-list row">
@@ -68,7 +68,7 @@ The views are the functional screens of the modules and, practically, each view 
 <div class="row separator-bottom">
 <div class="col-md-4 card-list-info">
     <h2>Built-In</h2>
-    <p>The built-in views offer a predefined layout and a set of predefined functionalities.</p> <p>Even though the layout of the built-in views cannot be edited, some of their properties allow you to modify them. For example, the Data Grid Form view will always render the Grid to the left and its form field to the right, but you can modify the data to which you bind the view, configure the columns it displays, or group its fields.</p>
+    <p>The built-in views offer a predefined layout and a set of predefined functionalities. Even though the layout of the built-in views cannot be edited, some of their properties allow you to modify them.</p> <p>For example, the Data Grid Form view will always render the Grid to the left and its form field to the right, but you can modify the data to which you bind the view, configure the columns it displays, or group its fields.</p>
 </div>
 <div class="col-md-8">
     <ul class="card-list row">
@@ -114,7 +114,7 @@ The views are the functional screens of the modules and, practically, each view 
 <div class="row separator-bottom">
 <div class="col-md-4 card-list-info">
     <h2>User-Defined</h2>
-    <p>In the Builder, the user-defined view is the Blank view.</p> <p>The Blank view enables you to meet more complex project requirements and is based on the Bootstrap fluid grid system. This means that by dragging and dropping rows and columns you can customize its layout and also add, edit, and delete built-in and custom components.</p>
+    <p>In the Builder, the user-defined view is the Blank view. The Blank view enables you to meet more complex project requirements and is based on the Bootstrap fluid grid system.</p> <p>This means that by dragging and dropping rows and columns you can customize its layout and also add, edit, and delete built-in and custom components.</p>
 </div>
 <div class="col-md-8">
     <ul class="card-list row">

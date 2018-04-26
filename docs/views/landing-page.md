@@ -9,7 +9,7 @@ slug: landingpage_kuib
 
 The Landing Page view is one of the system views which the [Application Module]({% slug appmodule_kuib %}) provides by default.
 
-## Basic Features
+## Features
 
 * Represents the layout of the web page that will load when the user clicks on a search engine optimized search result or an online advertisement.
 * Lists all modules inside its content.  

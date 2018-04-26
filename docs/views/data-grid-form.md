@@ -9,7 +9,7 @@ slug: datagridform_kuib
 
 The Data Grid Form view is one of the built-in views that are provided by the Builder for facilitating common use-case scenarios.  
 
-## Basic Features
+## Features
 
 * Represents a Grid component with a data-driven form field. When the user makes a selection in the Grid, the form field updates accordingly.
 * The ratio between the Grid and the form field is 2:3.

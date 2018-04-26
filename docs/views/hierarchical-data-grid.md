@@ -9,7 +9,7 @@ slug: hierarchicaldatagrid_kuib
 
 The Hierarchical Data Grid view is one of the built-in views that are provided by the Builder for facilitating common use-case scenarios.  
 
-## Basic Features
+## Features
 
 * Represents a Grid component with child grids. The child grids become visible when the users expand a row of the parent Grid.
 * Supports CRUD (create, read, update, and delete) data operations.
