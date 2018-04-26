@@ -8,9 +8,11 @@ position: 1
 
 # Components Overview
 
-The components represent the widgets that will be rendered by the web application.
+In the Builder, the components represent the elements of your web application.
 
-Components can only be added to and used in the [Blank view]({% slug customviews_kuib %}). The Builder supports two types of components&mdash;built-in and ready-to-use, and [custom]({% slug customcomp_kuib %}). The built-in components are either native Kendo UI components for Angular or integrated with AngularJS, or are generally inspired by the Kendo UI suites.
+* You can add, modify, use, and delete components in the [Blank view]({% slug customviews_kuib %}) only.
+* The Builder delivers built-in and custom components.
+* The built-in components are the Kendo UI components that are delivered by Kendo UI for Angular or Kendo UI for jQuery.
 
 <div class="container-fluid">
 <div class="row separator-bottom">
@@ -83,7 +85,7 @@ Components can only be added to and used in the [Blank view]({% slug customviews
 <div class="row separator-bottom">
 <div class="col-md-4 card-list-info">
     <h2>Data Management</h2>
-    <p>The Data Management components enable users to interact with data and handle data operations such as filtering, selection, and reordering.</p>
+    <p>Data management components enable users to interact with data and handle data operations such as filtering, selection, and reordering.</p>
 </div>
 <div class="col-md-8">
     <ul class="card-list row">
@@ -108,7 +110,7 @@ Components can only be added to and used in the [Blank view]({% slug customviews
 <div class="row separator-bottom">
 <div class="col-md-4 card-list-info">
     <h2>Editors</h2>
-    <p>The Editors components help users create, edit, and save files.</p>
+    <p>Editors help users to create, edit, and save files.</p>
 </div>
 <div class="col-md-8">
     <ul class="card-list row">
@@ -287,7 +289,7 @@ Components can only be added to and used in the [Blank view]({% slug customviews
 <div class="row separator-bottom">
 <div class="col-md-4 card-list-info">
     <h2>Layout</h2>
-    <p>The custom views are blank views which allow a full-scale customization and implementation of specific project requirements.</p>
+    <p>Layout components create an intuitive layout of web projects and provide for an easier navigation.</p>
 </div>
 <div class="col-md-8">
     <ul class="card-list row">
@@ -312,7 +314,7 @@ Components can only be added to and used in the [Blank view]({% slug customviews
 <div class="row separator-bottom">
 <div class="col-md-4 card-list-info">
     <h2>Media</h2>
-    <p>The Media components display visual or dynamic content in a user-friendly way.</p>
+    <p>Media components display visual or dynamic content in a user-friendly way.</p>
 </div>
 <div class="col-md-8">
     <ul class="card-list row">
@@ -330,7 +332,7 @@ Components can only be added to and used in the [Blank view]({% slug customviews
 <div class="row separator-bottom">
 <div class="col-md-4 card-list-info">
   <h2>Navigation</h2>
-  <p>The Navigation components display data in a particular, usually hierarchical, order so that it is easier to trace the relations between the data.</p>
+  <p>Navigation components display data in a particular, usually hierarchical, order so that it is easier to trace the relations between the data.</p>
 </div>
 <div class="col-md-8">
   <ul class="card-list row">
@@ -369,7 +371,7 @@ Components can only be added to and used in the [Blank view]({% slug customviews
 <div class="row separator-bottom">
 <div class="col-md-4 card-list-info">
       <h2>Schedulers</h2>
-      <p>The Schedulers display and help manage tasks and appointments.</p>
+      <p>Schedulers display and help users to manage tasks and appointments.</p>
 </div>
 <div class="col-md-8">
       <ul class="card-list row">
@@ -384,26 +386,9 @@ Components can only be added to and used in the [Blank view]({% slug customviews
   </ul>
 </div>
 </div>
-<div class="row separator-bottom">
-<div class="col-md-4 card-list-info">
-    <h2>Custom</h2>
-    <p>The custom views are blank views which allow a full-scale customization and implementation of specific project requirements.</p>
-</div>
-<div class="col-md-8">
-    <ul class="card-list row">
-    <li class="col-xs-4 col-md-3">
-        <a href="">
-            <svg id="pie" viewBox="0 0 70 70">
-                <path d="..." />
-            </svg>
-            <p>Blank</p>
-          </a>
-        </li>
-      </ul>
-</div>
-</div>
 </div>
 
 ## Suggested Links
 
+* [Custom Components]({% slug extendingcomponents_kuib %})
 * [Blank View]({% slug customviews_kuib %})

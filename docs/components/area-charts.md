@@ -7,6 +7,6 @@ slug: areacharts_kuib
 
 # Area Charts
 
-The Area Charts...
+Area Charts are part of the Charts components that are provided by the Builder. 
 
 <!-- screen -->

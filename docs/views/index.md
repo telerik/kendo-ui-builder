@@ -133,3 +133,4 @@ The views are the functional screens of the modules and, practically, each view 
 ## Suggested Links
 
 * [Custom Views]({% slug extendingviews_kuib %})
+* [Components]({% slug overviewcomp_kuib %})
