@@ -11,6 +11,8 @@ grid w/o form
 top, middle, bottom sections plus title
 crud operations and error handling
 only the most important properties exposed
-fast setuo for the grid so use this one 
+fast setuo for the grid so use this one
 
 ## Suggested Links
+
+* [Views]({% slug viewsoverview_kuib %})

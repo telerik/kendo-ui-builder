@@ -14,6 +14,7 @@ The App Layout view:
 * Provides the layout of the whole application.
 * Serves as a placeholder for all application views by allowing you to embed the other views inside its content.
 * Has a similar functional status as the Blank view because it supports the dragging and dropping of columns and rows and of specific navigation components.
+* Allows you to modify some of its properties. For more information which properties of the App Layout view are subject to modification, refer to the vertical toolbar (property grid) of the view.
 
 // screen  
 

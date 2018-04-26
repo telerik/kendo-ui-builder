@@ -15,6 +15,8 @@ most important
 data sources has to work with relatins between them, otherwise the view will not render the children data source
 
 columsn mahash slagash, set basic functionalities
-crud plus error handling 
+crud plus error handling
 
 ## Suggested Links
+
+* [Views]({% slug viewsoverview_kuib %})

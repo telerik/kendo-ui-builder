@@ -10,7 +10,7 @@ slug: customviews_kuib
 empty view, drag and drop all you want
 plus nth number of data sources you can bind to
 
-templates all that we have predefined components 
+templates all that we have predefined components
 
 Blank views are views which allow you to create your own custom view by dragging and dropping rows and columns to create a layout and then adding functional components to it.
 
@@ -21,3 +21,5 @@ The Blank view also allows you to specify multiple data source instances per vie
 For more information, refer to the tutorial on [adding and editing Blank views]().
 
 ## Suggested Links
+
+* [Views]({% slug viewsoverview_kuib %})

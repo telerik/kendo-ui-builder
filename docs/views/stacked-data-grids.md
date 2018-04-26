@@ -13,6 +13,8 @@ selection of the first is always selected
 
 similar to hierarchy but all are visible, selection cannot be lost
 
-// screen 
+// screen
 
 ## Suggested Links
+
+* [Views]({% slug viewsoverview_kuib %})

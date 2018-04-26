@@ -11,9 +11,10 @@ grid plus data driven form
 selection of the grid updates the form
 crud operation provided
 handles common scenario grid plus detailed data in right plus option for editing in the form
-the form is with two columns only for now - not able to be modified,, only 2 columns 
+the form is with two columns only for now - not able to be modified,, only 2 columns
 
 // screen
 
-
 ## Suggested Links
+
+* [Views]({% slug viewsoverview_kuib %})

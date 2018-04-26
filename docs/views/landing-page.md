@@ -7,11 +7,15 @@ slug: landingpage_kuib
 
 # Landing Page View
 
+The Landing Page view is one of the built-in system views which are delivered by the default Application Module.
 
-systm view
-listvat se all modules in it
-some of their properties can be edited
+The Landing Page view:
 
-The Landing Page view, together with the Login view, is built-in view and is initially available as part of the Application Module.
+* Lists all modules inside its content.  
+* Allows you to modify some of its properties. For example, // WHICH PROPERTIES? LINK?
+
+// screen
 
 ## Suggested Links
+
+* [Views]({% slug viewsoverview_kuib %})
