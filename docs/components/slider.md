@@ -9,4 +9,13 @@ slug: slider_kuib
 
 The Slider ...
 
-<!-- screen -->
+## Features
+
+
+## Preview
+
+// screen or demo?
+
+## Suggested Links
+
+* [Components]({% slug viewsoverview_kuib %})

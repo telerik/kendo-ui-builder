@@ -9,4 +9,13 @@ slug: col_kuib
 
 The Col...
 
-<!-- screen -->
+## Features
+
+
+## Preview
+
+// screen or demo?
+
+## Suggested Links
+
+* [Components]({% slug viewsoverview_kuib %})

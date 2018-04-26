@@ -9,4 +9,13 @@ slug: toolbar_kuib
 
 The Toolbar...
 
-<!-- screen -->
+## Features
+
+
+## Preview
+
+// screen or demo?
+
+## Suggested Links
+
+* [Components]({% slug viewsoverview_kuib %})

@@ -9,4 +9,13 @@ slug: calendar_kuib
 
 The Calendar...
 
-<!-- screen -->
+## Features
+
+
+## Preview
+
+// screen or demo?
+
+## Suggested Links
+
+* [Components]({% slug viewsoverview_kuib %})

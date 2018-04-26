@@ -9,4 +9,13 @@ slug: numerictextbox_kuib
 
 The NumericTextBox ...
 
-<!-- screen -->
+## Features
+
+
+## Preview
+
+// screen or demo?
+
+## Suggested Links
+
+* [Components]({% slug viewsoverview_kuib %})

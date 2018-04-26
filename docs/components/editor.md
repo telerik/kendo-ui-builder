@@ -9,4 +9,13 @@ slug: editor_kuib
 
 The Editor ...
 
-<!-- screen -->
+## Features
+
+
+## Preview
+
+// screen or demo?
+
+## Suggested Links
+
+* [Components]({% slug viewsoverview_kuib %})

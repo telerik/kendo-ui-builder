@@ -7,6 +7,19 @@ slug: piecharts_kuib
 
 # Pie Charts
 
-The Pie Chart...
+The Pie Chart are part of the Charts components which by the Builder supports.
 
-<!-- screen -->
+## Usage
+
+* Display data in the form of single-series sectors from a two-dimensional circle.
+* Useful for rendering data as part of a whole.
+
+## Preview
+
+// screen or demo?
+
+## Suggested Links
+
+* [Kendo UI Pie Charts for Angular](https://www.telerik.com/kendo-angular-ui/components/charts/series-types/pie/)
+* [Kendo UI Pie Charts for jQuery](https://demos.telerik.com/kendo-ui/pie-charts/index)
+* [Kendo UI Builder Components]({% slug viewsoverview_kuib %})

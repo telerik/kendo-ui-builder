@@ -9,4 +9,13 @@ slug: maskedtextbox_kuib
 
 The MaskedTextBox ...
 
-<!-- screen -->
+## Features
+
+
+## Preview
+
+// screen or demo?
+
+## Suggested Links
+
+* [Components]({% slug viewsoverview_kuib %})

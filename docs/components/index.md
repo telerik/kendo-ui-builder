@@ -12,7 +12,7 @@ In the Builder, the components represent the elements of your web application.
 
 * You can add, modify, use, and delete components in the [Blank view]({% slug customviews_kuib %}) only.
 * The Builder delivers built-in and custom components.
-* The built-in components are the Kendo UI components that are delivered by Kendo UI for Angular or Kendo UI for jQuery.
+* The built-in components are the Kendo UI components that are delivered by [Kendo UI for Angular](https://www.telerik.com/kendo-angular-ui/components/) or [Kendo UI for jQuery](https://demos.telerik.com/kendo-ui/).
 
 <div class="container-fluid">
 <div class="row separator-bottom">
@@ -392,3 +392,6 @@ In the Builder, the components represent the elements of your web application.
 
 * [Custom Components]({% slug extendingcomponents_kuib %})
 * [Blank View]({% slug customviews_kuib %})
+* [Kendo UI for Angular](https://www.telerik.com/kendo-angular-ui/components/)
+* [Kendo UI for jQuery Demos](https://demos.telerik.com/kendo-ui/)
+* [Kendo UI for jQuery Documentation](https://docs.telerik.com/kendo-ui/introduction)

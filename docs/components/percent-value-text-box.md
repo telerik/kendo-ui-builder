@@ -9,4 +9,13 @@ slug: percentvaluetextbox_kuib
 
 The Percent Value TextBox ...
 
-<!-- screen -->
+## Features
+
+
+## Preview
+
+// screen or demo?
+
+## Suggested Links
+
+* [Components]({% slug viewsoverview_kuib %})

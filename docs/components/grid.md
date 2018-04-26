@@ -9,12 +9,13 @@ slug: grid_kuib
 
 The Grid...
 
-<!-- screen -->
+## Features
 
-## ListView
 
-The ListView...
+## Preview
 
-<!-- screen -->
+// screen or demo?
 
 ## Suggested Links
+
+* [Components]({% slug viewsoverview_kuib %})

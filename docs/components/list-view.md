@@ -9,4 +9,13 @@ slug: listview_kuib
 
 The ListView...
 
-<!-- screen -->
+## Features
+
+
+## Preview
+
+// screen or demo?
+
+## Suggested Links
+
+* [Components]({% slug viewsoverview_kuib %})

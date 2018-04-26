@@ -9,4 +9,13 @@ slug: disabledtextbox_kuib
 
 The Disabled TextBox ...
 
-<!-- screen -->
+## Features
+
+
+## Preview
+
+// screen or demo?
+
+## Suggested Links
+
+* [Components]({% slug viewsoverview_kuib %})

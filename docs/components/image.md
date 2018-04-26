@@ -11,4 +11,13 @@ The Image is a media component that renders static visual content.
 
 You can use the Image to work with the `.bmp`, `.jpg`, `.gif`, and `.png` file extensions.
 
-<!-- screen -->
+## Features
+
+
+## Preview
+
+// screen or demo?
+
+## Suggested Links
+
+* [Components]({% slug viewsoverview_kuib %})

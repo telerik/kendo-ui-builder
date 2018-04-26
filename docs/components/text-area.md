@@ -8,5 +8,13 @@ slug: textarea_kuib
 # TextArea
 
 The TextArea ...
+## Features
 
-<!-- screen -->
+
+## Preview
+
+// screen or demo?
+
+## Suggested Links
+
+* [Components]({% slug viewsoverview_kuib %})

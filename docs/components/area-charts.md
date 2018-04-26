@@ -7,6 +7,19 @@ slug: areacharts_kuib
 
 # Area Charts
 
-Area Charts are part of the Charts components that are provided by the Builder. 
+The Kendo UI Area Charts components are part of the Charts components which the Builder supports.
 
-<!-- screen -->
+## Usage
+
+* Suitable for displaying quantitative data by using continuous lines.
+* The different colors in an Area Chart are useful for emphasizing changes in values which come from several sets of similar data.
+
+## Preview
+
+// screen or demo?
+
+## Suggested Links
+
+* [Kendo UI Area Charts for Angular](https://www.telerik.com/kendo-angular-ui/components/charts/series-types/area/)
+* [Kendo UI Area Charts for jQuery](https://demos.telerik.com/kendo-ui/area-charts/index)
+* [Kendo UI Builder Components]({% slug viewsoverview_kuib %})

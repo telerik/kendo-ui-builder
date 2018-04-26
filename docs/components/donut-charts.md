@@ -7,6 +7,19 @@ slug: donutcharts_kuib
 
 # Donut Charts
 
-The Donut Charts...
+The Kendo UI Donut Charts components are part of the Charts components which the Builder supports.
 
-<!-- screen -->
+## Usage
+
+* Capable of displaying multiple nested series.
+* The blank center can be utilized to display additional information.
+
+## Preview
+
+// screen or demo?
+
+## Suggested Links
+
+* [Kendo UI Donut Charts for Angular](https://www.telerik.com/kendo-angular-ui/components/charts/series-types/donut/)
+* [Kendo UI Donut Charts for jQuery](https://demos.telerik.com/kendo-ui/donut-charts/index)
+* [Kendo UI Builder Components]({% slug viewsoverview_kuib %})

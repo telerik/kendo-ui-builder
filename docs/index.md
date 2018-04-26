@@ -14,7 +14,7 @@ The Builder separates the user interface (UI) from the project business logic wh
 
 Currently, the tool supports the Angular and AngularJS frameworks. Based on the Kendo UI framework and through utilizing the contemporary Angular, AngularJS, HTML, CSS, and JavaScript technologies, the Builder significantly saves the efforts and time otherwise needed for web development.
 
-The Builder also provides extension points for customizing the functional units of the application. The style the generated application, you can simply use the predefined Kendo UI themes or import a custom theme created with the [Progress<sup>®</sup> Sass Theme Builder](http://themebuilder.telerik.com/).
+The Builder also provides extension points for customizing the functional units of the application. To style the generated application, you can simply use the predefined Kendo UI themes or import a custom theme created with the [Progress<sup>®</sup> Sass Theme Builder](http://themebuilder.telerik.com/).
 
 For more information on how to use the Builder for creating and updating OpenEdge business applications, refer to the [official Progress<sup>®</sup> Software Documentation](https://www.progress.com/documentation/kendo-ui-builder).  
 
@@ -29,7 +29,12 @@ Basically, the Builder provides its options through:
 
 ### Modules, Views, and Components
 
-The modules are the functional units of the web application and each module represents a collection of views. With the creation of each new application, the Builder provides the built-in [App Module]({% slug appmodule_kuib %}) which contains predefined, system views. While you build your web application, you can add, modify, and remove the modules your project requires. For more information on handling the module settings, refer to the article on [designing the application]({% slug designingtheapp_kuib %}#toc-module-settings). For more information on the module functionalities, refer to the documentation on the [modules]({% slug modulesoverview_kuib %}).
+The modules are the functional units of the web application.
+* Each module represents a collection of views.
+* With the creation of each new application, the Builder provides the built-in [App Module]({% slug appmodule_kuib %}) which contains predefined, system views.
+* While you build your web application, you can add, modify, and remove the modules your project requires.
+
+For more information on handling the module settings, refer to the article on [designing the application]({% slug designingtheapp_kuib %}#toc-module-settings). For more information on the module functionalities, refer to the documentation on [modules]({% slug modulesoverview_kuib %}).
 
 The views provide the settings and functionalities that are available for each application page and comprise the modules.
 * The [system views]({% slug viewsoverview_kuib %}#toc-system) are built-in views located in the App Module.
