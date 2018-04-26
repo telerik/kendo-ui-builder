@@ -10,7 +10,7 @@ position: 3
 
 The Builder enables you to set and update application properties and to add and edit its modules and data providers.
 
-> All **Name** fields are restrictive. If the symbols you placed in them are not supported, the following error message is displayed: `Invalid format. Only letters, numbers, "_" and "-" are allowed. Name can't start with digit or dash and should contain at least one letter.`
+> All **Name** fields are restrictive. If the symbols you placed in them are not supported, the `Invalid format. Only letters, numbers, "_" and "-" are allowed. Name can't start with digit or dash and should contain at least one letter.` error message is displayed.
 
 ## Application Settings
 
