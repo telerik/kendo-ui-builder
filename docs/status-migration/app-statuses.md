@@ -8,11 +8,13 @@ position: 1
 
 # Handling the Status Tags
 
-When the Builder was not able to automatically update the version of the application metadata and the metadata that is supported by the Builder, it displays a tag which indicates the reason for the issue and the further actions that are needed.   
+If the Builder is not able to automatically match the metadata versions, it displays a status tag.
+
+When the versions of the application metadata and the metadata that the Builder supports differ, the Builder tries to automatically match the two versions by updating to the later one. If the update is not successful, the Builder adds the status tags which hint at the further actions that are needed.
 
 The available status tags are:
 
-* No Tag&Mdash;The application is successfully migrated and is up to date. No further actions are required.
+* No Tag&mdash;The application is successfully migrated and is up to date. No further actions are required.
 * **Migration Required**&mdash;The versions of the application metadata and the metadata supported by the Builder differ, and the Builder was not able to automatically migrate the project. For more information, refer to the article on [migration]({% slug migration_kuib %}).
 * **Incompatible**&mdash;Either the Builder does not support the version of the application metadata due to a breaking change, or the version of the metadata the Builder supports is earlier than the version of the application metadata.
 
@@ -22,9 +24,9 @@ The available status tags are:
 
     To handle the **Unavailable** application status:
 
-      1. Remove all application files from the file system location.
-      1. Remove the application card (or list item) from the Dashboard.
-      1. Create the application again.
+    1. Remove all application files from the file system location.
+    2. Remove the application card (or list item) from the Dashboard.
+    3. Create the application again.
 
 ## Suggested Links
 

@@ -7,18 +7,12 @@ slug: login_kuib
 
 # Login View
 
-The Login view is one of the built-in system views which are delivered by the default Application Module.
+The Login view is one of the built-in system views which the [Application Module]({% slug appmodule_kuib %}) provides by default.
 
 The Login view:
 
-* Lists all modules inside its content.  
-* Allows you to modify some of its properties. For example, // WHICH PROPERTIES? LINK?
-
-
-system view
-some of its properties can be edited vie the property grid (tollbar on the right, there are exposed the ones that can be changed)
-
-The Login view, together with the Landing Page view, is built-in and is initially available as part of the Application Module.
+* Represents the layout of the page where the users submit their credentials and access the application according to their defined user roles. For more information, refer to the articles on [authentication, user roles, and authorization]({% slug authentication_kuib %}).  
+* Allows you to modify some of its properties. For more information on which properties of the Login view are subject to modification, refer to the right-hand vertical toolbar (property grid) of the view.
 
 // screen
 

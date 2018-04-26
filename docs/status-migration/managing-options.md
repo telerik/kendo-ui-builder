@@ -19,8 +19,8 @@ You can use the **Settings** menu on the application card (or list item) and app
 
     To export an application:
 
-      1. Click **Export**. As a result, the dialog box for setting the location appears.
-      1. Select a location for the exported `.rar` folder and click **Save**.
+    1. Click **Export**. As a result, the dialog box for setting the location appears.
+    2. Select a location for the exported `.rar` folder and click **Save**.
 
 * **Reveal**&mdash;Opens the file system location of the project.
 * **Remove**&mdash;Removes the application from the **Cards** and **List** views, but the application files remain in your file system and can be imported.

@@ -7,12 +7,14 @@ slug: unauthorized_kuib
 
 # Unauthorized View
 
-system
-some properties exposed for editing
+The Unauthorized view is one of the built-in system views which the [Application Module]({% slug appmodule_kuib %}) provides by default.
 
-The built-in Application module contains login page and landing page views, which are initially available for you.
+The Unauthorized view:
 
-For more information, refer to the tutorial on [adding and editing Login views]().
+* Represents the layout of the page that loads when the users try to access content outside their defined access rights. For more information, refer to the articles on [authentication, user roles, and authorization]({% slug authentication_kuib %}).
+* Allows you to modify some of its properties. For more information on which properties of the Unauthorized view are subject to modification, refer to the right-hand vertical toolbar (property grid) of the view.
+
+// screen
 
 ## Suggested Links
 
