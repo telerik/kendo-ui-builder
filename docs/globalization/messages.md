@@ -1,80 +1,38 @@
 ---
-title: Translation of Messages
-page_title: Translation of Messages - Globalization - Kendo UI Builder
-description: "Translate the messages of the components when working with the Kendo UI Builder."
+title: Message Translation and Culture Modification
+page_title: Message Translation and Culture Modification - Globalization - Kendo UI Builder
+description: "Translate the application messages and change the culture locale when working with the Kendo UI Builder."
 slug: messages_kuib
 position: 2
 ---
 
-# Translation of Messages
+# Message Translation and Culture Modification
 
-The Builder provides option for updating the default US culture and label of the generated application.
+Each time the Builder generates the application, it produces a `<webapp_directory>/artifacts/translations/translations.default.json` file. The `translations.default.json` JSON file contains the translatable application strings in the default `en-US` culture and lists them in a hierarchical order. For example, modules -> views -> components.
 
-## Available Translatable Properties   
+Under its `"language"` entry, each `translations.default.json` lists the following fields:
+* `"label"`&mdash;Indicates the name of the language as it will appear in the drop-down language-selection list of the generated project.
+* `"culture"`&mdash;Indicates the culture locale convention that will apply to the date, time, and number entries in the generated project.  
+* `"order"`&mdash;Indicated the order in which the languages will be listed in the drop-down language-selection list of the generated project.
 
-|Modules, Views, and Components         |Translatable Properties        
-|:---                                   |:---                           
-|All modules                            |`label`. `description`         
-|Data Grid View                         |`label`. `title`, `columns`, `toolbarButtonsLabel`, `rowButtonLabels`  
-|Data Grid Form View                    |`label`, `title`, `columns`, `newTitle`, `editTitle`     
-|Data Grid Separate Form View           |`label`, `title`, `columns`, `newTitle`, `editTitle`        
-|Hierarchical Data Grid View            |`label`, `parentTitle`, `childTitle`, `parentGridColumns`, `childGridColumns`, `childGridEditMessages`         
-|Stacked Data Grid View                 |`label`, `parentTitle`, `childTitle`, `parentGridColumns`, `childGridColumns`, `childGridEditMessages`        
-|Blank View                             |`label`        
-|Grid                                   |`toolbarButtonLabels`, `rowButtonLabels`, `columns`         
-|Boolean Radio Button List              |`trueText`, `falseText`         
-|Currency Text Box                      |placeholder         
-|Email Text Box                         |placeholder         
-|Integer Text Box                       |placeholder         
-|Numeric Text Box                       |placeholder         
-|Password Text Box                      |placeholder         
-|Percent Text Box                       |placeholder         
-|Percent Value Text Box                 |placeholder         
-|Text Area                              |placeholder         
-|Text Box                               |placeholder         
-|URL Text Box                           |placeholder         
-|Label                                  |text         
-|Button                                 |content         
-|Area Charts                            |title text         
-|Bar Charts                             |title text         
-|Donut Charts                           |title text         
-|Line Charts                            |title text         
-|Pie Charts                             |title text        
-|Expander                               |text, subcomponents         
-|Tab Strip                              |tab text, subcomponents           
-|Toolbar                                |button text, splitButton text, subitem text, buttonGroup button text         
+To change the culture and translate the application messages:
 
-# Customizing the Culture  
+1. Go to `<webapp_directory>/artifacts/translations/`.
+1. Copy the `translations.default.json` file in the same directory.
+1. Rename it while keeping its `.json` extension. For example, set the name to `translations.german.json`.
+1. Open `translations.german.json`.
+1. Update the `"label"` property. For example, replace the default `"English"` entry with `"Deutsch"`.
+1. Update the `"culture"` property. For example, replace the default `"en-US"` entry with `"de-DE"`.
+1. Update the `"order"` property. For example, replace the default `"0"` entry with `"1"`.
+1. To translate the available application messages, replace all translatable default strings with their respective translations in the desired language. For example, if you have a `Customers` field, replace `"Customers"` with `"Kunden"`.
+1. Save the file.
 
-1. Open the **Edit App** dialog to set the desired culture for the application.
-1. Generate the application. As a result, the Builder creates a `<webapp_directory>/artifacts/translations/translations.default.json` translation file which contains all messages that are available for translation.
-
-    > The `translations.default.json` file provides a definition of all properties that can be translated in JSON format which enables you to add culture-specific translations in the copies. However, the Builder updates only the default translation file when you make changes to modules or views. It means that your copies of the file will not be automatically updated and you need to avoid making translations until the application is almost ready for deployment.
-
-1. (Optional) Set up the localization of the generated application so that users can choose from any of the following language cultures:
-
-    * German-Germany (de-DE)
-    * English-UK (en-GB)
-    * English-US (en-US)
-    * Spanish-Spain (es-ES)
-    * French-France (fr-FR)
-
-    As a result, the respective date, time, and number locale formats are automatically localized by the Builder. You can also manually add culture-specific translations for all messages&mdash;for example, module and view labels.
-
-1. Copy the `translations.default.json` file which is located in `<webapp_directory>/artifacts/translations`.
-1. Replace the `default` suffix in the filename with the language culture that you want to add. For example, `translations.fr-FR.json`.
-1. Create one file for each language culture that you want to add.
-1. Edit the file and add the culture-specific translations.
-1. Modify the label and the culture properties.
-
-    ```
-    "language": {
-      "label": "French",
-      "culture": "fr-FR",
-      "order": 0
-      },
-    ```
-1. Add the translations for the desired translatable properties.
-1. Generate the application by clicking **Generate**. As a result, at runtime the header of the generated application displays a drop-down list with the default and the additionally configured cultures.
+> The generation of the application updates only the `translations.default.json` file. This means that if you add any new sections to your web project (for example, a new module) after you have changed the culture and translated the application messages in another language, you will need to manually copy and paste the strings from the new section to the specific language file. For example, if you already have created the `translations.german.json` file and translated its strings, but then add a new `Emails` module and generate the application, you have to copy the `Emails` translatable strings from `translations.default.json` to `translations.german.json`, and translate its messages.  
 
 ## Suggested Links
+
+* [Globalization by Kendo UI Builder]({% slug globalizationoverview_kuib %})
+* [Internationalization by Kendo UI for Angular](http://k2build.openstack.progress.com/kendo-angular-ui-develop/components/internationalization/)
+* [Localization by Kendo UI for Angular](http://k2build.openstack.progress.com/kendo-angular-ui-develop/components/localization/)
+* [Internationalization by Kendo UI for jQuery](https://docs.telerik.com/kendo-ui/framework/globalization/overview)
+* [Localization by Kendo UI for jQuery](https://docs.telerik.com/kendo-ui/framework/localization/overview)
