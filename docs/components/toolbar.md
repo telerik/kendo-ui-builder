@@ -7,10 +7,12 @@ slug: toolbar_kuib
 
 # Toolbar
 
-The Toolbar...
+The Kendo UI Toolbar is part of the Navigation components which the Builder supports.
 
-## Features
+## Usage
 
+* Detects user interaction and triggers a corresponding event.
+* Enables you to display an icon from the Kendo UI theme sprite.
 
 ## Preview
 
@@ -18,4 +20,5 @@ The Toolbar...
 
 ## Suggested Links
 
-* [Components]({% slug viewsoverview_kuib %})
+* [Kendo UI Toolbar for jQuery](https://demos.telerik.com/kendo-ui/button/index)
+* [Kendo UI Builder Components]({% slug viewsoverview_kuib %})

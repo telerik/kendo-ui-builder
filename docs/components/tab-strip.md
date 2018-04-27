@@ -7,10 +7,12 @@ slug: tabstrip_kuib
 
 # TabStrip
 
-The TabStrip...
+The Kendo UI TabStrip is part of the Navigation components which the Builder supports.
 
-## Features
+## Usage
 
+* Represents a collection of tabs with associated content.
+* Enables users to switch between different tab views inside a single component.
 
 ## Preview
 
@@ -18,4 +20,6 @@ The TabStrip...
 
 ## Suggested Links
 
-* [Components]({% slug viewsoverview_kuib %})
+* [Kendo UI TabStrip for Angular](https://www.telerik.com/kendo-angular-ui/components/layout/tabstrip/)
+* [Kendo UI TabStrip for jQuery](https://demos.telerik.com/kendo-ui/button/index)
+* [Kendo UI Builder Components]({% slug viewsoverview_kuib %})

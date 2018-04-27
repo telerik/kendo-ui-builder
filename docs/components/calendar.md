@@ -7,10 +7,13 @@ slug: calendar_kuib
 
 # Calendar
 
-The Calendar...
+The Kendo UI Calendar is part of the Schedulers components which the Builder supports.
 
-## Features
+## Usage
 
+* Represents a form component.
+* Follows the graphical pattern of a Gregorian calendar.
+* Supports date selection and navigation, and ranges for scheduling appointments.
 
 ## Preview
 
@@ -18,4 +21,6 @@ The Calendar...
 
 ## Suggested Links
 
-* [Components]({% slug viewsoverview_kuib %})
+* [Kendo UI Calendar for Angular](https://www.telerik.com/kendo-angular-ui/components/dateinputs/calendar/)
+* [Kendo UI Calendar for jQuery](https://demos.telerik.com/kendo-ui/calendar/index)
+* [Kendo UI Builder Components]({% slug viewsoverview_kuib %})

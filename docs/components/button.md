@@ -7,12 +7,12 @@ slug: button_kuib
 
 # Button
 
-Buttons detect user interaction and trigger a corresponding event.
+The Kendo UI Button is part of the Navigation components which the Builder supports.
 
-The Button enables you to display an icon from the Kendo UI theme sprite.
+## Usage
 
-## Features
-
+* Detects user interaction and triggers a corresponding event.
+* Enables you to display an icon from the Kendo UI theme sprite.
 
 ## Preview
 
@@ -20,4 +20,6 @@ The Button enables you to display an icon from the Kendo UI theme sprite.
 
 ## Suggested Links
 
-* [Components]({% slug viewsoverview_kuib %})
+* [Kendo UI Button for Angular](https://www.telerik.com/kendo-angular-ui/components/buttons/button/)
+* [Kendo UI Button for jQuery](https://demos.telerik.com/kendo-ui/button/index)
+* [Kendo UI Builder Components]({% slug viewsoverview_kuib %})
