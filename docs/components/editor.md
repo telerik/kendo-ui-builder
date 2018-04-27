@@ -7,12 +7,12 @@ slug: editor_kuib
 
 # Editor
 
-The Kendo UI Editor is part of the Navigation components which the Builder supports.
+The Kendo UI Editor is part of the Editors components which the Builder supports.
 
 ## Usage
 
-* Detects user interaction and triggers a corresponding event.
-* Enables you to display an icon from the Kendo UI theme sprite.
+* Allows users to edit HTML content in a what-you-see-is-what-you-get way.
+* Provides configuration options for editing and formatting its content such as text formatting, hyperlinks, lists, and image handling.
 
 ## Preview
 
@@ -20,5 +20,5 @@ The Kendo UI Editor is part of the Navigation components which the Builder suppo
 
 ## Suggested Links
 
-* [Kendo UI Editor for jQuery](https://demos.telerik.com/kendo-ui/button/index)
+* [Kendo UI Editor for jQuery](https://demos.telerik.com/kendo-ui/editor/index)
 * [Kendo UI Builder Components]({% slug viewsoverview_kuib %})

@@ -7,10 +7,13 @@ slug: radiobuttonlist_kuib
 
 # Radio Button List
 
-The Radio Button List ...
+The Radio Button List Editors is part of the components which the Builder supports.
 
-## Features
+## Usage
 
+* Represents a list of items where each node is listed next to a radio button.
+* Provides multiple selection options.  
+* Allows selection by checking the corresponding radio buttons.  
 
 ## Preview
 
@@ -18,4 +21,4 @@ The Radio Button List ...
 
 ## Suggested Links
 
-* [Components]({% slug viewsoverview_kuib %})
+* [Kendo UI Builder Components]({% slug viewsoverview_kuib %})

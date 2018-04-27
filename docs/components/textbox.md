@@ -12,7 +12,7 @@ The Kendo UI TextBox is part of the Editors components which the Builder support
 ## Usage
 
 * Represents a text box for user input.
-* Enables you to style and provide a floating label functionality to input elements.
+* Enables you to style and provide a floating label functionality to `input` elements.
 
 ## Preview
 

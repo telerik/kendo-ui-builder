@@ -7,10 +7,12 @@ slug: row_kuib
 
 # Row
 
-The Row ...
+The Row is part of the Layout components which the Builder supports.
 
-## Features
+## Usage
 
+* Represents a row element.
+* Allows configuration options such as adding, data managing, and deletion.
 
 ## Preview
 
@@ -18,4 +20,4 @@ The Row ...
 
 ## Suggested Links
 
-* [Components]({% slug viewsoverview_kuib %})
+* [Kendo UI Builder Components]({% slug viewsoverview_kuib %})

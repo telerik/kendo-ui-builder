@@ -7,12 +7,12 @@ slug: grid_kuib
 
 # Grid
 
-The Kendo UI Grid is part of the Navigation components which the Builder supports.
+The Kendo UI Grid is part of the Data Management components which the Builder supports.
 
 ## Usage
 
-* Detects user interaction and triggers a corresponding event.
-* Enables you to display an icon from the Kendo UI theme sprite.
+* Displays data in a tabular format.
+* Provides configuration options for managing the rendered data such as editing, filtering, grouping, and sorting.
 
 ## Preview
 
@@ -20,6 +20,6 @@ The Kendo UI Grid is part of the Navigation components which the Builder support
 
 ## Suggested Links
 
-* [Kendo UI Grid for Angular](https://www.telerik.com/kendo-angular-ui/components/buttons/button/)
-* [Kendo UI Grid for jQuery](https://demos.telerik.com/kendo-ui/button/index)
+* [Kendo UI Grid for Angular](https://www.telerik.com/kendo-angular-ui/components/grid/)
+* [Kendo UI Grid for jQuery](https://demos.telerik.com/kendo-ui/grid/index)
 * [Kendo UI Builder Components]({% slug viewsoverview_kuib %})

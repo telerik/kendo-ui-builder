@@ -7,10 +7,12 @@ slug: col_kuib
 
 # Col
 
-The Col...
+The Col is part of the Layout components which the Builder supports.
 
-## Features
+## Usage
 
+* Represents a column element.
+* Allows configuration options such as adding, data managing, and deletion.
 
 ## Preview
 
@@ -18,4 +20,4 @@ The Col...
 
 ## Suggested Links
 
-* [Components]({% slug viewsoverview_kuib %})
+* [Kendo UI Builder Components]({% slug viewsoverview_kuib %})

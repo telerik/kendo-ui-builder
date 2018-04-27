@@ -7,10 +7,13 @@ slug: booleanradiobuttonlist_kuib
 
 # Boolean Radio Button List
 
-The Boolean Radio Button List ...
+The Boolean Radio Button List is part of the Editors components which the Builder supports.
 
-## Features
+## Usage
 
+* Represents a list of items where each node is listed next to a radio button.
+* Provides two selection options in a true-false context.  
+* Allows selection by checking the corresponding radio buttons.  
 
 ## Preview
 
@@ -18,4 +21,4 @@ The Boolean Radio Button List ...
 
 ## Suggested Links
 
-* [Components]({% slug viewsoverview_kuib %})
+* [Kendo UI Builder Components]({% slug viewsoverview_kuib %})

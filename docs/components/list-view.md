@@ -7,12 +7,12 @@ slug: listview_kuib
 
 # ListView
 
-The Kendo UI ListView is part of the Navigation components which the Builder supports.
+The Kendo UI ListView is part of the Data Management components which the Builder supports.
 
 ## Usage
 
-* Detects user interaction and triggers a corresponding event.
-* Enables you to display an icon from the Kendo UI theme sprite.
+* Represents a window that displays a collection of items.
+* Provides different ways to arrange and display the item list.
 
 ## Preview
 
@@ -20,6 +20,5 @@ The Kendo UI ListView is part of the Navigation components which the Builder sup
 
 ## Suggested Links
 
-* [Kendo UI ListView for Angular](https://www.telerik.com/kendo-angular-ui/components/buttons/button/)
-* [Kendo UI ListView for jQuery](https://demos.telerik.com/kendo-ui/button/index)
+* [Kendo UI ListView for jQuery](https://demos.telerik.com/kendo-ui/listview/index)
 * [Kendo UI Builder Components]({% slug viewsoverview_kuib %})

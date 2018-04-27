@@ -7,9 +7,12 @@ slug: textarea_kuib
 
 # TextArea
 
-The TextArea ...
-## Features
+The TextArea is part of the Editors components which the Builder supports.
 
+## Usage
+
+* Represents a text area for user input.
+* Enables you to style and provide a floating label functionality to `textarea` elements.
 
 ## Preview
 
@@ -17,4 +20,5 @@ The TextArea ...
 
 ## Suggested Links
 
-* [Components]({% slug viewsoverview_kuib %})
+* [Kendo UI TextArea for Angular](https://www.telerik.com/kendo-angular-ui/components/inputs/textarea/)
+* [Kendo UI Builder Components]({% slug viewsoverview_kuib %})

@@ -7,12 +7,12 @@ slug: slider_kuib
 
 # Slider
 
-The Kendo UI Slider is part of the Navigation components which the Builder supports.
+The Kendo UI Slider is part of the Editors components which the Builder supports.
 
 ## Usage
 
-* Detects user interaction and triggers a corresponding event.
-* Enables you to display an icon from the Kendo UI theme sprite.
+* Provides options for increasing, decreasing, and selecting predefined values.
+* Enables users to define values by dragging the handle along the track or by clicking the side arrow buttons.
 
 ## Preview
 
@@ -20,6 +20,6 @@ The Kendo UI Slider is part of the Navigation components which the Builder suppo
 
 ## Suggested Links
 
-* [Kendo UI Slider for Angular](https://www.telerik.com/kendo-angular-ui/components/buttons/button/)
-* [Kendo UI Slider for jQuery](https://demos.telerik.com/kendo-ui/button/index)
+* [Kendo UI Slider for Angular](https://www.telerik.com/kendo-angular-ui/components/inputs/slider/)
+* [Kendo UI Slider for jQuery](https://demos.telerik.com/kendo-ui/slider/index)
 * [Kendo UI Builder Components]({% slug viewsoverview_kuib %})

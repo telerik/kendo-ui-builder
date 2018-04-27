@@ -7,12 +7,12 @@ slug: image_kuib
 
 # Image
 
-The Image is a media component that renders static visual content.
+The Image is part of the Media components which the Builder supports.
 
-You can use the Image to work with the `.bmp`, `.jpg`, `.gif`, and `.png` file extensions.
+## Usage
 
-## Features
-
+* Represents a static visual component.
+* Supports the `.bmp`, `.jpg`, `.gif`, and `.png` file extensions.
 
 ## Preview
 
@@ -20,4 +20,4 @@ You can use the Image to work with the `.bmp`, `.jpg`, `.gif`, and `.png` file e
 
 ## Suggested Links
 
-* [Components]({% slug viewsoverview_kuib %})
+* [Kendo UI Builder Components]({% slug viewsoverview_kuib %})

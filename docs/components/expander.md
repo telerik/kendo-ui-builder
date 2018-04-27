@@ -7,10 +7,12 @@ slug: expander_kuib
 
 # Expander
 
-The Expander...
+The Expander is part of the Navigation components which the Builder supports.
 
-## Features
+## Usage
 
+* Represents a functional UI element.
+* Allows users to expand and collapse specific component elements such as rows.
 
 ## Preview
 
@@ -18,4 +20,4 @@ The Expander...
 
 ## Suggested Links
 
-* [Components]({% slug viewsoverview_kuib %})
+* [Kendo UI Builder Components]({% slug viewsoverview_kuib %})
