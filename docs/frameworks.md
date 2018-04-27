@@ -10,13 +10,18 @@ position: 2
 
 In your web project, the Builder enables you to implement [native Kendo UI for Angular components](https://www.telerik.com/kendo-angular-ui/components/) and [Kendo UI for jQuery widgets which are integrated with AngularJS](https://docs.telerik.com/kendo-ui/AngularJS/introduction).
 
-For both the Angular and AngularJS frameworks you can add the components to the Blank view only. The component properties and functionalities which are supported by the Builder might not have a full parity with the properties and functionalities which Kendo UI for Angular and Kendo UI for jQuery deliver.
+## Supported Versions
 
-If the behavior of the Builder components differs for each framework, this framework-specific information is included in the corresponding feature article. For example, the customization approaches of the application code differ in Angular and AngularJS, and the respective details are included into the topic on the [code extension points]({% slug extendingcode_kuib %}).
+// Mimi go add CSS and icons; no links.
 
-The Builder supports:
 * Angular version 5 or later
 * AngularJS version 1.6 or later
+
+## Overview
+
+For both the Angular and AngularJS frameworks you can add the [components]({% slug overviewcomp_kuib %}) to the [Blank view]({% slug customviews_kuib %}) only. The component properties and functionalities which are supported by the Builder might not have a full parity with the properties and functionalities which Kendo UI for Angular and Kendo UI for jQuery deliver.
+
+If the behavior of the Builder components differs for each framework, this framework-specific information is included in the corresponding feature article. For example, the customization approaches of the application code differ in Angular and AngularJS, and the respective details are included into the topic on the [code extension points]({% slug extendingcode_kuib %}).
 
 When the Builder generates an Angular application, it transpiles the code in [ECMAScript 2015](https://www.ecma-international.org/ecma-262/6.0/) and generates the project together with its configuration for [Angular CLI](https://cli.angular.io/). This means that once generated, you can readily use and further develop the application directly in the Angular framework without the need of the Builder.
 
