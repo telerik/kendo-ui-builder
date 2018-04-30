@@ -10,27 +10,13 @@ position: 14
 
 This article provides solutions for issues you might encounter while working with the Kendo UI Builder.
 
+// STRUCTURE OF TROUBLESHOOTING TOPICS:
+// 1. SUMMARIZE THE PROBLEM IN A SENTENCE
+// 2. PROVIDE DETAILS AND ERROR MESSAGE, IF APPLICABLE
+// 3. IDENTIFY THE CAUSE
+// 4. PROVIDE THE SOLUTION OR SUGGEST A WORKAROUND
 
-
-
-
-two ways to show errors
-Designer
-1. designer shows the errors - in a popup
-1. in the outpiut logger
-1. log file  - location
-builder generates it and piles up errors
-windows: C:\Users\dmihaylo\AppData\Roaming\KendoUIBuilder
-
-for generated apps
-errors are in the console log of the browser
-
-designer for custom components/ templates
-if a template cannot be rendered, in the component is shown  
-
-the designer also has a console
-simulates deuggin int he browser
-Help -> Toggle Developer Tools
+// STICK TO SIMILAR STRUCTURE: https://www.telerik.com/kendo-angular-ui/components/troubleshooting/
 
 ## Suggested Links
 
