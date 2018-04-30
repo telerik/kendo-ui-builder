@@ -8,7 +8,7 @@ position: 2
 
 # Application Module
 
-The Application Module is a built-in module which is added by default to each new application you create with the Buidler.
+The Application Module is a built-in module which is added by default to each new application you create with the Builder.
 
 The Application Module contains the [App Layout]({% slug applayout_kuib %}), [Landing Page]({% slug landingpage_kuib %}), [Login]({% slug login_kuib %}), and [Unauthorized Page]({% slug unauthorized_kuib %}) system views.
 

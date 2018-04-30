@@ -21,7 +21,7 @@ For more information on how to use the Builder for creating and updating OpenEdg
 ## Building Blocks
 
 Basically, the Builder provides its options through:
-* [Modules](#toc-modules-views-and-components)
+* [Modules, views, and components](#toc-modules-views-and-components)
 * [Data providers](#toc-data-providers)
 * [Extension points](#toc-extension-points)
 

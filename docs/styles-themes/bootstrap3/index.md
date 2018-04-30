@@ -8,6 +8,6 @@ position: 1
 
 # Bootstrap v3 Theme Preview
 
-...
+based on Bootsrap 
 
 ## Suggested Links
