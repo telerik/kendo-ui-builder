@@ -10,6 +10,9 @@ position: 13
 
 This article lists the answers to the most frequently asked questions (FAQs) about the Kendo UI® Builder by Progress® tool for creating and managing Angular and AngularJS-based web applications.
 
+// FOR UNIFORMITY, WE'D BETTER FOLLOW THE FOLLOWING FORMAT
+// https://www.telerik.com/kendo-angular-ui/components/faq/
+
 ## Suggested Links
 
 * [Installing the Kendo UI Builder]({% slug getstarted_kuib %})
