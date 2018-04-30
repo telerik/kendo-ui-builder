@@ -24,50 +24,25 @@ In the Builder, data providers enable services for establishing the connection b
 </div>
 <div class="col-md-8">
     <ul class="card-list row">
-    <li class="col-xs-4 col-md-3">
-        <a href="{% slug odata_kuib %}">
-           <svg id="area" viewBox="0 0 70 70">
-                <defs>
-                    <linearGradient id="gradient" x1="0%" y1="0%" x2="0%" y2="100%">
-                    <stop offset="0%" stop-color="#ffab09" />
-                        <stop offset="70%" stop-color="#ff6358" />
-                        <stop offset="100%" stop-color="#dd3169" />
-                    </linearGradient>
-                </defs>
-                <path d="..." />
-            </svg>
-            <p>OData</p>
-        </a>
-    </li><li class="col-xs-4 col-md-3">
-        <a href="{% slug rest_kuib %}">
-           <svg id="area" viewBox="0 0 70 70">
-                <defs>
-                    <linearGradient id="gradient" x1="0%" y1="0%" x2="0%" y2="100%">
-                    <stop offset="0%" stop-color="#ffab09" />
-                        <stop offset="70%" stop-color="#ff6358" />
-                        <stop offset="100%" stop-color="#dd3169" />
-                    </linearGradient>
-                </defs>
-                <path d="..." />
-            </svg>
-            <p>Generic REST</p>
-        </a>
-    </li><li class="col-xs-4 col-md-3">
-        <a href="{% slug progressdata_kuib %}">
-           <svg id="area" viewBox="0 0 70 70">
-                <defs>
-                    <linearGradient id="gradient" x1="0%" y1="0%" x2="0%" y2="100%">
-                    <stop offset="0%" stop-color="#ffab09" />
-                        <stop offset="70%" stop-color="#ff6358" />
-                        <stop offset="100%" stop-color="#dd3169" />
-                    </linearGradient>
-                </defs>
-                <path d="..." />
-            </svg>
-            <p>Progress Data</p>
-        </a>
-    </li>
-  </ul>
+        <li class="col-xs-4 col-md-3">
+            <a href="{% slug odata_kuib %}">
+                <img src="../images/icons/data-providers/OData.svg" width="64" height="64" alt="OData" title="OData"/>
+                <p>OData</p>
+            </a>
+        </li>
+        <li class="col-xs-4 col-md-3">
+            <a href="{% slug rest_kuib %}">
+                <img src="../images/icons/data-providers/Generic-REST.svg" width="64" height="64" alt="Generic REST" title="Generic REST"/>
+                <p>Generic REST</p>
+            </a>
+        </li>
+        <li class="col-xs-4 col-md-3">
+            <a href="{% slug progressdata_kuib %}">
+                <img src="../images/icons/data-providers/Progress-Data-Provider.svg" width="64" height="64" alt="Progress Data Provider" title="Progress Data Provider"/>
+                <p>Progress Data</p>
+            </a>
+        </li>
+    </ul>
 </div>
 </div>
 <div class="container-fluid">

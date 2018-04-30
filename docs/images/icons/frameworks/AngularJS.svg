@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 64 64" style="enable-background:new 0 0 64 64;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:url(#Angular_JS_1_);}
+</style>
+<linearGradient id="Angular_JS_1_" gradientUnits="userSpaceOnUse" x1="32.0001" y1="0" x2="32.0001" y2="64">
+	<stop  offset="0" style="stop-color:#FFAB09"/>
+	<stop  offset="0.7" style="stop-color:#FF6358"/>
+	<stop  offset="1" style="stop-color:#DD3169"/>
+</linearGradient>
+<path id="Angular_JS" class="st0" d="M32,0L2,10.6L6.7,50L32,64l25.3-14L62,10.6L32,0z M53.6,47.5L32,59.4L10.4,47.5L6.3,13.3
+	L32,4.2l25.7,9.1L53.6,47.5z M46.8,38L44,32L32,6L19.9,32l-2.8,6L13,47h7.1l3.8-9h16.3l3.8,9H51L46.8,38z M32,19.3L37.5,32h-11
+	L32,19.3z"/>
+</svg>
