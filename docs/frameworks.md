@@ -11,11 +11,16 @@ position: 2
 In your web project, the Builder enables you to implement [native Kendo UI for Angular components](https://www.telerik.com/kendo-angular-ui/components/) and [Kendo UI for jQuery widgets which are integrated with AngularJS](https://docs.telerik.com/kendo-ui/AngularJS/introduction).
 
 ## Supported Versions
-
-// Mimi go add CSS and icons; no links.
-
-* Angular version 5 or later
-* AngularJS version 1.6 or later
+<div class="row components-overview-list mt-70 mb-50 pb-50">
+    <div class="col-md-6">
+        <img src="../images/icons/frameworks/Angular.svg" width="64" height="64" alt="Angular" title="Angular"/>
+        <div class="h4 mt-10 mb-5">Angular version 5 or later</div>
+    </div>
+    <div class="col-md-6">
+        <img src="../images/icons/frameworks/AngularJS.svg" width="64" height="64" alt="AngularJS" title="AngularJS"/>
+        <div class="h4 mt-10 mb-5">AngularJS version 1.6 or later</div>
+    </div>
+</div>
 
 ## Overview
 
