@@ -8,7 +8,11 @@ position: 14
 
 # Troubleshooting
 
-debugging in the getting started section also to Svetlio - to add  
+This article provides solutions for issues you might encounter while working with the Kendo UI Builder.
+
+
+
+
 
 two ways to show errors
 Designer

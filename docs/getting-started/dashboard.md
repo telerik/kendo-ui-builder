@@ -30,7 +30,7 @@ When you already have projects in the Builder from previous releases or if you i
 
 ## Log Messages
 
-The **OUTPUT** bar displays the log messages which are intended to facilitate the debugging and troubleshooting processes. For more information, refer to the articles on [debugging]({% slug debugging_kuib %}) and [troubleshooting]({% slug troubleshooting_kuib %}).
+The **>_OUTPUT** bar displays the log messages which are intended to facilitate the debugging and troubleshooting processes. For more information, refer to the articles on [output modes and debugging options]({% slug debugging_kuib %}) and [troubleshooting]({% slug troubleshooting_kuib %}).
 
 // screen
 
