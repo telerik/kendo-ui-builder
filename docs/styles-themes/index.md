@@ -8,43 +8,66 @@ position: 1
 
 # Styling & Themes Overview
 
-Predefined
+The Kendo UI Builder supports a set of predefined themes and the import of custom themes.  
 
+## Predefined Themes
 
+The predefined themes of the Builder provide general appearance and layout options for the generated web projects, and are bundled and ready to use.
 
+The [Kendo UI for jQuery suite](https://docs.telerik.com/kendo-ui/introduction), which delivers the AngularJS-integrated widgets, ships more predefined themes than the [Kendo UI for Angular suite](https://www.telerik.com/kendo-angular-ui/) does. To keep the parity between the predefined themes for the two frameworks, the Builder provides the missing counterparts after their generation with the [Progress<sup>®</sup> Sass Theme Builder](http://themebuilder.telerik.com/). Except for the Default Orange, Bootstrap v4, and Material (currently, in beta) predefined themes for Angular, all other available and predefined themes of the Builder for the Angular framework were beforehand generated with the ThemeBuilder.
 
-All available themes in the Builder are bundled and ready to use.
+For more information on the Kendo UI for jQuery predefined themes, refer to the articles on [Less-based](https://docs.telerik.com/kendo-ui/styles-and-layout/appearance-styling) and [SASS-based](https://docs.telerik.com/kendo-ui/styles-and-layout/sass-themes) themes. For more information on the Kendo UI for Angular predefined themes, refer to the article on [styling](https://www.telerik.com/kendo-angular-ui/components/styling/).
 
-Kendo UI for jQuery, which delivers the widgets that are integrated with AngularJS, supports more themes than Kendo UI for Angular. To keep the parity between the two frameworks, the lacking themes for Angular were generated with the [Progress<sup>®</sup> Sass Theme Builder](http://themebuilder.telerik.com/). All themes for the Angular framework except for the Default Orange, Bootstrap v4, and Material (currently, in beta) were generated with the Theme Builder beforehand.
+## Custom Themes
 
-For more information on the themes that are supported by Kendo UI for jQuery, refer to the article on [Less-based]() and [SASS-based]() themes. For more information on the themes that are supported by Kendo UI for Angular, refer to the overview of [themes and styling]().
+The custom themes of the Builder provide only appearance (color) options for the generated web projects. The theme layout and metrics are inherited from the []().
 
-the themes provide general appearance and layout
-custom things to use the custom styles, link
+### Using Integrated Icon Fonts
 
-Custom Theme in ther article
+To use the integrated Kendo UI font icons:
 
-they are used only for appearance only colors - layout and metrics (come from vbase Kendo stylesheet) - no
-link to
-can be added from the app design page or edit page
-import from
-also link to the proper theme builder - if angular is selected links to the ng oe
-the theme builder produces a zip file
-they need to dearchive te zip file somewhere
-them click import, allows only css files
-Open, adds the custom theme o the list
-apply and you can delete and manage - look into
-when a custom theme is imported it saves it in agularJS: migration-demo\app\src\styles\custom-themes
-for ang ang\app\src\assets\custom-themes
+* For Angular projects, refer to the [icons by Kendo UI for Angular](https://www.telerik.com/kendo-angular-ui/components/styling/icons/).
+* For AngularJS projects, refer to the [icons by Kendo UI for jQuery](https://docs.telerik.com/kendo-ui/styles-and-layout/icons-web).
 
-w/o customization aricles
-no icons article - link to ang
+### Creating Custom Themes with the ThemeBuilder
 
+To create a custom theme with the [Progress<sup>®</sup> Sass ThemeBuilder](http://themebuilder.telerik.com/):
 
-theme tabs - genata ask implementation
+* For Angular projects, refer to the [Kendo UI ThemeBuilder for Angular](http://themebuilder.telerik.com/kendo-angular-ui).
+* For AngularJS projects, refer to the [Kendo UI ThemeBuilder for Angular](http://themebuilder.telerik.com/kendo-angular-ui).
 
+> Themes that are created with the Kendo UI ThemeBuilder for Angular are incompatible with themes that are created with the Kendo UI ThemeBuilder for AngularJS and vice versa.
+
+### Unarchiving the Custom Theme Files
+
+After the custom theme is generated, the ThemeBuilder produces a `.zip` folder which contains the custom theme files:
+
+* For Angular projects, the ThemeBuilder saves the `.zip` archive in `[appname]\app\src\assets\custom-themes`.
+* For AngularJS projects, the ThemeBuilder saves the `.zip` archive in `[appname]\app\src\styles\custom-themes`.
+
+To import the custom theme, the Kendo UI Builder requires only the unarchived `.css` file of the custom theme&mdash;select a location and unarchive the `.rar` folder there.   
+
+### Importing the Custom Theme
+
+1. On the Dashboard, click the card (or list item) of the application to open the **App Design** page.
+1. Next to the application name, click the **Settings** icon to open the drop-down options list.
+1. Select **Properties** to open the **Edit App** dialog box.
+1. Click the **Theme** drop-down options list to open the **Import ThemeBuidler Theme** dialog box.
+1. Click **Import ThemeBuilder Theme** for the location dialog box to open.
+1. Select the location of the dearchived `.css` file and click **Open**.
+
+  > The Builder only accepts the custom theme files with a `.css` extension.
+
+1. Click **Apply**.
+1. On the **Edit App** dialog box, click **Save**. As a result, the custom theme is added to the list of available themes.
+
+You can also access the ThemeBuilder for the respective framework of your current project from the **Edit App** page by clicking the **Go to Kendo UI ThemeBuidler** link.  
 
 ## Suggested Links
- the two theme builders
- ne sa savmestimi dvata theme bulder s
- themes from the different builders ar eincompatible
+
+* [Customizing Themes with the Kendo UI Builder]({% slug extendingthemes_kuib %})
+* [Customizing Styles with the Kendo UI Builder]({% slug extendingcss_kuib %})
+* [Styles and Appearance with Kendo UI for Angular](https://www.telerik.com/kendo-angular-ui/components/styling/)
+* [Progress Sass ThemeBuilder for Angular](http://themebuilder.telerik.com/kendo-angular-ui)
+* [Styles and Appearance with Kendo UI for jQuery](https://docs.telerik.com/kendo-ui/styles-and-layout/appearance-styling)
+* [Progress Sass ThemeBuilder for AngularJS](http://themebuilder.telerik.com/kendo-ui)
