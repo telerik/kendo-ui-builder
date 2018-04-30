@@ -1,6 +1,6 @@
 ---
-title: Preview
-page_title: Moonlight Theme Preview - Styling & Themes - Kendo UI Builder
+title: Moonlight Theme
+page_title: Moonlight Theme - Styling & Themes - Kendo UI Builder
 description: "Use the Moonlight theme to style your project when working the Kendo UI Builder."
 slug: moonlighttheme_kuib
 ---

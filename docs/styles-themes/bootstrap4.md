@@ -1,6 +1,6 @@
 ---
-title: Preview
-page_title: Bootstrap v4 Theme Preview - Styling & Themes - Kendo UI Builder
+title: Bootstrap v4 Theme
+page_title: Bootstrap v4 Theme - Styling & Themes - Kendo UI Builder
 description: "Use the Bootstrap v3 theme to style your project when working the Kendo UI Builder."
 slug: bootstrap4theme_kuib
 ---

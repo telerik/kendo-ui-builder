@@ -1,6 +1,6 @@
 ---
-title: Preview
-page_title: High Contrast Theme Preview - Styling & Themes - Kendo UI Builder
+title: High Contrast Theme
+page_title: High Contrast Theme - Styling & Themes - Kendo UI Builder
 description: "Use the High Contrast theme to style your project when working the Kendo UI Builder."
 slug: highcontrasttheme_kuib
 ---

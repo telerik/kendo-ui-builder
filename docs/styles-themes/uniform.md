@@ -1,6 +1,6 @@
 ---
-title: Preview
-page_title: Uniform Theme Preview - Styling & Themes - Kendo UI Builder
+title: Uniform Theme
+page_title: Uniform Theme - Styling & Themes - Kendo UI Builder
 description: "Use the Uniform theme to style your project when working the Kendo UI Builder."
 slug: uniformtheme_kuib
 ---

@@ -1,6 +1,6 @@
 ---
-title: Preview
-page_title: Black Theme Preview - Styling & Themes - Kendo UI Builder
+title: Black Theme
+page_title: Black Theme - Styling & Themes - Kendo UI Builder
 description: "Use the Black theme to style your project when working the Kendo UI Builder."
 slug: blacktheme_kuib
 ---

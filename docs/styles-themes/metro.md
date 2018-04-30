@@ -1,6 +1,6 @@
 ---
-title: Preview
-page_title: Metro Theme Preview - Styling & Themes - Kendo UI Builder
+title: Metro Theme
+page_title: Metro Theme - Styling & Themes - Kendo UI Builder
 description: "Use the Metro theme to style your project when working the Kendo UI Builder."
 slug: metrotheme_kuib
 ---

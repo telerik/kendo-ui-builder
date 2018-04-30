@@ -1,6 +1,6 @@
 ---
-title: Preview
-page_title: Flat Theme Preview - Styling & Themes - Kendo UI Builder
+title: Flat Theme
+page_title: Flat Theme - Styling & Themes - Kendo UI Builder
 description: "Use the Flat theme to style your project when working the Kendo UI Builder."
 slug: flattheme_kuib
 ---

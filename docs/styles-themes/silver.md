@@ -1,6 +1,6 @@
 ---
-title: Preview
-page_title: Silver Theme Preview - Styling & Themes - Kendo UI Builder
+title: Silver Theme
+page_title: Silver Theme - Styling & Themes - Kendo UI Builder
 description: "Use the Silver theme to style your project when working the Kendo UI Builder."
 slug: silvertheme_kuib
 ---

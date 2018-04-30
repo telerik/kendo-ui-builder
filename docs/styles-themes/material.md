@@ -1,6 +1,6 @@
 ---
-title: Preview
-page_title: Material Theme Preview - Styling & Themes - Kendo UI Builder
+title: Material Theme
+page_title: Material Theme - Styling & Themes - Kendo UI Builder
 description: "Use the Material theme to style your project when working the Kendo UI Builder."
 slug: materialtheme_kuib
 ---

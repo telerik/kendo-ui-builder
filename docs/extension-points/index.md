@@ -8,17 +8,17 @@ position: 1
 
 # Extension Points Overview
 
-The extension points represent certain properties which allow you to customize the generated web application which has been created and generated with the Builder.
+The extension points represent exposed properties which allow you to customize the generated web application which has been created and generated with the Builder.
 
-The available extension points for customizing the generated web application are:
+The available options for customizing the generated web application are:
 
-* Code&mdash;You can set custom functions and apply custom event handling to the components.  
-* Components&mdash;Depending on the framework you use, you can customize the behavior of the components by modifying specific exposed properties.  
-* Head&mdash;You can enter custom scripts or links to the head of the generated project.
-* Packages&mdash;You can edit the `package.json` file and customize the bundles and packages of the generated project.
-* Styles&mdash;You can customize the styles of the generated web project by modifying the generated `.css` file.
-* Themes&mdash;You can add themes that were generated with the Progress<sup>®</sup> Sass ThemeBuilder to the generated project.
-* Views&mdash;Depending on the framework you use, you can modify the views of the generated project.
+* [Code extension points]({% slug extendingcode_kuib %})&mdash;You can set custom functions and apply custom event handling to the components.  
+* [Components extension points]({% slug extendingcomponents_kuib %})&mdash;Depending on the framework you use, you can customize the behavior of the components by modifying specific exposed properties.  
+* [Head extension points]({% slug extendinghead_kuib %})&mdash;You can enter custom scripts or links to the head of the generated project.
+* [Packages extension points]({% slug extendingpackages_kuib %})&mdash;You can edit the `package.json` file and customize the bundles and packages of the generated project.
+* [Styles extension points]({% slug extendingcss_kuib %})&mdash;You can customize the styles of the generated web project by modifying the generated `.css` file.
+* [Themes extension points]({% slug extendingthemes_kuib %})&mdash;You can add themes that were generated with the Progress<sup>®</sup> Sass ThemeBuilder to the generated project.
+* [Views extension points]({% slug extendingviews_kuib %})&mdash;Depending on the framework you use, you can modify the views of the generated project.
 
 // Add any relevant info + demo/screen if applicable
 

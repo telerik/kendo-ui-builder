@@ -1,6 +1,6 @@
 ---
-title: Preview
-page_title: Blue Opal Theme Preview - Styling & Themes - Kendo UI Builder
+title: Blue Opal Theme
+page_title: Blue Opal Theme - Styling & Themes - Kendo UI Builder
 description: "Use the Blue Opal theme to style your project when working the Kendo UI Builder."
 slug: blueopaltheme_kuib
 ---

@@ -1,6 +1,6 @@
 ---
-title: Preview
-page_title: Nova Theme Preview - Styling & Themes - Kendo UI Builder
+title: Nova Theme
+page_title: Nova Theme - Styling & Themes - Kendo UI Builder
 description: "Use the Nova theme to style your project when working the Kendo UI Builder."
 slug: novatheme_kuib
 ---

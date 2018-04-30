@@ -1,6 +1,6 @@
 ---
-title: Preview
-page_title: Default Orange Theme Preview - Styling & Themes - Kendo UI Builder
+title: Default Orange Theme
+page_title: Default Orange Theme - Styling & Themes - Kendo UI Builder
 description: "Use the Default Orange theme to style your project when working the Kendo UI Builder."
 slug: defaultorangetheme_kuib
 ---

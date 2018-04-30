@@ -1,6 +1,6 @@
 ---
-title: Preview
-page_title: Default Theme Preview - Styling & Themes - Kendo UI Builder
+title: Default Theme
+page_title: Default Theme - Styling & Themes - Kendo UI Builder
 description: "Use the Default theme to style your project when working the Kendo UI Builder."
 slug: defaulttheme_kuib
 ---
