@@ -20,7 +20,7 @@ For more information on the Kendo UI for jQuery predefined themes, refer to the 
 
 ## Custom Themes
 
-The custom themes of the Builder provide only appearance (color) options for the generated web projects. The theme layout and metrics are inherited from the []().
+The custom themes of the Builder provide only appearance (color) options for the generated web projects. The theme layout and metrics are inherited from the Kendo UI base stylesheets.
 
 ### Using Integrated Icon Fonts
 
