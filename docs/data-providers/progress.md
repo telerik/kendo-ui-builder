@@ -3,7 +3,7 @@ title: Progress Data
 page_title: Progress Data - Data Providers - Kendo UI Builder
 description: "Use the available Progress Data service which is supported by the Kendo UI Builder tool for creating and managing Angular and AngularJS-based web applications."
 slug: progressdata_kuib
-position: 3
+position: 5
 ---
 
 # Progress Data
@@ -12,15 +12,15 @@ service based on progress JSDO javascript ... object. jsdo is progress - connect
 
 count function is endpoint that returns the count
 
-## Adding a Progress Data Service
+## Adding Progress Data Endpoints
 
-1. Click Add Data Provider on the app design page. This displays the Add Data Provider dialog.
-2. Select the Provider Type from the following options:
-* Progress Data Provider: A Progress OpenEdge or Rollbase Data Object Service.
-* OData Provider: An OData Service.
-* Generic REST Provider: A REST Service.
-3. Enter a Name for the data provider. The name cannot contain spaces. Only letters, numbers, dashes, and underscores are permitted.
-4. Enter the root URI of the data provider:
+1. On the Dashboard, click the card (or list item) of the application to open the **App Design** page.
+1. On the **App Design** page, click **Add Data Provider**. As a result, the **Add Data Provider** dialog box appears.
+1. Select among the **OData**, **Generic REST**, and **Progress Data** data providers.
+1. In **Name**, provide the name of the data provider.
+1. In **Service URI**, enter the URI of the data provider.
+
+
 * For a Progress Data Provider, this a Service URI. When accessing an OpenEdge Data Object Service, this is the URI of the web application, which hosts and represents the root URI of the Data Object Service. When accessing a Rollbase Data Object Service, this is the root URI of the Data Object Service on a Rollbase server. For example, your service URI might look something like http://Your-IP-Address:8980/MyDataWebApp.
 * For an OData Provider, this is also a Service URI, which is the root URI of the OData Service. For example, http://Your-IP-Address:8980/OData/Inventory.svc.
 * For a Generic REST Provider, this is a Base URI, which is the root URI of a REST Service. For example, http://Your-IP-Address:8980/api.
@@ -38,5 +38,21 @@ Note: For a Generic REST Provider, this option is not available, and you must cr
 Note: You must also select Auto-create Data Sources to enable this option.
 10. For a Progress Data Provider only, select the Authentication Model. This is the security model for the Service URI and Catalog URI, and it must match the authentication model of the web application (server) that provides the Data Object Service.
 Click Add Data Provider to the data provider with the current settings. With one or more data providers created, you can now create data sources using these providers.
+
+
+
+
+
+1. (Optional) Test whether the URI is working by clicking **Test Connection**.
+1. (Optional) By default, the automatic creation of data sources is enabled.
+
+  > If you uncheck the **Auto-create Data Sources** box, you will have to manually create and relate the data sources. For more information, refer to the article on [data sources]({% slug datasources_kuib %}).    
+
+1. Depending on the data provider you selected, choose the related option from the **Authentication Type** drop-down field.
+1. Click **Add Data Provider** to save the data provider properties and close the **Add Data Provider** dialog box. As a result, the **App Design** page displays the card for your new data provider with the properties you defined.
+
+
+
+
 
 ## Suggested Links

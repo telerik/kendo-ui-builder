@@ -112,23 +112,7 @@ The Builder provides settings for managing the data providers. For more informat
 
 ### Adding Data Providers
 
-1. On the Dashboard, click the card (or list item) of the application to open the **App Design** page.
-1. On the **App Design** page, click **Add Data Provider**. As a result, the **Add Data Provider** dialog box appears.
-1. Select among the **OData**, **Generic REST**, and **Progress Data** data providers.
-1. In **Name**, provide the name of the data provider.
-1. In **Service URI**, enter the URI of the data provider.
-1. (Optional) Test whether the URI is working by clicking **Test Connection**.
-1. (Optional) By default, the automatic creation of data sources is active.
-
-  > If you uncheck the **Auto-create Data Sources** box, you will have to manually create and relate the data sources of the data providers.    
-
-1. In **Authentication Type**, select one of the **OpenID Connect**, **Basic**, **API Key**, or **None** options. Depending on the authentication type, fill in the additional fields. For more information, refer to the documentation on [authentication and authorization roles]().
-
-// MORE INFO ON OPTIONS!
-
-1. Click **Add Data Provider** to save the data provider properties and close the **Add Data Provider** dialog box. As a result, the **App Design** page displays the card for your new data provider with the properties you defined.
-
-// screen
+For more information, refer to the articles on the [OData]({% slug odata_kuib %}), [generic REST]({% slug rest_kuib %}), and [Progress Data]({% slug progressdata_kuib %}) data providers respectively.
 
 ### Editing Data Provider Properties
 

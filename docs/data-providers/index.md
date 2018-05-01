@@ -8,7 +8,13 @@ position: 1
 
 # Data Providers Overview
 
-Data providers enable services for establishing the connection between the data you want to display and the data source you want to use.
+In the Builder, data providers enable services for establishing the connection between the data you want to display and the data source you want to use.
+
+* Each data provider is represented by a single URI.
+* The definition of a data provider identifies the authentication model which is required to access the data server it supports.
+* A data provider is defined by a JSON file on the web server.
+* You can create multiple data providers.
+* You can define one or more data sources from the same data provider.
 
 <div class="container-fluid">
 <div class="row separator-bottom">
