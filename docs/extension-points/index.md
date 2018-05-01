@@ -8,7 +8,7 @@ position: 1
 
 # Extension Points Overview
 
-The extension points represent exposed properties which allow you to customize the generated web application which has been created and generated with the Builder.
+The extension points represent exposed properties which allow you to customize the generated web application which has been created with the Builder.
 
 The available options for customizing the generated web application are:
 

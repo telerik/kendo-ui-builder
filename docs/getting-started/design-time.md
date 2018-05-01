@@ -1,6 +1,6 @@
 ---
-title: Designing
-page_title: Designing | Kendo UI Builder
+title: Designing the Application
+page_title: Designing the Application | Kendo UI Builder
 description: "Create your web application and manage its root level operation from the App Design page which is provided by the Kendo UI Builder."
 slug: designingtheapp_kuib
 position: 3
