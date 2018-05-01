@@ -2,7 +2,7 @@
 title: Custom HTML
 page_title: Custom HTML - Components - Kendo UI Builder
 description: "Use and implement the Custom HTML component when working with the Kendo UI Builder tool for creating and managing Angular and AngularJS-based web applications."
-slug: datepicker_kuib
+slug: customhtml_kuib
 ---
 
 # Custom HTML
