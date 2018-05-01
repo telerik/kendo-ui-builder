@@ -12,11 +12,11 @@ Kendo UI<sup>®</sup> Builder by Progress<sup>®</sup> is a tool for creating an
 
 The Builder separates the user interface (UI) from the project business logic which runs on the application server. It enables you to easily define the layout and content of the web applications by providing access to predefined visual components.
 
-Currently, the tool supports the Angular and AngularJS frameworks. Based on the Kendo UI framework and through utilizing the contemporary Angular, AngularJS, HTML, CSS, and JavaScript technologies, the Builder significantly saves the efforts and time otherwise needed for web development.
+Currently, the tool supports the Angular and AngularJS frameworks. Based on the Kendo UI suites and through utilizing the contemporary Angular, AngularJS, HTML, CSS, and JavaScript technologies, the Builder saves a significant amount of efforts and time otherwise needed for web development.
 
-The Builder also provides extension points for customizing the functional units of the application. To style the generated application, you can simply use the predefined Kendo UI themes or import a custom theme created with the [Progress<sup>®</sup> Sass Theme Builder](http://themebuilder.telerik.com/).
+The Builder also provides extension points for customizing the functional units of the web project. To style the generated application, you can readily use the predefined Kendo UI themes or import a custom theme created with the [Progress<sup>®</sup> Sass Theme Builder](http://themebuilder.telerik.com/).
 
-For more information on how to use the Builder for creating and updating OpenEdge business applications, refer to the [official Progress<sup>®</sup> Software Documentation](https://www.progress.com/documentation/kendo-ui-builder).  
+For more information on how to use the Builder for OpenEdge business applications, refer to the [official Progress<sup>®</sup> Software Documentation](https://www.progress.com/documentation/kendo-ui-builder).  
 
 ## Building Blocks
 
