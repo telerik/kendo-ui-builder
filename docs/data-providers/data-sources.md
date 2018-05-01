@@ -14,6 +14,8 @@ In the context of the Builder, the data sources are columns and rows (tables) wi
 
 ## Types of Data Sources
 
+> The default option for automatic creation of data sources is available when you add OData and Progress Data providers. Due to the specifics of the generic REST data service, you have to always create and relate the data sources manually.  
+
 By default, when you add a data provider to your web project, the **Auto-create Data Sources** option on the **Add Data Provider** dialog box is checked. As a result, the Builder automatically establishes a relation between the data sources of a data provider and is able to add them to views and components which need to render data in a hierarchical order&mdash;for example, the Hierarchical Data Grid or Stacked Data Grids views.
 
 When you add a data provider to your web project, you can deselect the **Auto-create Data Sources** option on the **Add Data Provider** dialog box and choose to create the data sources manually. In this case, the Builder does not automatically relate the data sources which means that you have to manually add the data sources after you create the respective data provider and to manually establish a relation between them.
