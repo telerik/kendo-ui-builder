@@ -11,7 +11,7 @@ position: 5
 The Progress Data service is based on the [`progress.data.JSDO class`](https://documentation.progress.com/output/pdo/index.html#page/pdo/progress.data.jsdo-class.html).
 
 
-The JSDO class is a connector to the mobile services that are provided by Progress and which produce metadata. The catalog file is an extended version and describes the data in a custom format. The catalog file that is necessary for adding the Progress Data provider describes what the service will return and what its constraints are.   
+The JSDO class is a connector to the mobile services that are provided by Progress and which produce metadata. The catalog file is an extended version and describes the data in a custom format. The catalog file that is necessary for adding the Progress Data provider describes what the service will return and what its limitations are.   
 
 ## Setting Progress Data Providers
 

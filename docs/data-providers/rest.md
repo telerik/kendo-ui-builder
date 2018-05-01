@@ -10,7 +10,7 @@ position: 4
 
 Due to the specifics of the [generic REST data services](http://www.restapitutorial.com/lessons/whatisrest.html), the Builder supports the data provider regardless of the framework your web project uses.   
 
-Every data source for the CRID data operations defines its own endpoint. The data provider supports a base URL so that you can define an endpoint for each data source and each CRUD data operation.
+Every data source for the CRUD data operations defines its own endpoint. The data provider supports a base URL so that you can define an endpoint for each data source and each CRUD data operation.
 
 For the generic REST data provider, the Builder does not support hierarchy and has no schema of the data it contains. This means that you can call the data service but cannot relate the data sources through the Builder. To establish the relation between the data, you have to manually add all data fields&mdash;for example, set the types and editors.  
 
