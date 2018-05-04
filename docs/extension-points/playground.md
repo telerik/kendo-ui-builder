@@ -8,7 +8,8 @@ position: 2
 
 # Use Case Scenarios
 
-This article provides examples on common use case scenarios for the generated Kendo UI Builder web project.  
+<<<<<<< HEAD
+This article provides examples on common use case scenarios for the generated Kendo UI Builder web project.
 
 // IF WE PLAN TO LOGICALLY GROUP RELATED SCENARIOS,
 // WE COULD HAVE SUBTITLES FOR BETTER READABILITY
@@ -18,8 +19,49 @@ This article provides examples on common use case scenarios for the generated Ke
 
 The following example demonstrates how to...
 
+=======
+
 {% meta height:700 %}
 ```ts-preview
-alert('OK')
+class GridDemoComponent extends GridDemoBaseComponent {
+    constructor(@Inject(Injector) injector: Injector) {
+        super(injector);
+
+        this.$config.title = 'Grid Changed Title';
+    }
+
+    // Fired when component is initialized and input properties are set
+    public onInit(): void {
+
+    }
+    // Fired when component's views and child views are initialized
+    public onShow(): void {
+    }
+
+    // Fired just before Angular destroys the component. Unsubscribe Observables and detach event handlers to avoid memory leaks
+    public onHide(): void {
+    }
+
+    public onRowSelect(e: SelectionEvent): void {
+        console.log(`Selected CustomerID: ${e.selectedRows[0].dataItem.CustomerID}`);
+    }
+
+    public togglePaging(enablePaging: boolean): void {
+        this.grid.kendoGrid.pageable = enablePaging;
+        if (!enablePaging) {
+            this.$dataServicesState.Customers.take = undefined;
+        } else {
+            this.$dataServicesState.Customers.take = 5;
+        }
+
+        this.read('Customers');
+    }
+
+    public toggleColumnsVisibility(hiddenColumns: Array<string>) {
+        this.grid.kendoGrid.columns.forEach(c => {
+            c.hidden = hiddenColumns.indexOf((<ColumnComponent>c).field) > -1;
+        });
+    }
+}
 ```
 {% endmeta %}
