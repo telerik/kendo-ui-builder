@@ -25,11 +25,13 @@ Kendo UI<sup>®</sup> Builder by Progress<sup>®</sup> is a tool for creating an
 
 ## Styles
 
-To style the generated application, you can readily use the predefined Kendo UI themes or import a custom theme created with the [Progress<sup>®</sup> Sass Theme Builder](http://themebuilder.telerik.com/).
+* Use the [predefined Kendo UI themes]({% slug stylingthemesoverview_kuib %}), or
+* Import a custom theme created with the [Progress<sup>®</sup> Sass Theme Builder](http://themebuilder.telerik.com/).
 
 ## Progress OpenEdge<sup>®</sup> Integration
 
-For more information on how to use the Builder for OpenEdge business applications, refer to the [official Progress<sup>®</sup> Software Documentation](https://www.progress.com/documentation/kendo-ui-builder).  
+* [Official Progress<sup>®</sup> Software Documentation](https://www.progress.com/documentation/kendo-ui-builder).  
+* [Developing a Progress OpenEdge Web App Using Kendo UI Builder](https://www.progress.com/services/education/openedge/developing-an-openedge-web-app-using-kendo-ui-builder).  
 
 ## Building Blocks
 
@@ -48,28 +50,33 @@ The modules are the functional units of the web application.
 
 For more information on handling the module settings, refer to the article on [designing the application]({% slug designingtheapp_kuib %}#toc-module-settings). For more information on the module functionalities, refer to the documentation on [modules]({% slug modulesoverview_kuib %}).
 
-The views provide the settings and functionalities that are available for each application page and comprise the modules.
-* The [system views]({% slug viewsoverview_kuib %}#toc-system) are built-in views located in the App Module.
+The views are part of the modules and provide the settings that are available for each page of the web application.
+
+* The [system views]({% slug viewsoverview_kuib %}#toc-system) are built-in views which are delivered with the App Module.
 * The [built-in views]({% slug viewsoverview_kuib %}#toc-predefined) offer a predefined layout. They aim at facilitating the implementation of the most common scenarios.
-* The [user-defined view]({% slug viewsoverview_kuib %}#toc-blank) is the Blank view. The Blank view provides options for adding, editing, and removing the predefined and custom components, and allows you to modify its layout and functionalities according to the requirements of your business project.  
-* The Builder also allows you to implement any [custom views]({% slug extendingviews_kuib %}) you have created.
+* The [user-defined view]({% slug viewsoverview_kuib %}#toc-blank) is the Blank view. It provides options for adding, editing, and removing the predefined and custom components, and allows you to modify its layout and functionalities according to the requirements of your business project.  
+* The Builder also allows you to implement [custom views]({% slug extendingviews_kuib %}) in your web project.
 
 The components can be used in the Blank view only.  
+
 * The [built-in components]({% slug overviewcomp_kuib %}) offer a predefined set of functionalities. Based on the similar features they deliver, the components are grouped into subsets such as Data Management or Layout components.
-* The Builder also allows you to implement any [custom components]({% slug extendingcomponents_kuib %}) you have created.  
+* The Builder also allows you to implement [custom components]({% slug extendingcomponents_kuib %}) in your web project.  
 
 ### Data Providers
 
-The data providers handle the data connectivity of the application by supporting the input of third-party or custom service endpoints, and the utilization of the available [data sources]({% slug datasources_kuib %}).
+The data providers handle the data connectivity of the application by supporting the input of third-party or custom service endpoints by utilizing the available [data sources]({% slug datasources_kuib %}).
 
 ### Extension Points
 
-The extension points enable you to customize specific aspects of the generated application.
-* The [theme extension points]({% slug extendingthemes_kuib %}) provide options for customizing the appearance of the application.  
-* The [CSS extension points]({% slug extendingcss_kuib %}) provide options for customizing the styles of the application.
-* The [code extension points]({% slug extendingcode_kuib %}) provide options for customizing the backend of the application.  
-* The [view extension points]({% slug extendingviews_kuib %}) provide options for customizing the views of the application.
-* The [component extension points]({% slug extendingcomponents_kuib %}) provide options for customizing the components of the application.
+The extension points enable you to customize specific aspects of the generated web project.
+
+* [Custom CSS]({% slug extendingcss_kuib %})&mdash;The CSS extension points deliver options for personalizing the styles of the web application.
+* [Custom code]({% slug extendingcode_kuib %})&mdash;The code extension points provide options for modifying the backend of the application.  
+* [Custom components]({% slug extendingcomponents_kuib %})&mdash;The component extension points allow you to update the components according to the specific requirements of your project.
+* [Custom packages]({% slug extendingpackages_kuib %})&mdash;The package extension points help you modify the bundles and packages of the generated application.
+* [Custom themes]({% slug extendingthemes_kuib %})&mdash;The theme extension points enable you to apply tailor-made decisions regarding the appearance of the application.  
+* [Custom views]({% slug extendingviews_kuib %})&mdash;The view extension points handle the customization of the web application views.
+* [Extending the head]({% slug extendinghead_kuib %})&mdash;You can add custom elements, such as custom code or links, to the head of the generated web project.
 
 ## Suggested Links
 
