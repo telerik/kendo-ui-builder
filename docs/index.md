@@ -72,7 +72,7 @@ The extension points enable you to customize specific aspects of the generated w
 * [Predefined Kendo UI themes]({% slug stylingthemesoverview_kuib %})
 * [Custom Progress<sup>®</sup> Sass ThemeBuilder themes](http://themebuilder.telerik.com/)
 
-## Progress OpenEdge<sup>®</sup> Integration
+## Progress OpenEdge Integration
 
 * [Official Progress<sup>®</sup> Software Documentation](https://www.progress.com/documentation/kendo-ui-builder)  
 * [Developing a Progress OpenEdge Web App Using Kendo UI Builder](https://www.progress.com/services/education/openedge/developing-an-openedge-web-app-using-kendo-ui-builder)
