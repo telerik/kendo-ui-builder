@@ -7,7 +7,7 @@ slug: calendar_kuib
 
 # Calendar
 
-The Kendo UI Calendar is part of the Schedulers components which the Builder supports.
+The Calendar is part of the Schedulers components which the Builder supports.
 
 ## Usage
 

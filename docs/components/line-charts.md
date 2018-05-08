@@ -7,7 +7,7 @@ slug: linecharts_kuib
 
 # Line Charts
 
-The Kendo UI Line Charts are part of the Charts components which by the Builder supports.
+The Line Charts are part of the Charts components which by the Builder supports.
 
 ## Usage
 

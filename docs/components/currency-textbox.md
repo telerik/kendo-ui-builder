@@ -1,13 +1,13 @@
 ---
-title: CurrencyTextBox
-page_title: CurrencyTextBox - Components - Kendo UI Builder
-description: "Use and implement the CurrencyTextBox when working with the Kendo UI Builder tool for creating and managing Angular and AngularJS-based web applications."
+title: Currency Text Box
+page_title: Currency Text Box - Components - Kendo UI Builder
+description: "Use and implement the Currency Text Box when working with the Kendo UI Builder tool for creating and managing Angular and AngularJS-based web applications."
 slug: currencytextbox_kuib
 ---
 
-# CurrencyTextBox
+# Currency Text Box
 
-The CurrencyTextBox is part of the Editors components which the Builder supports.
+The Currency Text Box is part of the Editors components which the Builder supports.
 
 ## Usage
 

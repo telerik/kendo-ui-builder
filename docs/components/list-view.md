@@ -1,13 +1,13 @@
 ---
-title: ListView
-page_title: ListView - Components - Kendo UI Builder
-description: "Use and implement the ListView component when working with the Kendo UI Builder tool for creating and managing Angular and AngularJS-based web applications."
+title: List View
+page_title: List View - Components - Kendo UI Builder
+description: "Use and implement the List View component when working with the Kendo UI Builder tool for creating and managing Angular and AngularJS-based web applications."
 slug: listview_kuib
 ---
 
-# ListView
+# List View
 
-The Kendo UI ListView is part of the Data Management components which the Builder supports.
+The List View is part of the Data Management components which the Builder supports.
 
 ## Usage
 

@@ -7,7 +7,7 @@ slug: donutcharts_kuib
 
 # Donut Charts
 
-The Kendo UI Donut Charts are part of the Charts components which the Builder supports.
+The Donut Charts are part of the Charts components which the Builder supports.
 
 ## Usage
 

@@ -1,13 +1,13 @@
 ---
-title: Toolbar
-page_title: Toolbar - Components - Kendo UI Builder
-description: "Use and implement the Toolbar when working with the Kendo UI Builder tool for creating and managing Angular and AngularJS-based web applications."
+title: Tool Bar
+page_title: Tool Bar - Components - Kendo UI Builder
+description: "Use and implement the Tool Bar when working with the Kendo UI Builder tool for creating and managing Angular and AngularJS-based web applications."
 slug: toolbar_kuib
 ---
 
-# Toolbar
+# Tool Bar
 
-The Kendo UI Toolbar is part of the Navigation components which the Builder supports.
+The Tool Bar is part of the Navigation components which the Builder supports.
 
 ## Usage
 

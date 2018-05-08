@@ -1,13 +1,13 @@
 ---
-title: PasswordTextBox
-page_title: PasswordTextBox - Components - Kendo UI Builder
-description: "Use and implement the PasswordTextBox when working with the Kendo UI Builder tool for creating and managing Angular and AngularJS-based web applications."
+title: Password Text Box
+page_title: Password Text Box - Components - Kendo UI Builder
+description: "Use and implement the Password Text Box when working with the Kendo UI Builder tool for creating and managing Angular and AngularJS-based web applications."
 slug: passwordtextbox_kuib
 ---
 
-# PasswordTextBox
+# Password Text Box
 
-The PasswordTextBox is part of the Editors components which the Builder supports.
+The Password Text Box is part of the Editors components which the Builder supports.
 
 ## Usage
 

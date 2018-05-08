@@ -1,13 +1,13 @@
 ---
-title: DateTimePicker
-page_title: DateTimePicker - Components - Kendo UI Builder
-description: "Use and implement the DateTimePicker when working with the Kendo UI Builder tool for creating and managing Angular and AngularJS-based web applications."
+title: Date Time Picker
+page_title: Date Time Picker - Components - Kendo UI Builder
+description: "Use and implement the Date Time Picker when working with the Kendo UI Builder tool for creating and managing Angular and AngularJS-based web applications."
 slug: datetimepicker_kuib
 ---
 
-# DateTimePicker
+# Date Time Picker
 
-The Kendo UI DateTimePicker is part of the Editors components which the Builder supports.
+The Date Time Picker is part of the Editors components which the Builder supports.
 
 ## Usage
 

@@ -1,13 +1,13 @@
 ---
-title: PercentTextBox
-page_title: PercentTextBox - Components - Kendo UI Builder
-description: "Use and implement the PercentTextBox when working with the Kendo UI Builder tool for creating and managing Angular and AngularJS-based web applications."
+title: Percent Text Box
+page_title: Percent Text Box - Components - Kendo UI Builder
+description: "Use and implement the Percent Text Box when working with the Kendo UI Builder tool for creating and managing Angular and AngularJS-based web applications."
 slug: percenttextbox_kuib
 ---
 
-# PercentTextBox
+# Percent Text Box
 
-The PercentTextBox is part of the Editors components which the Builder supports.
+The Percent Text Box is part of the Editors components which the Builder supports.
 
 ## Usage
 

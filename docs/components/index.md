@@ -101,7 +101,7 @@ In the Builder, the components represent the elements of your web application.
             <svg id="lisview" viewBox="0 0 70 70">
                 <path d="..." />
             </svg>
-            <p>ListView</p>
+            <p>List View</p>
         </a>
     </li>
   </ul>
@@ -140,42 +140,42 @@ In the Builder, the components represent the elements of your web application.
             <svg id="donut" viewBox="0 0 70 70">
                 <path d="..." />
             </svg>
-            <p>ComboBox</p>
+            <p>Combo Box</p>
         </a>
     </li><li class="col-xs-4 col-md-3">
         <a href="">
             <svg id="donut" viewBox="0 0 70 70">
                 <path d="..." />
             </svg>
-            <p>Currency TextBox</p>
+            <p>Currency Text Box</p>
         </a>
     </li><li class="col-xs-4 col-md-3">
         <a href="">
             <svg id="donut" viewBox="0 0 70 70">
                 <path d="..." />
             </svg>
-            <p>DatePicker</p>
+            <p>Date Picker</p>
         </a>
     </li><li class="col-xs-4 col-md-3">
         <a href="">
             <svg id="donut" viewBox="0 0 70 70">
                 <path d="..." />
             </svg>
-            <p>DateTimePicker</p>
+            <p>Date Time Picker</p>
         </a>
     </li><li class="col-xs-4 col-md-3">
         <a href="">
             <svg id="donut" viewBox="0 0 70 70">
                 <path d="..." />
             </svg>
-            <p>Disabled TextBox</p>
+            <p>Disabled Text Box</p>
         </a>
     </li><li class="col-xs-4 col-md-3">
         <a href="">
             <svg id="donut" viewBox="0 0 70 70">
                 <path d="..." />
             </svg>
-            <p>DropDownList</p>
+            <p>Drop Down List</p>
         </a>
     </li><li class="col-xs-4 col-md-3">
         <a href="">
@@ -189,14 +189,14 @@ In the Builder, the components represent the elements of your web application.
             <svg id="donut" viewBox="0 0 70 70">
                 <path d="..." />
             </svg>
-            <p>Email TextBox</p>
+            <p>Email Text Box</p>
         </a>
     </li><li class="col-xs-4 col-md-3">
         <a href="">
             <svg id="integertextbox" viewBox="0 0 70 70">
                 <path d="..." />
             </svg>
-            <p>Integer TextBox</p>
+            <p>Integer Text Box</p>
         </a>
     </li><li class="col-xs-4 col-md-3">
         <a href="">
@@ -210,42 +210,42 @@ In the Builder, the components represent the elements of your web application.
             <svg id="askedtexbox" viewBox="0 0 70 70">
                 <path d="..." />
             </svg>
-            <p>MaskedTextBox</p>
+            <p>Masked Text Box</p>
         </a>
     </li><li class="col-xs-4 col-md-3">
         <a href="">
             <svg id="donut" viewBox="0 0 70 70">
                 <path d="..." />
             </svg>
-            <p>NumericTextBox</p>
+            <p>Numeric Text Box</p>
         </a>
     </li><li class="col-xs-4 col-md-3">
         <a href="">
             <svg id="donut" viewBox="0 0 70 70">
                 <path d="..." />
             </svg>
-            <p>Password TextBox</p>
+            <p>Password Text Box</p>
         </a>
     </li><li class="col-xs-4 col-md-3">
         <a href="">
             <svg id="donut" viewBox="0 0 70 70">
                 <path d="..." />
             </svg>
-            <p>Percent TextBox</p>
+            <p>Percent Text Box</p>
         </a>
     </li><li class="col-xs-4 col-md-3">
         <a href="">
             <svg id="donut" viewBox="0 0 70 70">
                 <path d="..." />
             </svg>
-            <p>Percent Value TextBox</p>
+            <p>Percent Value Text Box</p>
         </a>
     </li><li class="col-xs-4 col-md-3">
         <a href="">
             <svg id="donut" viewBox="0 0 70 70">
                 <path d="..." />
             </svg>
-            <p>Phone TextBox</p>
+            <p>Phone Text Box</p>
         </a>
     </li><li class="col-xs-4 col-md-3">
         <a href="">
@@ -266,14 +266,14 @@ In the Builder, the components represent the elements of your web application.
             <svg id="donut" viewBox="0 0 70 70">
                 <path d="..." />
             </svg>
-            <p>TextArea</p>
+            <p>Text Area</p>
         </a>
     </li><li class="col-xs-4 col-md-3">
         <a href="">
             <svg id="donut" viewBox="0 0 70 70">
                 <path d="..." />
             </svg>
-            <p>TextBox</p>
+            <p>Text Box</p>
         </a>
     </li><li class="col-xs-4 col-md-3">
         <a href="">

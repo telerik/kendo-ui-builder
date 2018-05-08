@@ -7,7 +7,7 @@ slug: grid_kuib
 
 # Grid
 
-The Kendo UI Grid is part of the Data Management components which the Builder supports.
+The Grid is part of the Data Management components which the Builder supports.
 
 ## Usage
 

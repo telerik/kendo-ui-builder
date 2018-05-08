@@ -7,7 +7,7 @@ slug: areacharts_kuib
 
 # Area Charts
 
-The Kendo UI Area Charts are part of the Charts components which the Builder supports.
+The Area Charts are part of the Charts components which the Builder supports.
 
 ## Usage
 

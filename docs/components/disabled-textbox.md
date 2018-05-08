@@ -1,13 +1,13 @@
 ---
-title: DisabledTextBox
-page_title: DisabledTextBox - Components - Kendo UI Builder
-description: "Use and implement the DisabledTextBox when working with the Kendo UI Builder tool for creating and managing Angular and AngularJS-based web applications."
+title: Disabled Text Box
+page_title: Disabled Text Box - Components - Kendo UI Builder
+description: "Use and implement the Disabled Text Box when working with the Kendo UI Builder tool for creating and managing Angular and AngularJS-based web applications."
 slug: disabledtextbox_kuib
 ---
 
-# DisabledTextBox
+# Disabled Text Box
 
-The DisabledTextBox is part of the Editors components which the Builder supports.
+The Disabled Text Box is part of the Editors components which the Builder supports.
 
 ## Usage
 

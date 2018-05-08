@@ -1,13 +1,13 @@
 ---
-title: MaskedTextBox
-page_title: MaskedTextBox - Components - Kendo UI Builder
-description: "Use and implement the MaskedTextBox when working with the Kendo UI Builder tool for creating and managing Angular and AngularJS-based web applications."
+title: Masked Text Box
+page_title: Masked Text Box - Components - Kendo UI Builder
+description: "Use and implement the Masked Text Box when working with the Kendo UI Builder tool for creating and managing Angular and AngularJS-based web applications."
 slug: maskedtextbox_kuib
 ---
 
-# MaskedTextBox
+# Masked Text Box
 
-The Kendo UI MaskedTextBox is part of the Editors components which the Builder supports.
+The Masked Text Box is part of the Editors components which the Builder supports.
 
 ## Usage
 

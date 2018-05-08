@@ -7,7 +7,7 @@ slug: editor_kuib
 
 # Editor
 
-The Kendo UI Editor is part of the Editors components which the Builder supports.
+The Editor is part of the Editors components which the Builder supports.
 
 ## Usage
 

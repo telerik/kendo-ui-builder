@@ -7,7 +7,7 @@ slug: piecharts_kuib
 
 # Pie Charts
 
-The Kendo UI Pie Charts are part of the Charts components which by the Builder supports.
+The Pie Charts are part of the Charts components which by the Builder supports.
 
 ## Usage
 

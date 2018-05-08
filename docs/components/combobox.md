@@ -1,18 +1,18 @@
 ---
-title: ComboBox
-page_title: ComboBox - Components - Kendo UI Builder
-description: "Use and implement the ComboBox when working with the Kendo UI Builder tool for creating and managing Angular and AngularJS-based web applications."
+title: Combo Box
+page_title: Combo Box - Components - Kendo UI Builder
+description: "Use and implement the Combo Box when working with the Kendo UI Builder tool for creating and managing Angular and AngularJS-based web applications."
 slug: combobox_kuib
 ---
 
-# ComboBox
+# Combo Box
 
-The Kendo UI ComboBox is part of the Editors components which the Builder supports.
+The Combo Box is part of the Editors components which the Builder supports.
 
 ## Usage
 
 * Lets users choose from a list of options.
-* Can be related as a parent-child pair to support cascading. A cascading ComboBox is a series of two or more ComboBoxes where each ComboBox is filtered based on the selected option in the previous ComboBox.
+* Can be related as a parent-child pair to support cascading. A cascading Combo Box is a series of two or more Combo Boxes where each Combo Box is filtered based on the selected option in the previous Combo Box.
 
 ## Preview
 

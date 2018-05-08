@@ -1,19 +1,19 @@
 ---
-title: DropDownList
-page_title: DropDownList - Components - Kendo UI Builder
-description: "Use and implement the DropDownList when working with the Kendo UI Builder tool for creating and managing Angular and AngularJS-based web applications."
+title: Drop Down List
+page_title: Drop Down List - Components - Kendo UI Builder
+description: "Use and implement the Drop Down List when working with the Kendo UI Builder tool for creating and managing Angular and AngularJS-based web applications."
 slug: dropdownlist_kuib
 ---
 
-# DropDownList
+# Drop Down List
 
 
-The Kendo UI DropDownList is part of the Editors components which the Builder supports.
+The Drop Down List is part of the Editors components which the Builder supports.
 
 ## Usage
 
 * Lets users choose a single predefined value from a list.
-* Can be related as a parent-child pair to support cascading. A cascading DropDownList is a series of two or more DropDownLists where each DropDownList is filtered based on the selected option in the previous DropDownList.
+* Can be related as a parent-child pair to support cascading. A cascading Drop Down List is a series of two or more Drop Down Lists where each Drop Down List is filtered based on the selected option in the previous Drop Down List.
 
 ## Preview
 

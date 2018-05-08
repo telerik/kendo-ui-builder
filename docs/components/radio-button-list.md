@@ -7,7 +7,7 @@ slug: radiobuttonlist_kuib
 
 # Radio Button List
 
-The Radio Button List Editors is part of the components which the Builder supports.
+The Radio Button List is part of the Editors components which the Builder supports.
 
 ## Usage
 

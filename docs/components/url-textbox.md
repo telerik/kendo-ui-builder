@@ -1,13 +1,13 @@
 ---
-title: UrlTextBox
-page_title: UrlTextBox - Components - Kendo UI Builder
-description: "Use and implement the UrlTextBox when working with the Kendo UI Builder tool for creating and managing Angular and AngularJS-based web applications."
+title: Url Text Box
+page_title: Url Text Box - Components - Kendo UI Builder
+description: "Use and implement the Url Text Box when working with the Kendo UI Builder tool for creating and managing Angular and AngularJS-based web applications."
 slug: urltextbox_kuib
 ---
 
-# UrlTextBox
+# Url Text Box
 
-The UrlTextBox is part of the Editors components which the Builder supports.
+The Url Text Box is part of the Editors components which the Builder supports.
 
 ## Usage
 

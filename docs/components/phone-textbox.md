@@ -1,13 +1,13 @@
 ---
-title: PhoneTextBox
-page_title: PhoneTextBox - Components - Kendo UI Builder
-description: "Use and implement the PhoneTextBox when working with the Kendo UI Builder tool for creating and managing Angular and AngularJS-based web applications."
+title: Phone Text Box
+page_title: Phone Text Box - Components - Kendo UI Builder
+description: "Use and implement the Phone Text Box when working with the Kendo UI Builder tool for creating and managing Angular and AngularJS-based web applications."
 slug: phonetextbox_kuib
 ---
 
-# PhoneTextBox
+# Phone Text Box
 
-The PhoneTextBox is part of the Editors components which the Builder supports.
+The Phone Text Box is part of the Editors components which the Builder supports.
 
 ## Usage
 

@@ -1,13 +1,13 @@
 ---
-title: TimePicker
-page_title: TimePicker - Components - Kendo UI Builder
-description: "Use and implement the TimePicker when working with the Kendo UI Builder tool for creating and managing Angular and AngularJS-based web applications."
+title: Time Picker
+page_title: Time Picker - Components - Kendo UI Builder
+description: "Use and implement the Time Picker when working with the Kendo UI Builder tool for creating and managing Angular and AngularJS-based web applications."
 slug: timepicker_kuib
 ---
 
-# TimePicker
+# Time Picker
 
-The Kendo UI TimePicker is part of the Editors components which the Builder supports.
+The Time Picker is part of the Editors components which the Builder supports.
 
 ## Usage
 

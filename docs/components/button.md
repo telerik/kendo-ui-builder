@@ -7,7 +7,7 @@ slug: button_kuib
 
 # Button
 
-The Kendo UI Button is part of the Navigation components which the Builder supports.
+The Button is part of the Navigation components which the Builder supports.
 
 ## Usage
 

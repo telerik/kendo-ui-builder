@@ -7,7 +7,7 @@ slug: barcharts_kuib
 
 # Bar Charts
 
-The Kendo UI Bar Charts are part of the Charts components which the Builder supports.
+The Bar Charts are part of the Charts components which the Builder supports.
 
 ## Usage
 

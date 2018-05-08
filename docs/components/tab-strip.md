@@ -1,13 +1,13 @@
 ---
-title: TabStrip
-page_title: TabStrip - Components - Kendo UI Builder
-description: "Use and implement the TabStrip when working with the Kendo UI Builder tool for creating and managing Angular and AngularJS-based web applications."
+title: Tab Strip
+page_title: Tab Strip - Components - Kendo UI Builder
+description: "Use and implement the Tab Strip when working with the Kendo UI Builder tool for creating and managing Angular and AngularJS-based web applications."
 slug: tabstrip_kuib
 ---
 
-# TabStrip
+# Tab Strip
 
-The Kendo UI TabStrip is part of the Navigation components which the Builder supports.
+The Tab Strip is part of the Navigation components which the Builder supports.
 
 ## Usage
 

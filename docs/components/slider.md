@@ -7,7 +7,7 @@ slug: slider_kuib
 
 # Slider
 
-The Kendo UI Slider is part of the Editors components which the Builder supports.
+The Slider is part of the Editors components which the Builder supports.
 
 ## Usage
 

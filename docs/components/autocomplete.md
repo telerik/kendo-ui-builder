@@ -1,13 +1,13 @@
 ---
-title: AutoComplete
-page_title: AutoComplete - Components - Kendo UI Builder
-description: "Use and implement the AutoComplete when working with the Kendo UI Builder tool for creating and managing Angular and AngularJS-based web applications."
+title: Auto Complete
+page_title: Auto Complete - Components - Kendo UI Builder
+description: "Use and implement the Auto Complete when working with the Kendo UI Builder tool for creating and managing Angular and AngularJS-based web applications."
 slug: autocomplete_kuib
 ---
 
-# AutoComplete
+# Auto Complete
 
-The Kendo UI AutoComplete is part of the Editors components which the Builder supports.
+The Auto Complete is part of the Editors components which the Builder supports.
 
 ## Usage
 
