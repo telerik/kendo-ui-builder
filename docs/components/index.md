@@ -10,7 +10,7 @@ position: 1
 
 In the Builder, the components represent the elements of your web application.
 
-* You can add, modify, use, and delete components in the [Blank view]({% slug customviews_kuib %}) only.
+* You can add, modify, use, and delete components in the [Blank]({% slug customviews_kuib %}) and the [App Layout]({% slug applayout_kuib %}) views only.
 * The Builder delivers built-in and custom components.
 * The built-in components are the Kendo UI components that are delivered by [Kendo UI for Angular](https://www.telerik.com/kendo-angular-ui/components/) or [Kendo UI for jQuery](https://demos.telerik.com/kendo-ui/).
 
@@ -362,7 +362,7 @@ In the Builder, the components represent the elements of your web application.
           <svg id="pie" viewBox="0 0 70 70">
               <path d="..." />
           </svg>
-          <p>Toolbar</p>
+          <p>Tool Bar</p>
         </a>
       </li>
     </ul>
@@ -386,12 +386,45 @@ In the Builder, the components represent the elements of your web application.
   </ul>
 </div>
 </div>
+<div class="row separator-bottom">
+<div class="col-md-4 card-list-info">
+    <h2>Site</h2>
+    <p>Site components provide options for designing the layout of the web application on generic level and are available in the App Layout view only.</p>
+</div>
+<div class="col-md-8">
+    <ul class="card-list row">
+    <li class="col-xs-4 col-md-3">
+      <a href="">
+          <svg id="pie" viewBox="0 0 70 70">
+              <path d="..." />
+          </svg>
+          <p>Languages Drop Down</p>
+        </a>
+      </li><li class="col-xs-4 col-md-3">
+        <a href="">
+            <svg id="pie" viewBox="0 0 70 70">
+                <path d="..." />
+            </svg>
+            <p>Navigation Drop Down</p>
+        </a>
+      </li><li class="col-xs-4 col-md-3">
+        <a href="">
+            <svg id="pie" viewBox="0 0 70 70">
+                <path d="..." />
+            </svg>
+            <p>User Drop Down</p>
+          </a>
+        </li>
+     </ul>
+</div>
+</div>
 </div>
 
 ## Suggested Links
 
 * [Custom Components]({% slug extendingcomponents_kuib %})
 * [Blank View]({% slug customviews_kuib %})
+* [App Layout View]({% slug applayout_kuib %})
 * [Kendo UI for Angular](https://www.telerik.com/kendo-angular-ui/components/)
 * [Kendo UI for jQuery Demos](https://demos.telerik.com/kendo-ui/)
 * [Kendo UI for jQuery Documentation](https://docs.telerik.com/kendo-ui/introduction)

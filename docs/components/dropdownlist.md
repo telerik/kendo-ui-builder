@@ -13,7 +13,7 @@ The Kendo UI DropDownList is part of the Editors components which the Builder su
 ## Usage
 
 * Lets users choose a single predefined value from a list.
-* Can ve related as a parent-child pair to support cascading. A cascading DropDownList is a series of two or more DropDownLists where each DropDownList is filtered based on the selected option in the previous DropDownList.
+* Can be related as a parent-child pair to support cascading. A cascading DropDownList is a series of two or more DropDownLists where each DropDownList is filtered based on the selected option in the previous DropDownList.
 
 ## Preview
 

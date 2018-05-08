@@ -10,6 +10,8 @@ position: 1
 
 The Kendo UI Builder supports a set of predefined themes and the import of custom themes.  
 
+> Within the same application, you cannot simultaneously use predefined and custom themes. This means that for each individual web project you can either use any of the predefined themes that are supported by the Kendo UI Builder or import a custom theme that was created with the Kendo UI ThemeBuilder.
+
 ## Predefined Themes
 
 The predefined themes of the Builder provide general appearance and layout options for the generated web projects, and are bundled and ready to use.
@@ -35,8 +37,6 @@ To create a custom theme with the [Progress<sup>®</sup> Sass ThemeBuilder](http
 
 * For Angular projects, refer to the [Kendo UI ThemeBuilder for Angular](http://themebuilder.telerik.com/kendo-angular-ui).
 * For AngularJS projects, refer to the [Kendo UI ThemeBuilder for Angular](http://themebuilder.telerik.com/kendo-angular-ui).
-
-> Themes that are created with the Kendo UI ThemeBuilder for Angular are incompatible with themes that are created with the Kendo UI ThemeBuilder for AngularJS and vice versa.
 
 ### Unarchiving the Custom Theme Files
 
