@@ -23,6 +23,14 @@ The following example demonstrates how to...
 
 {% meta height:700 %}
 ```ts-preview
+/////////////////////////////////////////////////////
+// Add your custom code here.
+// This file and any changes you make to it are preserved every time the app is generated.
+/////////////////////////////////////////////////////
+import { Inject, Injector } from '@angular/core';
+import { SelectionEvent, ColumnComponent } from '@progress/kendo-angular-grid';
+import { GridDemoBaseComponent } from './grid-demo.base.component';
+
 export class GridDemoComponent extends GridDemoBaseComponent {
     constructor(@Inject(Injector) injector: Injector) {
         super(injector);
