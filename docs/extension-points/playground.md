@@ -23,7 +23,7 @@ The following example demonstrates how to...
 
 {% meta height:700 %}
 ```ts-preview
-class GridDemoComponent extends GridDemoBaseComponent {
+export class GridDemoComponent extends GridDemoBaseComponent {
     constructor(@Inject(Injector) injector: Injector) {
         super(injector);
 
