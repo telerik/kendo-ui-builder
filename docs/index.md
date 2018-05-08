@@ -10,17 +10,29 @@ position: 0
 
 Kendo UI<sup>®</sup> Builder by Progress<sup>®</sup> is a tool for creating and managing high-performance, responsive web applications which support the implementation of Kendo UI components.
 
-The Builder separates the user interface (UI) from the project business logic which runs on the application server. It enables you to easily define the layout and content of the web applications by providing access to predefined visual components.
+## Overview
 
-Currently, the tool supports the Angular and AngularJS frameworks. Based on the Kendo UI suites and through utilizing the contemporary Angular, AngularJS, HTML, CSS, and JavaScript technologies, the Builder saves a significant amount of efforts and time otherwise needed for web development.
+* Utilizes the contemporary HTML, CSS, and JavaScript technologies.
+* Separates the user interface (UI) from the project business logic which runs on the application server.
+* Provides extension points for customizing the functional units of the web project.
+* Delivers access to predefined visual components for easily setting up the layout and content of the web application.
+* Saves a significant amount of efforts and time otherwise needed for web development.
 
-The Builder also provides extension points for customizing the functional units of the web project. To style the generated application, you can readily use the predefined Kendo UI themes or import a custom theme created with the [Progress<sup>®</sup> Sass Theme Builder](http://themebuilder.telerik.com/).
+## Supported Frameworks
+
+* Angular
+* AngularJS
+
+## Styles
+
+To style the generated application, you can readily use the predefined Kendo UI themes or import a custom theme created with the [Progress<sup>®</sup> Sass Theme Builder](http://themebuilder.telerik.com/).
+
+## Progress OpenEdge<sup>®</sup> Integration
 
 For more information on how to use the Builder for OpenEdge business applications, refer to the [official Progress<sup>®</sup> Software Documentation](https://www.progress.com/documentation/kendo-ui-builder).  
 
 ## Building Blocks
 
-Basically, the Builder provides its options through:
 * [Modules, views, and components](#toc-modules-views-and-components)
 * [Data providers](#toc-data-providers)
 * [Extension points](#toc-extension-points)
