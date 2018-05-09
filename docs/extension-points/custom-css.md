@@ -2,8 +2,8 @@
 title: Custom Styles
 page_title: Custom Styles - Extension Points - Kendo UI Builder
 description: "Learn how to implement custom styles in web applications generated with the Kendo UI Builder."
-slug: extendingcss_kuib
-position: 5
+slug: customstyles_kuib
+position: 4
 ---
 
 # Custom Styles

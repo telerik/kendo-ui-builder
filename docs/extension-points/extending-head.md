@@ -3,7 +3,7 @@ title: Extending the Head
 page_title: Extending the Head - Extension Points - Kendo UI Builder
 description: "Learn how to extend the head of the web applications generated with the Kendo UI Builder."
 slug: extendinghead_kuib
-position: 9
+position: 7
 ---
 
 # Extending the Head

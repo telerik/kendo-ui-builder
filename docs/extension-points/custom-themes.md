@@ -2,8 +2,8 @@
 title: Custom Themes
 page_title: Custom Themes - Extension Points - Kendo UI Builder
 description: "Learn how to implement custom themes that are created with the Kendo UI ThemeBuilder in web applications which are generated with the Kendo UI Builder."
-slug: extendingthemes_kuib
-position: 7
+slug: customthemes_kuib
+position: 5
 ---
 
 # Custom Themes
