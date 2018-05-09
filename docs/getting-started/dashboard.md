@@ -20,7 +20,7 @@ When you load the Builder for the first time and you have no current projects ye
 
 // screen on initial load view
 
-## Cards and Tags
+## App State
 
 Once you create or import an application, the Dashboard displays a status card in the **Cards** view and a list item in the **List** view for the project.
 
