@@ -1,14 +1,14 @@
 ---
-title: Custom Packages
-page_title: Custom Packages - Extension Points - Kendo UI Builder
-description: "Learn how to customize the packages of the web applications generated with the Kendo UI Builder."
+title: Extending package.json
+page_title: Extending package.json - Extension Points - Kendo UI Builder
+description: "Learn how to extend package.json and add your own packages"
 slug: extendingpackages_kuib
 position: 6
 ---
 
-# Custom Packages
+# Extending package.json
 
-The Builder enables you to customize the bundles and packages of the generated web project by providing the `package.json` file.
+KendoUIBuilder enables you to extend the existing package.json with your own packages.
 
 // When is it generated?
 // Where is it located?

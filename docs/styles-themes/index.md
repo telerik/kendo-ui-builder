@@ -43,7 +43,7 @@ After the custom theme is generated, the ThemeBuilder produces a `.zip` folder w
 * For Angular projects, the ThemeBuilder saves the `.zip` archive in `[appname]\app\src\assets\custom-themes`.
 * For AngularJS projects, the ThemeBuilder saves the `.zip` archive in `[appname]\app\src\styles\custom-themes`.
 
-To import the custom theme, the Kendo UI Builder requires only the unarchived `.css` file of the custom theme&mdash;select a location and unarchive the `.rar` folder there.   
+To import the custom theme, the Kendo UI Builder requires only the unarchived `.css` file of the custom theme&mdash;select a location and unarchive the `.rar` folder there.
 
 ### Importing the Theme
 
@@ -59,12 +59,12 @@ To import the custom theme, the Kendo UI Builder requires only the unarchived `.
 1. Click **Apply**.
 1. On the **Edit App** dialog box, click **Save**. As a result, the custom theme is added to the list of available themes.
 
-You can also access the ThemeBuilder for the respective framework of your current project from the **Edit App** page by clicking the **Go to Kendo UI ThemeBuidler** link.  
+You can also access the ThemeBuilder for the respective framework of your current project from the **Edit App** page by clicking the **Go to Kendo UI ThemeBuidler** link.
 
 ## Suggested Links
 
-* [Using Custom Themes in the Builder]({% slug extendingthemes_kuib %})
-* [Using Custom Styles in the Builder]({% slug customstyles_kuib %})
+* [Customizing Themes with the Kendo UI Builder]({% slug customthemes_kuib %})
+* [Customizing Styles with the Kendo UI Builder]({% slug customstyles_kuib %})
 * [Styles and Appearance with Kendo UI for Angular](https://www.telerik.com/kendo-angular-ui/components/styling/)
 * [Progress Sass ThemeBuilder for Angular](http://themebuilder.telerik.com/kendo-angular-ui)
 * [Styles and Appearance with Kendo UI for jQuery](https://docs.telerik.com/kendo-ui/styles-and-layout/appearance-styling)

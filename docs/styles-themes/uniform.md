@@ -11,7 +11,7 @@ Angular - AngularJS tabs
 
 ## Suggested Links
 
-* [Customizing Themes with the Kendo UI Builder]({% slug extendingthemes_kuib %})
+* [Customizing Themes with the Kendo UI Builder]({% slug customthemes_kuib %})
 * [Customizing Styles with the Kendo UI Builder]({% slug customstyles_kuib %})
 * [Styles and Appearance with Kendo UI for Angular](https://www.telerik.com/kendo-angular-ui/components/styling/)
 * [Progress Sass ThemeBuilder for Angular](http://themebuilder.telerik.com/kendo-angular-ui)
