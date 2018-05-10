@@ -32,7 +32,7 @@ For more information, refer to the documentation on [handling the app state]({% 
 
 ## Log Messages
 
-The **>_OUTPUT** bar displays the log messages which are intended to facilitate the debugging and troubleshooting processes. For more information, refer to the articles on [output modes and debugging options]({% slug debugging_kuib %}) and [troubleshooting]({% slug troubleshooting_kuib %}).
+The **>_OUTPUT** bar displays the log messages which are intended to facilitate the troubleshooting processes when building your applications. For more information, refer to the articles on [output modes and debugging options]({% slug debugging_kuib %}) and [troubleshooting]({% slug troubleshooting_kuib %}).
 
 // screen
 
