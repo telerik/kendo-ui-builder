@@ -10,7 +10,9 @@ position: 2
 
 When you open the Builder, it loads the initial Dashboard page.
 
-The Dashboard is the user interface that assists you when you create the application and handle its settings. The Dashboard page maintains the **Cards** and **List** views from where you can access the projects in the Builder.
+The Dashboard is the user interface that assists you when you create an application, edit existing one and handle its settings.
+
+The Dashboard page maintains the **Cards** and **List** views from where you can access the projects in the Builder.
 
 // screen of card and list views in one
 
@@ -22,11 +24,11 @@ When you load the Builder for the first time and you have no current projects ye
 
 ## App State
 
-Once you create or import an application, the Dashboard displays a status card in the **Cards** view and a list item in the **List** view for the project.
+When you are working on your projects for a long period of time it might happen some issues with your apps. You could upgrade the Builder, import an application created with an older or newer version of the Builder or delete your app from the file system. In such cases you will not be able to work with your application. Every application with an issue has an **App State Label** in order to show you what is the issue and what further actions are needed.
 
-When you already have projects in the Builder from previous releases or if you import external applications, the tool compares the versions of the application metadata and the metadata that is supported by the Builder, and tries to update to the latest available versions. If due to a reason the Builder was not able to successfully proceed with the migration, it renders a tag in the application card (or list item) which reflects the status of the project and indicates what further actions are needed. For more information, refer to the documentation on [handling the status tags]({% slug statustags_kuib %}) and [migration]({% slug migration_kuib %}).
+For more information, refer to the documentation on [handling the app state]({% slug app_state_kuib %}) and [migration]({% slug migration_kuib %}).
 
-// screen of tags
+// screen of app state labels
 
 ## Log Messages
 
