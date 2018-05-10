@@ -46,6 +46,6 @@ The Builder enables you to sort the applications by name or framework, as well a
 
 ## Suggested Links
 
-* [Handling the Status Tags]({% slug statustags_kuib %})
+* [Handling the App State]({% slug app_state_kuib %})
 * [Migration]({% slug migration_kuib %})
 * [Dashboard]({% slug dashboard_kuib %})
