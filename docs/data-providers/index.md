@@ -10,9 +10,9 @@ position: 1
 
 Data providers enable services for establishing the connection between the data you want to display and the data source you want to use.
 
-* Each data provider is represented by a single URI.
-* The definition of a data provider identifies the authentication model which is required to access the data server it supports.
-* A data provider is defined by a JSON file on the web server.
+* A data provider is abstraction which describes a single URI (oData and Progress providers) or base URI (for REST provider).
+* Endpoints in the data providers can be protected or not. The definition of a data provider identifies the authentication model which is required to access the data server it supports.
+* oData and Progress providers can be defined by a schema file on the web server and all child datasources to be generated based on that schema.
 * You can create multiple data providers.
 * You can define one or more data sources from the same data provider.
 
@@ -20,7 +20,7 @@ Data providers enable services for establishing the connection between the data 
 <div class="row separator-bottom">
 <div class="col-md-4 card-list-info">
     <h2>Supported Services</h2>
-    <p>The data services deliver access to one or more resources which provide the data you can specify for the data provider.</p>
+    <p>The data services deliver access to one or more resources which provide the data.</p>
 </div>
 <div class="col-md-8">
     <ul class="card-list row">
@@ -49,7 +49,7 @@ Data providers enable services for establishing the connection between the data 
 <div class="row separator-bottom">
 <div class="col-md-4 card-list-info">
     <h2>Data Sources</h2>
-    <p>The data sources are located within the data providers. They represent the datasets which you can bind to the views and can be created automatically or manually. You can also modify them to show all or only specific columns.</p>
+    <p>The data sources are located within the data providers. They represent the datasets which you can bind to the views and can be created automatically or manually. You can also modify them to show all or only specific fields.</p>
 </div>
 <div class="col-md-8">
     <ul class="card-list row">
