@@ -22,17 +22,15 @@ When you load the Builder for the first time and you have no current projects ye
 
 // screen on initial load view
 
-## App State
+## Application State
 
-When you are working on your projects for a long period of time it might happen some issues with your apps. You could upgrade the Builder, import an application created with an older or newer version of the Builder or delete your app from the file system. In such cases you will not be able to work with your application. Every application with an issue has an **App State Label** in order to show you what is the issue and what further actions are needed.
-
-For more information, refer to the documentation on [handling the app state]({% slug app_state_kuib %}) and [migration]({% slug migration_kuib %}).
+Working a long time on a project might cause unintended issues with your application, which make it impossible for you to work with it. In such cases, to notify you about the further actions that are needed, the Builder adds an **App State Label** to the card of the application. For example, you might have to upgrade the Builder, import an application that was created with an earlier or later version of the Builder, or altogether delete your application from the file system. For more information, refer to the documentation on [handling the application state]({% slug app_state_kuib %}) and [migration]({% slug migration_kuib %}).
 
 // screen of app state labels
 
 ## Log Messages
 
-The **>_OUTPUT** bar displays the log messages which are intended to facilitate the troubleshooting processes when building your applications. For more information, refer to the articles on [output modes and debugging options]({% slug debugging_kuib %}) and [troubleshooting]({% slug troubleshooting_kuib %}).
+To facilitate the troubleshooting processes when you build applications, the **>_OUTPUT** bar displays the log messages. For more information, refer to the articles on [output modes and debugging options]({% slug debugging_kuib %}) and [troubleshooting]({% slug troubleshooting_kuib %}).
 
 // screen
 
@@ -41,6 +39,6 @@ The **>_OUTPUT** bar displays the log messages which are intended to facilitate 
 * [Designing the Application]({% slug designingtheapp_kuib %})
 * [Debugging the Application]({% slug debugging_kuib %})
 * [Basic Approaches for Building Applications]({% slug fewclicks_kuib %})
-* [Handling the App State]({% slug app_state_kuib %})
+* [Handling the Application State]({% slug app_state_kuib %})
 * [Migration]({% slug migration_kuib %})
 * [Installing the Kendo UI Builder]({% slug getstarted_kuib %})

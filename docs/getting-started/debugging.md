@@ -1,35 +1,34 @@
 ---
 title: Debugging
 page_title: Debugging - Getting Started - Kendo UI Builder
-description: "Testing and Debugging applications on your local environment with Kendo UI Builder."
+description: "Test and debug the applications on your local environment with the Kendo UI Builder."
 slug: debugging_kuib
 position: 4
 ---
 
 # Debugging
 
-Next step after designing your app is to test it on your local environment. You can make changes, debug and fix issues. And finally you can prepare a build in order to deploy your application.
+After you design the application, you need to test it on your local environment.
 
-## Actions (find more appropriate name)
+The Builder enables you to make changes, debug, and fix issues, and to prepare a build to deploy the web project.
 
-You can access the available actions from both the **App Design** page and the toolbar that is available in each view.
+## Available Options
+
+You can access the available debugging options from both the **App Design** page and the toolbar that is available in each view.
 
 * **Generate**&mdash;Generates the latest source code and outputs it in the project location in your file system.
+* **Start**&mdash;Triggers the generation of the application, starts the Webpack dev server on `http://localhost:port`, and opens your default web browser either in the root of the application or in a URL which corresponds to the selected view.
 
-* **Start**&mdash;Generates first then starts webpack dev server on http://localhost:`port` and opens web browser either in app root or in an url corresponding to the selected view.
+    > * The available port is a TCP port with a range between 4200 and 4300.
+    > * The Webpack dev server is in watch mode. This means that each **Generate** command causes the reloading of the browser.
 
-> * `port` is first available **TCP port** between 4200 and 4300.
-> * Webpack dev server is in watch mode, so any **Generate** action will trigger browser reload.
+* **Stop**&mdash;Stops the Webpack dev server. **Stop** becomes visible only after the dev server is started.
+* **Open in Browser**&mdash;Opens the web browser in the same location as the **Start** action. **Open in Browser** is useful in the cases when you closed the web browser while the dev server is still running.
+* **Build**&mdash;Generates and then builds the application. The build output is generated in a `build_output/debug` or `build_output/release` local folder depending on the debug or release option you previously selected. For more information, refer to the article on [bundling and packaging]({% slug bundlepackage_kuib %}).
 
-* **Stop**&mdash;Stops webpack dev server. It is only visible when dev server is already started.
-
-* **Open in Browser**&mdash;Just opens web browser in a location same as in **Start** action. It is useful if you closed you werb browser but dev server is running.
-
-* **Build**&mdash;Generates first then builds the app. Build output is `build_output/debug` or `build_output/release` local folder depending on what option you seleted. For more information, refer to the article on [bundling and packaging]({% slug bundlepackage_kuib %}).
-
-> The Kendo UI builder provides options to create, develop, and bundle the application files in a pre-release state, but does not actually deploy the web project. Once the project files are built through the **Build** action and depending on issues you might encounter during the debugging or deployment process, you can either:
-> * Deploy the `release` version in your desired environment, or
-> * Deploy the `debug` version and debug the application directly in your desired environment.
+    > The debugging options of the Builder bundle the application files in a pre-release state, but do not actually deploy the web project. Once the project files are compiled through **Build** and depending on the possible issues you might encounter during the debugging or deployment process, you can either:
+    > * Deploy the `release` version on your desired environment, or
+    > * Deploy the `debug` version and debug the application directly on your desired environment.
 
 // screen
 
