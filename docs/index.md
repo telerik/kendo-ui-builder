@@ -31,7 +31,7 @@ Progress<sup>®</sup> Kendo UI<sup>®</sup> Builder is a tool for creating and m
 
 <img src="images/building_blocks_intro_kuib.png" class="img-responsive" alt="The Building Blocks of the Kendo UI Builder"/>
 
-### Modules, Views, and Components
+### Modules
 
 * Modules are the functional units of the web application.
 * Each module represents a collection of views.
@@ -40,11 +40,15 @@ Progress<sup>®</sup> Kendo UI<sup>®</sup> Builder is a tool for creating and m
 * [Handling the module settings and designing the web application]({% slug designingtheapp_kuib %}#toc-module-settings)
 * [Module features, types, and capabilities]({% slug modulesoverview_kuib %})
 
+### Views
+
 * Views are part of the modules and provide the settings that are available for each page of the web application.
 * The [system views]({% slug viewsoverview_kuib %}#toc-system) are predefined and are only available in the App Module.
 * The [built-in views]({% slug viewsoverview_kuib %}#toc-predefined) are delivered by the Builder out of the box. Their predefined layout, look, and feel aim at facilitating the implementation of the most common scenarios.
 * The [user-defined view]({% slug viewsoverview_kuib %}#toc-blank) is the Blank view. The Blank and the App Layout views are the only views which allow the usage and further modification of components.  
 * The Builder also supports the implementation of [custom views]({% slug extendingviews_kuib %}) in your web project.
+
+### Components
 
 * Components can be used in the [Blank]({% slug blankview_kuib %}) and [App Layout]({% slug applayout_kuib %}) views only.  
 * The [built-in components]({% slug overviewcomp_kuib %}) are delivered by the Builder out of the box. Similar to views, their predefined layout, look, and feel aim at facilitating the implementation of the most common scenarios. Based on the similar features they deliver, the components are grouped into subsets such as Data Management or Layout components.

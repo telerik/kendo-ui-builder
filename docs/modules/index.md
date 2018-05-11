@@ -8,12 +8,10 @@ position: 1
 
 # Modules Overview
 
-The modules are the functional units of the web application and represent collections of views.
+Modules are the functional units of the web application and represent collections of views.
 
-The Builder utilizes two types of modules:
-
-* Regular modules&mdash;Regular modules allow you to add, modify, and delete them, and to add one or more views to them. For more information on how to handle the module settings, refer to the article on [designing the application]({% slug designingtheapp_kuib %}#toc-module-settings).
-* Application Module&mdash;The Application Module is a default module and delivers the system views. For more information, refer to the article on the [Application Module]({% slug appmodule_kuib %}).
+* [Common modules]({% slug designingtheapp_kuib %}#toc-module-settings) can be added, modified, or removed and provide options for adding and editing views within each module while you design the web application.
+* [Application Module]({% slug appmodule_kuib %}) is a default module and delivers the system views.
 
 // screen
 

@@ -12,7 +12,7 @@ The Data Grid Separate Form view is one of the built-in views that are provided 
 ## Features
 
 * Represents a Grid component with a data-driven form field. When the user makes a selection in the Grid, the form field updates accordingly.
-* The ratio between the Grid and the form field is 1:1. This means that when the Grid is open, the form field is hidden and vice versa.
+* The ratio between the Grid and the form field is 1:1&mdash;when the Grid is open, the form field is hidden and vice versa.
 * Supports CRUD (create, read, update, and delete) data operations.
 * Supports form editing through the **Read-Only**, **Edit**, and **Read-Only-to-Editing** modes.
 * Supports error handling.

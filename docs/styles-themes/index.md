@@ -8,37 +8,35 @@ position: 1
 
 # Styling & Themes Overview
 
-The Kendo UI Builder supports a set of predefined themes and the import of custom themes.  
+The Kendo UI Builder delivers a set of predefined themes and supports the import of custom themes.  
 
 > Within the same application, you cannot simultaneously use predefined and custom themes. This means that for each individual web project you can either use any of the predefined themes that are supported by the Kendo UI Builder or import a custom theme that was created with the Kendo UI ThemeBuilder.
 
 ## Predefined Themes
 
-The predefined themes of the Builder provide general appearance and layout options for the generated web projects, and are bundled and ready to use.
+The predefined themes provide general appearance and layout options for the generated web application, and are bundled and ready to use.
 
-The [Kendo UI for jQuery suite](https://docs.telerik.com/kendo-ui/introduction), which delivers the AngularJS-integrated widgets, ships more predefined themes than the [Kendo UI for Angular suite](https://www.telerik.com/kendo-angular-ui/) does. To keep the parity between the predefined themes for the two frameworks, the Builder provides the missing counterparts after their generation with the [Progress<sup>®</sup> Sass Theme Builder](http://themebuilder.telerik.com/). Except for the Default Orange, Bootstrap v4, and Material (currently, in beta) predefined themes for Angular, all other available and predefined themes of the Builder for the Angular framework were beforehand generated with the ThemeBuilder.
+The [Kendo UI for jQuery suite](https://docs.telerik.com/kendo-ui/introduction), which delivers the AngularJS-integrated widgets, ships more predefined themes than the [Kendo UI for Angular suite](https://www.telerik.com/kendo-angular-ui/) does. To keep the parity between the predefined themes for the two frameworks, the Builder supplies the missing counterparts as packages that are previously created and bundled with the [Progress<sup>®</sup> Sass ThemeBuilder](http://themebuilder.telerik.com/). Except for the Default Orange, Bootstrap v4, and Material themes, all other available themes for the Angular framework were beforehand generated with the ThemeBuilder.
 
-For more information on the Kendo UI for jQuery predefined themes, refer to the articles on [Less-based](https://docs.telerik.com/kendo-ui/styles-and-layout/appearance-styling) and [SASS-based](https://docs.telerik.com/kendo-ui/styles-and-layout/sass-themes) themes. For more information on the Kendo UI for Angular predefined themes, refer to the article on [styling](https://www.telerik.com/kendo-angular-ui/components/styling/).
+* [Predefined themes by Kendo UI for Angular](https://www.telerik.com/kendo-angular-ui/components/styling/)
+* [Less-based themes by Kendo UI for jQuery](https://docs.telerik.com/kendo-ui/styles-and-layout/appearance-styling)  
+* [SASS-based themes by Kendo UI for jQuery](https://docs.telerik.com/kendo-ui/styles-and-layout/sass-themes)
 
 ## Custom Themes
 
-The custom themes of the Builder provide only appearance (color) options for the generated web projects. The theme layout and metrics are inherited from the Kendo UI base stylesheets.
+The custom themes of the Builder provide only appearance (color) settings for the generated web projects. The theme layout and metrics are inherited from the Kendo UI base stylesheets.
 
 ### Using Integrated Icon Fonts
 
-To use the integrated Kendo UI font icons:
+* [Font icons by Kendo UI for Angular](https://www.telerik.com/kendo-angular-ui/components/styling/icons/)
+* [Font icons by Kendo UI for jQuery](https://docs.telerik.com/kendo-ui/styles-and-layout/icons-web)
 
-* For Angular projects, refer to the [icons by Kendo UI for Angular](https://www.telerik.com/kendo-angular-ui/components/styling/icons/).
-* For AngularJS projects, refer to the [icons by Kendo UI for jQuery](https://docs.telerik.com/kendo-ui/styles-and-layout/icons-web).
+### Creating Themes with the ThemeBuilder
 
-### Creating Custom Themes with the ThemeBuilder
+* [Progress<sup>®</sup> Sass ThemeBuilder for Angular](http://themebuilder.telerik.com/kendo-angular-ui).
+* [Progress<sup>®</sup> Sass ThemeBuilder for Angular](http://themebuilder.telerik.com/kendo-angular-ui).
 
-To create a custom theme with the [Progress<sup>®</sup> Sass ThemeBuilder](http://themebuilder.telerik.com/):
-
-* For Angular projects, refer to the [Kendo UI ThemeBuilder for Angular](http://themebuilder.telerik.com/kendo-angular-ui).
-* For AngularJS projects, refer to the [Kendo UI ThemeBuilder for Angular](http://themebuilder.telerik.com/kendo-angular-ui).
-
-### Unarchiving the Custom Theme Files
+### Unarchiving the Theme Files
 
 After the custom theme is generated, the ThemeBuilder produces a `.zip` folder which contains the custom theme files:
 
@@ -47,7 +45,7 @@ After the custom theme is generated, the ThemeBuilder produces a `.zip` folder w
 
 To import the custom theme, the Kendo UI Builder requires only the unarchived `.css` file of the custom theme&mdash;select a location and unarchive the `.rar` folder there.   
 
-### Importing the Custom Theme
+### Importing the Theme
 
 1. On the Dashboard, click the card (or list item) of the application to open the **App Design** page.
 1. Next to the application name, click the **Settings** icon to open the drop-down options list.
@@ -65,8 +63,8 @@ You can also access the ThemeBuilder for the respective framework of your curren
 
 ## Suggested Links
 
-* [Customizing Themes with the Kendo UI Builder]({% slug extendingthemes_kuib %})
-* [Customizing Styles with the Kendo UI Builder]({% slug extendingcss_kuib %})
+* [Using Custom Themes in the Builder]({% slug extendingthemes_kuib %})
+* [Using Custom Styles in the Builder]({% slug extendingcss_kuib %})
 * [Styles and Appearance with Kendo UI for Angular](https://www.telerik.com/kendo-angular-ui/components/styling/)
 * [Progress Sass ThemeBuilder for Angular](http://themebuilder.telerik.com/kendo-angular-ui)
 * [Styles and Appearance with Kendo UI for jQuery](https://docs.telerik.com/kendo-ui/styles-and-layout/appearance-styling)

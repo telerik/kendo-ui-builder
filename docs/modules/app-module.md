@@ -10,7 +10,7 @@ position: 2
 
 The Application Module is a built-in module which is added by default to each new application you create with the Builder.
 
-By default, the Application Module delivers the [App Layout]({% slug applayout_kuib %}), [Landing Page]({% slug landingpage_kuib %}), [Login]({% slug login_kuib %}), and [Unauthorized Page]({% slug unauthorized_kuib %}) system views.
+Each Application Module delivers the [App Layout]({% slug applayout_kuib %}), [Landing Page]({% slug landingpage_kuib %}), [Login]({% slug login_kuib %}), and [Unauthorized Page]({% slug unauthorized_kuib %}) system views.
 
 > The Application Module cannot be deleted and does not provide options for setting user roles.
 

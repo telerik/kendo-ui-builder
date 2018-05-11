@@ -8,11 +8,11 @@ position: 1
 
 # Components Overview
 
-In the Builder, the components represent the elements of your web application.
+Components represent the elements of your web application.
 
-* You can add, modify, use, and delete components in the [Blank]({% slug blankview_kuib %}) and the [App Layout]({% slug applayout_kuib %}) views only.
-* The Builder delivers built-in and custom components.
+* The Builder delivers built-in components and supports the implementation of custom components.
 * The built-in components are the Kendo UI components that are delivered by [Kendo UI for Angular](https://www.telerik.com/kendo-angular-ui/components/) or [Kendo UI for jQuery](https://demos.telerik.com/kendo-ui/).
+* You can add, modify, use, and remove components in the [Blank]({% slug blankview_kuib %}) and [App Layout]({% slug applayout_kuib %}) views only.
 
 <div class="container-fluid">
 
@@ -59,8 +59,8 @@ In the Builder, the components represent the elements of your web application.
 
     <div class="row separator-bottom">
         <div class="col-md-4 card-list-info">
-            <h2>Custom</h2>
-            <p>Custom section ...</p>
+            <h2>Custom Html</h2>
+            <p>The Custom HTML components delivers options that allow you to use custom HTML to manage and modify specific elements of the web application.</p>
         </div>
         <div class="col-md-8">
             <ul class="card-list row">
@@ -352,8 +352,8 @@ In the Builder, the components represent the elements of your web application.
 
     <div class="row separator-bottom">
         <div class="col-md-4 card-list-info">
-            <h2>Site Components</h2>
-            <p>Site Components ...</p>
+            <h2>Site</h2>
+            <p>Site components provide options for designing the layout of the web application on generic level and are available in the [App Layout]({% slug applayout_kuib %}) view only.</p>
         </div>
         <div class="col-md-8">
             <ul class="card-list row">
@@ -398,47 +398,12 @@ In the Builder, the components represent the elements of your web application.
             </ul>
         </div>
     </div>
-    <div class="row separator-bottom">
-        <div class="col-md-4 card-list-info">
-            <h2>Site</h2>
-            <p>Site components provide options for designing the layout of the web application on generic level and are available
-                in the App Layout view only.</p>
-        </div>
-        <div class="col-md-8">
-            <ul class="card-list row">
-                <li class="col-xs-4 col-md-3">
-                    <a href="">
-                        <svg id="pie" viewBox="0 0 70 70">
-                            <path d="..." />
-                        </svg>
-                        <p>Languages Drop Down</p>
-                    </a>
-                </li>
-                <li class="col-xs-4 col-md-3">
-                    <a href="">
-                        <svg id="pie" viewBox="0 0 70 70">
-                            <path d="..." />
-                        </svg>
-                        <p>Navigation Drop Down</p>
-                    </a>
-                </li>
-                <li class="col-xs-4 col-md-3">
-                    <a href="">
-                        <svg id="pie" viewBox="0 0 70 70">
-                            <path d="..." />
-                        </svg>
-                        <p>User Drop Down</p>
-                    </a>
-                </li>
-            </ul>
-        </div>
-    </div>
-</div>
 
 ## Suggested Links
+
 * [Custom Components]({% slug customcomponents_kuib %})
 * [Blank View]({% slug blankview_kuib %})
 * [App Layout View]({% slug applayout_kuib %})
-* [Kendo UI for Angular](https://www.telerik.com/kendo-angular-ui/components/)
-* [Kendo UI for jQuery Demos](https://demos.telerik.com/kendo-ui/)
+* [Kendo UI for Angular Documentation](https://www.telerik.com/kendo-angular-ui/components/)
 * [Kendo UI for jQuery Documentation](https://docs.telerik.com/kendo-ui/introduction)
+* [Kendo UI for jQuery Demos](https://demos.telerik.com/kendo-ui/)
