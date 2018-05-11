@@ -93,7 +93,7 @@ The views are the functional screens of the modules and, practically, each view 
 <div class="col-md-8">
     <ul class="card-list row">
         <li class="col-xs-4 col-md-3">
-            <a href="{% slug customviews_kuib %}">
+            <a href="{% slug blankview_kuib %}">
                 <img src="../images/icons/views/Blank.svg" width="64" height="64" alt="Blank" title="Blank"/>
                 <p>Blank</p>
             </a>

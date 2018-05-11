@@ -13,7 +13,7 @@ The extension points represent exposed properties which allow you to customize t
 The available options for customizing the generated web application are:
 
 * [Code extension points]({% slug extendingcode_kuib %})&mdash;You can set custom functions and apply custom event handling to the components.  
-* [Components extension points]({% slug extendingcomponents_kuib %})&mdash;Depending on the framework you use, you can customize the behavior of the components by modifying specific exposed properties.  
+* [Components extension points]({% slug customcomponents_kuib %})&mdash;Depending on the framework you use, you can customize the behavior of the components by modifying specific exposed properties.  
 * [Head extension points]({% slug extendinghead_kuib %})&mdash;You can enter custom scripts or links to the head of the generated project.
 * [Packages extension points]({% slug extendingpackages_kuib %})&mdash;You can edit the `package.json` file and customize the bundles and packages of the generated project.
 * [Styles extension points]({% slug extendingcss_kuib %})&mdash;You can customize the styles of the generated web project by modifying the generated `.css` file.
@@ -26,7 +26,7 @@ The available options for customizing the generated web application are:
 
 * [Demos on Customization]({% slug builder_playground %})
 * [Customizing the Code]({% slug extendingcode_kuib %})
-* [Customizing the Components]({% slug extendingcomponents_kuib %})
+* [Customizing the Components]({% slug customcomponents_kuib %})
 * [Customizing the Packages]({% slug extendingpackages_kuib %})
 * [Customizing the Styles]({% slug extendingcss_kuib %})
 * [Customizing the Themes]({% slug extendingthemes_kuib %})

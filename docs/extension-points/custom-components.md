@@ -2,7 +2,7 @@
 title: Custom Components
 page_title: Custom Components - Extension Points - Kendo UI Builder
 description: "Learn how to customize the behavior of the components in the Angular or AngularJS frameworks in web applications generated with the Kendo UI Builder."
-slug: extendingcomponents_kuib
+slug: customcomponents_kuib
 position: 4
 ---
 

@@ -12,7 +12,7 @@ In your web project, the Builder enables you to implement [native Kendo UI for A
 
 ## Overview
 
-For both the Angular and AngularJS frameworks you can add the [components]({% slug overviewcomp_kuib %}) to the [Blank view]({% slug customviews_kuib %}) only. The component properties and functionalities which are supported by the Builder might not have a full parity with the properties and functionalities which Kendo UI for Angular and Kendo UI for jQuery deliver.
+For both the Angular and AngularJS frameworks you can add the [components]({% slug overviewcomp_kuib %}) to the [Blank view]({% slug blankview_kuib %}) only. The component properties and functionalities which are supported by the Builder might not have a full parity with the properties and functionalities which Kendo UI for Angular and Kendo UI for jQuery deliver.
 
 If the behavior of the Builder components differs for each framework, this framework-specific information is included in the corresponding feature article. For example, the customization approaches of the application code differ in Angular and AngularJS, and the respective details are included into the topic on the [code extension points]({% slug extendingcode_kuib %}).
 

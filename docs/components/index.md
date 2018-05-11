@@ -1,17 +1,17 @@
 ---
-title: Overview 
-page_title: Overview - Components - Kendo UI Builder 
-description: "Use the built-in components or create custom components and implement them in your project when working with the Kendo UI Builder tool for creating and managing Angular and AngularJS-based web applications." 
-slug: overviewcomp_kuib 
-position: 1 
---- 
+title: Overview
+page_title: Overview - Components - Kendo UI Builder
+description: "Use the built-in components or create custom components and implement them in your project when working with the Kendo UI Builder tool for creating and managing Angular and AngularJS-based web applications."
+slug: overviewcomp_kuib
+position: 1
+---
 
 # Components Overview
 
-In the Builder, the components represent the elements of your web application. 
+In the Builder, the components represent the elements of your web application.
 
-* You can add, modify, use, and delete components in the [Blank]({% slug customviews_kuib %}) and the [App Layout]({% slug applayout_kuib %}) views only. 
-* The Builder delivers built-in and custom components. 
+* You can add, modify, use, and delete components in the [Blank]({% slug blankview_kuib %}) and the [App Layout]({% slug applayout_kuib %}) views only.
+* The Builder delivers built-in and custom components.
 * The built-in components are the Kendo UI components that are delivered by [Kendo UI for Angular](https://www.telerik.com/kendo-angular-ui/components/) or [Kendo UI for jQuery](https://demos.telerik.com/kendo-ui/).
 
 <div class="container-fluid">
@@ -435,10 +435,10 @@ In the Builder, the components represent the elements of your web application.
     </div>
 </div>
 
-## Suggested Links 
-* [Custom Components]({% slug extendingcomponents_kuib %}) 
-* [Blank View]({% slug customviews_kuib %})
-* [App Layout View]({% slug applayout_kuib %}) 
+## Suggested Links
+* [Custom Components]({% slug customcomponents_kuib %})
+* [Blank View]({% slug blankview_kuib %})
+* [App Layout View]({% slug applayout_kuib %})
 * [Kendo UI for Angular](https://www.telerik.com/kendo-angular-ui/components/)
-* [Kendo UI for jQuery Demos](https://demos.telerik.com/kendo-ui/) 
+* [Kendo UI for jQuery Demos](https://demos.telerik.com/kendo-ui/)
 * [Kendo UI for jQuery Documentation](https://docs.telerik.com/kendo-ui/introduction)
