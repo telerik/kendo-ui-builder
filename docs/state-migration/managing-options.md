@@ -1,12 +1,12 @@
 ---
-title: Managing the Applications
-page_title: Managing the Applications - Status & Migration - Kendo UI Builder
+title: Managing the Application
+page_title: Managing the Application - Status & Migration - Kendo UI Builder
 description: "Use the options for managing your application and duplicate, export, remove, or delete it when working with the Kendo UI Builder tool."
 slug: managingtheapp_kuib
 position: 2
 ---
 
-# Managing the Applications
+# Managing the Application
 
 From the Dashboard, the Builder provides options for managing the available projects.
 
@@ -46,6 +46,6 @@ The Builder enables you to sort the applications by name or framework, as well a
 
 ## Suggested Links
 
-* [Handling the App State]({% slug app_state_kuib %})
+* [Handling the Application State]({% slug app_state_kuib %})
 * [Migration]({% slug migration_kuib %})
 * [Dashboard]({% slug dashboard_kuib %})

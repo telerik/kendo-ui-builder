@@ -24,6 +24,6 @@ The applications which need to be manually migrated have the **Migration Require
 
 ## Suggested Links
 
-* [Handling the App State]({% slug app_state_kuib %})
-* [Managing the Applications]({% slug managingtheapp_kuib %})
+* [Handling the Application State]({% slug app_state_kuib %})
+* [Managing the Application]({% slug managingtheapp_kuib %})
 * [Dashboard]({% slug dashboard_kuib %})
