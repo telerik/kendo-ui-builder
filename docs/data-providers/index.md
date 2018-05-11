@@ -8,7 +8,7 @@ position: 1
 
 # Data Providers Overview
 
-In the Builder, data providers enable services for establishing the connection between the data you want to display and the data source you want to use.
+Data providers enable services for establishing the connection between the data you want to display and the data source you want to use.
 
 * Each data provider is represented by a single URI.
 * The definition of a data provider identifies the authentication model which is required to access the data server it supports.
@@ -19,7 +19,7 @@ In the Builder, data providers enable services for establishing the connection b
 <div class="container-fluid">
 <div class="row separator-bottom">
 <div class="col-md-4 card-list-info">
-    <h2>Data Services</h2>
+    <h2>Supported Services</h2>
     <p>The data services deliver access to one or more resources which provide the data you can specify for the data provider.</p>
 </div>
 <div class="col-md-8">
@@ -53,22 +53,13 @@ In the Builder, data providers enable services for establishing the connection b
 </div>
 <div class="col-md-8">
     <ul class="card-list row">
-    <li class="col-xs-4 col-md-3">
-        <a href="{% slug datasources_kuib %}">
-           <svg id="area" viewBox="0 0 70 70">
-                <defs>
-                    <linearGradient id="gradient" x1="0%" y1="0%" x2="0%" y2="100%">
-                    <stop offset="0%" stop-color="#ffab09" />
-                        <stop offset="70%" stop-color="#ff6358" />
-                        <stop offset="100%" stop-color="#dd3169" />
-                    </linearGradient>
-                </defs>
-                <path d="..." />
-            </svg>
-            <p>Overview</p>
-        </a>
-    </li>
-  </ul>
+        <li class="col-xs-4 col-md-3">
+            <a href="{% slug odata_kuib %}">
+                <img src="../images/icons/data-providers/Data-Source.svg" width="64" height="64" alt="OData" title="OData"/>
+                <p>Data Sources</p>
+            </a>
+        </li>
+   </ul>
 </div>
 </div>
 </div>
