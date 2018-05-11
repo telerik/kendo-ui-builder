@@ -25,7 +25,9 @@ Progress<sup>®</sup> Kendo UI<sup>®</sup> Builder is a tool for creating and m
 
 ## Building Blocks
 
-* [Modules, views, and components](#toc-modules-views-and-components)
+* [Modules](#toc-modules)
+* [Views](#toc-views)
+* [Components](#toc-components)
 * [Data providers](#toc-data-providers)
 * [Extension points](#toc-extension-points)
 
