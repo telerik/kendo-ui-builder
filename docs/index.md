@@ -8,7 +8,7 @@ position: 0
 
 # Introduction to Kendo UI Builder
 
-Kendo UI<sup>®</sup> Builder by Progress<sup>®</sup> is a tool for creating and managing high-performance, responsive web applications which support the implementation of Kendo UI components.
+Progress<sup>®</sup> Kendo UI<sup>®</sup> Builder is a tool for creating and managing high-performance, responsive web applications which support the implementation of Kendo UI components.
 
 ## Overview
 
@@ -20,8 +20,8 @@ Kendo UI<sup>®</sup> Builder by Progress<sup>®</sup> is a tool for creating an
 
 ## Supported Frameworks
 
-* Angular
-* AngularJS
+* [Angular]({% slug frameworks_kuib%}#toc-supported-versions)
+* [AngularJS]({% slug frameworks_kuib %}#toc-supported-versions)
 
 ## Building Blocks
 
@@ -33,32 +33,31 @@ Kendo UI<sup>®</sup> Builder by Progress<sup>®</sup> is a tool for creating an
 
 ### Modules, Views, and Components
 
-The modules are the functional units of the web application. For more information on handling the module settings, refer to the article on [designing the application]({% slug designingtheapp_kuib %}#toc-module-settings). For more information on the module capabilities, refer to the documentation on [modules]({% slug modulesoverview_kuib %}).
-
+* Modules are the functional units of the web application.
 * Each module represents a collection of views.
 * With the creation of each new application, the Builder provides the built-in [App Module]({% slug appmodule_kuib %}) which contains predefined, system views.
 * While you build your web application, you can add, modify, and remove the modules your project requires.
+* [Handling the module settings and designing the web application]({% slug designingtheapp_kuib %}#toc-module-settings)
+* [Module features, types, and capabilities]({% slug modulesoverview_kuib %})
 
-The views are part of the modules and provide the settings that are available for each page of the web application.
+* Views are part of the modules and provide the settings that are available for each page of the web application.
+* The [system views]({% slug viewsoverview_kuib %}#toc-system) are predefined and are only available in the App Module.
+* The [built-in views]({% slug viewsoverview_kuib %}#toc-predefined) are delivered by the Builder out of the box. Their predefined layout, look, and feel aim at facilitating the implementation of the most common scenarios.
+* The [user-defined view]({% slug viewsoverview_kuib %}#toc-blank) is the Blank view. The Blank view is the only view that allows the usage and further modification components&mdash;both predefined and custom.  
+* The Builder also supports the implementation of [custom views]({% slug extendingviews_kuib %}) in your web project.
 
-* The [system views]({% slug viewsoverview_kuib %}#toc-system) are built-in views which are delivered with the App Module.
-* The [built-in views]({% slug viewsoverview_kuib %}#toc-predefined) offer a predefined layout. They aim at facilitating the implementation of the most common scenarios.
-* The [user-defined view]({% slug viewsoverview_kuib %}#toc-blank) is the Blank view. It provides options for adding, editing, and removing the predefined and custom components, and allows you to modify its layout and functionality according to the requirements of your business project.  
-* The Builder also allows you to implement [custom views]({% slug extendingviews_kuib %}) in your web project.
-
-The components can be used in the Blank view only.  
-
-* The [built-in components]({% slug overviewcomp_kuib %}) offer a predefined set of features. Based on the similar features they deliver, the components are grouped into subsets such as Data Management or Layout components.
-* The Builder also allows you to implement [custom components]({% slug extendingcomponents_kuib %}) in your web project.  
+* Components can be used in the Blank view only.  
+* The [built-in components]({% slug overviewcomp_kuib %}) are delivered by the Builder out of the box. Similar to views, their predefined layout, look, and feel aim at facilitating the implementation of the most common scenarios. Based on the similar features they deliver, the components are grouped into subsets such as Data Management or Layout components.
+* The Builder also supports the implementation of [custom components]({% slug extendingcomponents_kuib %}) in your web project.  
 
 ### Data Providers
 
-The data providers handle the data connectivity of the application by supporting the input of third-party or custom service endpoints by utilizing the available [data sources]({% slug datasources_kuib %}).
+* Data providers handle the data connectivity of the application.
+* They support the input of third-party and custom service endpoints, and utilize the respective available [data sources]({% slug datasources_kuib %}).
 
 ### Extension Points
 
-The extension points enable you to customize specific aspects of the generated web project.
-
+* Extension points enable you to customize specific aspects of the generated web project.
 * [Custom CSS]({% slug extendingcss_kuib %})&mdash;The CSS extension points deliver options for personalizing the styles of the web application.
 * [Custom code]({% slug extendingcode_kuib %})&mdash;The code extension points provide options for modifying the backend of the application.  
 * [Custom components]({% slug extendingcomponents_kuib %})&mdash;The component extension points allow you to update the components according to the specific requirements of your project.
@@ -69,8 +68,9 @@ The extension points enable you to customize specific aspects of the generated w
 
 ## Styling Options
 
-* [Predefined Kendo UI themes]({% slug stylingthemesoverview_kuib %})
-* [Custom Progress<sup>®</sup> Sass ThemeBuilder themes](http://themebuilder.telerik.com/)
+* [Using the predefined Kendo UI themes]({% slug stylingthemesoverview_kuib %})
+* [Building custom themes with Progress<sup>®</sup> Sass ThemeBuilder](http://themebuilder.telerik.com/)
+* [Developing your custom themes]({% slug extendingthemes_kuib %})
 
 ## Progress OpenEdge Integration
 
