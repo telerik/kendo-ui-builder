@@ -64,7 +64,7 @@ You can also access the ThemeBuilder for the respective framework of your curren
 ## Suggested Links
 
 * [Using Custom Themes in the Builder]({% slug extendingthemes_kuib %})
-* [Using Custom Styles in the Builder]({% slug extendingcss_kuib %})
+* [Using Custom Styles in the Builder]({% slug customstyles_kuib %})
 * [Styles and Appearance with Kendo UI for Angular](https://www.telerik.com/kendo-angular-ui/components/styling/)
 * [Progress Sass ThemeBuilder for Angular](http://themebuilder.telerik.com/kendo-angular-ui)
 * [Styles and Appearance with Kendo UI for jQuery](https://docs.telerik.com/kendo-ui/styles-and-layout/appearance-styling)
