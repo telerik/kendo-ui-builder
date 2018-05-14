@@ -34,6 +34,5 @@ You can access the available debugging options from both the **App Design** page
 
 ## Suggested Links
 
-* [Basic Approaches for Building Applications]({% slug fewclicks_kuib %})
 * [Dashboard]({% slug dashboard_kuib %})
 * [Installing the Kendo UI Builder]({% slug getstarted_kuib %})

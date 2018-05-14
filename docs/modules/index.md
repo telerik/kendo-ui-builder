@@ -10,7 +10,7 @@ position: 1
 
 Modules are the functional units of the web application and represent collections of views.
 
-* [Common modules]({% slug designingtheapp_kuib %}#toc-module-settings) can be added, modified, or removed and provide options for adding and editing views within each module while you design the web application.
+* [Common modules]({% slug settingsmodules_kuib %}) can be added, modified, or removed and provide options for adding and editing views within each module while you design the web application.
 * [Application Module]({% slug appmodule_kuib %}) is a default module and delivers the system views.
 
 // screen
@@ -59,4 +59,4 @@ The order of the modules on the **App Design** page corresponds to the order in 
 ## Suggested Links
 
 * [Application Module]({% slug appmodule_kuib %})
-* [Handling Module Settings]({% slug designingtheapp_kuib %}#toc-module-settings)
+* [Adding, Editing, Reordering, and Deleting]({% slug settingsmodules_kuib %})

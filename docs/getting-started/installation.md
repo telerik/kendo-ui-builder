@@ -51,6 +51,5 @@ If the installation is unsuccessful, check the `KendoUIBuilderOEInstall.log` fil
 
 * [Dashboard]({% slug dashboard_kuib %})
 * [Debugging the Application]({% slug debugging_kuib %})
-* [Basic Approaches for Building the Application]({% slug fewclicks_kuib %})
 * [Frequently Asked Questions]({% slug faq_kuib %})
 * [Troubleshooting]({% slug troubleshooting_kuib %})
