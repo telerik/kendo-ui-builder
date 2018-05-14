@@ -1,4 +1,4 @@
-customstyles_kuib---
+---
 title: Introduction
 page_title: Introduction | Kendo UI Builder
 description: "Welcome to the Kendo UI® Builder by Progress® tool for creating and managing Angular and AngularJS-based web applications."
