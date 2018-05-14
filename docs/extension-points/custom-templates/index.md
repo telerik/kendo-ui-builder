@@ -1,14 +1,19 @@
 ---
 title: Overview
 page_title: Overview - Custom Templates - Kendo UI Builder
-description: ""
+description: "Learn how to customize the views and components by using the custom templates that are supported by the Kendo UI Builder."
 slug: customtemplates_kuib
 position: 1
 ---
 
 # Custom Templates Overview
 
-All custom templates (views and components) reside in the `templates` folder at the application root folder. The structure is the following:
+For both the AngularJS and Angular frameworks, the Builder supports the [custom views]({% slug customviews_kuib %}) and [custom components]({% slug customcomponents_kuib %}) templates.
+
+All custom templates reside in the `templates` folder at the root application level.
+
+* `<view_name>` or `<component_name>` represent the names of the selected view or component.
+* The Builder utilizes the EJS templating engine and generates the `.ejs` files. For more information, refer to the [official EJS diocumentation](http://ejs.co/).
 
 ```
 templates/
@@ -44,8 +49,6 @@ templates/
         └── <view_name>.json
 ```
 
-where `<view_name>`/`<component_name>` is the name of choise of your view/component.
+## Suggested Links
 
-Notice the `.ejs` files. KendoUIBuilder Generator uses the ejs templating engine, you can learn more about it from here: http://ejs.co/.
-
-KendoUIBuilder supports two types of templates for each framework - Views and Components. They will be regarded in details below
+* [Overview of Extension Points]({% slug extensionpoints_kuib %})
