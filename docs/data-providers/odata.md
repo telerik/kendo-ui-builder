@@ -18,7 +18,7 @@ The Builder supports:
 
 1. On the Dashboard, click the card (or list item) of the application to open the **App Design** page.
 1. On the **App Design** page, click **Add Data Provider**. As a result, the **Add Data Provider** dialog box appears.
-1. Select among the **OData**, **Generic REST**, and **Progress Data** data providers.
+1. Select the **OData** data provider.
 1. In **Name**, provide the name of the data provider.
 1. In **Service URI**, enter the URI of the OData Service. For example, http://Your-IP-Address:8980/OData/Inventory.svc.
 1. (Optional) Test whether the URI is working by clicking **Test Connection**.

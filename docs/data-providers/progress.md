@@ -11,13 +11,13 @@ position: 6
 The Progress Data service is based on the [`progress.data.JSDO class`](https://documentation.progress.com/output/pdo/index.html#page/pdo/progress.data.jsdo-class.html).
 
 
-The JSDO class is a connector to the mobile services that are provided by Progress and which produce metadata. The catalog file is an extended version and describes the data in a custom format. The catalog file that is necessary for adding the Progress Data provider describes what the service will return and what its limitations are.   
+The JSDO class is a connector to the mobile services that are provided by Progress and which produce metadata. The catalog file is an extended version and describes the data in a custom format. The catalog file that is necessary for adding the Progress Data provider describes what the service will return and how its endpoints are configured.
 
 ## Setting Progress Data Providers
 
 1. On the Dashboard, click the card (or list item) of the application to open the **App Design** page.
 1. On the **App Design** page, click **Add Data Provider**. As a result, the **Add Data Provider** dialog box appears.
-1. Select among the **OData**, **Generic REST**, and **Progress Data** data providers.
+1. Select the **Progress Data** data provider.
 1. In **Name**, provide the name of the data provider.
 1. In **Service URI**, enter the root URI of the data provider (the Service URI).
 1. (Optional) Test whether the URI is working by clicking **Test Connection**.
@@ -32,9 +32,11 @@ The JSDO class is a connector to the mobile services that are provided by Progre
 
 1. In **Authentication Model**, select the security model for the service and catalog URI. The model has to match the authentication model of the web application (web server) which provides the data object service.
 
-  * **Anonymous**&mdash;Indicates...
-  * **Basic**&mdash;Indicates...
-  * **Form**&mdash;Indicates...
+  * **Anonymous**&mdash;;Indicates that the provider data is not protected with authentication.
+  * **Basic**&mdash; (Supported only in Angular) Indicates that provider data is protected with username and password when making a request.
+  * **Form**&mdash; (Supported only in Angular) Indicates that provider data is protected with username and password like Basic but the JSDOSession intercepts the form sent by the web application and handles the authentication without that form being displayed.
+
+  For more information, refer to the article on [Authentication]({% slug authentication_kuib %}).
 
 1. Click **Add Data Provider** to save the settings of the data provider and close the **Add Data Provider** dialog box. As a result, the **App Design** page displays the card for the newly added data provider.
 

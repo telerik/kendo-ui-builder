@@ -18,7 +18,7 @@ Currently for the generic REST data provider, the Builder does not support hiera
 
 1. On the Dashboard, click the card (or list item) of the application to open the **App Design** page.
 1. On the **App Design** page, click **Add Data Provider**. As a result, the **Add Data Provider** dialog box appears.
-1. Select among the **OData**, **Generic REST**, and **Progress Data** data providers.
+1. Select the **Generic REST** data provider.
 1. In **Name**, provide the name of the data provider.
 1. In **Base URI**, enter a base URI which is the root URI of a REST service. For example, http://Your-IP-Address:8980/api.
 1. In **Authentication Type**, select the security model for the service and catalog URI. The model has to match the authentication model of the web application (web server) which provides the data object service.
