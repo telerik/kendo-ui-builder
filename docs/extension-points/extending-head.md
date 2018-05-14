@@ -19,8 +19,6 @@ To extend the head:
 1. Enter the custom elements in the input field.
 1. Click **Save** to save or **Cancel** to discard your changes.
 
-// Add any relevant info + demo/screen
-
 ## Suggested Links
 
 * [Overview of Extension Points]({% slug extensionpoints_kuib %})
