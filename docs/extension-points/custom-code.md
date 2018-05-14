@@ -2,7 +2,7 @@
 title: Custom Code
 page_title: Custom Code - Extension Points - Kendo UI Builder
 description: "Learn how to use the exposed events to implement custom functions and customize the event-handling scenarios in web applications generated with the Kendo UI Builder."
-slug: customstyles_kuib
+slug: customcode_kuib
 position: 3
 ---
 
