@@ -30,10 +30,13 @@ You can also customize each view through code extensions, which manage its event
 
 * [Custom code]({% slug customcode_kuib %})
 * [Custom templates]()
-* [Custom styles]()
+* [Custom styles]({% slug customstyles_kuib %})
 
 ## Suggested Links
 
+* [Installing the Kendo UI Builder]({% slug getstarted_kuib %})
 * [Designing the Application]({% slug designingtheapp_kuib %})
 * [Dashboard]({% slug dashboard_kuib %})
-* [Installing the Kendo UI Builder]({% slug getstarted_kuib %})
+* [Custom Themes]()
+* [Custom Packages]()
+* [Extending the Head]()
