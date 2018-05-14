@@ -15,6 +15,8 @@ templates/
 ├── components/
 |   └── <component_name>/
 |       ├── angular/
+|       |   ├── config.json.ejs
+|       |   └── template.html.ejs
 |       ├── angularjs/
 |       |   ├── directive.html.ejs
 |       |   └── options.json.ejs
