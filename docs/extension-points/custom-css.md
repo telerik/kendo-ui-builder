@@ -57,7 +57,7 @@ Angular tries to emulate the Shadow DOM specification which is more sophisticate
 
 ## Additional Customization Approaches
 
-You can additionally customize the styles of your application by using the CSS `Class List` property which is available for each view, row, and column. Currently and by default, Kendo UI widgets for AngularJS do not feature a `Class List` setting because each widget is wrapped by a column. In this way, you can unambiguously target the component by its classes.
+You can additionally customize the styles of your application by using the CSS `list` class property which is available for each view, row, and column. Currently and by default, Kendo UI widgets for AngularJS do not feature a `list` class because each widget is wrapped by a column. In this way, you can unambiguously target the component by its classes.
 
 Many designs and layouts are built around the concept of primitives. These primitives represent CSS classes each of which has a characteristic property. For example, you can have a class that hides the element to which it is attached, a class that adds 20px padding, and so on. You can build the styling of the entire application by adding only classes to the class list. Kendo UI suites are built mainly with primitives and Bootstrap also provides primitives that you can readily reuse.
 
