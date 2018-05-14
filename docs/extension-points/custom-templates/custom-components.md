@@ -101,26 +101,63 @@ As you can see, the wrapper html element has `my-custom-calendar` class whit whi
 
 ## Runtime template
 
+### Angular
+
 The Angular template consists of two mandatory files:
 
 - `template.html.ejs` :
-This template file represents the Angular component that will be rendered directly in the view, when someone add it. The definition of the component template and controller themselves are provided separately (as you will see later). For example, let's say you want to create a custom calendar component named `my-calendar`. Then the template might look like this:
+This template file represents the Angular component that will be rendered directly in the view, when someone add it. The definition of the component and controller themselves are provided separately (as you will see later). For example, let's say you want to create a custom calendar component named `my-calendar`. Then the template might look like this:
 
 ```html
 <my-calendar
     [config]="$config.components.<%- id %>"
-    [id]="'<%- id %>'"
->
+    [id]="'<%- id %>'">
 </my-calendar>
 ```
 - `config.json.ejs` - It is a suitable way to pass calculated properties from design-time to runtime. Then you can use the `$config` variable to access them from both, the template and the controller.
 
-## Angular component definition
+### AngularJS
+
+The AngularJS template consists of two mandatory files:
+
+- `directive.html.ejs` This template file represents the AngularJS directive that will be rendered directly in the view, when someone add it. The definition of the directive and controller themselves are provided separately (as you will see later). For example, let's say you want to create a custom calendar component named `my-calendar`. Then the template might look like this:
+
+```html
+<my-calendar
+    data-id="<%- id %>"
+    data-widget="vm.$components.<%- id %>.widget"
+    data-options="vm.$components.<%- id %>.options"
+    data-events="vm.$components.<%- id %>.events">
+</my-calendar>
+```
+
+- `options.json.ejs` It is a suitable way to pass calculated properties from design-time to runtime. Then you can use `vm.$components.<component_id>.options` to access them from both, the template and the controller.
+
+```json
+{
+    widget: null,
+    options: {
+        title: "<%- title %>",
+        minDate: "<%- minDate %>",
+        maxDate: "<%- maxDate %>"
+    },
+    events: {
+        onChange: (e) => {
+            <% if (events.onChange) { %>
+                this['<%- events.onChange %>'](e);
+            <% } %>
+        }
+    }
+}
+```
+
+## Component/Directive definition
 
 The custom component template is used by the Designer to generate code and render it inside the app everytime someone drags it from the toolbox to the Designer canvas. At this point, the rendered `<my-calendar>` component doesn't mean anything to angular and you need to define its template and contrller, otherwise an exception will be thrown.
 
-In order to do so, create a folder inside `app/src/app/shared`, next to the `components/` folder, called `custom-components` (or any name of your choice). Inside this folder, create a folder for each custom component. These components are Angular components and everything you know about Angular applies for them. Example:
+### Angular
 
+In order to do so, create a folder inside `app/src/app/shared`, next to the `components/` folder, called `custom-components` (or any name of your choice). Inside this folder, create a folder for each custom component. These components are Angular components and everything you know about Angular applies for them. Example:
 
 `custom-components/my-calendar/my-calendar.component.html`:
 
@@ -165,9 +202,51 @@ config.exports.push(MyCalendarComponent); // don't forget to export your compone
 export class SharedModule { }
 ``` 
 
-## AngularJS template
+### AngularJS
 
-//TODO
+Navigate to `app/src/scripts/extensions` and create a folder for each custom directive. In this folder will reside the `template.html` and `index.js` for the directive. For example:
+
+- `index.js`
+
+```js
+'use strict';
+
+import template from './template.html';
+
+function directive() {
+    return {
+        restrict: 'E',
+        scope: true,
+        bindToController: {
+            id: '@',
+            widget: '=',
+            options: '=',
+            events: '=',
+        },
+        transclude: true,
+        controller: function() {
+            var vm = this;
+        },
+        controllerAs: 'vm',
+        templateUrl: template
+    };
+}
+
+export default directive;
+```
+
+- `template.html`
+
+```html
+<div
+    id="{{vm.id}}"
+    kendo-calendar="vm.widget"
+    k-options="vm.options"
+    k-on-change="vm.events.onChange(kendoEvent)">
+</div>
+```
+
+As you can see, in this specific example the template wraps a kendo directive inside, just to show that this is also possible.
 
 ## Suggested Links
 
