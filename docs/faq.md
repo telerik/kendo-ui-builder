@@ -1,6 +1,6 @@
 ---
 title: FAQ
-page_title: FAQ | Kendo UI Builder
+page_title: FAQ - Documentation - Kendo UI Builder
 description: "Find the answers to your questions about the Kendo UI Builder tool for creating and managing Angular and AngularJS-based web applications."
 slug: faq_kuib
 position: 13
