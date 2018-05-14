@@ -1,9 +1,9 @@
 ---
 title: Authentication
-page_title: Authentication - Setup & Migration - Kendo UI Builder
+page_title: Authentication - Authentication & Authorization - Kendo UI Builder
 description: "..."
 slug: authentication_kuib
-position: 2
+position: 1
 ---
 
 # Authentication
@@ -84,7 +84,6 @@ In order to setup **API Key** authentication for the application you can create 
 
 JSDO Authentication type denotes authentication support integrated in [JSDO library](https://github.com/progress/JSDO) used by Progress Data Provider. You can setup authentication for Progress Data Provider by specifying **Authentication Model** in its settings. Available options are: `Anonymous`, `Basic` and `From`.
 
-
 ## Extensibility
 
 Authentication support in Kendo UI Builder is designed to be extensible. If you want to implement your own authentication you should create an authentication provider. Then you shoud inherit AuthenticationService in order to implement your provider initialization. The final step is to replace service registration of base AunthenticationService with your inherited AuthenticationService.
@@ -92,3 +91,4 @@ Authentication support in Kendo UI Builder is designed to be extensible. If you 
 ## Suggested Links
 
 * [OpenID Connect protocol](http://openid.net/connect/)
+* [The OAuth 2.0 Authorization Framework](https://tools.ietf.org/html/rfc6749)

@@ -1,54 +1,40 @@
 ---
-title: Roles and Authorization
-page_title: Roles and Authorization - Setup & Migration - Kendo UI Builder
-description: "Set and authorize the admin roles when working with the Kendo UI Builder tool for creating and managing Angular and AngularJS-based web applications."
+title: Authorization and Roles
+page_title: Authorization and Roles - Authentication & Authorization - Kendo UI Builder
+description: "Set and authorize the user roles when working with the Kendo UI Builder tool for creating and managing Angular and AngularJS-based web applications."
 slug: rolesauthoriz_kuib
-position: 1
+position: 2
 ---
 
-# Roles and Authorization
+# Authorization and Roles
 
-The Builder allows you to define specific user roles and set access rights to its modules, views, and components.
+Kendo UI Builder supports role based authorization. It allows you to define specific user roles and set access rights to its modules, views, and components.
 
-@Ivelin - if we have more steps for setting the roles and access rights, we might take these out in a **Settings** article.
+## Overview
 
-## Defining User Roles
+In order to implement role based authorization in your application you need to:
 
-1. On the Dashboard, go to the card (or list item) of the application.
-1. Click the **Settings** icon to open the drop-down options list.
-1. Select **Roles** to open the **Authorization Roles** dialog box.
-1. In **Roles**, define a user role.
-1. Click **Add Role** to add the user role to the list below.
-1. Click **Save** to save or **Cancel** to discard your changes.
-
+* Define list of user roles that will be supported in the application.
+* Get user roles after user authentication. It requires writing custom code specific to your backend.
+* Set the access rights for the parts of your application, e. g. modules, views etc.
 
 > Defining user roles and setting access rights hides parts of the user interface. As a result, make sure that the Data Service does not send any data over the wire for which the user is not authorized to see.
 
-* A Data Provider which has its form or basic authentication configured.
-* A custom Business Entity which returns user roles on a service. The service has to be deployed on a Progress Application Server instance in the backend.
-
-You need to set the user roles at different levels in the application, map the roles with the user  and write custom code to invoke the custom Business Entity. The Builder will then use the login procedure of the user to send the list of the available roles and will count on the server to match the valid roles with the particular user. The user login procedure at runtime invokes a corresponding method in the Business Entity and, upon authentication, that method returns the roles of the user and informs the Builder gets informed about the access rights of the user. All user roles must be defined in the backend if the custom Business Entity.
-
-Kendo UI Builder then uses this role information to determine the user's access rights to modules, views, etc. The mapping of user roles must be defined in the custom Business Entity in the backend.
-
-Defining roles in Kendo UI Designer
-
-You can define roles at four levels of inheritance:
-* At the app level: All users that require access to protected parts of the app must have a role defined at the app level.
-* At the module level: Must be a subset of roles that are defined at the app level. Only those users that have these roles can access the module.
-* At the view level: Must be a subset of roles that are defined at the module level. Only those users that have these roles can access the view.
-* For Blank views only, at the row or column level: Must be a subset of roles that are defined for the Blank view. Only those users that have these roles can access the row or column.
-
-Defining roles at the app level
-
-You must define the names of all roles that require access to protected parts of the app as follows:
+## Defining User Roles
 
 1. In the app design page, click the gear icon next to the app name and select Roles.
-
-## Defining the Roles
+2. Select **Roles** to open the **Authorization Roles** dialog box.
+3. In **Roles**, define a user role.
+4. Click **Add Role** to add the user role to the list below.
+5. Click **Save** to save or **Cancel** to discard your changes.
 
 
 ## Setting the Access Rights
 
+Kendo UI Builder supports three levels of access rights: module, view and individual components (blank view row and column only).
+
+* At Module level: Must be a subset of roles that are defined at the app level. Only those users that have these roles can access the module.
+* At View level: Must be a subset of roles that are defined at the module level. Only those users that have these roles can access the view.
+* At Component level: Must be a subset of roles that are defined for the Blank view. Only those users that have these roles can view the row or column.
 
 ## Suggested Links
