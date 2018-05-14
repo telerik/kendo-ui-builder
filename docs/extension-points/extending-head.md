@@ -23,4 +23,4 @@ To extend the head:
 
 ## Suggested Links
 
-* [Demos on Customization]({% slug builder_playground %})
+* [Demos on Customization]({% slug extensionpoints_kuib %})
