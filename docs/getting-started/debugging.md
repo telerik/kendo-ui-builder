@@ -3,7 +3,7 @@ title: Debugging
 page_title: Debugging - Getting Started - Kendo UI Builder
 description: "Test and debug the applications on your local environment with the Kendo UI Builder."
 slug: debugging_kuib
-position: 4
+position: 3
 ---
 
 # Debugging
@@ -34,7 +34,5 @@ You can access the available debugging options from both the **App Design** page
 
 ## Suggested Links
 
-* [Basic Approaches for Building Applications]({% slug fewclicks_kuib %})
-* [Designing the Application]({% slug designingtheapp_kuib %})
 * [Dashboard]({% slug dashboard_kuib %})
 * [Installing the Kendo UI Builder]({% slug getstarted_kuib %})

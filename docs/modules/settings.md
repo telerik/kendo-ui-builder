@@ -1,23 +1,16 @@
 ---
-title: Overview
-page_title: Overview - Modules - Kendo UI Builder
-description: "Learn how to use the modules which are provided by the Kendo UI Builder tool for creating and managing Angular and AngularJS-based web applications."
-slug: modulesoverview_kuib
-position: 1
+title: Settings
+page_title: Settings - Modules - Kendo UI Builder
+description: "Use the available settings and add, edit, delete, or reorder the modules when working with the Kendo UI Builder tool."
+slug: settingsmodules_kuib
+position: 2
 ---
 
-# Modules Overview
+# Module Settings
 
-Modules are the functional units of the web application and represent collections of views.
+The Builder provides settings for managing the common modules.
 
-* [Common modules]({% slug settingsmodules_kuib %}) can be added, modified, or removed and provide options for adding and editing views within each module while you design the web application.
-* [Application Module]({% slug appmodule_kuib %}) is a default module and delivers the system views.
-
-// screen
-
-## Settings
-
-The Builder provides each new project with a default Application Module (App Module). For more information, refer to the article on the [App Module]({% slug viewsoverview_kuib %}).
+> All **Name** fields are restrictive. If the symbols you placed in them are not supported, the Builder displays the `Invalid format. Only letters, numbers, "_" and "-" are allowed.` error message.
 
 ## Adding Modules
 
@@ -59,4 +52,3 @@ The order of the modules on the **App Design** page corresponds to the order in 
 ## Suggested Links
 
 * [Application Module]({% slug appmodule_kuib %})
-* [Adding, Editing, Reordering, and Deleting]({% slug settingsmodules_kuib %})

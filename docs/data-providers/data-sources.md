@@ -3,7 +3,7 @@ title: Data Sources
 page_title: Data Sources - Data Providers - Kendo UI Builder
 description: "Use the data sources which are supported by the Kendo UI Builder tool for creating and managing Angular and AngularJS-based web applications."
 slug: datasources_kuib
-position: 2
+position: 3
 ---
 
 # Data Sources

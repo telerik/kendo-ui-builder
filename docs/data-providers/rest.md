@@ -3,7 +3,7 @@ title: Generic REST
 page_title: Generic REST - Data Providers - Kendo UI Builder
 description: "Use the available generic REST services which are supported by the Kendo UI Builder tool for creating and managing Angular and AngularJS-based web applications."
 slug: rest_kuib
-position: 4
+position: 5
 ---
 
 # Generic REST

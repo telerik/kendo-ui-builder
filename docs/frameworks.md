@@ -16,7 +16,7 @@ In your web application, you can implement [native Kendo UI for Angular componen
 
 For both the Angular and AngularJS frameworks you can use [components]({% slug overviewcomp_kuib %}) to the [Blank]({% slug blankview_kuib %}) and [App Layout]({% slug applayout_kuib %}) views only. The component properties and functionalities which are supported by the Builder might not have a full parity with the properties and functionalities which Kendo UI for Angular and Kendo UI for jQuery deliver.
 
-If the behavior of the Builder components differs for each framework, this framework-specific information is included in the corresponding feature article. For example, the customization approaches of the application code differ in Angular and AngularJS, and the respective details are included into the topic on [custom code]({% slug extendingcode_kuib %}).
+If the behavior of the Builder components differs for each framework, this framework-specific information is included in the corresponding feature article. For example, the customization approaches of the application code differ in Angular and AngularJS, and the respective details are included into the topic on [custom code]({% slug customcode_kuib %}).
 
 When the Builder generates an Angular application, it generates configuration for [Angular CLI](https://cli.angular.io/). This means that once generated, you can readily use and further develop the application directly without the need of the Builder.
 

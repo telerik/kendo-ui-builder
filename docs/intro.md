@@ -39,8 +39,8 @@ Progress<sup>®</sup> Kendo UI<sup>®</sup> Builder is a tool for creating and m
 * Each module represents a collection of views.
 * With the creation of each new application, the Builder provides the built-in [App Module]({% slug appmodule_kuib %}) which contains predefined, system views.
 * While you build your web application, you can add, modify, and remove the modules your project requires.
-* [Handling the module settings and designing the web application]({% slug designingtheapp_kuib %}#toc-module-settings)
 * [Module features, types, and capabilities]({% slug modulesoverview_kuib %})
+* [Adding, editing, reordering, and deleting modules]({% slug settingsmodules_kuib %})
 
 ### Views
 
@@ -64,8 +64,8 @@ Progress<sup>®</sup> Kendo UI<sup>®</sup> Builder is a tool for creating and m
 ### Extension Points
 
 * Extension points enable you to customize specific aspects of the generated web project.
-* [Custom CSS]({% slug extendingcss_kuib %})&mdash;The CSS extension points deliver options for personalizing the styles of the web application.
-* [Custom code]({% slug extendingcode_kuib %})&mdash;The code extension points provide options for modifying the backend of the application.  
+* [Custom CSS]({% slug customstyles_kuib %})&mdash;The CSS extension points deliver options for personalizing the styles of the web application.
+* [Custom code]({% slug customcode_kuib %})&mdash;The code extension points provide options for modifying the backend of the application.  
 * [Custom components]({% slug customcomponents_kuib %})&mdash;The component extension points allow you to update the components according to the specific requirements of your project.
 * [Custom packages]({% slug extendingpackages_kuib %})&mdash;The package extension points help you modify the bundles and packages of the generated application.
 * [Custom themes]({% slug extendingthemes_kuib %})&mdash;The theme extension points enable you to apply tailor-made decisions regarding the appearance of the application.  

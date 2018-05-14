@@ -1,6 +1,6 @@
 ---
 title: Migration
-page_title: Migration - Status & Migration - Kendo UI Builder
+page_title: Migration - Application Management - Kendo UI Builder
 description: "Manually update the metadata versions of the application and the metadata versions that are supported by the Kendo UI Builder tool."
 slug: migration_kuib
 position: 3
