@@ -1,16 +1,12 @@
 ---
-title: Managing the Application
-page_title: Managing the Application - Status & Migration - Kendo UI Builder
+title: Managing Options  
+page_title: Managing Options - Application Management - Kendo UI Builder
 description: "Use the options for managing your application and duplicate, export, remove, or delete it when working with the Kendo UI Builder tool."
 slug: managingtheapp_kuib
 position: 2
 ---
 
-# Managing the Application
-
-From the Dashboard, the Builder provides options for managing the available projects.
-
-## Managing Options
+# Managing Options
 
 You can use the **Settings** menu on the application card (or list item) and apply the following options to your projects:
 

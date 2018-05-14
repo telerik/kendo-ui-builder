@@ -36,7 +36,6 @@ To facilitate the troubleshooting processes when you build applications, the **>
 
 ## Suggested Links
 
-* [Designing the Application]({% slug designingtheapp_kuib %})
 * [Debugging the Application]({% slug debugging_kuib %})
 * [Basic Approaches for Building Applications]({% slug fewclicks_kuib %})
 * [Handling the Application State]({% slug app_state_kuib %})

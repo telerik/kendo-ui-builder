@@ -8,7 +8,19 @@ position: 1
 
 # Roles and Authorization
 
-The Builder allows you to define specific roles to the application and set access rights to its modules and views, and to the rows and columns of the Blank view.
+The Builder allows you to define specific user roles and set access rights to its modules, views, and components.
+
+@Ivelin - if we have more steps for setting the roles and access rights, we might take these out in a **Settings** article.
+
+## Defining User Roles
+
+1. On the Dashboard, go to the card (or list item) of the application.
+1. Click the **Settings** icon to open the drop-down options list.
+1. Select **Roles** to open the **Authorization Roles** dialog box.
+1. In **Roles**, define a user role.
+1. Click **Add Role** to add the user role to the list below.
+1. Click **Save** to save or **Cancel** to discard your changes.
+
 
 > Defining user roles and setting access rights hides parts of the user interface. As a result, make sure that the Data Service does not send any data over the wire for which the user is not authorized to see.
 

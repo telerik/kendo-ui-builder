@@ -39,8 +39,8 @@ Progress<sup>®</sup> Kendo UI<sup>®</sup> Builder is a tool for creating and m
 * Each module represents a collection of views.
 * With the creation of each new application, the Builder provides the built-in [App Module]({% slug appmodule_kuib %}) which contains predefined, system views.
 * While you build your web application, you can add, modify, and remove the modules your project requires.
-* [Handling the module settings and designing the web application]({% slug designingtheapp_kuib %}#toc-module-settings)
 * [Module features, types, and capabilities]({% slug modulesoverview_kuib %})
+* [Adding, editing, reordering, and deleting modules]({% slug settingsmodules_kuib %})
 
 ### Views
 

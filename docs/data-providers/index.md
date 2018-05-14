@@ -66,4 +66,5 @@ Data providers enable services for establishing the connection between the data 
 
 ## Suggested Links
 
-* [Designing the Application]({% slug designingtheapp_kuib %})
+* [Adding, Editing, and Removing Data Providers]({% slug settingsdataproviders_kuib %})
+* [Data Sources]({% slug datasources_kuib %})
