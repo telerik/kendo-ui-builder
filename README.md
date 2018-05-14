@@ -20,10 +20,8 @@ All available Kendo UI commercial licenses may be obtained at http://www.telerik
 
 ## Questions and Feedback
 
-- [FAQ](https://www.telerik.com/kendo-ui-builder/documentation/faq/)
-- [GitHub Issues](https://github.com/telerik/.../issues)
-- [Feedback Portal](http://kendoui-feedback.telerik.com/forums/...)
-- [StackOverflow](https://stackoverflow.com/questions/tagged/...)
+- [FAQ](https://www.telerik.com/kendo-ui-builder/components/faq/)
+- [Feedback Portal](http://kendoui-feedback.telerik.com/forums/912307-kendo-ui-builder)
 
 *Copyright © 2018 Progress Software Corporation and/or its subsidiaries or affiliates. All Rights Reserved.*
 
