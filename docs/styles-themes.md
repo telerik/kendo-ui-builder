@@ -1,9 +1,9 @@
 ---
-title: Overview
-page_title: Overview - Styling & Themes - Kendo UI Builder
+title: Styling & Themes
+page_title: Styling & Themes - Documentation - Kendo UI Builder
 description: "Learn about the styling options and the themes provided by the Kendo UI Builder tool for creating and managing Angular and AngularJS-based web applications."
 slug: stylingthemesoverview_kuib
-position: 1
+position: 7
 ---
 
 # Styling & Themes Overview
