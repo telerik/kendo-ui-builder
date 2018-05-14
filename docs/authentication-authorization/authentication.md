@@ -20,20 +20,31 @@ Authentication is tightly related with data providers. That's why every data pro
 
 This is most suitable authetentication type fos SPA applications. As the builder generates static javascript application it supports only [Implicit Flow](http://openid.net/specs/openid-connect-core-1_0.html#ImplicitFlowAuth).
 
-In order to setup **OpenID Connect** authentication for the application you can create new data provider or edit existing one. Only **OData** and **REST** provider types support it. Find **Authentication Type** drop-down and select **OpenID Connect** option. You will see the following settings
+> Only **OData** and **REST** provider types support it.
+
+In order to setup **OpenID Connect** authentication for the application you can create new data provider or edit existing one. Find **Authentication Type** drop-down and select **OpenID Connect** option. You will see the following settings:
 
 | Name | Description | Note |
 | ---- | ----------- |----- |
 | Authority | The URL of the OIDC/OAuth2 provider | It is required |
 | Client ID | Your client application's identifier as registered with the OIDC provider. | It is required |
 | Response Type | The type of response desired from the OIDC provider. | Default: 'id_token token'. It is required. |
-| Scope | The scope being requested from the OIDC provider | Default: 'openid email'. Tt least 'openid' required.
+| Scope | The scope being requested from the OIDC provider | Default: 'openid email'. At least 'openid' required.
 
 ### OAuth 2.0
 
+> * Only **OData** and **REST** provider types support it.
+> * Supported only in **Angular** applications.
+
 ### Basic
 
+> * Only **OData** and **REST** provider types support it.
+> * Supported only in **Angular** applications.
+
 ### API Key
+
+> * Only **OData** and **REST** provider types support it.
+> * Supported only in **Angular** applications.
 
 ### JSDO
 
