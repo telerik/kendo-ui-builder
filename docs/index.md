@@ -1,6 +1,6 @@
 ---
 title: Introduction
-page_title: Introduction | Kendo UI Builder
+page_title: Introduction - Documentation - Kendo UI Builder
 description: "Welcome to the Kendo UI® Builder by Progress® tool for creating and managing Angular and AngularJS-based web applications."
 slug: intro_kuib
 position: 0

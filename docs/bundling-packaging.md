@@ -1,6 +1,6 @@
 ---
 title: Bundling & Packaging
-page_title: Bundling & Packaging | Kendo UI Builder
+page_title: Bundling & Packaging - Documentation - Kendo UI Builder
 description: "Bundle and package the generated applications when working with the Kendo UI Builder tool for creating and managing Angular and AngularJS-based web applications."
 slug: bundlepackage_kuib
 position: 12
