@@ -12,19 +12,34 @@ The Builder enables you to customize the styles of the generated web project.
 
 ## Global Styles
 
-There are two options to define custom CSS rules<sup>2</sup>. The first and most obvious is in the global style sheet which every KUIB app has already generated for you. For AngularJS this is `\app\src\styles\app\app.custom.css` and for Angular `app/src/app/app.custom.css`. This is the place to define styles that you want to reuse across the entire application. If you have app-wide primitives, define them here.
+To define custom CSS rules, use either of the following approaches:
 
-The other option is to use the view's style sheet. See below.
+* Define any application-wide primitives and styles that you want to reuse across the entire application in the global stylesheet that the Builder generates for each web project.
 
-## View styles
+    For AngularJS, the global stylesheet is located at `\app\src\styles\app\app.custom.css`.
 
-Global styles play important role in app styling, but sometimes you need to “scope” your CSS to certain view. The benefits of doing this are:
-1. You don’t pollute the global scope with names
-2. You avoid conflicting CSS cascades and accidental overrides
-3. Encapsulation and Modularity
-4. Smaller and easier to read CSS files
+    For Angular, the global stylesheet is located at `app/src/app/app.custom.css`.
 
-When you generate an application, you get a style sheet file in each view’s folder. Every CSS rule that you write there will never leak out of it no matter how general it is. For instance, if you define rule like this:
+* Use the stylesheet of the desired view. For more information, refer to the section on [custom view styles](#toc-view-styles).
+
+## Scoped Styles
+
+Certain use-case scenarios require you to scope your CSS to a certain view. The scoping of styles is a custom Kendo UI Builder implementation.
+
+### Benefits
+
+Using scoped styles helps you to:
+
+* Avoid the pollution of the global scope with names.
+* Avoid any conflicting CSS cascades and accidental overrides.
+* Achieve encapsulation and modularity.
+* Create smaller and easy-to-read CSS files.
+
+### Specifics
+
+When the Builder generates an application, it outputs a stylesheet file in the folder of each view. Scoped styles are suitable for adding view-specific implementations that are not intended to be used by other views. To directly open each corresponding view stylesheet, use the button that loads a code editor which is located at the top right corner of each view.
+
+The CSS rules that you write within this view stylesheet file, no matter how general they are, do not leak out. For example, if you define the following rule, it will color all links in the current view but any links outside that view will remain unchanged.
 
 ```css
 a {
@@ -32,27 +47,20 @@ a {
 }
 ```
 
-it will color all links in the current view, but never the links outside of it. 
+> Global styles that are defined in `app.custom.css` or in custom themes affect individual views.
 
-Use scoped styles every time you need to implement something view specific, that will never be reused by other views.
+AngularJS does not support the scoping of view styles by default. When the views are generated, the Builder appends a unique custom attribute to the HTML wrapper of the view which is then automatically used to prefix to every CSS rule. This process occurs during the Webpack compile time.
 
-**NOTE**: Styles defined in `app.custom.css` or in custom themes still have effect on the individual views (in the case of AngualrJS, read below).
+Angular tries to emulate the Shadow DOM specification which is more sophisticated than the custom scoping approach that the Builder uses for AngularJS applications. When you write a style for a view, Angular applies it to the direct HTML in the view and not to the Angular components inside that view. Each component is scoped by itself which is inconvenient in generated code scenarios. To work around this issue and be able to style both the view and its components by updating the view stylesheet, prefix your own CSS properties with the `:host /deep/` selector. For more information, refer to the [official Angular documentation](https://angular.io/guide/component-styles).
 
-AngularJS by default doesn't support view styles scoping, this is a custom KUIB implementation. When the views are generated the Generator appends a custom unique attribute in the view's HTML wrapper which is then used to prefix every CSS rule with it. This is done automatically at Webpack compile time and you don't need to worry about the whole mechanism. However you need to know an important difference between this behavior and the one that cames with Angular.
+> Angular deprecated the `/deep/` selector and have not provided an alternative so far. Once such an implementation becomes available, you will need to adopt it.
 
-Angular treis to emulate the Shadow DOM specification, which is more sophisticated than the custom scoping approach that we use for AngularJS apps. The big difference is that when you write a style for a view it applies for the direct HTML in the view, and not the Angular components inside. Every components is scoped by itself, which is a bit inconvenient in generated code scenarios. In order to workaround this and actually be able to target everything in the view from the view's style sheet you need to prefix your own CSS properties with the `:host /deep/` selector. More on the matter you can find on Angular's site: https://angular.io/guide/component-styles.
+## Additional Customization Approaches
 
-Please also note that Angular deprecated the `/deep/` selector but since then they didn't provide any alternative. When such is implemented from their side you will need to adopt it.
+You can additionally customize the styles of your application by using the CSS `Class List` property which is available for each view, row, and column. Currently and by default, Kendo UI widgets for AngularJS do not feature a `Class List` setting because each widget is wrapped by a column. In this way, you can unambiguously target the component by its classes.
 
-**HINT**: You can easily open the corresponding view style sheet directly from the Designer. Each view has a button at the top right corner which opens a code editor.
-
-## The "CSS Class List" property
-
-The CSS Class List property is a simple but essential and powerful tool for additional style customization. Every View, Row and Column has this property. Widgets don’t have this property because, by design, each widget is wrapped by a column, thus can be unambiguously targeted by its classes (could be changed in future all widgets to have class list).
-
-Many designs and layouts are built around the concept of primitives. These primitives are simply CSS classes that each has some characteristic property. For instance, you can have a class that hides the element on which it is attached, another that adds 20px padding and so on. You can build your entire app styling by adding only classes in the class list. Actually, Kendo is built mainly with primitives. Bootstrap also provides many useful primitives that you can reuse right away.
-
+Many designs and layouts are built around the concept of primitives. These primitives represent CSS classes each of which has a characteristic property. For example, you can have a class that hides the element to which it is attached, a class that adds 20px padding, and so on. You can build the styling of the entire application by adding only classes to the class list. Kendo UI suites are built mainly with primitives and Bootstrap also provides primitives that you can readily reuse.
 
 ## Suggested Links
 
-* [Demos on Customization]({% slug extensionpoints_kuib %})
+* [Overview of Extension Points]({% slug extensionpoints_kuib %})
