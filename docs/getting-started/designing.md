@@ -46,6 +46,8 @@ The Dashboard provides options for creating or deleting an application, editing 
 
 ### Defining User Roles
 
+For more information on setting the user roles, refer to the article on [authorization]({% slug rolesauthoriz_kuib %}).
+
 1. On the Dashboard, go to the card (or list item) of the application.
 1. Click the **Settings** icon to open the drop-down options list.
 1. Select **Roles** to open the **Authorization Roles** dialog box.
