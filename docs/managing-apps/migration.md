@@ -8,7 +8,9 @@ position: 3
 
 # Migration
 
-Migration is the process of matching the versions of the application metadata and of the metadata that are supported by the Builder.
+Migration is the process of updating application metadata to the latest format supported by Kendo UI Builder.
+
+For example, let us say a new `placeholder` property of DataPicker component is introduced in the latest release.
 
 For example, if your project uses the DataPicker component and it introduces a new `placeholder` property in its latest release, the Builder will compare and update the current metadata by adding the new property to the metadata of the application upon migration.
 
@@ -19,8 +21,6 @@ The applications which need to be manually migrated have the **Migration Require
 1. Go to the card (list item) of the project.
 1. Click the **Settings** menu.
 1. Select **Migrate**.
-
-// screen of migration process?
 
 ## Suggested Links
 
