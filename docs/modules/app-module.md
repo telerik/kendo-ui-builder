@@ -3,7 +3,7 @@ title: Application Module
 page_title: Application Module - Modules - Kendo UI Builder
 description: "Learn how to use the App Modules which is provided by the Kendo UI Builder tool for creating and managing Angular and AngularJS-based web applications."
 slug: appmodule_kuib
-position: 3
+position: 2
 ---
 
 # Application Module
@@ -19,4 +19,4 @@ Each Application Module delivers the [App Layout]({% slug applayout_kuib %}), [L
 ## Suggested Links
 
 * [Overview of Modules]({% slug modulesoverview_kuib %})
-* [Adding, Editing, Reordering, and Deleting Modules]({% slug settingsmodules_kuib %})
+* [Adding, Editing, Reordering, and Deleting Modules]({% slug designingtheapp_kuib %}#toc-modules)

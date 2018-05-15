@@ -6,15 +6,11 @@ slug: debugging_kuib
 position: 3
 ---
 
-# Debugging
+# Debugging the Application
 
 After you design the application, you need to test it on your local environment.
 
-The Builder enables you to make changes, debug, and fix issues, and to prepare a build to deploy the web project.
-
-## Available Options
-
-You can access the available debugging options from both the **App Design** page and the toolbar that is available in each view.
+The Builder enables you to make changes, debug, and fix issues, and to prepare a build to deploy the web project. You can access the available actions from both the **App Design** page and the toolbar that is available in each view.
 
 * **Generate**&mdash;Generates the latest source code and outputs it in the project location in your file system.
 * **Start**&mdash;Triggers the generation of the application, starts the Webpack dev server on `http://localhost:port`, and opens your default web browser either in the root of the application or in a URL which corresponds to the selected view.
@@ -30,9 +26,8 @@ You can access the available debugging options from both the **App Design** page
     > * Deploy the `release` version on your desired environment, or
     > * Deploy the `debug` version and debug the application directly on your desired environment.
 
-// screen
-
 ## Suggested Links
 
 * [Dashboard]({% slug dashboard_kuib %})
+* [Designing the Application]({% slug designingtheapp_kuib %})
 * [Installing the Kendo UI Builder]({% slug getstarted_kuib %})

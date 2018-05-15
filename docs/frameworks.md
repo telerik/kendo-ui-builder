@@ -1,6 +1,6 @@
 ---
-title: Frameworks  
-page_title: Frameworks | Kendo UI Builder
+title: Frameworks
+page_title: Frameworks - Documentation - Kendo UI Builder
 description: "Learn the specifics when using the Kendo UI Builder tool for creating and managing Angular-based web applications."
 slug: frameworks_kuib
 position: 2

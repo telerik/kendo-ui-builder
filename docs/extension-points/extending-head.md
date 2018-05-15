@@ -1,9 +1,9 @@
 ---
 title: Extending the Head
 page_title: Extending the Head - Extension Points - Kendo UI Builder
-description: "Learn how to extend the head of the web applications generated with the Kendo UI Builder."
+description: "Learn how to extend the head of the web applications that are generated with the Kendo UI Builder."
 slug: extendinghead_kuib
-position: 9
+position: 7
 ---
 
 # Extending the Head
@@ -19,8 +19,8 @@ To extend the head:
 1. Enter the custom elements in the input field.
 1. Click **Save** to save or **Cancel** to discard your changes.
 
-// Add any relevant info + demo/screen
+<img src="../../images/kuib-head-code-snippet.gif" class="img-responsive" alt="Adding Modules with the Kendo UI Builder"/>
 
 ## Suggested Links
 
-* [Demos on Customization]({% slug builder_playground %})
+* [Overview of Extension Points]({% slug extensionpoints_kuib %})

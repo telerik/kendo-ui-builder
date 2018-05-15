@@ -1,6 +1,6 @@
 ---
 title: Introduction
-page_title: Introduction | Kendo UI Builder
+page_title: Introduction - Documentation - Kendo UI Builder
 description: "Welcome to the Kendo UI® Builder by Progress® tool for creating and managing Angular and AngularJS-based web applications."
 slug: intro_kuib
 position: 0
@@ -31,7 +31,7 @@ Progress<sup>®</sup> Kendo UI<sup>®</sup> Builder is a tool for creating and m
 * [Data providers](#toc-data-providers)
 * [Extension points](#toc-extension-points)
 
-<img src="../building_blocks_intro_kuib.png" class="img-responsive" alt="The Building Blocks of the Kendo UI Builder"/>
+<img src="../images/building_blocks_intro_kuib.png" class="img-responsive" alt="The Building Blocks of the Kendo UI Builder"/>
 
 ### Modules
 
@@ -40,15 +40,15 @@ Progress<sup>®</sup> Kendo UI<sup>®</sup> Builder is a tool for creating and m
 * With the creation of each new application, the Builder provides the built-in [App Module]({% slug appmodule_kuib %}) which contains predefined, system views.
 * While you build your web application, you can add, modify, and remove the modules your project requires.
 * [Module features, types, and capabilities]({% slug modulesoverview_kuib %})
-* [Adding, editing, reordering, and deleting modules]({% slug settingsmodules_kuib %})
+* [Adding, editing, reordering, and deleting modules]({% slug designingtheapp_kuib %}#toc-module-settings)
 
 ### Views
 
 * Views are part of the modules and provide the settings that are available for each page of the web application.
 * The [system views]({% slug viewsoverview_kuib %}#toc-system) are predefined and are only available in the App Module.
-* The [built-in views]({% slug viewsoverview_kuib %}#toc-predefined) are delivered by the Builder out of the box. Their predefined layout, look, and feel aim at facilitating the implementation of the most common scenarios.
-* The [user-defined view]({% slug viewsoverview_kuib %}#toc-blank) is the Blank view. The Blank and the App Layout views are the only views which allow the usage and further modification of components.  
-* The Builder also supports the implementation of [custom views]({% slug extendingviews_kuib %}) in your web project.
+* The [built-in views]({% slug viewsoverview_kuib %}#toc-built-in) are delivered by the Builder out of the box. Their predefined layout, look, and feel aim at facilitating the implementation of the most common scenarios.
+* The [user-defined view]({% slug viewsoverview_kuib %}#toc-user-defined) is the Blank view. The Blank and the App Layout views are the only views which allow the usage and further modification of components.  
+* The Builder also supports the implementation of [custom views]({% slug customviews_kuib %}) in your web project.
 
 ### Components
 
@@ -60,27 +60,29 @@ Progress<sup>®</sup> Kendo UI<sup>®</sup> Builder is a tool for creating and m
 
 * Data providers handle the data connectivity of the application.
 * They support the input of third-party and custom service endpoints, and utilize the respective available [data sources]({% slug datasources_kuib %}).
+* [Data provider features, types, and capabilities]({% slug dataprovidersoverview_kuib %})
+* [Adding, editing, and deleting data providers]({% slug designingtheapp_kuib %}#toc-data-provider-settings)
 
 ### Extension Points
 
-* Extension points enable you to customize specific aspects of the generated web project.
-* [Custom CSS]({% slug customstyles_kuib %})&mdash;The CSS extension points deliver options for personalizing the styles of the web application.
-* [Custom code]({% slug customcode_kuib %})&mdash;The code extension points provide options for modifying the backend of the application.  
-* [Custom components]({% slug customcomponents_kuib %})&mdash;The component extension points allow you to update the components according to the specific requirements of your project.
-* [Custom packages]({% slug extendingpackages_kuib %})&mdash;The package extension points help you modify the bundles and packages of the generated application.
-* [Custom themes]({% slug extendingthemes_kuib %})&mdash;The theme extension points enable you to apply tailor-made decisions regarding the appearance of the application.  
-* [Custom views]({% slug extendingviews_kuib %})&mdash;The view extension points handle the customization of the web application views.
-* [Extending the head]({% slug extendinghead_kuib %})&mdash;You can add custom elements, such as custom code or links, to the head of the generated web project.
+The extension points enable you to customize specific aspects of the generated web project.
+
+* [Custom code]({% slug customcode_kuib %})&mdash;With custom code you can handle different events from the components or application lifecycle
+* [Custom templates]({% slug customtemplates_kuib %})&mdash;Allows you to define complex monolitic and reusable structures
+* [Custom styles]({% slug customstyles_kuib %})&mdash;The custom CSS extension point allows you to personalize the appearance of the web application.
+* [Custom themes]({% slug customthemes_kuib %})&mdash;Enables you to extend the existing package.json with your own packages.
+* [Extending `package.json`]({% slug extendingpackages_kuib %})&mdash;Create your own company brand compliant themes and use them seamlessly
+* [Extending the HTML head]({% slug extendinghead_kuib %})&mdash;You can add elements, such as custom code or links, to the head of the generated web project.
 
 ## Styling Options
 
 * [Using the predefined Kendo UI themes]({% slug stylingthemesoverview_kuib %})
 * [Building custom themes with Progress<sup>®</sup> Sass ThemeBuilder](http://themebuilder.telerik.com/)
-* [Developing your custom themes]({% slug extendingthemes_kuib %})
+* [Developing your custom themes]({% slug customthemes_kuib %})
 
 ## Progress OpenEdge Integration
 
-* [Official Progress<sup>®</sup> Software Documentation](https://www.progress.com/documentation/kendo-ui-builder)  
+* [Official Progress<sup>®</sup> Software Documentation](https://www.progress.com/documentation/kendo-ui-builder)
 * [Developing a Progress OpenEdge Web App Using Kendo UI Builder](https://www.progress.com/services/education/openedge/developing-an-openedge-web-app-using-kendo-ui-builder)
 
 ## Suggested Links

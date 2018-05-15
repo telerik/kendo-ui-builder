@@ -3,7 +3,7 @@ title: Handling the Application State
 page_title: Handling the Application State - Application Management - Kendo UI Builder
 description: "Handle the application state labels of your application when working with the Kendo UI Builder tool."
 slug: app_state_kuib
-position: 2
+position: 1
 ---
 
 # Handling the Application State
