@@ -1,94 +1,111 @@
 ---
 title: Authentication
 page_title: Authentication - Authentication & Authorization - Kendo UI Builder
-description: "..."
+description: "Use and configure the authentication types that are supported by the Kendo UI Builder."
 slug: authentication_kuib
 position: 1
 ---
 
 # Authentication
 
-In most common cases backend services require authentication. Kendo UI builder provides support for different authentication types. It is implemented in very flexible way in order to be easiliy extended with more authentication types.
+Generally, backend services require authentication.
+
+The authentication types that the Builder supports provide flexible implementation and can be extended.
 
 ## Overview
 
-Authentication is tightly related with data providers. That's why every data provider has its own authentication settings. This means that application created with the Kendo UI Builder could support different authntication types simultaneously even we do not ecourage you to do that. Kendo UI Builder detects similar authentication settings in order to minimize the count of sign in operations.
+Authentication is tightly related with data providers and each data provider delivers its own authentication settings. As a result, while it is not recommended, an application that is created with the Builder can simultaneously support different authentication types. The Builder detects similar authentication settings and minimizes the sign count during operations.
 
 ## Authentication Types
 
+* [OpenID Connect](#toc-openid-connect)
+* [OAuth 2.0](#toc-oauth-20)
+* [Basic](#toc-basic)
+* [API Key](#toc-api-key)
+* [JSDO](#toc-jsdo)
+
 ### OpenID Connect
 
-This is most suitable authetentication type fos SPA applications. As the Kendo UI Builder generates static javascript application it supports only [Implicit Flow](http://openid.net/specs/openid-connect-core-1_0.html#ImplicitFlowAuth).
+OpenID Connect is the most suitable authentication type for single-page applications (SPAs). The Builder supports only [Implicit Flow](http://openid.net/specs/openid-connect-core-1_0.html#ImplicitFlowAuth) because it generates static JavaScript applications.
 
-> Only **OData** and **REST** provider types support it.
+> The OpenID Connect authentication is supported by the OData and generic REST data providers. For more information, refer to the articles on [data providers]({% slug dataprovidersoverview_kuib %}).
 
-In order to setup **OpenID Connect** authentication for the application you can create new data provider or edit existing one. Find **Authentication Type** drop-down and select **OpenID Connect** option. You will see the following settings:
+To set up the OpenID Connect authentication in the web project:
 
-| Name | Description | Note |
-| ---- | ----------- |----- |
-| Authority | The URL of the OIDC/OAuth2 provider | It is required |
-| Client ID | Your client application's identifier as registered with the OIDC provider. | It is required |
-| Response Type | The type of response desired from the OIDC provider. | Default: 'id_token token'. It is required. |
-| Scope | The scope being requested from the OIDC provider | Default: 'openid email'. At least 'openid' required.
+1. Create a new data provider or edit the existing one.
+1. From the **Authentication Type** drop-down, select **OpenID Connect**. As a result, the following settings are displayed:
+
+* (Required) **Authority**&mdash;Represents the URL of the OIDC/OAuth2 provider.
+* (Required) **Client ID**&mdash;Represents the identifier of the user as registered with the OIDC provider.
+* (Required) **Response Type**&mdash;Represents the type of response demanded by the OIDC provider. Defaults to `id_token token`.
+* (`openid` is required) **Scope**&mdash;Represents the scope that is requested by the OIDC provider. Defaults to `openid email`.
 
 ### OAuth 2.0
 
-As the Kendo UI Builder generates static javascript application it supports only [Implicit Grant](https://tools.ietf.org/html/rfc6749#section-4.2).
+The Builder supports only [Implicit Grant](https://tools.ietf.org/html/rfc6749#section-4.2) because it generates static JavaScript applications.
 
-> * Only **OData** and **REST** provider types support it.
-> * Supported only in **Angular** applications.
+> * The OAuth 2.0 authentication is supported by the OData and generic REST data providers. For more information, refer to the articles on [data providers]({% slug dataprovidersoverview_kuib %}).
+> * The OAuth 2.0 authentication is supported for Angular applications.
 
-In order to setup **OAuth 2.0** authentication for the application you can create new data provider or edit existing one. Find **Authentication Type** drop-down and select **OAuth 2.0** option. You will see the following settings:
+To set up the OAuth 2.0 authentication in the web project:
 
-| Name | Description | Note |
-| ---- | ----------- |----- |
-| Issuer | The URL of the OAuth2 Authorization Server | It is required |
-| Authorization Endpoint | The URL used to obtain an authorization grant | It is required |
-| Client ID | Your client application's identifier as registered with the OAuth2 provider. | It is required |
-| Response Type | The type of response desired from the OAuth2 provider. | Default: 'token'. It is required. |
-| Scope | The scope being requested from the OAuth2 provider | Even it is optional in the OAuth 2.0 protocol it is required here because in practice every OAuth2 provider has a basic scope.
+1. Create a new data provider or edit the existing one.
+1. From the **Authentication Type** drop-down, select **OAuth 2.0**. As a result, the following settings are displayed:
+
+* (Required) **Issuer**&mdash;Represents the URL of the OAuth2 Authorization Server.
+* (Required) **Authorization Endpoint**&mdash;Represents the URL that is used to obtain an authorization grant.
+* (Required) **Client ID**&mdash;Represents the application identifier as registered with the OAuth2 provider.
+* (Required) **Response Type**&mdash;Represents the type of response demanded by the OAuth2 provider. Defaults to `token`.
+* (Required) **Scope**&mdash;Represents the scope that is requested by the OAuth2 provider. Defaults to `openid email`. Even though in the OAuth 2.0 protocol the field is optional, it is mandatory here because in practice every OAuth2 provider has a basic scope.
 
 ### Basic
 
-Even though Basic Authentication is not so suitable for static web applications Kendo UI Builder added support for it in cases where there is no other option. Generated application provides login screen at run-time in order to obtain user credentials. It keeps user credentials in a session storage.
+While the Basic authentication is not suitable for static web applications, the Builder supports it for cases with no other available option. To obtain the user credentials, each generated application provides a login screen at runtime and keeps the credentials in a session storage.
 
-> * Only **OData** and **REST** provider types support it.
-> * Supported only in **Angular** applications.
+> * The Basic authentication is supported by the OData and generic REST data providers. For more information, refer to the articles on [data providers]({% slug dataprovidersoverview_kuib %}).
+> * The Basic authentication is supported for Angular applications.
 
-In order to setup **Basic** authentication for the application you can create new data provider or edit existing one. Find **Authentication Type** drop-down and select **Basic** option. You will see the following settings:
+To set up the Basic authentication in the web project:
 
-| Name | Description | Note |
-| ---- | ----------- |----- |
-| User Name | User Name that will be used only at design time when an http request to a protected url is performed | It will not be stored anywhere in the generated application |
-| Password | Password that will be used only at design time when an http request to a protected url is performed | It will not be stored anywhere in the generated application |
+1. Create a new data provider or edit the existing one.
+1. From the **Authentication Type** drop-down, select **Basic**. As a result, the following settings are displayed:
+
+* **User Name**&mdash;Represents the user name that will be used only at design time when an HTTP request to a protected URL is performed. The user name is not stored in the generated application.
+* **Password**&mdash;Represents the password that will be used only at design time when an HTTP request to a protected URL is performed. The password is not stored in the generated application.
 
 ### API Key
 
-API Key is usualy used in server-side API calls. Kendo UI Builder supports this authenticatrion type in rare cases where an API is not designed to be used client-side. Generated application provides a screen for entering an API key at run-time. It keeps the API key in a session storage.
+Usually, the API Key authentication is used in server-side API calls. The Builder supports the API Key authentication type for rare cases when no API is provided on the client side. Each generated application provides a screen for entering an API key at runtime and keeps the API key in a session storage.
 
+> * The API Key authentication is supported by the OData and generic REST data providers. For more information, refer to the articles on [data providers]({% slug dataprovidersoverview_kuib %}).
+> * The API Key authentication is supported for Angular applications.
 
-> * Only **OData** and **REST** provider types support it.
-> * Supported only in **Angular** applications.
+To set up the API Key authentication in the web project:
 
-In order to setup **API Key** authentication for the application you can create new data provider or edit existing one. Find **Authentication Type** drop-down and select **API Key** option. You will see the following settings:
+1. Create a new data provider or edit the existing one.
+1. From the **Authentication Type** drop-down, select **API Key**. As a result, the following settings are displayed:
 
-| Name | Description | Note |
-| ---- | ----------- |----- |
-| Name | Name of the API Key passed in a http request | Default: 'X-API-Key' |
-| In | Specifies how API key will be passed in a http request | Available options: `Header` or `Query String` |
-| Value | API Key value that will be used only at design time when an http request to a protected url is performed | It will not be stored anywhere in the generated application |
+* **Name**&mdash;Represents the name of the API Key that is passed in an HTTP request. Defaults to `X-API-Key`.
+* **In**&mdash;Specifies the way the API Key will be passed in an HTTP request. The available options are `Header` or `Query String`.
+* **Value**&mdash;Represents the API Key value that will be used only at design time when an HTTP request to a protected URL is performed. The value is not stored in the generated application.
 
-> Be aware of CORS issues If you select API key to be passed in a http header.
+> If you select an API Key to be passed in an HTTP header, CORS issues might occur.
 
 ### JSDO
 
-JSDO Authentication type denotes authentication support integrated in [JSDO library](https://github.com/progress/JSDO) used by Progress Data Provider. You can setup authentication for Progress Data Provider by specifying **Authentication Model** in its settings. Available options are: `Anonymous`, `Basic` and `From`.
+The JSDO authentication type denotes authentication support that is integrated in the [JSDO library](https://github.com/progress/JSDO) and used by the Progress Data provider. To set up the authentication for the Progress Data provider, specify the **Authentication Model** in its settings. The available options are **Anonymous**, **Basic**, and **From**.
 
 ## Extensibility
 
-Authentication support in Kendo UI Builder is designed to be extensible. If you want to implement your own authentication you should create an authentication provider. Then you shoud inherit AuthenticationService in order to implement your provider initialization. The final step is to replace service registration of base AunthenticationService with your inherited AuthenticationService.
+The authentication feature in the Builder can be extended.
+
+To implement your own authentication:
+
+1. Create an authentication provider.
+1. Inherit `AuthenticationService` to implement your provider initialization.
+1. Replace the service registration of the base `AunthenticationService` with your inherited `AuthenticationService`.
 
 ## Suggested Links
 
-* [OpenID Connect protocol](http://openid.net/connect/)
-* [The OAuth 2.0 Authorization Framework](https://tools.ietf.org/html/rfc6749)
+* [OpenID Connect Protocol](http://openid.net/connect/)
+* [OAuth 2.0 Authorization Framework](https://tools.ietf.org/html/rfc6749)
