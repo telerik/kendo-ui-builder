@@ -10,13 +10,17 @@ position: 2
 
 Each time the Builder generates the application, it produces a `translations.default.json` file.
 
-The `<webapp_directory>/artifacts/translations/translations.default.json` JSON file contains the translatable application strings in the default culture and lists them in a hierarchical order. For example, modules -> views -> components.
+## Available Fields
+
+The `<webapp_directory>/artifacts/translations/translations.default.json` file contains the translatable application strings in the default culture and lists them in a hierarchical order. For example, modules > views > components.
 
 Under its `"language"` entry, each `translations.default.json` lists the following fields:
 
 * `"label"`&mdash;Indicates the name of the language as it will appear in the drop-down language-selection list of the generated project.
 * `"culture"`&mdash;Indicates the culture locale convention that will apply to the date, time, and number entries in the generated project.
 * `"order"`&mdash;Indicated the order in which the languages will be listed in the drop-down language-selection list of the generated project.
+
+## Applying Translations and Cultures
 
 To translate the application messages and change the culture:
 
@@ -33,17 +37,20 @@ To translate the application messages and change the culture:
 
 The web project generation updates only the `translations.default.json` file. This means that if you add any new sections to your web project after you have changed the culture and translated the messages, you need to manually copy and paste the strings from the new section to the specific language file. For example, if you have already created the `translations.german.json` file and translated its strings, and then add a new `Emails` module and generate the application, you have to copy the translatable `Emails` strings from `translations.default.json` to `translations.german.json`, and translate its messages.
 
-## Changing defaults
+## Changing Default Settings
 
-The `"language"` entry in `translations.default.json` file contains `"label"` with default value `"English"` and `"culture"` with default value `en-US`.
-Since the default translations are overriden on every generation of the app the user will lose all the changes he made in this file. In order to change this values:
+The `"language"` entry in the `translations.default.json` file contains a `"label"` field with the `"English"` default value and a `"culture"` field with the `en-US` default value.
+
+> The default translations are overridden each time you generate the application and users will lose all changes they might have made in this file.
+
+To change the default values:
 
 1. On the Dashboard, click the card (or list item) of the application to open the **App Design** page.
 1. Next to the application name, click the **Settings** icon to open the drop-down options list.
 1. Select **Properties** to open the **Edit App** dialog box.
 1. In **Edit App**, update the **Language Label** and **Language Culture** properties.
 1. Click **Save** to save or **Cancel** to discard your changes.
-1. Click **Generate** to generate the app and apply the default label and culture.
+1. Click **Generate** to generate the application and apply the default label and culture.
 
 ## Suggested Links
 
