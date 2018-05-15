@@ -14,7 +14,7 @@ Kendo UI Builder does not try to resolve issues automatically. It can be explici
 
 The available application state labels are:
 
-* No label&mdash;There are no issues eith the application.
+* No label&mdash;There are no issues with the application.
 * **Migration Required**&mdash;The versions of the application metadata and the metadata supported by the Kendo UI Builder differ, and migration to the latest metadata format is possible. For more information, refer to the article on [migration]({% slug migration_kuib %}).
 * **Incompatible**&mdash;Either the Builder does not support the version of the application metadata due to a breaking change, or the version of the metadata the Builder supports is earlier than the version of the application metadata.
 
