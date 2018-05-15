@@ -14,7 +14,7 @@ Views are the functional screens of the modules and, practically, each view prov
 <div class="row separator-bottom">
 <div class="col-md-4 card-list-info">
     <h2>System</h2>
-    <p>The system views are built in and delivered by the [Application Module]({% slug appmodule_kuib %}). Even though the system views cannot be created or removed on demand, some of their properties allow you to modify them.</p> <p>For example, in the [App Layout]({% slug applayout_kuib %}) system view, you can reorder and edit the layout of the generated application.</p>
+    <p>The system views are built in and delivered by the <a href="{% slug appmodule_kuib %}">Application Module</a>. Even though the system views cannot be created or removed on demand, some of their properties allow you to modify them.</p> <p>For example, in the <a href="{% slug applayout_kuib %}">App Layout</a> system view, you can reorder and edit the layout of the generated application.</p>
 </div>
 <div class="col-md-8">
     <ul class="card-list row">
@@ -48,7 +48,7 @@ Views are the functional screens of the modules and, practically, each view prov
 <div class="row separator-bottom">
 <div class="col-md-4 card-list-info">
     <h2>Built-In</h2>
-    <p>The built-in views offer a predefined layout and a set of predefined functionalities. Even though the layout of the built-in views cannot be edited, some of their properties allow you to modify them.</p> <p>For example, the [Data Grid Form]({% slug datagridform_kuib %}) view will always render the Grid to the left and its form field to the right, but you can edit the data to which you bind the view, configure the columns it displays, or group its fields.</p>
+    <p>The built-in views offer a predefined layout and a set of predefined functionalities. Even though the layout of the built-in views cannot be edited, some of their properties allow you to modify them.</p> <p>For example, the <a href="{% slug datagridform_kuib %}">Data Grid Form</a> view will always render the Grid to the left and its form field to the right, but you can edit the data to which you bind the view, configure the columns it displays, or group its fields.</p>
 </div>
 <div class="col-md-8">
     <ul class="card-list row">
@@ -88,7 +88,7 @@ Views are the functional screens of the modules and, practically, each view prov
 <div class="row separator-bottom">
 <div class="col-md-4 card-list-info">
     <h2>User-Defined</h2>
-    <p>The user-defined view is the [Blank]({% slug blankview_kuib %}) view. It enables you to meet more complex project requirements and is based on the Bootstrap fluid grid system.</p> <p>You can customize its layout and also add, modify, and remove built-in and custom components by dragging and dropping rows and columns.</p>
+    <p>The user-defined view is the <a href="{% slug blankview_kuib %}">Blank</a> view. It enables you to meet more complex project requirements and is based on the Bootstrap fluid grid system.</p> <p>You can customize its layout and also add, modify, and remove built-in and custom components by dragging and dropping rows and columns.</p>
 </div>
 <div class="col-md-8">
     <ul class="card-list row">

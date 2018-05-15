@@ -345,7 +345,7 @@ Components represent the elements of your web application.
     <div class="row separator-bottom">
         <div class="col-md-4 card-list-info">
             <h2>Site</h2>
-            <p>Site components provide options for designing the layout of the web application on generic level and are available in the [App Layout]({% slug applayout_kuib %}) view only.</p>
+            <p>Site components provide options for designing the layout of the web application on generic level and are available in the <a href="{% slug applayout_kuib %}">App Layout</a> view only.</p>
         </div>
         <div class="col-md-8">
             <ul class="card-list row">
