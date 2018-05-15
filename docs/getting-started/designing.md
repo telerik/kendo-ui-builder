@@ -94,7 +94,7 @@ The Builder provides each new project with a default Application Module (App Mod
 1. Click the **Settings** icon to open the drop-down options list.
 1. Select **Delete**.
 
-<img src="../images/kuib-module-delete.png" class="img-responsive" alt="Deleting Modules with the Kendo UI Builder"/>
+<img src="../../images/kuib-module-delete.png" class="img-responsive" alt="Deleting Modules with the Kendo UI Builder"/>
 
 ### Reordering Modules
 

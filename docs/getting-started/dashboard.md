@@ -12,7 +12,7 @@ When you open the Builder, it loads the initial Dashboard page.
 
 The Dashboard is the user interface that assists you when you create an application, edit existing one and handle its settings. The page maintains the **Cards** and **List** views from where you can access the projects in the Builder.
 
-<img src="../images/kuib-dashboard-list-cards-view.png" class="img-responsive" alt="The Dashboard Card and List View of the Kendo UI Builder"/>
+<img src="../../images/kuib-dashboard-list-cards-view.png" class="img-responsive" alt="The Dashboard Card and List View of the Kendo UI Builder"/>
 
 ## Initial Load
 
