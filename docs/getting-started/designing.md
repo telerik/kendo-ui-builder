@@ -26,7 +26,7 @@ The Dashboard provides options for creating or deleting an application, editing 
 1. (Optional) In **Description**, provide a short description of the project.
 1. Click **Save** to save the application properties and close the **Create App** dialog box. As a result, the Dashboard displays the card (or list item) for your new project with the properties you defined.
 
-// screen?
+<img src="../images/kuib-create-app.png" class="img-responsive" alt="Creating Applications with the Kendo UI Builder"/>
 
 ### Editing Application Properties
 
@@ -36,8 +36,6 @@ The Dashboard provides options for creating or deleting an application, editing 
 1. In **Edit App**, update the properties you want.
 1. Click **Save** to save or **Cancel** to discard your changes.
 
-// screen?
-
 ### Deleting Applications
 
 1. On the Dashboard, go to the card (or list item) of the application.
@@ -45,8 +43,6 @@ The Dashboard provides options for creating or deleting an application, editing 
 1. Select **Delete**.
 
 > For more information on the other available status operations in **Settings**, refer to the article on [managing applications]({% slug managingtheapp_kuib %}).
-
-// screen?
 
 ### Defining User Roles
 
@@ -63,8 +59,6 @@ The Dashboard provides options for creating or deleting an application, editing 
 1. Select the location of the project you want to import.
 1. Click **Select Folder** to confirm the import of the application. As a result, the Dashboard displays the card (or list item) for your imported project.
 
-// screen?
-
 ## Module Settings
 
 The Builder provides each new project with a default Application Module (App Module). For more information, refer to the article on the [App Module]({% slug viewsoverview_kuib %}).
@@ -80,7 +74,7 @@ The Builder provides each new project with a default Application Module (App Mod
 1. (Optional) Define the access rights (**Roles**).
 1. Click **Add Module** to save the module properties and close the **Create Module** dialog box. As a result, the **App Design** page displays the card for your new module with the properties you defined.
 
-// screen
+<img src="../images/kuib-module-add.png" class="img-responsive" alt="Adding Modules with the Kendo UI Builder"/>
 
 ### Editing Module Properties
 
@@ -91,7 +85,7 @@ The Builder provides each new project with a default Application Module (App Mod
 1. In **Edit Module**, update the properties you want.
 1. Click **Save** to save or **Cancel** to discard your changes.
 
-// screen
+<img src="../images/kuib-module-edit.png" class="img-responsive" alt="Editing Modules with the Kendo UI Builder"/>
 
 ### Deleting Modules
 
@@ -100,11 +94,13 @@ The Builder provides each new project with a default Application Module (App Mod
 1. Click the **Settings** icon to open the drop-down options list.
 1. Select **Delete**.
 
-// screen
+<img src="../images/kuib-module-delete.png" class="img-responsive" alt="Deleting Modules with the Kendo UI Builder"/>
 
 ### Reordering Modules
 
 The order of the modules on the **App Design** page corresponds to the order in which they will be rendered by the application at runtime. To reorder the modules, drag and drop them within the list.
+
+<img src="../images/kuib-module-reorder.png" class="img-responsive" alt="Reordering Modules with the Kendo UI Builder"/>
 
 ## Data Provider Settings
 
@@ -122,8 +118,6 @@ For more information, refer to the articles on the [OData]({% slug odata_kuib %}
 1. Select **Properties** to open the **Edit Data Provider** dialog box.
 1. In **Edit Data Provider**, update the properties you want.
 1. Click **Save** to save or **Cancel** to discard your changes.
-
-// screen
 
 ### Deleting Data Providers
 

@@ -6,7 +6,7 @@ slug: debugging_kuib
 position: 3
 ---
 
-# Debugging
+# Debugging the Application 
 
 After you design the application, you need to test it on your local environment.
 

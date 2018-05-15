@@ -23,11 +23,10 @@ To start using the Kendo UI Builder, provide the [prerequisites](#toc-prerequisi
 
 ### Windows
 
+> * By default, the installation of the Builder interrupts all running application instances. To avoid possible data loss, stop all such instances (if any).
+> * The Windows Installer notifies you to install Node.js but does not automatically install it.
+
 1. Run the Windows Installer.
-
-    > * By default, the installation of the Builder interrupts all running application instances. To avoid possible data loss, stop all such instances (if any).
-    > * The Windows Installer notifies you to install Node.js but does not automatically install it.
-
 1. Click **Continue**.
 1. Read **License Agreement** and click **I Agree - Continue** to proceed.
 1. (Optional) To review or update any installation settings, click **Back**.
@@ -48,7 +47,8 @@ To start using the Kendo UI Builder, provide the [prerequisites](#toc-prerequisi
 On Windows:
 
 1. Open **Control Panel** > **Programs** > **Programs and Features**.
-1. Right-click **Progress&copy; Kendo UI Builder&copy;** and select **Uninstall**.
+1. Right-click **Progress<sup>®</sup> Kendo UI<sup>®</sup> Builder**.
+1. Select **Uninstall**.
 
 ## Suggested Links
 
