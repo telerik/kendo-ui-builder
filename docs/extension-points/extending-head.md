@@ -19,6 +19,8 @@ To extend the head:
 1. Enter the custom elements in the input field.
 1. Click **Save** to save or **Cancel** to discard your changes.
 
+<img src="../../images/kuib-head-code-snippet.gif" class="img-responsive" alt="Adding Modules with the Kendo UI Builder"/>
+
 ## Suggested Links
 
 * [Overview of Extension Points]({% slug extensionpoints_kuib %})
