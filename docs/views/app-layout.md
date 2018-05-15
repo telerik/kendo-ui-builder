@@ -21,7 +21,7 @@ The App Layout view is one of the system views which the [Application Module]({%
 
 ## Preview
 
-<img src="../images/kuib-views-app-layout.png" class="img-responsive" alt="App Layout View"/>
+<img src="../../images/kuib-views-app-layout.png" class="img-responsive" alt="App Layout View"/>
 
 ## Suggested Links
 
