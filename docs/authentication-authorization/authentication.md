@@ -14,7 +14,7 @@ The authentication types that the Builder supports provide flexible implementati
 
 ## Overview
 
-Authentication is tightly related with data providers and each data provider delivers its own authentication settings. As a result, while it is not recommended, an application that is created with the Builder can simultaneously support different authentication types. The Builder detects similar authentication settings and minimizes the sign count during operations.
+Authentication is tightly related with data providers and each data provider delivers its own authentication settings. As a result, while it is not recommended, an application that is created with the Builder can simultaneously support different authentication types. During code generation Kendo UI Builder detects similar authentication settings and group them in one. The goal is to avoid multiple user **sign ins**. 
 
 ## Authentication Types
 
@@ -56,7 +56,7 @@ To set up the OAuth 2.0 authentication in the web project:
 * (Required) **Authorization Endpoint**&mdash;Represents the URL that is used to obtain an authorization grant.
 * (Required) **Client ID**&mdash;Represents the application identifier as registered with the OAuth2 provider.
 * (Required) **Response Type**&mdash;Represents the type of response demanded by the OAuth2 provider. Defaults to `token`.
-* (Required) **Scope**&mdash;Represents the scope that is requested by the OAuth2 provider. Defaults to `openid email`. Even though in the OAuth 2.0 protocol the field is optional, it is mandatory here because in practice every OAuth2 provider has a basic scope.
+* (Required) **Scope**&mdash;Represents the scope that is requested by the OAuth2 provider. Defaults to `email`. Even though in the OAuth 2.0 protocol the field is optional, it is mandatory here because in practice every OAuth2 provider has a basic scope.
 
 ### Basic
 

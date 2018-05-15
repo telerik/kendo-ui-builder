@@ -8,13 +8,13 @@ position: 2
 
 # Authorization and Roles
 
-The Builder supports user role based on authorization.
+The Builder supports role based authorization.
 
 Authorization allows you to define specific user roles and set access rights to its modules, views, and components.
 
 ## Overview
 
-To implement a user role based on authorization:
+To implement a role based authorization:
 
 1. Define a list of user roles that will be supported by the application.
 1. Get the user roles after user authentication. You need to write custom code that is specific to your backend.
