@@ -31,4 +31,5 @@ The Builder enables you to make changes, debug, and fix issues, and to prepare a
 ## Suggested Links
 
 * [Dashboard]({% slug dashboard_kuib %})
+* [Designing the Application]({% slug designingtheapp_kuib %})
 * [Installing the Kendo UI Builder]({% slug getstarted_kuib %})
