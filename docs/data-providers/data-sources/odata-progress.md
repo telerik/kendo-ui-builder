@@ -1,16 +1,16 @@
 ---
-title: oData and Progress Data Sources
-page_title: oData and Progress Data Sources - Data Sources - Kendo UI Builder
-description: "Use the oData and Progress Data sources when working with the Kendo UI Builder."
+title: OData and Progress Data Sources
+page_title: OData and Progress Data Sources - Data Sources - Kendo UI Builder
+description: "Use the OData and Progress Data sources when working with the Kendo UI Builder."
 slug: odataprogressdatasource_kuib
 position: 2
 ---
 
-# oData and Progress Data Sources
+# OData and Progress Data Sources
 
-When you add or edit an oData and Progress data source, you can set their defined table and fields, and search for or navigate to the data provider table from which the application will draw its data.
+When you add or edit an OData and Progress data source, you can set their defined table and fields, and search for or navigate to the data provider table from which the application will draw its data.
 
-<img src="../images/kuib-editdatasource-odata-progress.png" class="img-responsive" alt="Editing oDataSource"/>
+<img src="../../images/kuib-editdatasource-odata-progress.png" class="img-responsive" alt="Editing oDataSource"/>
 
 To move the entire list of fields back and forth between the **Included Fields** and **Excluded Fields** lists, use the **Include all** and **Exclude all** buttons respectively. Only the fields in the **Included Fields** list are visible in the view components. For example, if you include only the **FirstName** and **LastName** fields and add a Grid to a Blank view, the selection of the data source will automatically populate only the **First Name** and **Last Name** columns the Grid.
 

@@ -12,7 +12,7 @@ The REST Data Provider does not support the consuming of service metadata or a s
 
 When you add or edit fields, you have to specify their name, label and type, and based on the selected type to choose the right editor for your filed.
 
-<img src="../images/kuib-editdatasource-odata-progress.png" class="img-responsive" alt="Editing RestDataSource"/>
+<img src="../../images/kuib-editdatasource-odata-progress.png" class="img-responsive" alt="Editing RestDataSource"/>
 
 To define the supported data source actions, click **Data Source Actions** to display an expandable list of the **Create**, **Destroy**, **Read**, and **Update** actions. For all actions you can specify their:
 * **Type**&mdash;Select the REST verb for the action. For example, the default verb for the **Create** action is **POST**.

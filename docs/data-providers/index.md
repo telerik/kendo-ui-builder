@@ -10,9 +10,9 @@ position: 1
 
 Data providers enable services for establishing the connection between the data you want to display and the data source you want to use.
 
-* A data provider is an abstraction for data which describes a single URI (oData and Progress Data) or base URI (Generic REST).
+* A data provider is an abstraction for data which describes a single URI (OData and Progress Data) or base URI (Generic REST).
 * The endpoints in the data providers can be either protected or not. The definition of a data provider identifies the authentication model which is required to access the data server it supports.
-* You can define the oData and Progress Data providers by a schema file on the web server and generate all child data sources based on that schema.
+* You can define the OData and Progress Data providers by a schema file on the web server and generate all child data sources based on that schema.
 * You can create multiple data providers.
 * You can define one or more data sources from the same data provider.
 

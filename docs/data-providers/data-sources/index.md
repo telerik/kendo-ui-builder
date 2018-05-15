@@ -23,9 +23,9 @@ When you add a data provider to your web project, you can deselect the **Auto-cr
 
 ## Specifics
 
-All three types of provider data sources have fields. In the oData and Progress Data data sources, the fields and their properties are auto-populated based on the metadata that comes from the catalog file (for Progress Data) or metadata (for oData). In the generic REST data source, you have to add the data sources manually because the generic REST data providers do not possess a schema or metadata.
+All three types of provider data sources have fields. In the OData and Progress Data data sources, the fields and their properties are auto-populated based on the metadata that comes from the catalog file (for Progress Data) or metadata (for OData). In the generic REST data source, you have to add the data sources manually because the generic REST data providers do not possess a schema or metadata.
 
-* [oData and Progress Data sources]({% slug odataprogressdatasource_kuib %})
+* [OData and Progress Data sources]({% slug odataprogressdatasource_kuib %})
 * [Generic REST data source]({% slug restdatasource_kuib %})
 
 ## Suggested Links
