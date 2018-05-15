@@ -25,7 +25,7 @@ The Builder automatically generates these files in the `\app\src\modules\applica
 
 ## Preview
 
-<img src="../images/kuib-views-login.png" class="img-responsive" alt="Login view"/>
+<img src="../images/kuib-views-login.png" class="img-responsive" alt="Login View"/>
 
 ## Suggested Links
 

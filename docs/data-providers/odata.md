@@ -8,7 +8,7 @@ position: 3
 
 # OData
 
-[OData (Open Data Protocol)](http://www.odata.org/getting-started/basic-tutorial/) is a standard for specifying REST endpoint services.
+The [OData (Open Data) protocol](http://www.odata.org/getting-started/basic-tutorial/) is a standard for specifying REST endpoint services.
 
 The Builder supports:
 * OData version 4 for Angular.
@@ -28,15 +28,13 @@ The Builder supports:
 
   > If you deselect the **Auto-create Data Sources** checkbox, you have to manually create and set up the data sources after the data provider is created. For more information, refer to the article on [data sources]({% slug datasources_kuib %}).
 
-1. In **Authentication Type**, select the security model for the service and catalog URI. The model has to match the authentication model of the web application (web server) which provides the data object service. All authentication types strictly follow the protocol specifications.
+1. In **Authentication Type**, select the security model for the service and catalog URI. The model has to match the authentication model of the web application (web server) which provides the data object service. All authentication types strictly follow the protocol specifications. For more information, refer to the article on [authentication]({% slug authentication_kuib %}).
 
   * **None**&mdash;Indicates that the provider data is not protected by authentication.
   * **OpenID Connect**&mdash;Indicates that the provider data is protected through an identity layer on top of the OAuth 2.0 protocol.
   * (Angular only) **OAuth 2.0**&mdash;Indicates that the provider data is protected for authorization through the OAuth 2.0 protocol.
   * (Angular only) **Basic**&mdash;Indicates that the provider data is protected with a username and a password that are required when the user makes a request.
   * (Angular only) **API Key**&mdash;Indicates that the provider data is protected with an API key token that is required when the user makes API calls.
-
-  For more information, refer to the article on [authentication]({% slug authentication_kuib %}).
 
 1. Click **Add Data Provider** to save the settings of the data provider and close the **Add Data Provider** dialog box. As a result, the **App Design** page displays the card for the newly added data provider.
 

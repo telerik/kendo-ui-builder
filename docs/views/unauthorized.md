@@ -23,7 +23,7 @@ The Builder automatically generates these files in the `app\src\modules\applicat
 
 ## Preview
 
-<img src="../images/kuib-views-unauthorized.png" class="img-responsive" alt="Unauthorized view"/>
+<img src="../images/kuib-views-unauthorized.png" class="img-responsive" alt="Unauthorized View"/>
 
 ## Suggested Links
 

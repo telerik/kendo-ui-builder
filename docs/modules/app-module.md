@@ -14,7 +14,7 @@ Each Application Module delivers the [App Layout]({% slug applayout_kuib %}), [L
 
 > The Application Module cannot be deleted and does not provide options for setting user roles.
 
-// screen
+<img src="../../images/kuib-module-application.png" class="img-responsive" alt="App Module"/>
 
 ## Suggested Links
 

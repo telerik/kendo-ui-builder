@@ -24,7 +24,7 @@ The Builder automatically generates these files in the `\app\src\modules\applica
 
 ## Preview
 
-<img src="../images/kuib-views-landing-page.png" class="img-responsive" alt="Landing page view"/>
+<img src="../images/kuib-views-landing-page.png" class="img-responsive" alt="Landing Page View"/>
 
 ## Suggested Links
 

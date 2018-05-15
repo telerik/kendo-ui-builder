@@ -29,13 +29,11 @@ The JSDO class is a connector to the mobile services that are provided by Progre
 
   > If you deselect the **Auto-create Data Sources** checkbox, you have to manually create and relate the data sources after the data provider is created. For more information, refer to the article on [data sources]({% slug datasources_kuib %}).
 
-1. In **Authentication Model**, select the security model for the service and catalog URI. The model has to match the authentication model of the web application (web server) which provides the data object service.
+1. In **Authentication Model**, select the security model for the service and catalog URI. The model has to match the authentication model of the web application (web server) which provides the data object service. For more information, refer to the article on [authentication]({% slug authentication_kuib %}).
 
   * **Anonymous**&mdash;Indicates that the provider data is not protected by authentication.
   * (Angular only) **Basic**&mdash;Indicates that the provider data is protected with a username and a password that are required when the user makes a request.
   * (Angular only) **Form**&mdash;Similar to **Basic**, indicates that the provider data is protected with a username and a password, but the JSDOSession intercepts the form that is sent by the web application and handles the authentication without displaying that form.
-
-  For more information, refer to the article on [authentication]({% slug authentication_kuib %}).
 
 1. Click **Add Data Provider** to save the settings of the data provider and close the **Add Data Provider** dialog box. As a result, the **App Design** page displays the card for the newly added data provider.
 
