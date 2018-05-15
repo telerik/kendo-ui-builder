@@ -11,15 +11,16 @@ The Landing Page view is one of the system views which the [Application Module](
 
 ## Features
 
-* Represents the layout of the web page that will load when the user clicks on a search engine optimized search result or an online advertisement.
+* Represents the layout of the web page that will load when the user clicks a search engine optimized result or an online advertisement.
 * Lists all modules inside its content.
-* You can apply different styles for the view content by clicking on Edit CSS button and write your own custom styles in opened editor.
+* Allows you to apply different styles to the view content by clicking the **Edit CSS** button and writing your own custom styles in the opened editor.
 
-The view also includes the following custom sections where you can include your own HTML. Each section is identified in the view design page with a placeholder containing descriptive text:
-* Custom top html section: Located in the area above the Content with modules list
-* Custom bottom html section: Located in the area below the Content
+The view also includes custom sections where you can include your own HTML. Each section is identified in the view design page with a placeholder which contains descriptive text.
 
-The Designer automatically generates these files for you in application-folder\app\src\modules\application\landing-page. Add your custom HTML code to these files as required. The Edit option on each custom HTML section allows you to edit the corresponding file from within the Designer.
+* Custom top HTML section&mdash;Located in the area above **Content** with the list of modules.
+* Custom bottom HTML section&mdash;Located in the area below **Content**.
+
+The Builder automatically generates these files in the `\app\src\modules\application\landing-page` application folder and you need to add your custom HTML code to these files. The **Edit** option on each custom HTML section allows you to edit the corresponding file from within the Builder.
 
 ## Preview
 
