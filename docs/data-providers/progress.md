@@ -3,13 +3,12 @@ title: Progress Data
 page_title: Progress Data - Data Providers - Kendo UI Builder
 description: "Use the available Progress Data service which is supported by the Kendo UI Builder tool for creating and managing Angular and AngularJS-based web applications."
 slug: progressdata_kuib
-position: 6
+position: 5
 ---
 
 # Progress Data
 
-The Progress Data service is based on the [`progress.data.JSDO class`](https://documentation.progress.com/output/pdo/index.html#page/pdo/progress.data.jsdo-class.html).
-
+The Progress Data service is based on the [`progress.data.JSDO`](https://documentation.progress.com/output/pdo/index.html#page/pdo/progress.data.jsdo-class.html) class.
 
 The JSDO class is a connector to the mobile services that are provided by Progress and which produce metadata. The catalog file is an extended version and describes the data in a custom format. The catalog file that is necessary for adding the Progress Data provider describes what the service will return and how its endpoints are configured.
 
@@ -32,11 +31,11 @@ The JSDO class is a connector to the mobile services that are provided by Progre
 
 1. In **Authentication Model**, select the security model for the service and catalog URI. The model has to match the authentication model of the web application (web server) which provides the data object service.
 
-  * **Anonymous**&mdash;;Indicates that the provider data is not protected with authentication.
-  * **Basic**&mdash; (Supported only in Angular) Indicates that provider data is protected with username and password when making a request.
-  * **Form**&mdash; (Supported only in Angular) Indicates that provider data is protected with username and password like Basic but the JSDOSession intercepts the form sent by the web application and handles the authentication without that form being displayed.
+  * **Anonymous**&mdash;Indicates that the provider data is not protected by authentication.
+  * (Angular only) **Basic**&mdash;Indicates that the provider data is protected with a username and a password that are required when the user makes a request.
+  * (Angular only) **Form**&mdash;Similar to **Basic**, indicates that the provider data is protected with a username and a password, but the JSDOSession intercepts the form that is sent by the web application and handles the authentication without displaying that form.
 
-  For more information, refer to the article on [Authentication]({% slug authentication_kuib %}).
+  For more information, refer to the article on [authentication]({% slug authentication_kuib %}).
 
 1. Click **Add Data Provider** to save the settings of the data provider and close the **Add Data Provider** dialog box. As a result, the **App Design** page displays the card for the newly added data provider.
 

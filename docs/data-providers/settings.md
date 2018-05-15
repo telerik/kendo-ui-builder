@@ -32,7 +32,7 @@ For more information, refer to the articles on the [OData]({% slug odata_kuib %}
 1. Click the **Settings** icon to open the drop-down options list.
 1. Select **Delete**.
 
- > Be carefull when deleting providers since they may be used in views. If provider used in a view is deleted an error during generation of the app will be shown and the generation will stop.
+ > When you delete data providers, make sure they are not used in views. If a data provider that is used in a view is deleted, the Builder displays an error during the application generation and the generation will be cancelled.
 
 ## Suggested Links
 

@@ -10,9 +10,9 @@ position: 1
 
 Data providers enable services for establishing the connection between the data you want to display and the data source you want to use.
 
-* A data provider is abstraction which describes a single URI (oData and Progress providers) or base URI (for REST provider).
-* Endpoints in the data providers can be protected or not. The definition of a data provider identifies the authentication model which is required to access the data server it supports.
-* oData and Progress providers can be defined by a schema file on the web server and all child datasources to be generated based on that schema.
+* A data provider is an abstraction for data which describes a single URI (oData and Progress Data) or base URI (Generic REST).
+* The endpoints in the data providers can be either protected or not. The definition of a data provider identifies the authentication model which is required to access the data server it supports.
+* You can define the oData and Progress Data providers by a schema file on the web server and generate all child data sources based on that schema.
 * You can create multiple data providers.
 * You can define one or more data sources from the same data provider.
 
@@ -49,7 +49,7 @@ Data providers enable services for establishing the connection between the data 
 <div class="row separator-bottom">
 <div class="col-md-4 card-list-info">
     <h2>Data Sources</h2>
-    <p>The data sources are located within the data providers. They represent the datasets which you can bind to the views and can be created automatically or manually. You can also modify them to show all or only specific fields.</p>
+    <p>The data sources are located within the data providers and represent the datasets which you can bind to the views. They can be created automatically or manually and you can also modify them to show all or only specific fields.</p>
 </div>
 <div class="col-md-8">
     <ul class="card-list row">
