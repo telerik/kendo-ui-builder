@@ -15,7 +15,6 @@ Components represent the elements of your web application.
 * You can add, modify, use, and remove components in the [Blank]({% slug blankview_kuib %}) and [App Layout]({% slug applayout_kuib %}) views only.
 
 <div class="container-fluid">
-
     <div class="row separator-bottom">
         <div class="col-md-4 card-list-info">
             <h2>Charts</h2>
@@ -56,7 +55,6 @@ Components represent the elements of your web application.
             </ul>
         </div>
     </div>
-
     <div class="row separator-bottom">
         <div class="col-md-4 card-list-info">
             <h2>Custom Html</h2>
@@ -73,7 +71,6 @@ Components represent the elements of your web application.
             </ul>
         </div>
     </div>
-
     <div class="row separator-bottom">
         <div class="col-md-4 card-list-info">
             <h2>Data Management</h2>
@@ -97,7 +94,6 @@ Components represent the elements of your web application.
             </ul>
         </div>
     </div>
-
     <div class="row separator-bottom">
         <div class="col-md-4 card-list-info">
             <h2>Editors</h2>
@@ -273,7 +269,6 @@ Components represent the elements of your web application.
             </ul>
         </div>
     </div>
-
     <div class="row separator-bottom">
         <div class="col-md-4 card-list-info">
             <h2>Layout</h2>
@@ -296,7 +291,6 @@ Components represent the elements of your web application.
             </ul>
         </div>
     </div>
-
     <div class="row separator-bottom">
         <div class="col-md-4 card-list-info">
             <h2>Media</h2>
@@ -313,7 +307,6 @@ Components represent the elements of your web application.
             </ul>
         </div>
     </div>
-
     <div class="row separator-bottom">
         <div class="col-md-4 card-list-info">
             <h2>Navigation</h2>
@@ -349,7 +342,6 @@ Components represent the elements of your web application.
             </ul>
         </div>
     </div>
-
     <div class="row separator-bottom">
         <div class="col-md-4 card-list-info">
             <h2>Site</h2>
@@ -381,7 +373,6 @@ Components represent the elements of your web application.
             </ul>
         </div>
     </div>
-
     <div class="row separator-bottom">
         <div class="col-md-4 card-list-info">
             <h2>Schedulers</h2>
@@ -398,6 +389,7 @@ Components represent the elements of your web application.
             </ul>
         </div>
     </div>
+</div>
 
 ## Suggested Links
 
