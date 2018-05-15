@@ -12,12 +12,18 @@ The Landing Page view is one of the system views which the [Application Module](
 ## Features
 
 * Represents the layout of the web page that will load when the user clicks on a search engine optimized search result or an online advertisement.
-* Lists all modules inside its content.  
-* Allows you to edit some of its properties. For more information on which properties are subject to modification, refer to the right-hand vertical toolbar (property grid) of the view.
+* Lists all modules inside its content.
+* You can apply different styles for the view content by clicking on Edit CSS button and write your own custom styles in opened editor.
+
+The view also includes the following custom sections where you can include your own HTML. Each section is identified in the view design page with a placeholder containing descriptive text:
+* Custom top html section: Located in the area above the Content with modules list
+* Custom bottom html section: Located in the area below the Content
+
+The Designer automatically generates these files for you in application-folder\app\src\modules\application\landing-page. Add your custom HTML code to these files as required. The Edit option on each custom HTML section allows you to edit the corresponding file from within the Designer.
 
 ## Preview
 
-// screen
+<img src="../images/kuib-views-landing-page.png" class="img-responsive" alt="Landing page view"/>
 
 ## Suggested Links
 
