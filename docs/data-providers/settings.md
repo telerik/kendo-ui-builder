@@ -1,5 +1,5 @@
 ---
-title: Settings  
+title: Settings
 page_title: Settings - Data Providers - Kendo UI Builder
 description: "Use the available settings for managing the data providers when working with the Kendo UI Builder tool."
 slug: settingsdataproviders_kuib
@@ -31,6 +31,8 @@ For more information, refer to the articles on the [OData]({% slug odata_kuib %}
 1. On the **App Design** page, go to the card of the data provider you want to delete.
 1. Click the **Settings** icon to open the drop-down options list.
 1. Select **Delete**.
+
+ > When you delete data providers, make sure they are not used in views. If a data provider that is used in a view is deleted, the Builder displays an error during the application generation and the generation will be cancelled.
 
 ## Suggested Links
 
