@@ -8,13 +8,13 @@ position: 1
 
 # Authentication
 
-Generally, backend services require authentication.
+Most backend services require authentication.
 
-The authentication types that the Builder supports provide flexible implementation and can be extended.
+The authentication types that are supported by the Builder provide flexible implementation and can be extended.
 
 ## Overview
 
-Authentication is tightly related with data providers and each data provider delivers its own authentication settings. As a result, while it is not recommended, an application that is created with the Builder can simultaneously support different authentication types. To avoid multiple user sign-ins, during the code generation the Builder detects similar authentication settings and groups them in one. 
+Authentication is tightly related with data providers and each data provider delivers its own authentication settings. As a result, while it is not recommended, an application that is created with the Builder can simultaneously support different authentication types. To avoid multiple user sign-ins, during the code generation the Builder detects similar authentication settings and groups them in one.
 
 ## Authentication Types
 

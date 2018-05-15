@@ -14,8 +14,6 @@ The **Generate** button is available on both the **App Design** page and the too
 
 When the Builder generates applications for the Angular framework, it uses Angular CLI. When the Builder generates applications for the AngularJS framework, it uses Webpack.
 
-// Add any relevant info + demo/screen
-
 ## Suggested Links
 
 * [Output Application Modes]({% slug debugging_kuib %})

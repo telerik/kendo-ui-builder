@@ -22,9 +22,9 @@ When you download a theme from the ThemeBuilder, you get an archive with the fol
 * `all.css`&mdash;The `all.css` file is the file that you import in the Builder.
 * `variables.scss`&mdash;The `variables.scss` file is the file you re-import in the ThemeBuilder if you want to tweak a theme again.
 
-## Specific Usage of Custom Styling Approaches
+## Specific Usage
 
-The Builder provides the following custom styling approaches which aim at handling different cases:  
+The Builder provides the following custom styling approaches which aim at handling different use-case scenarios:  
 
 * Custom themes&mdash;Define the appearance and metrics of Kendo UI components.
 * The [`app.custom.css`]({% slug customstyles_kuib %}) file&mdash;Intended for application-wide styles.

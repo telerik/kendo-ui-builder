@@ -15,11 +15,8 @@ The Builder enables you to customize the styles of the generated web project.
 To define custom CSS rules, use either of the following approaches:
 
 * Define any application-wide primitives and styles that you want to reuse across the entire application in the global stylesheet that the Builder generates for each web project.
-
-    For AngularJS, the global stylesheet is located at `\app\src\styles\app\app.custom.css`.
-
-    For Angular, the global stylesheet is located at `app/src/app/app.custom.css`.
-
+    * For AngularJS, the global stylesheet is located at `\app\src\styles\app\app.custom.css`.
+    * For Angular, the global stylesheet is located at `app/src/app/app.custom.css`.
 * Use the stylesheet of the desired view. For more information, refer to the section on [custom view styles](#toc-view-styles).
 
 ## Scoped Styles
@@ -28,12 +25,10 @@ Certain use-case scenarios require you to scope your CSS to a certain view. The 
 
 ### Benefits
 
-Using scoped styles helps you to:
-
-* Avoid the pollution of the global scope with names.
-* Avoid any conflicting CSS cascades and accidental overrides.
-* Achieve encapsulation and modularity.
-* Create smaller and easy-to-read CSS files.
+* Avoiding the pollution of the global scope with names.
+* Avoiding any conflicting CSS cascades and accidental overrides.
+* Achieving encapsulation and modularity.
+* Creating smaller and easy-to-read CSS files.
 
 ### Specifics
 

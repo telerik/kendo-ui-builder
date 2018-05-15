@@ -8,9 +8,11 @@ position: 1
 
 # Extension Points Overview
 
-The extension points represent different means by which you can further customize the appearance and behavior of the generated application. You will often need to handle events, extract common logic in monolitic structures, like your own components and view, tweak the layout and appearance, import 3rd party libraries and so on.
+The extension points represent different means by which you can further customize the appearance and behavior of the generated application.
 
-The available options for customizing the generated web application are:
+The options for customization include handling of events, extracting common logic in monolithic structures (such as your components and views), tweaking the layout and appearance, importing third-party libraries, and so on.
+
+The available ways to customize the generated web application are:
 
 * [Custom code]({% slug customcode_kuib %})
 * [Custom templates]({% slug customtemplates_kuib %})
@@ -18,3 +20,7 @@ The available options for customizing the generated web application are:
 * [Custom themes]({% slug customthemes_kuib %})
 * [Extending package.json]({% slug extendingpackages_kuib %})
 * [Extending the HTML head]({% slug extendinghead_kuib %})
+
+## Suggested Links
+
+* [Overview of the Kendo UI Builder]({% slug intro_kuib %}#toc-extension-points)
