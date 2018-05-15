@@ -8,21 +8,29 @@ position: 3
 
 # Custom Component Templates
 
-This extension point allows you to encapsulate and reuse common logic in the form of a custom component template. Custom components, just like the built-in components, can have properties.
+This component extension points allow you to encapsulate and reuse common logic in the form of a custom component template.
 
-## Use cases
+Similar to the built-in components, the custom components can also have properties.
 
-- If you need a component that doesn't exist in the toolbox you can implement your own or use third-party one
+## Common Scenarios
 
-- If you want to augment the fuctionality or adjust the appearance of a built-in component, you can wrap it in a custom component
+* If you need a component that does not exist in the toolbox, you can implement your own or use a third-party component.
+* If you want to augment the functionality or adjust the appearance of a built-in component, you can wrap it in a custom component.
 
-# Structure
+## Structure
 
-Below are described the pars of a custom component template and their role.
+Each custom component template includes the following parts:
 
-## Schema definition
+* [Schema](#toc-schema)
+* [Design-time template](#toc-design-time-template)
+* [Runtime template](#toc-runtime-template)
+* [Component directive](#toc-component-directive)
 
-`<component_name>.json` is the schema file which is used by the Designer to display all available properties and to generate the runtime code. We use json schema v4 standard for it: http://json-schema.org/
+### Schema
+
+The `<component_name>.json` file represents the schema file which is used by the Builder to display all available properties and to generate the runtime code. The Builder utilizes the [JSON schema version 4](http://json-schema.org/) as a standard.
+
+The following example demonstrates the minimum setup that you need to apply. `<component_name>`, `<category>`, and `<description>` are optional. `<category>` is used by the toolbox to group the components in a convenient visual manner and accepts any string.
 
 The bare minimum that you must provide is:
 
@@ -40,9 +48,7 @@ The bare minimum that you must provide is:
 
 ```
 
-where `<component_name>`, `<category>` and `<description>` are of your choise. The `<category>` is used by the toolbox to group component in a convenient visual maner. It could be any string.
-
-However, you will often need at least one property, say `title`. Then the schema `properties` object would look like this:
+Often, the projects require the setting of at least one property&mdash;for example, a `title`&mdash;which you need to include in the `properties` object of the schema.
 
 ```json
 {
@@ -58,27 +64,23 @@ However, you will often need at least one property, say `title`. Then the schema
 }
 ```
 
-Some of the property descriptor fields are:
+Some of the `properties` descriptor fields are:
 
-- `type` (required) - Designer uses this to render the proper editor for that property. The possible values and the corresponding editors are: `string` (textbox), `boolean` (checkbox), `number` (numeric textbox), `integer` (numeric textbox with step 1), `array` (dropdown list) and `object` (will render nested, expandable level in property grid). There could be a composite type too, e.g. `[ "integer", "null" ]`. Using the correct type constrains the Designer users and gives them a hit of what type of value is expected.
+* (Required) `type`&mdash;Renders the proper editor for that property. The possible values and the corresponding editors are `string` (TextBox), `boolean` (CheckBox), `number` (Numeric Text Box), `integer` (Numeric Text Box with one step), `array` (Drop Down List), and `object` (renders nested, expandable levels in the property grid). The Builder also supports composite types too&mdash;for example, `[ "integer", "null" ]`. Using the correct type provides template users with a hint of what value type is expected.
+* (Required) `title`&mdash;Represents the name of the property that will be displayed in the property grid.
+* (Optional) `description`&mdash;Represents a hint in the code that is displayed nowhere else.
+* (Optional) `default`&mdash;Auto-populates the editor too. The generated code will have a default value too.
+* (Optional) `order`&mdash;Defines the order in the property grid for that property.
 
-- `title` (required) - This is the name of the property that the developer will see in the property grid.
+> This `properties` field description is compliant with the JSON schema version 4. You can also use any other field that is defined in the standard.
 
-- `description` (optional) - This is just a hint in the code. It is not displayed anywhere.
+### Design-Time Template
 
-- `default` (optional) - The editor will be auto-populated with this value. Generated code will have default value too.
+The Design-Time template provides options for customizing the design process of the application. Once you create the template, you can choose the view from the **Component** list and use it.
 
-- `order` (optional) - This is the order in the property grid for that property.
+The template consists of several files and some of them are optional. However, the `template.html.ejs` is required and represents the template that appears on the canvas. It can display anything&mdash;for example, a **Hello World** string or a very complex HTML structure. It does not allow you to interact directly with it and that is why it is recommended that you keep it simple. The purpose of the Design-Time template is to display sufficiently close visual representation of the generated application version. To interact with the template, use the exposed properties which are displayed in the property grid on the right.
 
-Note that this property description is json schema v4 compliant and you can take advantage of any other field defined in the standard
-
-## Design-time template
-
-The Design-time template is used by the Designer (hence the name). Once created, developers can choose the componet from the toolbox and use it. It consists of several files, some of which are optional.
-
-- `template.html.ejs` (required) - This is the template that will appear in the Designer canvas. It can be anything, from simple string to a very complex html structure, but since developers can't interact directly with it you would want to keep it simple. The purpose of the design-time template is to display sufficiently close visual representation to what will be generated after. The only way to interact with it is via the exposed properties, which are displayed in the property grid on the right. 
-
-To add styling to the html template you can append a `<style></style>` section at the end of the file. A good practice when you write styles here is to "namespace" them with some class with prefix. Example 
+To add styles to the HTML template, append a `<style></style>` section at the end of the file and "namespace" them with some class with prefix.
 
 ```html
 <div class="my-custom-calendar">custom calendar</div>
@@ -91,13 +93,15 @@ To add styling to the html template you can append a `<style></style>` section a
 }
 ```
 
-As you can see, the wrapper html element has `my-custom-calendar` class whit which the `.date-cell` selector is namespaced. The namespacing class itself has the `my-` namespacing prefix. This is all done to minimize the risk of accidental style overrides in the canvas.
+The wrapper HTML element has the `my-custom-calendar` class whit which the `.date-cell` selector is namespaced. The namespacing class itself has the `my-` prefix in this case which is done to minimize the risk of accidental style overrides in the canvas.
 
-- `options.json.ejs` (required) - Defines template properties which are then used to extend the initial template model. This is suitable when you want to provide more "dynamic" behavior of the template. If the template is simple enough just **provide an empty object `{}`, so the file can be json validated**.
+* (Required) `options.json.ejs`&mdash;Defines the template properties which are later used to extend the initial template model. This approach is suitable when you want to provide the template with more dynamic behavior.
 
-- `generator/index.js` (optional) - It is used to augment the initial model of the template and thus provide additional "dynamic" behavior. For instance, the component can be data bound and you would like to display some sample data otherwise it will be empty and not very representative to the developers. Another thing you can do is to show/hide sertain parts of the template based on the chosen properties. For example, if the `edit` property is `true` you display a form. If the template is simple enough you can skip this file
+    > If the template is simple enough, provide an empty object `{}` so that the file can be JSON validated.
 
-- `<component_name>.png` (optional) - this is the image on the list of components in the toolbox. If not provided, a default one will be displayed.
+* (Optional) `generator/index.js`&mdash;Used to augment the initial model of the template and, in this way, provide additional dynamic behavior when designing the application. For example, you can bind to data some components that are inside the view and display some sample data. Otherwise, they will be empty and not representative to other developers. Another options for you is to show or hide certain parts of the template based on the selected properties. For example, if the `edit` property is `true`, you display a form. In this file you have full access to the meta model. If the template is simple enough, skip it.
+
+* (Optional) `<component_name>.png`&mdash;Represents the image on the list of the components in the left toolbar. If not provided, a default one will be displayed.
 
 ## Runtime template
 
@@ -200,7 +204,7 @@ config.exports.push(MyCalendarComponent); // don't forget to export your compone
 
 @NgModule(config)
 export class SharedModule { }
-``` 
+```
 
 ### AngularJS
 
