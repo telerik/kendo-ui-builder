@@ -10,14 +10,6 @@ position: 14
 
 This article provides solutions for issues you might encounter while working with the Kendo UI Builder.
 
-// STRUCTURE OF TROUBLESHOOTING TOPICS:
-// 1. DESCRIPTION
-// 2. DETAILS/ERROR MESSAGE, IF APPLICABLE
-// 3. CAUSE
-// 4. SOLUTION/WORKAROUND
-
-// STICK TO SIMILAR STRUCTURE: https://www.telerik.com/kendo-angular-ui/components/troubleshooting/
-
 ## Sources for Debugging
 
 You can locate possible problems, investigate them accordingly, and debug your web project by using the available debugging options.
@@ -36,4 +28,3 @@ To debug your web application before it is published:
 ## Suggested Links
 
 * [Installing the Kendo UI Builder]({% slug getstarted_kuib %})
-* [Frequently Asked Questions (FAQ)]({% slug faq_kuib %})
