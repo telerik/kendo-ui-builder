@@ -1,6 +1,6 @@
 ---
 title: Introduction
-page_title: Introduction | Kendo UI Builder
+page_title: Introduction - Documentation - Kendo UI Builder
 description: "Welcome to the Kendo UI® Builder by Progress® tool for creating and managing Angular and AngularJS-based web applications."
 slug: intro_kuib
 position: 0
@@ -63,14 +63,14 @@ Progress<sup>®</sup> Kendo UI<sup>®</sup> Builder is a tool for creating and m
 
 ### Extension Points
 
-* Extension points enable you to customize specific aspects of the generated web project.
-* [Custom CSS]({% slug customstyles_kuib %})&mdash;The CSS extension points deliver options for personalizing the styles of the web application.
-* [Custom code]({% slug customcode_kuib %})&mdash;The code extension points provide options for modifying the backend of the application.  
-* [Custom components]({% slug customcomponents_kuib %})&mdash;The component extension points allow you to update the components according to the specific requirements of your project.
-* [Custom packages]({% slug extendingpackages_kuib %})&mdash;The package extension points help you modify the bundles and packages of the generated application.
-* [Custom themes]({% slug extendingthemes_kuib %})&mdash;The theme extension points enable you to apply tailor-made decisions regarding the appearance of the application.  
-* [Custom views]({% slug extendingviews_kuib %})&mdash;The view extension points handle the customization of the web application views.
-* [Extending the head]({% slug extendinghead_kuib %})&mdash;You can add custom elements, such as custom code or links, to the head of the generated web project.
+The extension points enable you to customize specific aspects of the generated web project.
+
+* [Custom code]({% slug customcode_kuib %})&mdash;With custom code you can handle different events from the components or application lifecycle
+* [Custom templates]({% slug customtemplates_kuib %})&mdash;Allows you to define complex monolitic and reusable structures
+* [Custom styles]({% slug customstyles_kuib %})&mdash;The custom CSS extension point allows you to personalize the appearance of the web application.
+* [Custom themes]({% slug customthemes_kuib %})&mdash;Enables you to extend the existing package.json with your own packages.
+* [Extending `package.json`]({% slug extendingpackages_kuib %})&mdash;Create your own company brand compliant themes and use them seamlessly
+* [Extending the HTML head]({% slug extendinghead_kuib %})&mdash;You can add elements, such as custom code or links, to the head of the generated web project.
 
 ## Styling Options
 
@@ -80,7 +80,7 @@ Progress<sup>®</sup> Kendo UI<sup>®</sup> Builder is a tool for creating and m
 
 ## Progress OpenEdge Integration
 
-* [Official Progress<sup>®</sup> Software Documentation](https://www.progress.com/documentation/kendo-ui-builder)  
+* [Official Progress<sup>®</sup> Software Documentation](https://www.progress.com/documentation/kendo-ui-builder)
 * [Developing a Progress OpenEdge Web App Using Kendo UI Builder](https://www.progress.com/services/education/openedge/developing-an-openedge-web-app-using-kendo-ui-builder)
 
 ## Suggested Links

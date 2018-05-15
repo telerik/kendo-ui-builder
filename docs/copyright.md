@@ -1,6 +1,6 @@
 ---
 title: Copyright
-page_title: Copyright | Kendo UI Builder
+page_title: Copyright - Documentation - Kendo UI Builder
 description: "Get acquainted with the copyright restrictions when using the Kendo UI Builder tool for creating and managing Angular and AngularJS-based web applications."
 slug: copyright_kuib
 position: 1002
