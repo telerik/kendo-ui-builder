@@ -22,12 +22,11 @@ Similar to the built-in views, the custom views can also have properties.
 
 Each custom view template includes the following parts:
 
-* [Schema](#toc-schema)
+* [Schema](#toc-schema-definition)
 * [Design-time template](#toc-design-time-template)
 * [Angular template](#toc-angular-template)
-* [AngularJS template](#toc-angularjs-template)
 
-### Schema
+### Schema Definition
 
 The `<view_name>.json` file represents the schema file which is used by the Builder to display all available properties and to generate the runtime code. The Builder utilizes the [JSON schema version 4](http://json-schema.org/) as a standard.
 
@@ -200,11 +199,7 @@ The Angular template consists of the following mandatory files:
     })(module);
     ```
 
-
-## AngularJS Template
-
-//TODO
-
 ## Suggested Links
 
 * [Custom Components]({% slug customcomponents_kuib %})
+* [Overview of Extension Points]({% slug extensionpoints_kuib %})

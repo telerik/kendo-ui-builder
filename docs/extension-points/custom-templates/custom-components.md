@@ -21,12 +21,12 @@ Similar to the built-in components, the custom components can also have properti
 
 Each custom component template includes the following parts:
 
-* [Schema](#toc-schema)
+* [Schema definition](#toc-schema-definition)
 * [Design-time template](#toc-design-time-template)
 * [Runtime template](#toc-runtime-template)
-* [Component/Directive definition](#toc-directives)
+* [Component/directive definition](#toc-componentdirective-definition)
 
-### Schema definition
+### Schema Definition
 
 The `<component_name>.json` file represents the schema file which is used by the Builder to display all available properties and to generate the runtime code. The Builder utilizes the [JSON schema version 4](http://json-schema.org/) as a standard.
 
@@ -157,7 +157,7 @@ The AngularJS template consists of the following files:
     }
     ```
 
-### Component/Directive definition
+### Component/Directive Definition
 
 The Builder uses the custom component template to generate code and render it inside the application each time the user drags it from the toolbox to the canvas. At this point, Angular does not relate with the rendered `<my-calendar>` component and you have to define its template and controller. Otherwise, an exception will be thrown.
 
@@ -256,4 +256,5 @@ Navigate to `app/src/scripts/extensions` and create a folder for each custom dir
 
 ## Suggested Links
 
+* [Custom Views]({% slug customviews_kuib %})
 * [Overview of Extension Points]({% slug extensionpoints_kuib %})

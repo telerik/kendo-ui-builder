@@ -40,7 +40,7 @@ Progress<sup>®</sup> Kendo UI<sup>®</sup> Builder is a tool for creating and m
 * With the creation of each new application, the Builder provides the built-in [App Module]({% slug appmodule_kuib %}) which contains predefined, system views.
 * While you build your web application, you can add, modify, and remove the modules your project requires.
 * [Module features, types, and capabilities]({% slug modulesoverview_kuib %})
-* [Adding, editing, reordering, and deleting modules]({% slug designingtheapp_kuib %})
+* [Adding, editing, reordering, and deleting modules]({% slug designingtheapp_kuib %}#toc-module-settings)
 
 ### Views
 
@@ -60,6 +60,8 @@ Progress<sup>®</sup> Kendo UI<sup>®</sup> Builder is a tool for creating and m
 
 * Data providers handle the data connectivity of the application.
 * They support the input of third-party and custom service endpoints, and utilize the respective available [data sources]({% slug datasources_kuib %}).
+* [Data provider features, types, and capabilities]({% slug dataprovidersoverview_kuib %})
+* [Adding, editing, and deleting data providers]({% slug designingtheapp_kuib %}#toc-data-provider-settings)
 
 ### Extension Points
 
