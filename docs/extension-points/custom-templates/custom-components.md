@@ -24,7 +24,7 @@ Each custom component template includes the following parts:
 * [Schema](#toc-schema)
 * [Design-time template](#toc-design-time-template)
 * [Runtime template](#toc-runtime-template)
-* [Component directive](#toc-component-directive)
+* [Directives](#toc-directives)
 
 ### Schema
 
@@ -100,158 +100,160 @@ The wrapper HTML element has the `my-custom-calendar` class whit which the `.dat
     > If the template is simple enough, provide an empty object `{}` so that the file can be JSON validated.
 
 * (Optional) `generator/index.js`&mdash;Used to augment the initial model of the template and, in this way, provide additional dynamic behavior when designing the application. For example, you can bind to data some components that are inside the view and display some sample data. Otherwise, they will be empty and not representative to other developers. Another options for you is to show or hide certain parts of the template based on the selected properties. For example, if the `edit` property is `true`, you display a form. In this file you have full access to the meta model. If the template is simple enough, skip it.
-
 * (Optional) `<component_name>.png`&mdash;Represents the image on the list of the components in the left toolbar. If not provided, a default one will be displayed.
 
-## Runtime template
+### Runtime Template
 
-### Angular
+* [In Angular](#toc-angular)
+* [In AngularJS](#toc-angularjs)
 
-The Angular template consists of two mandatory files:
+#### Angular
 
-- `template.html.ejs` :
-This template file represents the Angular component that will be rendered directly in the view, when someone add it. The definition of the component and controller themselves are provided separately (as you will see later). For example, let's say you want to create a custom calendar component named `my-calendar`. Then the template might look like this:
+The Angular template consists of the following files:
 
-```html
-<my-calendar
-    [config]="$config.components.<%- id %>"
-    [id]="'<%- id %>'">
-</my-calendar>
-```
-- `config.json.ejs` - It is a suitable way to pass calculated properties from design-time to runtime. Then you can use the `$config` variable to access them from both, the template and the controller.
+* (Required) `template.html.ejs`&mdash;Represents the Angular component that will be rendered directly in the view when the user adds it. The definition of the component and controller are provided separately. For example, to create a custom calendar component named `my-calendar`, the template will look similar to the following example.
 
-### AngularJS
+    ```html
+    <my-calendar
+        [config]="$config.components.<%- id %>"
+        [id]="'<%- id %>'">
+    </my-calendar>
+    ```
 
-The AngularJS template consists of two mandatory files:
+* (Required) `config.json.ejs`&mdash;Provides a suitable way to pass the calculated properties from the design-time to runtime. Then, use the `$config` variable to access them from both the template and the controller.
 
-- `directive.html.ejs` This template file represents the AngularJS directive that will be rendered directly in the view, when someone add it. The definition of the directive and controller themselves are provided separately (as you will see later). For example, let's say you want to create a custom calendar component named `my-calendar`. Then the template might look like this:
+#### AngularJS
 
-```html
-<my-calendar
-    data-id="<%- id %>"
-    data-widget="vm.$components.<%- id %>.widget"
-    data-options="vm.$components.<%- id %>.options"
-    data-events="vm.$components.<%- id %>.events">
-</my-calendar>
-```
+The AngularJS template consists of the following files:
 
-- `options.json.ejs` It is a suitable way to pass calculated properties from design-time to runtime. Then you can use `vm.$components.<component_id>.options` to access them from both, the template and the controller.
+* (Required) `directive.html.ejs`&mdash;Represents the AngularJS directive that will be rendered directly in the view when the user adds it. The definition of the directive and controller are provided separately. For example, to create a custom calendar component named `my-calendar`, the template will look similar to the following example.
 
-```json
-{
-    widget: null,
-    options: {
-        title: "<%- title %>",
-        minDate: "<%- minDate %>",
-        maxDate: "<%- maxDate %>"
-    },
-    events: {
-        onChange: (e) => {
-            <% if (events.onChange) { %>
-                this['<%- events.onChange %>'](e);
-            <% } %>
+    ```html
+    <my-calendar
+        data-id="<%- id %>"
+        data-widget="vm.$components.<%- id %>.widget"
+        data-options="vm.$components.<%- id %>.options"
+        data-events="vm.$components.<%- id %>.events">
+    </my-calendar>
+    ```
+
+* (Required) `options.json.ejs`&mdash;Provides a suitable way to pass the calculated properties from design-time to runtime. Then, use `vm.$components.<component_id>.options` to access them from both the template and the controller.
+
+    ```json
+    {
+        widget: null,
+        options: {
+            title: "<%- title %>",
+            minDate: "<%- minDate %>",
+            maxDate: "<%- maxDate %>"
+        },
+        events: {
+            onChange: (e) => {
+                <% if (events.onChange) { %>
+                    this['<%- events.onChange %>'](e);
+                <% } %>
+            }
         }
     }
-}
-```
+    ```
 
-## Component/Directive definition
+### Directives
 
-The custom component template is used by the Designer to generate code and render it inside the app everytime someone drags it from the toolbox to the Designer canvas. At this point, the rendered `<my-calendar>` component doesn't mean anything to angular and you need to define its template and contrller, otherwise an exception will be thrown.
+The Builder uses the custom component template to generate code and render it inside the application each time the user drags it from the toolbox to the canvas. At this point, Angular does not relate with the rendered `<my-calendar>` component and you have to define its template and controller. Otherwise, an exception will be thrown.
 
-### Angular
+#### Angular
 
-In order to do so, create a folder inside `app/src/app/shared`, next to the `components/` folder, called `custom-components` (or any name of your choice). Inside this folder, create a folder for each custom component. These components are Angular components and everything you know about Angular applies for them. Example:
+To define the template and controller:
 
-`custom-components/my-calendar/my-calendar.component.html`:
+1. Create a folder inside `app/src/app/shared` next to the `components/` folder and name it, for example, `custom-components`.
+1. Inside this folder, create a folder for each custom component. These components are Angular components and apply the specifics of the framework. You can also have an individual `.css` file.
 
-```html
-<h2>{{name}} - {{config.min}}</h2>
-```
+    * In `custom-components/my-calendar/my-calendar.component.html`:
 
-`custom-components/my-calendar/my-calendar.component.ts`:
+        ```html
+        <h2>{{name}} - {{config.min}}</h2>
+        ```
 
-```ts
-import { Component, Input } from '@angular/core';
+    * In `custom-components/my-calendar/my-calendar.component.ts`:
 
-@Component({
-    selector: 'my-calendar',
-    templateUrl: './my-calendar.component.html'
-})
-export class MyCalendarComponent {
-    @Input() public config;
-    public name: string = 'My Calendar';
-}
-```
-Of course you can have a separate css file too.
+        ```ts
+        import { Component, Input } from '@angular/core';
 
-Then you need to register this component in the `shared` module config, so Angular can put it into play. Each module generated by KUIB is extendable, including the `shared` module. Locate the `shared.module.ts` file and add your component:
+        @Component({
+            selector: 'my-calendar',
+            templateUrl: './my-calendar.component.html'
+        })
+        export class MyCalendarComponent {
+            @Input() public config;
+            public name: string = 'My Calendar';
+        }
+    ```
 
-```ts
-/////////////////////////////////////////////////////
-// Add your custom code here.
-// This file and any changes you make to it are preserved every time the app is generated.
-/////////////////////////////////////////////////////
-import { NgModule } from '@angular/core';
+1. Register this component in the `shared` module `config` file so that Angular associates it. Each module that is generated by the Builder, including `shared`, is extendable. Locate the `shared.module.ts` file and add your component.
 
-import { config } from './shared.config';
+    ```ts
+    /////////////////////////////////////////////////////
+    // Add your custom code here.
+    // This file and any changes you make to it are preserved every time the app is generated.
+    /////////////////////////////////////////////////////
+    import { NgModule } from '@angular/core';
 
-// You can modify or replace module config here
-import { MyCalendarComponent } from './custom-components/my-calendar/my-calendar.component'; // import the component from the folder you put its files
+    import { config } from './shared.config';
 
-config.declarations.push(MyCalendarComponent); // push it to the declarations array
-config.exports.push(MyCalendarComponent); // don't forget to export your component so it can be used by other modules too
+    // You can modify or replace module config here
+    import { MyCalendarComponent } from './custom-components/my-calendar/my-calendar.component'; // import the component from the folder you put its files
 
-@NgModule(config)
-export class SharedModule { }
-```
+    config.declarations.push(MyCalendarComponent); // push it to the declarations array
+    config.exports.push(MyCalendarComponent); // don't forget to export your component so it can be used by other modules too
 
-### AngularJS
+    @NgModule(config)
+    export class SharedModule { }
+    ```
 
-Navigate to `app/src/scripts/extensions` and create a folder for each custom directive. In this folder will reside the `template.html` and `index.js` for the directive. For example:
+#### AngularJS
 
-- `index.js`
+Navigate to `app/src/scripts/extensions` and create a folder for each custom directive. In this folder, the `template.html` and `index.js` files for the directive will reside. The following example demonstrates that the template can also wrap a Kendo UI directive inside.
 
-```js
-'use strict';
+* In `index.js`:
 
-import template from './template.html';
+    ```js
+    'use strict';
 
-function directive() {
-    return {
-        restrict: 'E',
-        scope: true,
-        bindToController: {
-            id: '@',
-            widget: '=',
-            options: '=',
-            events: '=',
-        },
-        transclude: true,
-        controller: function() {
-            var vm = this;
-        },
-        controllerAs: 'vm',
-        templateUrl: template
-    };
-}
+    import template from './template.html';
 
-export default directive;
-```
+    function directive() {
+        return {
+            restrict: 'E',
+            scope: true,
+            bindToController: {
+                id: '@',
+                widget: '=',
+                options: '=',
+                events: '=',
+            },
+            transclude: true,
+            controller: function() {
+                var vm = this;
+            },
+            controllerAs: 'vm',
+            templateUrl: template
+        };
+    }
 
-- `template.html`
+    export default directive;
+    ```
 
-```html
-<div
-    id="{{vm.id}}"
-    kendo-calendar="vm.widget"
-    k-options="vm.options"
-    k-on-change="vm.events.onChange(kendoEvent)">
-</div>
-```
+* In `template.html`:
 
-As you can see, in this specific example the template wraps a kendo directive inside, just to show that this is also possible.
+    ```html
+    <div
+        id="{{vm.id}}"
+        kendo-calendar="vm.widget"
+        k-options="vm.options"
+        k-on-change="vm.events.onChange(kendoEvent)">
+    </div>
+    ```
 
 ## Suggested Links
 
-* [Custom Components]({% slug customcomponents_kuib %})
+* [Overview of Extension Points]({% slug extensionpoints_kuib %})
