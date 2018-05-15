@@ -48,7 +48,7 @@ Progress<sup>®</sup> Kendo UI<sup>®</sup> Builder is a tool for creating and m
 * The [system views]({% slug viewsoverview_kuib %}#toc-system) are predefined and are only available in the App Module.
 * The [built-in views]({% slug viewsoverview_kuib %}#toc-predefined) are delivered by the Builder out of the box. Their predefined layout, look, and feel aim at facilitating the implementation of the most common scenarios.
 * The [user-defined view]({% slug viewsoverview_kuib %}#toc-blank) is the Blank view. The Blank and the App Layout views are the only views which allow the usage and further modification of components.  
-* The Builder also supports the implementation of [custom views]({% slug extendingviews_kuib %}) in your web project.
+* The Builder also supports the implementation of [custom views]({% slug customviews_kuib %}) in your web project.
 
 ### Components
 
@@ -76,7 +76,7 @@ The extension points enable you to customize specific aspects of the generated w
 
 * [Using the predefined Kendo UI themes]({% slug stylingthemesoverview_kuib %})
 * [Building custom themes with Progress<sup>®</sup> Sass ThemeBuilder](http://themebuilder.telerik.com/)
-* [Developing your custom themes]({% slug extendingthemes_kuib %})
+* [Developing your custom themes]({% slug customthemes_kuib %})
 
 ## Progress OpenEdge Integration
 
