@@ -12,7 +12,7 @@ Migration is the process of updating application metadata to the latest format s
 
 Application metadata has its own version which helps Kendo UI Builder to know when applications metadata are in incompatible format. In such cases metadata should be migrated to the latest format.
 
-In general Kendo UI builder does not introduce breaking changes in the metadata. Then it is possible metadata to be migrated automatically. Applications with possible metadata migration are marked with  **Migration Required** state label. Two options for trigger migration are available:
+In general Kendo UI builder does not introduce breaking changes in the metadata. Then it is possible metadata to be migrated automatically. Applications with possible metadata migration are marked with  **Migration Required** state label. Two options for triggering migration are available:
 * Try to open app for editing. A dialog will be prompted with an option to migrate application before editing.
 * Click the **Settings** menu and then select **Migrate** item.
 
