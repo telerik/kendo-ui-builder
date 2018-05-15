@@ -28,7 +28,7 @@ All three type of providers's datasources has one common thing - the fields. In 
 
 ### oDataSource and ProgressDataSource
 
-// screen of oDataSource and ProgressDataSource data source window
+<img src="../images/kuib-editdatasource-odata-progress.png" class="img-responsive" alt="Editing oDataSource"/>
 
 When you add or edit both datasources you can set the table and fields defined for the data source, search for or navigate to the data provider table from which your app will draw data. You can use the Include all and Exclude all buttons to move the entire list of fields back and forth between Included Fields and Excluded Fields lists.
 
@@ -47,7 +47,7 @@ Otherwise, only a page of data is retrieved from the data source to display in t
 
 ### RestDataSource
 
-// screen of edit RestDataSource window
+<img src="../images/kuib-editdatasource-odata-progress.png" class="img-responsive" alt="Editing RestDataSource"/>
 
 Since the REST Data Provider does not have posibility for consuming service metadata or a schema you need to add and configure all fields and properties manually. When you add or edit fields you need to specify their name, label and type, then based on the selected type you can choose the right editor for your filed.
 
