@@ -1,6 +1,6 @@
 ---
 title: Installation
-page_title: Installation | Kendo UI Builder
+page_title: Installation - Getting Started - Kendo UI Builder
 description: "Learn how to install and uninstall the Kendo UI Builder tool for creating and managing Angular and AngularJS-based web applications."
 slug: getstarted_kuib
 position: 1

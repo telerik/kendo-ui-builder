@@ -1,6 +1,6 @@
 ---
 title: Dashboard
-page_title: Dashboard | Kendo UI Builder
+page_title: Dashboard - Getting Started - Kendo UI Builder
 description: "Manage the state of your existing applications in the Kendo UI Designer by using the options of its Dashboard."
 slug: dashboard_kuib
 position: 2
