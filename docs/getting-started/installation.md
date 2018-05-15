@@ -12,37 +12,43 @@ To start using the Kendo UI Builder, provide the [prerequisites](#toc-prerequisi
 
 ## Prerequisites
 
-* For Windows, Windows 7 or later.
-* For Mac, latest two versions of Mac OS
-* Node.js version 6.9.0 or later
+* Node.js version 6.9.0 or later.
+* For Windows&mdash;Windows 7 or later.
+* For Mac&mdash;The two latest versions of Mac OS.
 
 ## Installation
 
+* [Windows](#toc-windows)
+* [Mac OS](#toc-mac-os)
+
 ### Windows
 
-* Run Windows installer
+1. Run the Windows Installer.
 
-> * By default, the installation of the Builder interrupts all running application instances&mdash;to avoid possible data loss, stop such running instances if any.
-> * The Windows Installer notifies you to install Node.js but does not install it automatically.
+    > * By default, the installation of the Builder interrupts all running application instances. To avoid possible data loss, stop all such instances (if any).
+    > * The Windows Installer notifies you to install Node.js but does not automatically install it.
 
-* Click **Continue**
-* Read **License Agreement** and click **I Agree - Continue** to proceed.
-* (Optional) To review or update any installation settings, click **Back**.
-* Click **Install** in order to start installation
-* Click **Finish** after the installation completes.
+1. Click **Continue**.
+1. Read **License Agreement** and click **I Agree - Continue** to proceed.
+1. (Optional) To review or update any installation settings, click **Back**.
+1. Click **Install** to start the installation.
+1. Click **Finish** after the installation completes.
 
 ### Mac OS
 
-There is no dedicated installer for Mac OS. You just have to extract zip archive with Mac OS distribution of Kendo UI Builder and start using it.
+> No dedicated installer for Mac OS is available.
+
+1. Extract the `.zip` archive with the Mac OS distribution of the Builder.
+1. Start using it.
 
 ## Uninstallation
 
-### Windows 
+> Uninstalling the Builder does not uninstall Node.js.
 
-* Open **Control Panel** > **Programs** > **Programs and Features**.
-* Right-click **Progress&copy; Kendo UI Builder&copy;** and select **Uninstall**.
+On Windows:
 
-> The uninstallation of the Builder does not uninstall Node.js.
+1. Open **Control Panel** > **Programs** > **Programs and Features**.
+1. Right-click **Progress&copy; Kendo UI Builder&copy;** and select **Uninstall**.
 
 ## Suggested Links
 
