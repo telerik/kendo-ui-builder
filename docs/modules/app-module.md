@@ -19,4 +19,4 @@ Each Application Module delivers the [App Layout]({% slug applayout_kuib %}), [L
 ## Suggested Links
 
 * [Overview of Modules]({% slug modulesoverview_kuib %})
-* [Adding, Editing, Reordering, and Deleting Modules]({% slug settingsmodules_kuib %})
+* [Adding, Editing, Reordering, and Deleting Modules]({% slug designingtheapp_kuib %}#toc-modules)

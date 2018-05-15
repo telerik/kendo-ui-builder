@@ -134,7 +134,6 @@ For more information, refer to the articles on the [OData]({% slug odata_kuib %}
 
 ## Suggested Links
 
-* [Debugging the Application]({% slug debugging_kuib %})
-* [Basic Approaches for Building Applications]({% slug fewclicks_kuib %})
 * [Dashboard]({% slug dashboard_kuib %})
+* [Debugging the Application]({% slug debugging_kuib %})
 * [Installing the Kendo UI Builder]({% slug getstarted_kuib %})

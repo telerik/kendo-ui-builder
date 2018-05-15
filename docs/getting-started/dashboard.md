@@ -18,11 +18,7 @@ The Dashboard page maintains the **Cards** and **List** views from where you can
 
 ## Initial Load
 
-When you load the Builder for the first time and you have no current projects yet, the Dashboard provides the **Create App** option for creating a new project and the **Import App** option for importing existing projects. For more information on creating and importing applications, and managing their modules and data providers, refer to the articles on:
-
-* [Application settings]({% slug appsettings_kuib %})
-* [Module settings]({% slug settingsmodules_kuib %})
-* [Data provider settings]({% slug settingsdataproviders_kuib %})
+When you load the Builder for the first time and you have no current projects yet, the Dashboard provides the **Create App** option for creating a new project and the **Import App** option for importing existing projects. For more information on creating and importing applications, and managing their modules and data providers, refer to the articles on [designing the application]({% slug designingtheapp_kuib %}).
 
 // screen on initial load view
 
