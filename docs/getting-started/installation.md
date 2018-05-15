@@ -12,40 +12,43 @@ To start using the Kendo UI Builder, provide the [prerequisites](#toc-prerequisi
 
 ## Prerequisites
 
-// TODO
-
-* For Windows, Windows (x64). For Mac, Mac OS ...
-* Node.js v6 or later
+* Node.js version 6.9.0 or later.
+* For Windows&mdash;Windows 7 or later.
+* For Mac&mdash;The two latest versions of Mac OS.
 
 ## Installation
 
-// TODO
+* [Windows](#toc-windows)
+* [Mac OS](#toc-mac-os)
 
-> By default, the installation of the Builder interrupts all running application instances&mdash;to avoid possible data loss, stop such running instances if any.
+### Windows
 
-1. If not already created, set up your client account at ...
-1. Go to .. and click the Windows Installer.
+1. Run the Windows Installer.
 
-  > The Windows Installer notifies you to install Node.js but does not install it automatically.
+    > * By default, the installation of the Builder interrupts all running application instances. To avoid possible data loss, stop all such instances (if any).
+    > * The Windows Installer notifies you to install Node.js but does not automatically install it.
 
-1. Double-click the `KendoUIBuilder.exe` file.
-2. Click **Next**.
-3. Enter the serial number and the control code. Click **Next**.
-4. (Optional) By default, the `.rar` file is automatically stored/installed in `C:\Progress\KendoUIBuilder`. To update the default destination folder of the installed Kendo UI Builder, click **Change**, update the location, and click **Next**.
-5. Click **Install** to start the installation.
+1. Click **Continue**.
+1. Read **License Agreement** and click **I Agree - Continue** to proceed.
 1. (Optional) To review or update any installation settings, click **Back**.
-6. Click **Finish** after the installation completes.
+1. Click **Install** to start the installation.
+1. Click **Finish** after the installation completes.
 
-If the installation is unsuccessful, check the `KendoUIBuilderOEInstall.log` file which is located in the `%TEMP%` folder and see the details.
+### Mac OS
+
+> No dedicated installer for Mac OS is available.
+
+1. Extract the `.zip` archive with the Mac OS distribution of the Builder.
+1. Start using it.
 
 ## Uninstallation
 
-// TODO
+> Uninstalling the Builder does not uninstall Node.js.
 
-> The uninstallation of the Builder does not uninstall Node.js.
+On Windows:
 
-1. Run the `KendoUIBuilderForOE.exe` file that was used during the installation of the Builder. Click **Remove**.
-1. Open **Control Panel** > **Programs and Features**. Right-click **Kendo UI Builder** and select **Uninstall**.
+1. Open **Control Panel** > **Programs** > **Programs and Features**.
+1. Right-click **Progress&copy; Kendo UI Builder&copy;** and select **Uninstall**.
 
 ## Suggested Links
 

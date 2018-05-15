@@ -68,4 +68,4 @@ export class GridDemoComponent extends GridDemoBaseComponent {
 
 ## Suggested Links
 
-* [Demos on Customization]({% slug builder_playground %})
+* [Overview of Extension Points]({% slug extensionpoints_kuib %})
