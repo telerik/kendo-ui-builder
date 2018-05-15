@@ -26,7 +26,7 @@ The Dashboard provides options for creating or deleting an application, editing 
 1. (Optional) In **Description**, provide a short description of the project.
 1. Click **Save** to save the application properties and close the **Create App** dialog box. As a result, the Dashboard displays the card (or list item) for your new project with the properties you defined.
 
-<img src="../images/kuib-create-app.png" class="img-responsive" alt="Creating Applications with the Kendo UI Builder"/>
+<img src="../../images/kuib-create-app.png" class="img-responsive" alt="Creating Applications with the Kendo UI Builder"/>
 
 ### Editing Application Properties
 
@@ -74,7 +74,7 @@ The Builder provides each new project with a default Application Module (App Mod
 1. (Optional) Define the access rights (**Roles**).
 1. Click **Add Module** to save the module properties and close the **Create Module** dialog box. As a result, the **App Design** page displays the card for your new module with the properties you defined.
 
-<img src="../images/kuib-module-add.png" class="img-responsive" alt="Adding Modules with the Kendo UI Builder"/>
+<img src="../../images/kuib-module-add.png" class="img-responsive" alt="Adding Modules with the Kendo UI Builder"/>
 
 ### Editing Module Properties
 
@@ -85,7 +85,7 @@ The Builder provides each new project with a default Application Module (App Mod
 1. In **Edit Module**, update the properties you want.
 1. Click **Save** to save or **Cancel** to discard your changes.
 
-<img src="../images/kuib-module-edit.png" class="img-responsive" alt="Editing Modules with the Kendo UI Builder"/>
+<img src="../../images/kuib-module-edit.png" class="img-responsive" alt="Editing Modules with the Kendo UI Builder"/>
 
 ### Deleting Modules
 
@@ -100,7 +100,7 @@ The Builder provides each new project with a default Application Module (App Mod
 
 The order of the modules on the **App Design** page corresponds to the order in which they will be rendered by the application at runtime. To reorder the modules, drag and drop them within the list.
 
-<img src="../images/kuib-module-reorder.png" class="img-responsive" alt="Reordering Modules with the Kendo UI Builder"/>
+<img src="../../images/kuib-module-reorder.png" class="img-responsive" alt="Reordering Modules with the Kendo UI Builder"/>
 
 ## Data Provider Settings
 

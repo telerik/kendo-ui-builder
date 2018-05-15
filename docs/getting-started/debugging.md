@@ -6,7 +6,7 @@ slug: debugging_kuib
 position: 3
 ---
 
-# Debugging the Application 
+# Debugging the Application
 
 After you design the application, you need to test it on your local environment.
 
@@ -25,8 +25,6 @@ The Builder enables you to make changes, debug, and fix issues, and to prepare a
     > The debugging options of the Builder bundle the application files in a pre-release state, but do not actually deploy the web project. Once the project files are compiled through **Build** and depending on the possible issues you might encounter during the debugging or deployment process, you can either:
     > * Deploy the `release` version on your desired environment, or
     > * Deploy the `debug` version and debug the application directly on your desired environment.
-
-// screen
 
 ## Suggested Links
 
