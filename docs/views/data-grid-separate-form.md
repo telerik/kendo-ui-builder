@@ -7,21 +7,22 @@ slug: datagridseparateform_kuib
 
 # Data Grid Separate Form View
 
-The Data Grid Separate Form view is one of the built-in views that are provided by the Builder for facilitating common use-case scenarios.  
+The Data Grid Separate Form view is one of the built-in views that are provided by the Builder for facilitating common use-case scenarios.
 
 ## Features
 
-* Represents a Grid component with a data-driven form field. When the user makes a selection in the Grid, the form field updates accordingly.
+* Represents a Grid component with a data-driven form. When the user makes a selection in the Grid, it is hidden and on tis place a data-form is shown with selected model from the grid item.
 * The ratio between the Grid and the form field is 1:1&mdash;when the Grid is open, the form field is hidden and vice versa.
 * Supports CRUD (create, read, update, and delete) data operations.
-* Supports form editing through the **Read-Only**, **Edit**, and **Read-Only-to-Editing** modes.
-* Supports error handling.
-* Allows you to set and edit its basic functionalities. For more information on the settings that are subject to modification, refer to the right-hand vertical toolbar (property grid) of the view.
-* Through the **Settings** menu against each view in the view panel, you can edit the root properties of the view, as well as duplicate, move, and delete the view.
+* You can enable selected item editing by setting the **Edit Mode** property to **Edit** (set by default) or **Read-Only-to-Edit** mode. To use data form as details view in read only mode set the **Read-Only** Edit mode.
+    * **Edit** option: when the grid row is selected the data-form is shown in edit mode with all corresponding rendered editors.
+    * **Read-Only-to-Edit**: when the grid row is selected the data-form is shown in read-only mode, but Edit/New buttons are rendered above and bellow it, so the user can put form in edit mode.
+
+> For specific properties in the **Data Grid Separate Form View**, please refer to the [**Grid Form View** documentation]({% slug datagridform_kuib %}), since both views shares the same properties and events.
 
 ## Preview
 
-// screen
+<img src="../images/kuib-views-data-grid-separate-form.png" class="img-responsive" alt="Data Grid Separate Form View"/>
 
 ## Suggested Links
 
