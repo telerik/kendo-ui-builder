@@ -10,6 +10,8 @@ position: 5
 
 Some scenarios might require greater changes to the look of your application so that you can fit on your organization brand.
 
+<img src="../../images/kuib-custom-theme.gif" class="img-responsive" alt="Customizing the Themes in the Kendo UI Builder"/>
+
 ## Overview
 
 To avoid the complete overriding of all built-in styles, use the [Progress<sup>®</sup> Sass ThemeBuilder](http://themebuilder.telerik.com/) online tool. To create and generate custom themes for Angular applications, use the [ThemeBuilder for Angular](http://themebuilder.telerik.com/kendo-ui). To create and generate custom themes for AngularJS applications, use the [ThemeBuilder for AngularJS](http://themebuilder.telerik.com/kendo-angular-ui).

@@ -10,6 +10,8 @@ position: 4
 
 The Builder enables you to customize the styles of the generated web project.
 
+<img src="../../images/kuib-custom-css.gif" class="img-responsive" alt="Customizing the Styles in the Kendo UI Builder"/>
+
 ## Global Styles
 
 To define custom CSS rules, use either of the following approaches:
