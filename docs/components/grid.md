@@ -14,11 +14,7 @@ The Grid is part of the Data Management components which the Builder supports.
 * Displays data in a tabular format.
 * Provides configuration options for managing the rendered data such as editing, filtering, grouping, and sorting.
 
-## Preview
-
-// screen or demo?
-
-## Specific Properties
+## Properties of Interest
 
 * **Columns**: Represents a list with grid columns. After selecting the value in data-source combo-box the columns collection will be automataically populated based on the fields metadata in the selected datasource. Since the columns property is a collection a special editor is used for it. It is opened when the Grid Columns property **Edit** button is clicked. In this advanced property editor you can choose to include or exclude columns and different columns properties:
     * You can use the Include all and Exclude all buttons to move the entire list of fields back and forth between Included Fields and Excluded Fields lists.
@@ -40,7 +36,6 @@ You have to include any custom code for this event function in the `controller.p
 * (AngularJs only) **Row Template Id**:  The ID of an HTML rowTemplate. If specified, the rowTemplate must be defined in either the `\app\src\modules\[module-name]\[view-name]\topSection.html` file. If both a Row Template Function and a Row Template Id are specified, the Row Template Id takes precedence.
 * (AngularJs only) **Alt Row Template Function**: The name of a function that returns the html for a Kendo UI [altRowTemplate](https://docs.telerik.com/kendo-ui/api/javascript/ui/grid/configuration/altrowtemplate). If specified, the altRowTemplate is used to format every other row in the grid.
 * (AngularJs only) **Alt Row Template Id**: The ID of an HTML altRowTemplate. If specified, the altRowTemplate must be defined in either the `\app\src\modules\[module-name]\[view-name]\topSection.html` file. If both an Alt Row Template Function and an Alt Row Template Id are specified, the Row Template Id takes precedence.
-
 
 ## Suggested Links
 
