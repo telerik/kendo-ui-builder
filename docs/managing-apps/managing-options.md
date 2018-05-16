@@ -8,9 +8,9 @@ position: 2
 
 # Managing Options
 
-You can use the **Settings** menu on the application card (or list item) and apply the following options to your projects:
+You can use the **Settings** menu on the application card (or list item) and duplicate, export, remove, or delete your project.
 
-* **Duplicate**&mdash;Copies the whole application, including its metadata and artifacts, and duplicates the project on both the **Cards** and **List** views and in your file system.
+* **Duplicate**&mdash;Copies the whole application, including its metadata and artifacts, and duplicates the project to both the **Cards** and **List** views, and in your file system.
 * **Export**&mdash;Archives in a `.zip` format and exports all application files, excluding the `node_modules` folder. The **Export** option is convenient, for example, when you need to send your project to the Support Team for investigating an issue.
 
     To export an application:
@@ -20,7 +20,7 @@ You can use the **Settings** menu on the application card (or list item) and app
 
 * **Reveal**&mdash;Opens the file system location of the project.
 * **Remove**&mdash;Removes the application from the **Cards** and **List** views, but the application files remain in your file system and can be imported.
-* **Delete**&mdash;Permanently removes the application from both the **Cards** or **List** view and from your file system, and the application cannot be restored.
+* **Delete**&mdash;Permanently removes the application from both the **Cards** and **List** views, and from your file system, and the application cannot be restored.
 
 Applications which need to be migrated expose the **Migrate** option in addition to the regular set of managing options. When you click **Migrate**, the Builder updates the metadata versions and removes the label from the card (or list item).
 
