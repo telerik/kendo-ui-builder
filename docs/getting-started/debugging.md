@@ -3,7 +3,7 @@ title: Debugging
 page_title: Debugging - Getting Started - Kendo UI Builder
 description: "Test and debug the applications on your local environment with the Kendo UI Builder."
 slug: debugging_kuib
-position: 3
+position: 4
 ---
 
 # Debugging the Application
