@@ -60,12 +60,12 @@ The most important available layout features are:
 
 * Hide on&mdash;You can hide a column on a given screen size by selecting the checkbox for that screen width. You can use this feature to provide more details on larger screens while minimizing the content that is shown for smaller devices.
 
-> * Dragging any other component to a row automatically creates a column for it if you have not already dragged and dropped one.
+> * If you have not already dragged and dropped a column, dragging any other component to a row automatically creates a column for it.
 > * To view the results of any layout changes, use the display type preview at the top right of the toolbar.
 
 ## Components
 
-The Blank view offers a variety of data management, editing, scheduling, and charting components. For the full components list, refer to the articles on [components]({% slug overviewcomp_kuib %}).
+The Blank view offers a variety of data management, editing, scheduling, and charting components. For the full list of components, refer to the [component overview]({% slug overviewcomp_kuib %}).
 
 Similar to the predefined views, the Blank view provides the option for a custom section where you can add your own custom HTML code. For Angular, the Builder generates this file in the `\app\src\app\modules\[module-name]\[view-name]\` folder. For AngularJS, the Builder generates this file in the `\app\src\modules\[module-name]\[view-name]\` folder. Add your custom HTML code to the generated file, which is used to add template code for the **Template** properties of content components added to the **Blank View**.
 

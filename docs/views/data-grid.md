@@ -16,14 +16,12 @@ The Data Grid view is one of the built-in views that are provided by the Builder
 * Supports editing through the **Incell**, **Inline**, and **Popup** modes.
 * Supports error handling.
 * Allows you to set and edit its basic functionalities. For more information on the settings that are subject to modification, refer to the right-hand vertical toolbar (property grid) of the view.
+* Includes custom sections where you can add your own HTML. Each section is identified in the view design page with a placeholder which contains descriptive text.
+    * Custom top HTML section&mdash;Located in the area above **Header Title**.
+    * Custom middle HTML section&mdash;Located in the area below **Header Title** and above **Grid**.
+    * Custom bottom HTML section&mdash;Located in the area below **Grid**.
 
-The view also includes custom sections where you can include your own HTML. Each section is identified in the view design page with a placeholder which contains descriptive text.
-
-* Custom top HTML section&mdash;Located in the area above **Header Title**.
-* Custom middle HTML section&mdash;Located in the area below **Header Title** and above **Grid**.
-* Custom bottom HTML section&mdash;Located in the area below **Grid**.
-
-For Angular, the Builder generates these files in the `\app\src\app\modules\[module-name]\[view-name]\` folder. For Angular JS, the Builder generates these files in the `\app\src\modules\[module-name]\[view-name]\` folder. Add your custom HTML code to the generated files and use the **Edit** option on each custom HTML section to edit the corresponding file from within the Builder.
+    For Angular, the Builder generates these files in the `\app\src\app\modules\[module-name]\[view-name]\` folder. For AngularJS, the Builder generates these files in the `\app\src\modules\[module-name]\[view-name]\` folder. Add your custom HTML code to the generated files and use the **Edit** option on each custom HTML section to edit the corresponding file from within the Builder.
 
 ## Preview
 
