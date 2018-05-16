@@ -27,7 +27,7 @@ The view also includes custom sections where you can include your own HTML. Each
 * Custom top child html section&mdash;Located in the area below the **Child Grid Title** but above **Child Grid**.
 * Custom bottom HTML section&mdash;Located in the area below **Child Grid**.
 
-The Builder automatically generates these files in the `\app\src\modules\[module-name]\[view-name]\` folder and you need to add your custom HTML code to these files. The **Edit** option on each custom HTML section allows you to edit the corresponding file from within the Builder.
+For Angular, the Builder generates these files in the `app\src\app\modules\[module-name]\[view-name]\` folder. For Angular JS, the Builder generates these files in the `\app\src\modules\[module-name]\[view-name]\` folder. Add your custom HTML code to the generated files and use the **Edit** option on each custom HTML section to edit the corresponding file from within the Builder.
 
 ## Preview
 

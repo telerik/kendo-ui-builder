@@ -19,7 +19,7 @@ The view also includes custom sections where you can include your own HTML. Each
 * Custom top HTML section&mdash;Located in the area above the **Title** text.
 * Custom bottom HTML section&mdash;Located in the area below the **Custom HTML** text.
 
-The Builder automatically generates these files in the `app\src\modules\application\unauthorized-page` folder and you need to add your custom HTML code to these files. The **Edit** option on each custom HTML section allows you to edit the corresponding file from within the Builder.
+For Angular, the Builder generates these files in the `app\src\app\modules\application\unauthorized-page` folder. For Angular JS, the Builder generates these files in the `app\src\modules\application\unauthorized-page` folder. Add your custom HTML code to the generated files and use the **Edit** option on each custom HTML section to edit the corresponding file from within the Builder.
 
 ## Preview
 
