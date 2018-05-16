@@ -11,9 +11,9 @@ The Blank view is the user-defined view that is provided by the Builder.
 
 ## Features
 
-* Represents an empty view which gives you the ability to define a custom layout and functionality.
+* Represents an empty view which enables you to define a custom functionality and layout.
 * Allows you to specify multiple data sources.
-* Drag-and-drop rows and columns to create a responsive layout.
+* Supports the creation of responsive layout by dragging and dropping rows and columns.
 * Provides options for adding, modifying, and removing the [built-in]({% slug overviewcomp_kuib %}) or [custom components]({% slug customcomponents_kuib %}) within the view.
 
 ## Preview
@@ -22,11 +22,11 @@ The Blank view is the user-defined view that is provided by the Builder.
 
 ## Blank View Data Sources
 
-The first step for working with a Blank view is typically to define data source instances for the view that you can bind to most of its components. You define these view data source instances from one or more of the existing data sources that are defined for your app data providers. From the **View Properties** pane, you can add and review one or more data source instances to be used in your Blank view. When you define a data-sources
+To start working with a Blank view, you need to define data source instances for it which you can later bind to most of its components. The definition of the data source instances is done based on from one or more of the existing data sources that are defined for your app data providers. From the **View Properties** pane, you can add and review one or more data source instances to be used in your Blank view. When you define a data-sources
 
 <img src="../images/kuib-views-data-sources.png" class="img-responsive" alt="Blank View Data Sources"/>
 
-## Using data source instances in a Blank view
+## Using Blank View Data Source Instances
 
 A data source is used with components that work with a set of records. A **model (or data model)** is used to represent the values of a single data source record. The Kendo UI Builder automatically creates a data model for every data source instance created for a view. When a component works with a data model, the binding is two-way, and the UI and the data are always in sync. For example, to create a view with a grid and a form, the grid is bound to the data source and the form fields are “bound” through their data model. When a row is selected in the grid, the framework automatically copies the values from the data source into the data model of the same name, so the currently selected record is shown in the form.
 
