@@ -25,7 +25,7 @@ The Grid is part of the Data Management components which the Builder supports.
     * **Enable HTML Encoding**: If set to true the column value will be HTML-encoded before it is displayed. If set to false the column value will be displayed as is. By default the column value is HTML-encoded.
     * **Use Editor type '[Component Name]'**: When you define your datasource with fields, each field has autoselected Editor Type based on underying data type. You can change this in the [**Edit Data Source** window in the designer's provider view]({% slug odataprogressdatasource_kuib %}). Based on this edit type the grid will render corespoding component when it is put in edit mode. In this case the components are the same components which are exposed in blank view for drag-drop. When the checkbox is checked the corresponding component properties can be changed via rendered property grid on the right side. If this checkbox is not selected the grid will use build in editors.
 
-// Screeenshot
+<img src="../images/kuib-grid-columns.png" class="img-responsive" alt="Login view"/>
 
 * Events
     * **Row Select Event Function**: The name of a function that runs when a grid row is selected by the app user.
