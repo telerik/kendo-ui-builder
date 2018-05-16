@@ -283,7 +283,7 @@ Components represent the elements of your web application.
                     </a>
                 </li>
                 <li class="col-xs-4 col-md-3">
-                    <a href="row" title="Col">
+                    <a href="col" title="Col">
                         <img src="../images/icons/components/col.svg" width="64" height="64" alt="Col" title="Col" />
                         <p>Col</p>
                     </a>
