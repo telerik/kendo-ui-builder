@@ -114,6 +114,8 @@ The Builder provides options to add views, edit their properties, reorder, and d
 
 > For more information on view types and features, refer to the articles on the [views]({% slug viewsoverview_kuib %}).
 
+<img src="../../images/kuib-ui.png" class="img-responsive" alt="View Navigation Panel"/>
+
 ### Adding Views
 
 1. Go to the card of the created module and click on it.
@@ -124,7 +126,7 @@ The Builder provides options to add views, edit their properties, reorder, and d
 1. (Optional) Click **Roles** to define the access rights for this view. For more information, refer to the article on [authorization and roles]({% slug rolesauthoriz_kuib %}).
 1. Click **Add View** to save the view properties and close the **Add View** dialog box. As a result, the module loads your new view with its defined properties and available options.
 
-<img src="../../images/kuib-...-add.png" class="img-responsive" alt="Adding Views with the Kendo UI Builder"/>
+<img src="../../images/kuib-view-add.png" class="img-responsive" alt="Adding Views with the Kendo UI Builder"/>
 
 ### Editing View Properties
 
@@ -132,8 +134,6 @@ The Builder provides options to add views, edit their properties, reorder, and d
 1. Select **Edit** to open the **Edit View** dialog box.
 1. In **Edit View**, update the properties you want.
 1. Click **Save** to save or **Cancel** to discard your changes.
-
-<img src="../../images/kuib-...-edit.png" class="img-responsive" alt="Editing View Properties with the Kendo UI Builder"/>
 
 ### Deleting Views
 
@@ -183,8 +183,6 @@ The Builder provides settings for adding, editing, and deleting the data provide
 1. Select **Properties** to open the **Edit Data Provider** dialog box.
 1. In **Edit Data Provider**, update the properties you want.
 1. Click **Save** to save or **Cancel** to discard your changes.
-
-<img src="../../images/kuib-...-....png" class="img-responsive" alt="Editing Data Provider Properties with the Kendo UI Builder"/>
 
 ### Deleting Data Providers
 
