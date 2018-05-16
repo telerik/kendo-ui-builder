@@ -19,12 +19,12 @@ The Stacked Data Grids view is one of the built-in views that are provided by th
 
 > In order for the Stacked Data Grids view to work properly, the data sources to which you bind the stacked grids need to be related. Otherwise, the stacked grids will not render the data. For more information, refer to the articles on [data providers]({% slug dataprovidersoverview_kuib %}).
 
-The view also includes custom sections where you can include your own HTML. Each section is identified in the view design page with a placeholder containing descriptive text:
+The view also includes custom sections where you can include your own HTML. Each section is identified in the view design page with a placeholder which contains descriptive text.
 
 * Custom top HTML section&mdash; Located in the area above **Header Title**.
-* Custom top parent HTML section&mdash; Located in the area below the **Parent Grid Title** but above the parent grid itself.
+* Custom top parent HTML section&mdash; Located in the area below the **Parent Grid Title** but above the parent Grid.
 * Custom middle HTML section&mdash; Located in the area below the **Parent Grid** and above the **Child Grid Title**.
-* Custom top child html section&mdash; Located in the area below the **Child Grid Title** but above the **Child Grid** itself
+* Custom top child html section&mdash; Located in the area below the **Child Grid Title** but above the child Grid.
 * Custom bottom HTML section&mdash; Located in the area below **Child Grid**.
 
 The Builder automatically generates these files in the `\app\src\modules\[module-name]\[view-name]\` folder and you need to add your custom HTML code to these files. The **Edit** option on each custom HTML section allows you to edit the corresponding file from within the Builder.
@@ -33,15 +33,14 @@ The Builder automatically generates these files in the `\app\src\modules\[module
 
 <img src="../images/kuib-views-stacked-data-grids.png" class="img-responsive" alt="Stacked Data Grids View"/>
 
-## Specific Properties
+## Properties of Interest
 
-* **Data Provider**: A drop down with all data providers added to the application.
-* **Parent Data Source**: When you select a data provider the data-source dropdown will be automatically populated with all available hierarchical parent data-sources for the selected **Data Provider**.
-* **Child Data Source**: When you select a data provider the data-source dropdown will be automatically populated with all available hierarchical child data-sources for the selected **Data Provider**.
+* **Data Provider**&mdash;Represents a drop-down with all the data providers that are added to the application.
+* **Parent Data Source**&mdash;When you select a data provider, the data source drop-down is automatically populated with all the hierarchical parent data sources that are available for the selected data provider.
+* **Child Data Source**&mdash;When you select a data provider, the data source drop-down is automatically populated with all the hierarchical child data sources that are available for the selected data provider.
 
-> If the provider does not contain related data-sources the **Parent Data Source** and **Child Data Source** will be empty.
-
-> Since the **Stacked Grid View** has a parent and child grid components into it all properties from the **Grid** component are also exposed. For more information about specific grid properties see [grid component]({% slug grid_kuib %}).
+> * If the provider does not contain related data sources, **Parent Data Source** and **Child Data Source** will be empty.
+> * Since the Grid view contains a Grid component, all properties of the Grid component are also available in the Stacked Data Grids view. For more information on specific Grid properties, refer to the article on the [Grid component]({% slug grid_kuib %}).
 
 ## Suggested Links
 

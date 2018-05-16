@@ -17,7 +17,7 @@ The Data Grid view is one of the built-in views that are provided by the Builder
 * Supports error handling.
 * Allows you to set and edit its basic functionalities. For more information on the settings that are subject to modification, refer to the right-hand vertical toolbar (property grid) of the view.
 
-The view also includes custom sections where you can include your own HTML. Each section is identified in the view design page with a placeholder containing descriptive text:
+The view also includes custom sections where you can include your own HTML. Each section is identified in the view design page with a placeholder which contains descriptive text.
 
 * Custom top HTML section&mdash;Located in the area above **Header Title**.
 * Custom middle HTML section&mdash;Located in the area below **Header Title** and above **Grid**.
@@ -29,13 +29,12 @@ The Builder automatically generates these files in the `\app\src\modules\[module
 
 <img src="../images/kuib-views-data-grid.png" class="img-responsive" alt="Data-Gid View"/>
 
-## Specific Properties
+## Properties of Interest
 
-* **Data Provider**: A drop down with all data providers added to the application.
-* **Data Source**: When you select a data provider the datasource dropdown will be automatically populated with all avalalbe datasources for this provider.
+* **Data Provider**&mdash;Represents a drop-down with all the data providers that are added to the application.
+* **Data Source**&mdash;When you select a data provider, the data source drop-down is automatically populated with all data sources that are available for this provider.
 
-> Since the grid-view has a grid component into it all properties from the grid component are also exposed. For more information about specific grid properties see [grid component]({% slug grid_kuib %}).
-
+> Since the Grid view contains a Grid component, all properties of the Grid component are also available in the Data Grid view. For more information on specific Grid properties, refer to the article on the [Grid component]({% slug grid_kuib %}).
 
 ## Suggested Links
 
