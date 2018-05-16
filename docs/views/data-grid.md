@@ -23,19 +23,19 @@ The view also includes custom sections where you can include your own HTML. Each
 * Custom middle HTML section&mdash;Located in the area below **Header Title** and above **Grid**.
 * Custom bottom HTML section&mdash;Located in the area below **Grid**.
 
-The Builder automatically generates these files in the `\app\src\modules\application\login-page` application folder and you need to add your custom HTML code to these files. The **Edit** option on each custom HTML section allows you to edit the corresponding file from within the Builder.
+The Builder automatically generates these files in the `\app\src\modules\[module-name]\[view-name]\` folder and you need to add your custom HTML code to these files. The **Edit** option on each custom HTML section allows you to edit the corresponding file from within the Builder.
+
+## Preview
+
+<img src="../images/kuib-views-data-grid.png" class="img-responsive" alt="Data-Gid View"/>
 
 ## Specific Properties
 
 * **Data Provider**: A drop down with all data providers added to the application.
 * **Data Source**: When you select a data provider the datasource dropdown will be automatically populated with all avalalbe datasources for this provider.
 
-> Since the grid-view has a grid component into it all properties from the grid component are also exposed. For more information about specific grid properties see [grid component](({% slug grid_kuib %})).
+> Since the grid-view has a grid component into it all properties from the grid component are also exposed. For more information about specific grid properties see [grid component]({% slug grid_kuib %}).
 
-
-## Preview
-
-<img src="../images/kuib-views-data-grid.png" class="img-responsive" alt="Login view"/>
 
 ## Suggested Links
 
