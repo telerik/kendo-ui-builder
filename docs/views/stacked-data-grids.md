@@ -24,7 +24,7 @@ The view also includes custom sections where you can include your own HTML. Each
 * Custom top HTML section&mdash; Located in the area above **Header Title**.
 * Custom top parent HTML section&mdash; Located in the area below the **Parent Grid Title** but above the parent grid itself.
 * Custom middle HTML section&mdash; Located in the area below the **Parent Grid** and above the **Child Grid Title**.
-* Custom top child html section&mdash; Located in the area below the **Child Grid Title** but above the *Child Grid* itself
+* Custom top child html section&mdash; Located in the area below the **Child Grid Title** but above the **Child Grid** itself
 * Custom bottom HTML section&mdash; Located in the area below **Child Grid**.
 
 The Builder automatically generates these files in the `\app\src\modules\[module-name]\[view-name]\` folder and you need to add your custom HTML code to these files. The **Edit** option on each custom HTML section allows you to edit the corresponding file from within the Builder.
@@ -36,12 +36,12 @@ The Builder automatically generates these files in the `\app\src\modules\[module
 ## Specific Properties
 
 * **Data Provider**: A drop down with all data providers added to the application.
-* **Parent Data Source**: When you select a data provider the data-source dropdown will be automatically populated with all available hierarchical parent data-sources for this provider.
-* **Child Data Source**: When you select a data provider the data-source dropdown will be automatically populated with all available hierarchical child data-sources for this provider.
+* **Parent Data Source**: When you select a data provider the data-source dropdown will be automatically populated with all available hierarchical parent data-sources for the selected **Data Provider**.
+* **Child Data Source**: When you select a data provider the data-source dropdown will be automatically populated with all available hierarchical child data-sources for the selected **Data Provider**.
 
 > If the provider does not contain related data-sources the **Parent Data Source** and **Child Data Source** will be empty.
 
-> Since the Stacked-Grid-View has a parent and child grid components into it all properties from the **Grid** component are also exposed. For more information about specific grid properties see [grid component]({% slug grid_kuib %}).
+> Since the **Stacked Grid View** has a parent and child grid components into it all properties from the **Grid** component are also exposed. For more information about specific grid properties see [grid component]({% slug grid_kuib %}).
 
 ## Suggested Links
 
