@@ -11,8 +11,8 @@ position: 3
 The [OData (Open Data) protocol](http://www.odata.org/getting-started/basic-tutorial/) is a standard for specifying REST endpoint services.
 
 The Builder supports:
-* OData version 4 for Angular.
-* OData versions 2, 3, and 4 for AngularJS.
+* For Angular, OData version 4.
+* For AngularJS, OData versions 2, 3, and 4.
 
 ## Setting OData Providers
 

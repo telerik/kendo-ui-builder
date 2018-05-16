@@ -44,8 +44,6 @@ The Dashboard provides options for creating or deleting an application, editing 
 1. In **Edit App**, update the properties you want.
 1. Click **Save** to save or **Cancel** to discard your changes.
 
-<img src="../../images/kuib-...-app.png" class="img-responsive" alt="Editing Application Properties with the Kendo UI Builder"/>
-
 ### Deleting Applications
 
 1. On the Dashboard, go to the card (or list item) of the application.
@@ -172,8 +170,6 @@ The Builder provides settings for adding, editing, and deleting the data provide
 1. In **Name**, provide the name of the module.
 1. Fill in the respective the properties depending on the [OData]({% slug odata_kuib %}), [Generic REST]({% slug rest_kuib %}), or [Progress Data]({% slug progressdata_kuib %}) provider you selected.
 1. Click **Add Data Provider** to save the data provider properties and close the **Add Data Provider** dialog box. As a result, the **App Design** page displays the card for your new data provider with the properties you defined.
-
-<img src="../../images/kuib-...-....png" class="img-responsive" alt="Adding Data Providers with the Kendo UI Builder"/>
 
 ### Editing Data Provider Properties
 

@@ -10,7 +10,7 @@ position: 7
 
 The Kendo UI Builder delivers a set of predefined themes and supports the import of custom themes.  
 
-<img src="../../images/kuib-create-app-themes.png" class="img-responsive" alt="Adding the Theme"/>
+<img src="../images/kuib-create-app-themes.png" class="img-responsive" alt="Adding the Theme"/>
 
 > Within the same application, you cannot simultaneously use predefined and custom themes. This means that for each individual web project you can either use any of the predefined themes that are supported by the Kendo UI Builder or import a custom theme that was created with the Kendo UI ThemeBuilder.
 
