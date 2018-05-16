@@ -1,4 +1,4 @@
-<a href="https://www.telerik.com/kendo-angular-ui/" target="_blank">
+<a href="https://www.telerik.com/kendo-ui-builder/" target="_blank">
 <img width="631" src="https://www.telerik.com/kendo-ui-builder/npm-banner.svg">
 </a>
 
