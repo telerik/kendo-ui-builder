@@ -8,19 +8,21 @@ position: 3
 
 # Migration
 
-Migration is the process of matching the versions of the application metadata and of the metadata that are supported by the Builder.
+Migration is the process of updating application metadata to the latest format which is supported by Kendo UI Builder.
 
-For example, if your project uses the DataPicker component and it introduces a new `placeholder` property in its latest release, the Builder will compare and update the current metadata by adding the new property to the metadata of the application upon migration.
+Application metadata has its own version which communicates to the Builder whether its format is compatible or not. If the application metadata is in an incompatible format, you have to migrate the application metadata to the latest possible format.
 
-> The version of the Kendo UI Builder is not related to the metadata versions it supports.
+If the Builder did not introduce breaking changes in the metadata, it is possible to automatically migrate the application metadata. When the automatic migration is possible, the Builder marks the application with the **Migration Required** state label.
 
-The applications which need to be manually migrated have the **Migration Required** tag attached to their cards (or list items). To manually migrate an application and regardless of the view (**Cards** or **List**):
+To migrate the application, use either of the following available options:
 
-1. Go to the card (list item) of the project.
-1. Click the **Settings** menu.
-1. Select **Migrate**.
+* Open the application for editing. A dialog box appears and prompts you to migrate the application before editing.
+* Click the **Settings** menu and select **Migrate**.
 
-// screen of migration process?
+If an application was created a long time ago, its metadata cannot be automatically migrated and the Builder marks such applications with the **Incompatible** state label. To edit such applications, you have to manually convert the metadata in a compatible format by directly editing the metadata files.
+
+> * The version of the Kendo UI Builder is not related to the metadata versions it supports.
+> * The migration process does not analyze and convert custom application code that is not compatible with the auto-generated application code.
 
 ## Suggested Links
 
