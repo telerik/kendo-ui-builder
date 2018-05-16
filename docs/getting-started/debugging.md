@@ -12,6 +12,8 @@ After you design the application, you need to test it on your local environment.
 
 The Builder enables you to make changes, debug, and fix issues, and to prepare a build to deploy the web project. You can access the available actions from both the **App Design** page and the toolbar that is available in each view.
 
+<img src="../../images/kuib-debugging.png" class="img-responsive" alt="Debugging Applications with the Kendo UI Builder"/>
+
 * **Generate**&mdash;Generates the latest source code and outputs it in the project location in your file system.
 * **Start**&mdash;Triggers the generation of the application, starts the Webpack dev server on `http://localhost:port`, and opens your default web browser either in the root of the application or in a URL which corresponds to the selected view.
 

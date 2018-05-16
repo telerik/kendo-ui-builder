@@ -12,6 +12,8 @@ The Builder supports role-based authorization.
 
 Authorization allows you to define specific user roles and set access rights to its modules, views, and components.
 
+<img src="../../images/kuib-roles.png" class="img-responsive" alt="Setting the User Roles"/>
+
 ## Overview
 
 To implement a role-based authorization:
