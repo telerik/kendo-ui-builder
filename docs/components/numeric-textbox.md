@@ -15,10 +15,6 @@ The Numeric Text Box is part of the Editors components which the Builder support
 * Lets the user edit and submit specific numeric values by typing or by using the spin buttons.
 * Enables you to style and provide a floating label functionality for numeric values.
 
-## Preview
-
-// screen or demo?
-
 ## Suggested Links
 
 * [Kendo UI NumericTextBox for Angular](https://www.telerik.com/kendo-angular-ui/components/inputs/numerictextbox/)

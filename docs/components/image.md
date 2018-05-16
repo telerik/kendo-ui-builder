@@ -14,10 +14,6 @@ The Image is part of the Media components which the Builder supports.
 * Represents a static visual component.
 * Supports the `.bmp`, `.jpg`, `.gif`, and `.png` file extensions.
 
-## Preview
-
-// screen or demo?
-
 ## Suggested Links
 
 * [Kendo UI Builder Components]({% slug viewsoverview_kuib %})

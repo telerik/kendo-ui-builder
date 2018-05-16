@@ -14,10 +14,6 @@ The Button is part of the Navigation components which the Builder supports.
 * Detects user interaction and triggers a corresponding event.
 * Enables you to display an icon from the Kendo UI theme sprite.
 
-## Preview
-
-// screen or demo?
-
 ## Suggested Links
 
 * [Kendo UI Button for Angular](https://www.telerik.com/kendo-angular-ui/components/buttons/button/)

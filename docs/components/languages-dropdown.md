@@ -15,10 +15,6 @@ The Languages Drop Down is part of the Site components which the Builder support
 * Provides available language options.
 * Available in the [App Layout view]({% slug applayout_kuib %}) only.  
 
-## Preview
-
-// screen or demo?
-
 ## Suggested Links
 
 * [Kendo UI Builder Components]({% slug viewsoverview_kuib %})

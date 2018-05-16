@@ -14,10 +14,6 @@ The Date Picker is part of the Editors components which the Builder supports.
 * Represents a combination between a date-input and a calendar component.
 * Enables users to enter or pick a date value.
 
-## Preview
-
-// screen or demo?
-
 ## Suggested Links
 
 * [Kendo UI DatePicker for Angular](https://www.telerik.com/kendo-angular-ui/components/dateinputs/datepicker/)

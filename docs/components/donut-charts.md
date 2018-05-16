@@ -14,10 +14,6 @@ The Donut Charts are part of the Charts components which the Builder supports.
 * Capable of displaying multiple nested series.
 * The blank center can be utilized to display additional information.
 
-## Preview
-
-// screen or demo?
-
 ## Suggested Links
 
 * [Kendo UI Donut Charts for Angular](https://www.telerik.com/kendo-angular-ui/components/charts/series-types/donut/)

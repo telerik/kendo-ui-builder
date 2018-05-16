@@ -14,10 +14,6 @@ The Custom HTML component is a custom component that allows you to implement cus
 * Represents a blank component with an empty edit field.
 * Enables users to enter custom HTML.
 
-## Preview
-
-// screen or demo?
-
 ## Suggested Links
 
 * [Kendo UI Builder Components]({% slug viewsoverview_kuib %})

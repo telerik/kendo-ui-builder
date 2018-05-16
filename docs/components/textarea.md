@@ -14,10 +14,6 @@ The Text Area is part of the Editors components which the Builder supports.
 * Represents a text area for user input.
 * Enables you to style and provide a floating label functionality to `textarea` elements.
 
-## Preview
-
-// screen or demo?
-
 ## Suggested Links
 
 * [Kendo UI TextArea for Angular](https://www.telerik.com/kendo-angular-ui/components/inputs/textarea/)

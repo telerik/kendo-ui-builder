@@ -14,10 +14,6 @@ The Masked Text Box is part of the Editors components which the Builder supports
 * Represents a text box for user input.
 * Enables you to apply masks to control the user input.
 
-## Preview
-
-// screen or demo?
-
 ## Suggested Links
 
 * [Kendo UI MaskedTextBox for Angular](https://www.telerik.com/kendo-angular-ui/components/inputs/maskedtextbox/)

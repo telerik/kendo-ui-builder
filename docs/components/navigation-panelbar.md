@@ -15,10 +15,6 @@ The Navigation Panel Bar is part of the Site components which the Builder suppor
 * Displays hierarchical data.
 * Available in the [App Layout view]({% slug applayout_kuib %}) only.
 
-## Preview
-
-// screen or demo?
-
 ## Suggested Links
 
 * [Kendo UI Builder Components]({% slug viewsoverview_kuib %})

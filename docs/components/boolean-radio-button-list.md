@@ -15,10 +15,6 @@ The Boolean Radio Button List is part of the Editors components which the Builde
 * Provides two selection options in a true-false context.  
 * Allows selection by checking the corresponding radio buttons.  
 
-## Preview
-
-// screen or demo?
-
 ## Suggested Links
 
 * [Kendo UI Builder Components]({% slug viewsoverview_kuib %})

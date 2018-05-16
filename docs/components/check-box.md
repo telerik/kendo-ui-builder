@@ -14,10 +14,6 @@ The Check Box is part of the Editors components which the Builder supports.
 * Represents a box that can be checked.
 * Allows selection by checking the box against the user choice.  
 
-## Preview
-
-// screen or demo?
-
 ## Suggested Links
 
 * [Kendo UI Builder Components]({% slug viewsoverview_kuib %})

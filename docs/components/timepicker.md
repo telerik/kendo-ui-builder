@@ -14,10 +14,6 @@ The Time Picker is part of the Editors components which the Builder supports.
 * Represents a time-list.
 * Enables users to enter or pick time values.
 
-## Preview
-
-// screen or demo?
-
 ## Suggested Links
 
 * [Kendo UI TimePicker for Angular](https://www.telerik.com/kendo-angular-ui/components/dateinputs/timepicker/)

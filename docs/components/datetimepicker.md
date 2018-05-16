@@ -14,10 +14,6 @@ The Date Time Picker is part of the Editors components which the Builder support
 * Represents a combination between a date-picker and a time-picker component.
 * Enables users to enter or pick date and time values.
 
-## Preview
-
-// screen or demo?
-
 ## Suggested Links
 
 * [Kendo UI DateTimePicker for jQuery](https://demos.telerik.com/kendo-ui/datetimepicker/index)

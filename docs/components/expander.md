@@ -14,10 +14,6 @@ The Expander is part of the Navigation components which the Builder supports.
 * Represents a functional UI element.
 * Allows users to expand and collapse specific component elements such as rows.
 
-## Preview
-
-// screen or demo?
-
 ## Suggested Links
 
 * [Kendo UI Builder Components]({% slug viewsoverview_kuib %})

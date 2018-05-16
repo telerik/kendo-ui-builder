@@ -14,10 +14,6 @@ The Email Text Box is part of the Editors components which the Builder supports.
 * Represents a text box for user input.
 * Provides a floating label to email input values.
 
-## Preview
-
-// screen or demo?
-
 ## Suggested Links
 
 * [Kendo UI TextBox for Angular](https://www.telerik.com/kendo-angular-ui/components/inputs/textbox/)

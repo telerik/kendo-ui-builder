@@ -14,10 +14,6 @@ The User Drop Down is part of the Site components which the Builder supports.
 * Represents a drop-down list with a **Log in** or **Log Out** option.
 * Available in the [App Layout view]({% slug applayout_kuib %}) only.
 
-## Preview
-
-// screen or demo?
-
 ## Suggested Links
 
 * [Kendo UI Builder Components]({% slug viewsoverview_kuib %})

@@ -13,10 +13,6 @@ The Disabled Text Box is part of the Editors components which the Builder suppor
 
 Represents a disabled text box for user input.
 
-## Preview
-
-// screen or demo?
-
 ## Suggested Links
 
 * [Kendo UI TextBox for Angular](https://www.telerik.com/kendo-angular-ui/components/inputs/textbox/)

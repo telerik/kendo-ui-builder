@@ -15,10 +15,6 @@ The Calendar is part of the Schedulers components which the Builder supports.
 * Follows the graphical pattern of a Gregorian calendar.
 * Supports date selection and navigation, and ranges for scheduling appointments.
 
-## Preview
-
-// screen or demo?
-
 ## Suggested Links
 
 * [Kendo UI Calendar for Angular](https://www.telerik.com/kendo-angular-ui/components/dateinputs/calendar/)

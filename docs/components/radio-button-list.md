@@ -15,10 +15,6 @@ The Radio Button List is part of the Editors components which the Builder suppor
 * Provides multiple selection options.  
 * Allows selection by checking the corresponding radio buttons.  
 
-## Preview
-
-// screen or demo?
-
 ## Suggested Links
 
 * [Kendo UI Builder Components]({% slug viewsoverview_kuib %})

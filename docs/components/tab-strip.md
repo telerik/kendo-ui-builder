@@ -14,10 +14,6 @@ The Tab Strip is part of the Navigation components which the Builder supports.
 * Represents a collection of tabs with associated content.
 * Enables users to switch between different tab views inside a single component.
 
-## Preview
-
-// screen or demo?
-
 ## Suggested Links
 
 * [Kendo UI TabStrip for Angular](https://www.telerik.com/kendo-angular-ui/components/layout/tabstrip/)

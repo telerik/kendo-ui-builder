@@ -14,10 +14,6 @@ The Label is part of the Editors components which the Builder supports.
 * Represents a hint related to a specific field.
 * Associates a focusable element with a `label` HTML element.
 
-## Preview
-
-// screen or demo?
-
 ## Suggested Links
 
 * [Kendo UI Label for Angular](https://www.telerik.com/kendo-angular-ui/components/label/)

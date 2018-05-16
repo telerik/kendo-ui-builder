@@ -14,10 +14,6 @@ The Pie Charts are part of the Charts components which by the Builder supports.
 * Display data in the form of single-series sectors from a two-dimensional circle.
 * Useful for rendering data as part of a whole.
 
-## Preview
-
-// screen or demo?
-
 ## Suggested Links
 
 * [Kendo UI Pie Charts for Angular](https://www.telerik.com/kendo-angular-ui/components/charts/series-types/pie/)

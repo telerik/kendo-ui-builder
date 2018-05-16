@@ -15,10 +15,6 @@ The Drop Down List is part of the Editors components which the Builder supports.
 * Lets users choose a single predefined value from a list.
 * Can be related as a parent-child pair to support cascading. A cascading Drop Down List is a series of two or more Drop Down Lists where each Drop Down List is filtered based on the selected option in the previous Drop Down List.
 
-## Preview
-
-// screen or demo?
-
 ## Suggested Links
 
 * [Kendo UI DropDownList for Angular](https://www.telerik.com/kendo-angular-ui/components/dropdowns/dropdownlist/)

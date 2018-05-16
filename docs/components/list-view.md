@@ -14,10 +14,6 @@ The List View is part of the Data Management components which the Builder suppor
 * Represents a window that displays a collection of items.
 * Provides different ways to arrange and display the item list.
 
-## Preview
-
-// screen or demo?
-
 ## Suggested Links
 
 * [Kendo UI ListView for jQuery](https://demos.telerik.com/kendo-ui/listview/index)

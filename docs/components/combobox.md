@@ -14,10 +14,6 @@ The Combo Box is part of the Editors components which the Builder supports.
 * Lets users choose from a list of options.
 * Can be related as a parent-child pair to support cascading. A cascading Combo Box is a series of two or more Combo Boxes where each Combo Box is filtered based on the selected option in the previous Combo Box.
 
-## Preview
-
-// screen or demo?
-
 ## Suggested Links
 
 * [Kendo UI ComboBox for Angular](https://www.telerik.com/kendo-angular-ui/components/charts/series-types/area/)

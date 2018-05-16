@@ -14,10 +14,6 @@ The Auto Complete is part of the Editors components which the Builder supports.
 * Represents a form component.
 * Provides suggestions depending on the typed text.
 
-## Preview
-
-// screen or demo?
-
 ## Suggested Links
 
 * [Kendo UI AutoComplete for Angular](https://www.telerik.com/kendo-angular-ui/components/dropdowns/autocomplete/)

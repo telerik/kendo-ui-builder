@@ -14,10 +14,6 @@ The Row is part of the Layout components which the Builder supports.
 * Represents a row element.
 * Allows configuration options such as adding, data managing, and deletion.
 
-## Preview
-
-// screen or demo?
-
 ## Suggested Links
 
 * [Kendo UI Builder Components]({% slug viewsoverview_kuib %})

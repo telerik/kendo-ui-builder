@@ -14,10 +14,6 @@ The Slider is part of the Editors components which the Builder supports.
 * Provides options for increasing, decreasing, and selecting predefined values.
 * Enables users to define values by dragging the handle along the track or by clicking the side arrow buttons.
 
-## Preview
-
-// screen or demo?
-
 ## Suggested Links
 
 * [Kendo UI Slider for Angular](https://www.telerik.com/kendo-angular-ui/components/inputs/slider/)

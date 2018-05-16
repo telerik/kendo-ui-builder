@@ -14,10 +14,6 @@ The Editor is part of the Editors components which the Builder supports.
 * Allows users to edit HTML content in a what-you-see-is-what-you-get way.
 * Provides configuration options for editing and formatting its content such as text formatting, hyperlinks, lists, and image handling.
 
-## Preview
-
-// screen or demo?
-
 ## Suggested Links
 
 * [Kendo UI Editor for jQuery](https://demos.telerik.com/kendo-ui/editor/index)

@@ -14,10 +14,6 @@ The Tool Bar is part of the Navigation components which the Builder supports.
 * Represents a graphical element for holding input elements.
 * Enables users to easily access buttons, icons, URLs, or menus.
 
-## Preview
-
-// screen or demo?
-
 ## Suggested Links
 
 * [Kendo UI Toolbar for jQuery](https://demos.telerik.com/kendo-ui/toolbar/index)

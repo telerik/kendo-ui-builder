@@ -14,10 +14,6 @@ The Area Charts are part of the Charts components which the Builder supports.
 * Suitable for displaying quantitative data by using continuous lines.
 * The different colors in an Area Chart are useful for emphasizing changes in values which come from several sets of similar data.
 
-## Preview
-
-// screen or demo?
-
 ## Suggested Links
 
 * [Kendo UI Area Charts for Angular](https://www.telerik.com/kendo-angular-ui/components/charts/series-types/area/)

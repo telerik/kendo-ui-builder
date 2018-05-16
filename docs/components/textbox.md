@@ -14,10 +14,6 @@ The Text Box is part of the Editors components which the Builder supports.
 * Represents a text box for user input.
 * Enables you to style and provide a floating label functionality to `input` elements.
 
-## Preview
-
-// screen or demo?
-
 ## Suggested Links
 
 * [Kendo UI TextBox for Angular](https://www.telerik.com/kendo-angular-ui/components/inputs/textbox/)
