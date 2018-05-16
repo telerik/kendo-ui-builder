@@ -34,7 +34,7 @@ The Builder automatically generates these files in the `\app\src\modules\[module
 * **Data Provider**&mdash;Represents a drop-down with all the data providers that are added to the application.
 * **Data Source**&mdash;When you select a data provider, the data source drop-down is automatically populated with all data sources that are available for this provider.
 
-> Since the Grid view contains a Grid component, all properties of the Grid component are also available in the Data Grid view. For more information on specific Grid properties, refer to the article on the [Grid component]({% slug grid_kuib %}).
+> Since the Data Grid view contains a Grid component, all properties of the Grid component are also available in the Data Grid view. For more information on specific Grid properties, refer to the article on the [Grid component]({% slug grid_kuib %}).
 
 ## Suggested Links
 

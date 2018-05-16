@@ -40,7 +40,7 @@ The Builder automatically generates these files in the `\app\src\modules\[module
 * **Child Data Source**&mdash;When you select a data provider, the data source drop-down is automatically populated with all the hierarchical child data sources that are available for the selected data provider.
 
 > * If the data provider does not contain related data sources, **Parent Data Source** and **Child Data Source** will be empty.
-> * Since the Grid view contains a Grid component, all properties of the Grid component are also available in the Stacked Data Grids view. For more information on specific Grid properties, refer to the article on the [Grid component]({% slug grid_kuib %}).
+> * Since the Stacked Data Grids view contains a Grid component, all properties of the Grid component are also available in the Stacked Data Grids view. For more information on specific Grid properties, refer to the article on the [Grid component]({% slug grid_kuib %}).
 
 ## Suggested Links
 

@@ -34,7 +34,7 @@ The Builder automatically generates these files in the `\app\src\modules\[module
 * **Data Provider**&mdash;Represents a drop-down with all data providers added to the application.
 * **Data Source**&mdash;When you select a data provider, the data source drop-down is automatically populated with all available data sources for the specific provider. Based on that metadata, the Grid columns and all form fields are automatically populated. Later on you can change the column properties or form field properties of the Grid by using the corresponding **Edit Columns** and **Edit Form Fields** options.
 
-  > Since the Grid view contains a Grid component, all properties of the Grid component are also available in the Data Grid Form view. For more information on specific Grid properties, refer to the article on the [Grid component]({% slug grid_kuib %}).
+  > Since the Data Grid Form view contains a Grid component, all properties of the Grid component are also available in the Data Grid Form view. For more information on specific Grid properties, refer to the article on the [Grid component]({% slug grid_kuib %}).
 
 * **Form Fields**&mdash;Provides options to change certain properties of the fields that are displayed in the form:
 
