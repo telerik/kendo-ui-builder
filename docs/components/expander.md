@@ -12,7 +12,11 @@ The Expander is part of the Navigation components which the Builder supports.
 ## Usage
 
 * Represents a functional UI element.
-* Allows users to expand and collapse specific component elements such as rows.
+* A collapsible container that when clicked, alternately expands to display, and collapses to hide its contents.
+* Allows users to drag other components into its content following the [Blank view layout rules]({% slug blankview_kuib %}#toc-layout).
+* To add contents, you drag at least one layout row to the expander, then drag additional components into that row, or into other rows that you have added.
+
+// Screen
 
 ## Suggested Links
 
