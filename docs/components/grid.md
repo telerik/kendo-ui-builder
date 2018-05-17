@@ -16,6 +16,7 @@ The Grid is part of the Data Management components which the Builder supports.
 
 ## Properties of Interest
 
+* **Data Source**&mdash;The name of a data source instance that you have defined in the Blank view. For more information refer to the article on [Blank view data sources]({% slug blankview_kuib %}#toc-blank-view-data-sources).
 * **Columns**&mdash;Represents a list with grid columns. After selecting the value in data-source combo box, the columns collection will be automatically populated based on the fields metadata in the selected data source. Since the **Columns** property is a collection, the Builder uses a special editor for it which is opened when the user clicks the **Edit** button of the **Columns** property. In the property editor, you can include or exclude columns and the following columns properties:
     * Use the **Include all** and **Exclude all** buttons to move the entire list of fields back and forth between the **Included Fields** and **Excluded Fields** lists.
     * **Template**&mdash;Represents the template which will be rendered in the column content. For more information, refer to the Kendo UI for jQuery documentation on the [AngularJS integration](https://docs.telerik.com/kendo-ui/api/javascript/ui/grid/configuration/columns.template) or to the [Kendo UI for Angular documentation](https://www.telerik.com/kendo-angular-ui/components/grid/columns/templates/).
