@@ -19,7 +19,7 @@ The Tab Strip is part of the Navigation components which the Builder supports.
 
 ## Preview
 
-<img src="../images/kuib-tabstrip-items.png" class="img-responsive" alt="Blank View"/>
+<img src="../../images/kuib-tabstrip-items.png" class="img-responsive" alt="Items"/>
 
 ## Properties of Interest
 

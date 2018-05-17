@@ -18,7 +18,7 @@ The Expander is part of the Navigation components which the Builder supports.
 
 ## Preview
 
-<img src="../images/kuib-toolbar-items.png" class="img-responsive" alt="Blank View"/>
+<img src="../../images/kuib-toolbar-items.png" class="img-responsive" alt="Items"/>
 
 ## Suggested Links
 

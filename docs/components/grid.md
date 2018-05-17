@@ -23,7 +23,7 @@ The Grid is part of the Data Management components which the Builder supports.
     * **Enable HTML Encoding**&mdash;If set to `true`, the column value will be HTML-encoded before it is displayed. If set to `false`, the column value will be displayed as is. By default, the column value is HTML-encoded.
     * **Use Editor type '[Component Name]'**&mdash;When you define your data source with fields, each field has an auto-selected **Editor Type** that is based on the underlying data type. You can change this behavior in the [**Edit Data Source** window of the respective data provider]({% slug odataprogressdatasource_kuib %}). Based on this edit type, the Grid will render a corresponding component when it is set in edit mode. In this case, the components are the same components which are exposed for dragging and dropping in the Blank view. When the checkbox is checked, the corresponding component properties can be changed from the property grid on the right side. If this checkbox is not selected, the Grid will use the built-in editors.
 
-    <img src="../images/kuib-grid-columns.png" class="img-responsive" alt="Login view"/>
+    <img src="../../images/kuib-grid-columns.png" class="img-responsive" alt="Grid Columns"/>
 
 * **Model**&mdash;The data model associated with this component. For more information refer to the article on [Using data source instances]({% slug blankview_kuib %}#toc-using-data-source-instances).
 * **Events**
