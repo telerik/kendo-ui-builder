@@ -19,6 +19,7 @@ The available ways to customize the generated web application are:
 * [Custom styles]({% slug customstyles_kuib %})
 * [Custom themes]({% slug customthemes_kuib %})
 * [Extending package.json]({% slug extendingpackages_kuib %})
+* [Extending .angular-cli.json (Angular only)]({% slug extendingangularcli_kuib %})
 * [Extending the HTML head]({% slug extendinghead_kuib %})
 
 ## Suggested Links
