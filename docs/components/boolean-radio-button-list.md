@@ -12,8 +12,16 @@ The Boolean Radio Button List is part of the Editors components which the Builde
 ## Usage
 
 * Represents a list of items where each node is listed next to a radio button.
-* Provides two selection options in a true-false context.  
-* Allows selection by checking the corresponding radio buttons.  
+* Provides two selection options in a true-false context.
+* Allows selection by checking the corresponding radio buttons.
+
+## Properties of Interest
+
+* **Model**&mdash;The data model associated with this component. For more information refer to the article on [Using data source instances]({% slug blankview_kuib %}#toc-using-data-source-instances).
+* **Events**
+    * **Change Event Function**&mdash;Fired when the value of the widget is changed by the user.
+
+    > You have to include any custom code for this event function in the `controller.public.js` file for AngularJS or in the `[view-name].view.component.ts` file for Angular which are located in the `\app\src\modules\[module-name]\[view-name]` folder. For more information, refer to the article on [custom code]({% slug customcode_kuib %}).
 
 ## Suggested Links
 
