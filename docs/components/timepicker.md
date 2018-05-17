@@ -16,12 +16,11 @@ The Time Picker is part of the Editors components which the Builder supports.
 
 ## Properties of Interest
 
-* **Time Format**&mdash;Can be used to customize the way the data is shown in the component. For more information on date formatting options, refer to the articles on [AngularJS date formatting]( http://docs.telerik.com/kendo-ui/framework/globalization/dateformatting), and [Angular formatting](https://www.telerik.com/kendo-angular-ui/components/internationalization/parsing-and-formatting/).
-* **Model**&mdash;The data model associated with this component. For more information refer to the article on [Using data source instances]({% slug blankview_kuib %}#toc-using-data-source-instances).
-* **Events**
-    * **Change Event Function**&mdash;Fired when the value of the widget is changed by the user.
+* **Time Format**&mdash;Can be used to customize the way the data is shown in the component. For more information on date formatting options, refer to the article on [AngularJS date formatting]( http://docs.telerik.com/kendo-ui/framework/globalization/dateformatting) or [Angular formatting](https://www.telerik.com/kendo-angular-ui/components/internationalization/parsing-and-formatting/).
+* **Model**&mdash;The data model that is associated with this component. For more information, refer to the article on [using data source instances]({% slug blankview_kuib %}#toc-using-data-source-instances).
+* **Change Event Function**&mdash;Fired when the value of the component is changed by the user.
 
-    > You have to include any custom code for this event function in the `controller.public.js` file for AngularJS or in the `[view-name].view.component.ts` file for Angular which are located in the `\app\src\modules\[module-name]\[view-name]` folder. For more information, refer to the article on [custom code]({% slug customcode_kuib %}).
+    > Include any custom code for this event function in the `controller.public.js` file for AngularJS or in the `[view-name].view.component.ts` file for Angular which are located in the `\app\src\modules\[module-name]\[view-name]` folder. For more information, refer to the article on [custom code]({% slug customcode_kuib %}).
 
 ## Suggested Links
 
