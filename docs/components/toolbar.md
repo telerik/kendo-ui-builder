@@ -9,7 +9,7 @@ slug: toolbar_kuib
 
 The Tool Bar is part of the Navigation components which the Builder supports.
 
-> The Builder supports Tool Bar components only for the AngularJS framework.
+> The Builder supports Tool Bar components only for AngularJS applications.
 
 ## Usage
 

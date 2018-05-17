@@ -8,7 +8,8 @@ slug: listview_kuib
 # List View
 
 The List View is part of the Data Management components which the Builder supports.
-> The Builder supports ListView components only for AngularJs application.
+
+> The Builder supports List View components only for AngularJS applications.
 
 ## Usage
 
@@ -29,13 +30,13 @@ The List View is part of the Data Management components which the Builder suppor
 ## Events
 
 * **Cancel Event Function**&mdash;Represents a function that runs when the user clicks the **cancel** button.
-* **Select Event Function**&mdash;Represents a function that runs when a ListView item is selected by the user.
-* **Data Bound Event Function**&mdash;Represents a function that runs when the ListView is bound to its data source.
-* **Edit Event Function**&mdash;Represents a function that runs when the ListView enters edit mode.
+* **Select Event Function**&mdash;Represents a function that runs when a List View item is selected by the user.
+* **Data Bound Event Function**&mdash;Represents a function that runs when the List View is bound to its data source.
+* **Edit Event Function**&mdash;Represents a function that runs when the List View enters edit mode.
 * **Remove Event Function**&mdash;Represents a function that runs before an existing data source record is deleted in the item.
 * **Save Event Function**&mdash;Represents a function that runs when a data item is saved.
 
-> Include any custom code for this event function in the `controller.public.js` file for AngularJS or in the `[view-name].view.component.ts` file for Angular which are located in the `\app\src\modules\[module-name]\[view-name]` folder. For more information, refer to the article on [custom code]({% slug customcode_kuib %}).
+  > Include any custom code for this event function in the `controller.public.js` file for AngularJS or in the `[view-name].view.component.ts` file for Angular which are located in the `\app\src\modules\[module-name]\[view-name]` folder. For more information, refer to the article on [custom code]({% slug customcode_kuib %}).
 
 ## Suggested Links
 

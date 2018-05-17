@@ -15,7 +15,7 @@ Represents a text box for user input with hidden displayed value for password in
 
 ## Properties of Interest
 
-* **Debounce**&mdash;Represents delay time in milliseconds after which the change will be triggered. For more information on date formatting options, refer to the article on [AngularJS Debouncing updates](https://docs.angularjs.org/api/ng/directive/ngModelOptions#debouncing-updates) or [Angular Debounce Time](http://reactivex.io/rxjs/class/es6/Observable.js~Observable.html#instance-method-debounceTime).
+* **Debounce**&mdash;Represents delay time in milliseconds after which the change will be triggered. For more information on date formatting options, refer to the article on [AngularJS debouncing updates](https://docs.angularjs.org/api/ng/directive/ngModelOptions#debouncing-updates) or [Angular debounce time](http://reactivex.io/rxjs/class/es6/Observable.js~Observable.html#instance-method-debounceTime).
 * **Model**&mdash;The data model that is associated with this component. For more information, refer to the article on [using data source instances]({% slug blankview_kuib %}#toc-using-data-source-instances).
 * **Change Event Function**&mdash;Fired when the value of the component is changed by the user.
 

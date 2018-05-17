@@ -12,7 +12,7 @@ The Percent Value Text Box is part of the Editors components which the Builder s
 ## Usage
 
 * Represents a text box for user input with predefined format for percent values only.
-* Used when the percent values in the database only need the addition of the `%` symbol for the proper display. For example, the database value of `25` will be displayed as `25%`.
+* Used when the percent values in the database only need the addition of the `%` symbol for proper display. For example, the database value of `25` will be displayed as `25%`.
 
 ## Properties of Interest
 
