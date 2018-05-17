@@ -39,6 +39,11 @@ templates/
         |   ├── __name__.view.component.html.ejs
         |   └── config.json.ejs
         ├── angularjs/
+        |   ├── generator/
+        |   |   └── index.js
+        |   ├── controller.js.ejs
+        |   ├── options.json.ejs
+        |   └── template.html.ejs
         ├── design-time/
         |   ├── generator/
         |   |   └── index.js

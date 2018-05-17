@@ -199,6 +199,149 @@ The Angular template consists of the following mandatory files:
     })(module);
     ```
 
+### AngularJS Template
+
+The AngularJS template consists of several files, some of which are mandatory:
+
+- (Required) `controller.js.ejs` &mdash; It is the actual AngularJS controller that defines the logic and everighing you know about AngularJS applies here.
+
+```js
+class BaseController {
+    constructor($scope, $injector) {
+    }
+}
+
+export default BaseController;
+```
+
+The constructor receives `$scope` and `$injector`. You can use the `$scope` to handle AngualarJS events for example. It's convenient to attach the `$scope` to the `this` so it can be available to methods outside the `constructor`, e.g.:
+
+```js
+class BaseController {
+    constructor($scope, $injector) {
+        this.$scope = $scope;
+    }
+
+    $onInit() {
+        this.$scope.$on('$includeContentLoaded', () => {
+            // do something
+        });
+    }
+}
+
+export default BaseController;
+```
+
+Through the `$injector` you can inject AngularJS or your own services. For example:
+
+```js
+constructor($scope, $injector) {
+    this.$compile = $compile;
+    this.$translate = $injector.get('$translate');
+    this.myService = $injector.get('myService');
+}
+```
+
+If you want to make a property available to the `view` attach it to the `this` object.
+
+```js
+constructor($scope, $injector) {
+    this.myModel = {
+        title: 'some title'
+    };
+}
+```
+
+Then, it becomes available through the `vm` object in the `view`:
+
+```html
+<h2 ng-bind="vm.myModel.title"></h2>
+```
+
+> The `vm` name is defined by the Builder in the `routes.js` for each `view`.
+
+```js
+controllerAs: 'vm'
+```
+
+> At the end, don't forget to export the controller
+
+So far we defined the `Base` controller template. This means that the Builder will re-generate the produced source file on each generation and if someone touches it the changes will be lost. The Builder allows custom veiws to be extensible too, by generating an additional `controller.public.js`. This file is created only once and can be modified by developers afterwards.
+
+- (Required) `options.json.ejs` These are the options from the schema definition plus whatever other options you need to define at generation time. For example, suppose that the `title`, `pageable`, `editable`, `selectable`, `filterable`, `events` and `onRowSelect` were previously defined in the schema. Then, a possible options definition might look like this:
+
+```
+{
+    title: '<%= title %>',
+    options: {
+        pageable: <%= pageable %>,
+        <% if (editable !== "ReadOnly") { -%>
+        messages: {
+            commands: {}
+        },
+        <% } -%>
+        editable: '<%= editable.toLowerCase(); %>',
+        selectable: true,
+        filterable: <%= filterable %>
+    },
+    events: {
+        onRowSelect: (e) => {
+            <% if (events.onRowSelect) { -%>
+                 this['<%- events.onRowSelect %>'](e);
+            <% } -%>
+        }
+    }
+}
+```
+
+As you can see, along with the normal properties, you can have condition, based on which you render other properties.
+
+The options defined in this file are available in the controller template through the `options` variable so you can pass them to a variable (say `$model`)
+
+```js
+constructor($scope, $injector) {
+    this.$model = <%- options %>;
+}
+```
+
+The `$model` is attached to the `this` so you can access it in the html template and in other functions in the controller.
+
+- (Required) `template.html.ejs` This is the AngularJS view and everything you know about AngularJS applies here too. As mentioned above, you can access controller properties through the `vm` object.
+
+- (Optional) `generator/index.js` This is the place to augment the initial custom view model. This is optional and rarely needed. But it's useful if you need to calculate or populate values at generation time that will be then passed to the generated source code.
+
+```js
+(function(module) {
+    'use strict';
+
+    class Generator {
+        constructor(mb, pretty) {
+            this.modelBuilder = require('./model-builder');
+            this.pretty = pretty;
+        }
+
+        /*
+         * Adds or removes properties from a meta model
+         * @param {object} metaModel - The metaModel being processed, this could be either view or ui component.
+         * @param {string} metaPath - The path to the folder containing the meta information for the application.
+         */
+        augmentModel(metaModel, metaPath) {
+        }
+
+        getTranslation(view) {
+        }
+    }
+
+    module.exports = (mb, pretty) => {
+        return new Generator(mb, pretty);
+    };
+
+})(module);
+
+```
+
+From the `augmentModel` you have full access to the `metaModel` and the `metaPath`.
+
 ## Suggested Links
 
 * [Custom Components]({% slug customcomponents_kuib %})
