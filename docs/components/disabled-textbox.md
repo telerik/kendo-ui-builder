@@ -13,6 +13,10 @@ The Disabled Text Box is part of the Editors components which the Builder suppor
 
 Represents a disabled text box for user input.
 
+## Properties of Interest
+
+* **Model**&mdash;The data model associated with this component. For more information refer to the article on [Using data source instances]({% slug blankview_kuib %}#toc-using-data-source-instances).
+
 ## Suggested Links
 
 * [Kendo UI TextBox for Angular](https://www.telerik.com/kendo-angular-ui/components/inputs/textbox/)

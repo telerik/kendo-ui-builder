@@ -11,8 +11,15 @@ The Currency Text Box is part of the Editors components which the Builder suppor
 
 ## Usage
 
-* Represents a text box for user input.
-* Provides a floating label to currency input values.
+* Represents a numeric text box for user input with predefined format for showing currency sign.
+
+## Properties of Interest
+
+* **Model**&mdash;The data model associated with this component. For more information refer to the article on [Using data source instances]({% slug blankview_kuib %}#toc-using-data-source-instances).
+* **Events**
+    * **Change Event Function**&mdash;Fired when the value of the widget is changed by the user.
+
+    > You have to include any custom code for this event function in the `controller.public.js` file for AngularJS or in the `[view-name].view.component.ts` file for Angular which are located in the `\app\src\modules\[module-name]\[view-name]` folder. For more information, refer to the article on [custom code]({% slug customcode_kuib %}).
 
 ## Suggested Links
 
