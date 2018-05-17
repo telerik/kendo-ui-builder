@@ -16,7 +16,8 @@ The Expander is part of the Navigation components which the Builder supports.
 * Allows users to drag other components into its content following the [Blank view layout rules]({% slug blankview_kuib %}#toc-layout).
 * To add contents, you drag at least one layout row to the expander, then drag additional components into that row, or into other rows that you have added.
 
-// Screen
+## Preview
+<img src="../images/kuib-toolbar-items.png" class="img-responsive" alt="Blank View"/>
 
 ## Suggested Links
 

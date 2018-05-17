@@ -16,7 +16,7 @@ The Tool Bar is part of the Navigation components which the Builder supports.
 * Provides different types of items, such as buttons, toggle buttons, split buttons, button groups, and other customized elements.
 
 ## Preview
-// Screen
+<img src="../images/kuib-toolbar-items.png" class="img-responsive" alt="Blank View"/>
 
 ## Properties of Interest
 

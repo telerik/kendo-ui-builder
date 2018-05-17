@@ -18,7 +18,7 @@ The Tab Strip is part of the Navigation components which the Builder supports.
     * Drag at least one layout row to the tab, then drag additional components into that row, or into other rows that you have added to the tab. It following the [Blank view layout rules]({% slug blankview_kuib %}#toc-layout).
 
 ## Preview
-// Screen
+<img src="../images/kuib-tabstrip-items.png" class="img-responsive" alt="Blank View"/>
 
 ## Properties of Interest
 
