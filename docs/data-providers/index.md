@@ -54,7 +54,7 @@ Data providers enable services for establishing the connection between the data 
 <div class="col-md-8">
     <ul class="card-list row">
         <li class="col-xs-4 col-md-3">
-            <a href="{% slug odata_kuib %}">
+            <a href="{% slug datasources_kuib %}">
                 <img src="../images/icons/data-providers/Data-Source.svg" width="64" height="64" alt="OData" title="OData"/>
                 <p>Data Sources</p>
             </a>
