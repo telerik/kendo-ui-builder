@@ -25,6 +25,7 @@ Each custom view template includes the following parts:
 * [Schema](#toc-schema-definition)
 * [Design-time template](#toc-design-time-template)
 * [Angular template](#toc-angular-template)
+* [AngularJS template](#toc-angularjs-template)
 
 ### Schema Definition
 
@@ -201,146 +202,146 @@ The Angular template consists of the following mandatory files:
 
 ### AngularJS Template
 
-The AngularJS template consists of several files, some of which are mandatory:
+The AngularJS template consists of the following files:
 
-- (Required) `controller.js.ejs` &mdash; It is the actual AngularJS controller that defines the logic and everighing you know about AngularJS applies here.
+* (Required) `controller.js.ejs`&mdash;Represents the actual AngularJS controller that defines the logic and applies all AngularJS specifics.
 
-```js
-class BaseController {
+    ```js
+    class BaseController {
+        constructor($scope, $injector) {
+        }
+    }
+
+    export default BaseController;
+    ```
+
+    The constructor receives `$scope` and `$injector`. You can use the `$scope` to handle AngualarJS events, for example. For convenience, attach `$scope` to `this` so that it becomes available to methods outside the `constructor`.
+
+    ```js
+    class BaseController {
+        constructor($scope, $injector) {
+            this.$scope = $scope;
+        }
+
+        $onInit() {
+            this.$scope.$on('$includeContentLoaded', () => {
+                // do something
+            });
+        }
+    }
+
+    export default BaseController;
+    ```
+
+    To inject AngularJS or your own services, use `$injector`.
+
+    ```js
     constructor($scope, $injector) {
+        this.$compile = $compile;
+        this.$translate = $injector.get('$translate');
+        this.myService = $injector.get('myService');
     }
-}
+    ```
 
-export default BaseController;
-```
+    To make a property available to `view`, attach the property to the `this` object.
 
-The constructor receives `$scope` and `$injector`. You can use the `$scope` to handle AngualarJS events for example. It's convenient to attach the `$scope` to the `this` so it can be available to methods outside the `constructor`, e.g.:
-
-```js
-class BaseController {
+    ```js
     constructor($scope, $injector) {
-        this.$scope = $scope;
+        this.myModel = {
+            title: 'some title'
+        };
     }
+    ```
 
-    $onInit() {
-        this.$scope.$on('$includeContentLoaded', () => {
-            // do something
-        });
-    }
-}
+    As a result, the property becomes available through the `vm` object in `view`.
 
-export default BaseController;
-```
+    ```html
+    <h2 ng-bind="vm.myModel.title"></h2>
+    ```
 
-Through the `$injector` you can inject AngularJS or your own services. For example:
+    > The Builder defines the `vm` name for each `view` in the `routes.js` file.
 
-```js
-constructor($scope, $injector) {
-    this.$compile = $compile;
-    this.$translate = $injector.get('$translate');
-    this.myService = $injector.get('myService');
-}
-```
+    ```js
+    controllerAs: 'vm'
+    ```
 
-If you want to make a property available to the `view` attach it to the `this` object.
+    > Remember to export the controller in the end.
 
-```js
-constructor($scope, $injector) {
-    this.myModel = {
-        title: 'some title'
-    };
-}
-```
+    So far, the `Base` controller template has been defined which means that the Builder will re-generate the produced source file on each generation and if users make any changes to the source file, these changes will be lost. The Builder also allows you to extend custom views by generating an additional `controller.public.js` file which is created only once and you can further modify it.
 
-Then, it becomes available through the `vm` object in the `view`:
+* (Required) `options.json.ejs`&mdash;Contains the options from the schema definition together with whatever other options you need to define at generation time. For example, if  `title`, `pageable`, `editable`, `selectable`, `filterable`, `events`, and `onRowSelect` were previously defined in the schema, you can use the following options definition.
 
-```html
-<h2 ng-bind="vm.myModel.title"></h2>
-```
-
-> The `vm` name is defined by the Builder in the `routes.js` for each `view`.
-
-```js
-controllerAs: 'vm'
-```
-
-> At the end, don't forget to export the controller
-
-So far we defined the `Base` controller template. This means that the Builder will re-generate the produced source file on each generation and if someone touches it the changes will be lost. The Builder allows custom veiws to be extensible too, by generating an additional `controller.public.js`. This file is created only once and can be modified by developers afterwards.
-
-- (Required) `options.json.ejs` These are the options from the schema definition plus whatever other options you need to define at generation time. For example, suppose that the `title`, `pageable`, `editable`, `selectable`, `filterable`, `events` and `onRowSelect` were previously defined in the schema. Then, a possible options definition might look like this:
-
-```
-{
-    title: '<%= title %>',
-    options: {
-        pageable: <%= pageable %>,
-        <% if (editable !== "ReadOnly") { -%>
-        messages: {
-            commands: {}
-        },
-        <% } -%>
-        editable: '<%= editable.toLowerCase(); %>',
-        selectable: true,
-        filterable: <%= filterable %>
-    },
-    events: {
-        onRowSelect: (e) => {
-            <% if (events.onRowSelect) { -%>
-                 this['<%- events.onRowSelect %>'](e);
+    ```
+    {
+        title: '<%= title %>',
+        options: {
+            pageable: <%= pageable %>,
+            <% if (editable !== "ReadOnly") { -%>
+            messages: {
+                commands: {}
+            },
             <% } -%>
+            editable: '<%= editable.toLowerCase(); %>',
+            selectable: true,
+            filterable: <%= filterable %>
+        },
+        events: {
+            onRowSelect: (e) => {
+                <% if (events.onRowSelect) { -%>
+                     this['<%- events.onRowSelect %>'](e);
+                <% } -%>
+            }
         }
     }
-}
-```
+    ```
 
-As you can see, along with the normal properties, you can have condition, based on which you render other properties.
+    Along with the normal properties, you can have a condition based on which you render other properties.
 
-The options defined in this file are available in the controller template through the `options` variable so you can pass them to a variable (say `$model`)
+    The options that are defined in this file are available in the controller template through the `options` variable. As a result, you can pass them to a variable, for example, `$model`.
 
-```js
-constructor($scope, $injector) {
-    this.$model = <%- options %>;
-}
-```
-
-The `$model` is attached to the `this` so you can access it in the html template and in other functions in the controller.
-
-- (Required) `template.html.ejs` This is the AngularJS view and everything you know about AngularJS applies here too. As mentioned above, you can access controller properties through the `vm` object.
-
-- (Optional) `generator/index.js` This is the place to augment the initial custom view model. This is optional and rarely needed. But it's useful if you need to calculate or populate values at generation time that will be then passed to the generated source code.
-
-```js
-(function(module) {
-    'use strict';
-
-    class Generator {
-        constructor(mb, pretty) {
-            this.modelBuilder = require('./model-builder');
-            this.pretty = pretty;
-        }
-
-        /*
-         * Adds or removes properties from a meta model
-         * @param {object} metaModel - The metaModel being processed, this could be either view or ui component.
-         * @param {string} metaPath - The path to the folder containing the meta information for the application.
-         */
-        augmentModel(metaModel, metaPath) {
-        }
-
-        getTranslation(view) {
-        }
+    ```js
+    constructor($scope, $injector) {
+        this.$model = <%- options %>;
     }
+    ```
 
-    module.exports = (mb, pretty) => {
-        return new Generator(mb, pretty);
-    };
+    The `$model` variable is attached to the `this` object and you can access it in the HTML template and in other functions of the controller.
 
-})(module);
+* (Required) `template.html.ejs`&mdash;Represents the AngularJS view and applies all AngularJS specifics. You can access the controller properties through the `vm` object.
 
-```
+* (Optional) `generator/index.js`&mdash;Represents the place where you can augment the initial custom view model. This approach is optional and rarely needed, but is useful for calculating or populating values at generation time which will then be passed to the generated source code.
 
-From the `augmentModel` you have full access to the `metaModel` and the `metaPath`.
+    ```js
+    (function(module) {
+        'use strict';
+
+        class Generator {
+            constructor(mb, pretty) {
+                this.modelBuilder = require('./model-builder');
+                this.pretty = pretty;
+            }
+
+            /*
+             * Adds or removes properties from a meta model
+             * @param {object} metaModel - The metaModel being processed, this could be either view or a UI component.
+             * @param {string} metaPath - The path to the folder with the meta information for the application.
+             */
+            augmentModel(metaModel, metaPath) {
+            }
+
+            getTranslation(view) {
+            }
+        }
+
+        module.exports = (mb, pretty) => {
+            return new Generator(mb, pretty);
+        };
+
+    })(module);
+
+    ```
+
+    The `augmentModel` provides you with full access to `metaModel` and `metaPath`.
 
 ## Suggested Links
 
