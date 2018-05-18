@@ -10,20 +10,22 @@ position: 8
 
 For Angular applications, the Builder enables you to extend the existing `.angular-cli.json` file by adding your own settings.
 
+To extend `.angular-cli.json`:
+
 1. Add the `.angular-cli.json` file to the `artifacts` folder on the root application level.
 1. Add the necessary settings and `devDependences` to `.angular-cli.json`.
 
-```json
-{
-  "apps": [
+    ```json
     {
-      "styles": [
-        "../node_modules/some_vendor/dist/css/styles.css"
+      "apps": [
+        {
+          "styles": [
+            "../node_modules/some_vendor/dist/css/styles.css"
+          ]
+        }
       ]
     }
-  ]
-}
-```
+    ```
 
 1. Restart Webpack in order for the settings to take effect. If you started Webpack by using the **Start** button of the Builder, click **Stop** and then start the server again. If you started Webpack from the console, exit the process and type `npm start` again.
 

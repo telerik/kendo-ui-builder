@@ -52,7 +52,7 @@ Angular tries to emulate the Shadow DOM specification which is more sophisticate
 
 > Angular deprecated the `/deep/` selector and have not provided an alternative so far. Once such an implementation becomes available, you will need to adopt it.
 
-## Additional Customization Approaches
+## Additional Customization
 
 You can additionally customize the styles of your application by using the CSS `list` class property which is available for each view, row, and column. Currently and by default, Kendo UI widgets for AngularJS do not feature a `list` class because each widget is wrapped by a column. In this way, you can unambiguously target the component by its classes.
 

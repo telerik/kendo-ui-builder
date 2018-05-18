@@ -161,7 +161,10 @@ The AngularJS template consists of the following files:
 
 The Builder uses the custom component template to generate code and render it inside the application each time the user drags it from the toolbox to the canvas. At this point, Angular does not relate with the rendered `<my-calendar>` component and you have to define its template and controller. Otherwise, an exception will be thrown.
 
-#### Angular
+* [In Angular](#toc-in-angular)
+* [In AngularJS](#toc-in-angularjs)
+
+#### In Angular
 
 To define the template and controller:
 
@@ -210,7 +213,7 @@ To define the template and controller:
     export class SharedModule { }
     ```
 
-#### AngularJS
+#### In AngularJS
 
 Navigate to `app/src/scripts/extensions` and create a folder for each custom directive. In this folder, the `template.html` and `index.js` files for the directive will reside. The following example demonstrates that the template can also wrap a Kendo UI directive inside.
 

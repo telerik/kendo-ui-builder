@@ -35,10 +35,10 @@ To set up the OpenID Connect authentication in the web project:
 1. Create a new data provider or edit the existing one.
 1. From the **Authentication Type** drop-down, select **OpenID Connect**. As a result, the following settings are displayed:
 
-* (Required) **Authority**&mdash;Represents the URL of the OIDC/OAuth2 provider.
-* (Required) **Client ID**&mdash;Represents the identifier of the user as registered with the OIDC provider.
-* (Required) **Response Type**&mdash;Represents the type of response demanded by the OIDC provider. Defaults to `id_token token`.
-* (`openid` is required) **Scope**&mdash;Represents the scope that is requested by the OIDC provider. Defaults to `openid email`.
+    * (Required) **Authority**&mdash;Represents the URL of the OIDC/OAuth2 provider.
+    * (Required) **Client ID**&mdash;Represents the identifier of the user as registered with the OIDC provider.
+    * (Required) **Response Type**&mdash;Represents the type of response demanded by the OIDC provider. Defaults to `id_token token`.
+    * (`openid` is required) **Scope**&mdash;Represents the scope that is requested by the OIDC provider. Defaults to `openid email`.
 
 ### OAuth 2.0
 
@@ -52,11 +52,11 @@ To set up the OAuth 2.0 authentication in the web project:
 1. Create a new data provider or edit the existing one.
 1. From the **Authentication Type** drop-down, select **OAuth 2.0**. As a result, the following settings are displayed:
 
-* (Required) **Issuer**&mdash;Represents the URL of the OAuth2 Authorization Server.
-* (Required) **Authorization Endpoint**&mdash;Represents the URL that is used to obtain an authorization grant.
-* (Required) **Client ID**&mdash;Represents the application identifier as registered with the OAuth2 provider.
-* (Required) **Response Type**&mdash;Represents the type of response demanded by the OAuth2 provider. Defaults to `token`.
-* (Required) **Scope**&mdash;Represents the scope that is requested by the OAuth2 provider. Defaults to `email`. Even though in the OAuth 2.0 protocol the field is optional, it is mandatory here because in practice every OAuth2 provider has a basic scope.
+    * (Required) **Issuer**&mdash;Represents the URL of the OAuth2 Authorization Server.
+    * (Required) **Authorization Endpoint**&mdash;Represents the URL that is used to obtain an authorization grant.
+    * (Required) **Client ID**&mdash;Represents the application identifier as registered with the OAuth2 provider.
+    * (Required) **Response Type**&mdash;Represents the type of response demanded by the OAuth2 provider. Defaults to `token`.
+    * (Required) **Scope**&mdash;Represents the scope that is requested by the OAuth2 provider. Defaults to `email`. Even though in the OAuth 2.0 protocol the field is optional, it is mandatory here because in practice every OAuth2 provider has a basic scope.
 
 ### Basic
 
@@ -70,8 +70,8 @@ To set up the Basic authentication in the web project:
 1. Create a new data provider or edit the existing one.
 1. From the **Authentication Type** drop-down, select **Basic**. As a result, the following settings are displayed:
 
-* **User Name**&mdash;Represents the user name that will be used only at design time when an HTTP request to a protected URL is performed. The user name is not stored in the generated application.
-* **Password**&mdash;Represents the password that will be used only at design time when an HTTP request to a protected URL is performed. The password is not stored in the generated application.
+    * **User Name**&mdash;Represents the user name that will be used only at design time when an HTTP request to a protected URL is performed. The user name is not stored in the generated application.
+    * **Password**&mdash;Represents the password that will be used only at design time when an HTTP request to a protected URL is performed. The password is not stored in the generated application.
 
 ### API Key
 
@@ -85,9 +85,9 @@ To set up the API Key authentication in the web project:
 1. Create a new data provider or edit the existing one.
 1. From the **Authentication Type** drop-down, select **API Key**. As a result, the following settings are displayed:
 
-* **Name**&mdash;Represents the name of the API Key that is passed in an HTTP request. Defaults to `X-API-Key`.
-* **In**&mdash;Specifies the way the API Key will be passed in an HTTP request. The available options are `Header` or `Query String`.
-* **Value**&mdash;Represents the API Key value that will be used only at design time when an HTTP request to a protected URL is performed. The value is not stored in the generated application.
+    * **Name**&mdash;Represents the name of the API Key that is passed in an HTTP request. Defaults to `X-API-Key`.
+    * **In**&mdash;Specifies the way the API Key will be passed in an HTTP request. The available options are `Header` or `Query String`.
+    * **Value**&mdash;Represents the API Key value that will be used only at design time when an HTTP request to a protected URL is performed. The value is not stored in the generated application.
 
 > If you select an API Key to be passed in an HTTP header, CORS issues might occur.
 

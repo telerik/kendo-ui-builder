@@ -23,7 +23,7 @@ The Tool Bar is part of the Navigation components which the Builder supports.
 ## Properties of Interest
 
 * **Toolbar Items**&mdash;To open an advanced editor window where you can add or remove items from the Tool Bar, click **Edit**.
-* **Events**
+* Events
     * **Click Event Function**&mdash;Fired when the user clicks a button in the Tool Bar.
     * **Toggle Event Function**&mdash;Fired when the user toggles a button in the Tool Bar.
 

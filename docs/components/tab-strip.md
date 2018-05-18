@@ -24,7 +24,7 @@ The Tab Strip is part of the Navigation components which the Builder supports.
 ## Properties of Interest
 
 * **TabStrip Items**&mdash;To add or remove tabs from the Tab Strip, click **Edit**.
-* **Events**
+* Events
     * **Select Event Function**&mdash;Fired when the user selects a tab in the Tab Strip.
     * (AngularJs only)**Show Event Function**&mdash;Fired when the selected tab displays its contents.
 

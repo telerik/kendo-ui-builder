@@ -10,7 +10,7 @@ position: 7
 
 The Builder enables you to customize the head of the generated web project by adding custom scripts, links, and other elements.
 
-To extend the head:
+To extend the HTML head:
 
 1. On the Dashboard, click the card (or list item) of the application to open the **App Design** page.
 1. Next to the application name, click the **Settings** icon to open the drop-down options list.

@@ -10,6 +10,8 @@ position: 6
 
 The Builder enables you to extend the existing `package.json` file by adding your own packages.
 
+To extend `package.json`:
+
 1. Add the `package.json` file to the `artifacts` folder on the root application level.
 1. Add the necessary `dependencies` and `devDependences` to `package.json`.
 

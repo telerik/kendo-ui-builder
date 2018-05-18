@@ -19,9 +19,9 @@ The Drop Down List is part of the Editors components which the Builder supports.
 
 * **Data Source**&mdash;The name of a data source instance that you have defined in the Blank view. For more information, refer to the article on [Blank view data sources]({% slug blankview_kuib %}#toc-blank-view-data-sources).
 * **Model**&mdash;The data model that is associated with this component. For more information, refer to the article on [using data source instances]({% slug blankview_kuib %}#toc-using-data-source-instances).
-* **Events**
+* Events
     * **Change Event Function**&mdash;Fired when the value of the component is changed by the user.
-    * (AngularJS only)**Select Event Function**&mdash;Fired when an item from the suggestion popup is selected by the user.
+    * (AngularJS only) **Select Event Function**&mdash;Fired when an item from the suggestion popup is selected by the user.
 
     > Include any custom code for this event function in the `controller.public.js` file for AngularJS or in the `[view-name].view.component.ts` file for Angular which are located in the `\app\src\modules\[module-name]\[view-name]` folder. For more information, refer to the article on [custom code]({% slug customcode_kuib %}).
 
