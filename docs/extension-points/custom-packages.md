@@ -10,8 +10,6 @@ position: 6
 
 The Builder enables you to extend the existing `package.json` file by adding your own packages.
 
-To include custom packages:
-
 1. Add the `package.json` file to the `artifacts` folder on the root application level.
 1. Add the necessary `dependencies` and `devDependences` to `package.json`.
 
@@ -27,4 +25,4 @@ To include custom packages:
 
 ## Suggested Links
 
-* [Overview of Extension Points]({% slug extensionpoints_kuib  %})
+* [Overview of Extension Points]({% slug extensionpoints_kuib %})

@@ -67,12 +67,13 @@ Progress<sup>®</sup> Kendo UI<sup>®</sup> Builder is a tool for creating and m
 
 The extension points enable you to customize specific aspects of the generated web project.
 
-* [Custom code]({% slug customcode_kuib %})&mdash;With custom code you can handle different events from the components or application lifecycle
-* [Custom templates]({% slug customtemplates_kuib %})&mdash;Allows you to define complex monolitic and reusable structures
-* [Custom styles]({% slug customstyles_kuib %})&mdash;The custom CSS extension point allows you to personalize the appearance of the web application.
-* [Custom themes]({% slug customthemes_kuib %})&mdash;Enables you to extend the existing package.json with your own packages.
-* [Extending `package.json`]({% slug extendingpackages_kuib %})&mdash;Create your own company brand compliant themes and use them seamlessly
-* [Extending the HTML head]({% slug extendinghead_kuib %})&mdash;You can add elements, such as custom code or links, to the head of the generated web project.
+* [Custom code]({% slug customcode_kuib %})&mdash;The custom code enables you to handle events from the component or application lifecycle.
+* [Custom templates]({% slug customtemplates_kuib %})&mdash;Allow you to define complex monolithic and reusable structures.
+* [Custom styles]({% slug customstyles_kuib %})&mdash;Enable you to personalize the appearance of the web application.
+* [Custom themes]({% slug customthemes_kuib %})&mdash;Help you create your own company-brand compliant themes and seamlessly use them in the web project.
+* [Extending `package.json`]({% slug extendingpackages_kuib %})&mdash;Allow you to add your own packages.
+* [Extending `.angular-cli.json`]({% slug extendingangularcli_kuib %})&mdash;Enable you to include your own settings.
+* [Extending the HTML head]({% slug extendinghead_kuib %})&mdash;The head extension points allow you to add elements, such as custom code or links, to the head of the generated web project.
 
 ## Styling Options
 
