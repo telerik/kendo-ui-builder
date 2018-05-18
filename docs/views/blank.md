@@ -18,7 +18,7 @@ The Blank view is the user-defined view that is provided by the Builder.
 
 ## Preview
 
-<img src="../images/kuib-views-blank.png" class="img-responsive" alt="Blank View"/>
+<img src="../../images/kuib-views-blank.png" class="img-responsive" alt="Blank View"/>
 
 ## Data Binding
 

@@ -25,7 +25,7 @@ The Data Grid view is one of the built-in views that are provided by the Builder
 
 ## Preview
 
-<img src="../images/kuib-views-data-grid.png" class="img-responsive" alt="Data-Gid View"/>
+<img src="../../images/kuib-views-data-grid.png" class="img-responsive" alt="Data-Gid View"/>
 
 ## Properties of Interest
 

@@ -25,7 +25,7 @@ The Data Grid Form view is one of the built-in views that are provided by the Bu
 
 ## Preview
 
-<img src="../images/kuib-views-data-grid-form.png" class="img-responsive" alt="Data-Grid-Form View"/>
+<img src="../../images/kuib-views-data-grid-form.png" class="img-responsive" alt="Data-Grid-Form View"/>
 
 ## Properties of Interest
 

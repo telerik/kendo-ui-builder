@@ -29,7 +29,7 @@ The Hierarchical Data Grid view is one of the built-in views that are provided b
 
 ## Preview
 
-<img src="../images/kuib-views-hierarchical-data-grid.png" class="img-responsive" alt="Hierarchical Data Grid View"/>
+<img src="../../images/kuib-views-hierarchical-data-grid.png" class="img-responsive" alt="Hierarchical Data Grid View"/>
 
 ## Properties of Interest
 

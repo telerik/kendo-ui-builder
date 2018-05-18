@@ -29,7 +29,7 @@ The Stacked Data Grids view is one of the built-in views that are provided by th
 
 ## Preview
 
-<img src="../images/kuib-views-stacked-data-grids.png" class="img-responsive" alt="Stacked Data Grids View"/>
+<img src="../../images/kuib-views-stacked-data-grids.png" class="img-responsive" alt="Stacked Data Grids View"/>
 
 ## Properties of Interest
 

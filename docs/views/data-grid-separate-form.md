@@ -22,7 +22,7 @@ The Data Grid Separate Form view is one of the built-in views that are provided 
 
 ## Preview
 
-<img src="../images/kuib-views-data-grid-separate-form.png" class="img-responsive" alt="Data Grid Separate Form View"/>
+<img src="../../images/kuib-views-data-grid-separate-form.png" class="img-responsive" alt="Data Grid Separate Form View"/>
 
 ## Suggested Links
 
