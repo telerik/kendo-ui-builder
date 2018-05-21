@@ -43,7 +43,7 @@ The Data Grid Form view is one of the built-in views that are provided by the Bu
         * **Format**&mdash;Can be used to customize the way the field is rendered. Use the `{0}` argument to represent the content of the field. You can also add additional text for display. For more information on number and date formatting options, refer to the articles on [AngularJS number formatting](http://docs.telerik.com/kendo-ui/framework/globalization/numberformatting), [AngularJS date formatting]( http://docs.telerik.com/kendo-ui/framework/globalization/dateformatting), and [Angular formatting](https://www.telerik.com/kendo-angular-ui/components/internationalization/parsing-and-formatting/).
         * You can also set additional properties and events under **Editor Type** which represent properties and events for the specified editor type. Since the underlying components of the form fields are the same as the components in the Blank View, for specific property usage and configuration, refer to the documentation on [components]({% slug overviewcomp_kuib %}).
 
-<img src="../images/kuib-form-fields.png" class="img-responsive" alt="Form Fields Window"/>
+<img src="../../images/kuib-form-fields.png" class="img-responsive" alt="Form Fields Window"/>
 
 ## Suggested Links
 
