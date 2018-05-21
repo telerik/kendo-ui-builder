@@ -35,8 +35,8 @@ The custom themes of the Builder provide only appearance (color) settings for th
 
 ### Creating Themes with the ThemeBuilder
 
-* [Progress<sup>®</sup> Sass ThemeBuilder for Angular](http://themebuilder.telerik.com/kendo-angular-ui)
-* [Progress<sup>®</sup> Sass ThemeBuilder for Angular](http://themebuilder.telerik.com/kendo-angular-ui)
+* [Progress<sup>®</sup> Sass ThemeBuilder for Angular](https://themebuilder.telerik.com/kendo-angular-ui)
+* [Progress<sup>®</sup> Sass ThemeBuilder for AngularJS](https://themebuilder.telerik.com/kendo-ui)
 
 ### Unarchiving the Theme Files
 
