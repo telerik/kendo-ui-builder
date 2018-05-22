@@ -8,7 +8,7 @@ position: 1
 
 # Custom Templates Overview
 
-For both the AngularJS and Angular frameworks, the Builder supports the [custom views]({% slug customviews_kuib %}) and [custom components]({% slug customcomponents_kuib %}) templates.
+For both the AngularJS and Angular frameworks, the Builder supports templates for implementing [custom views]({% slug customviews_kuib %}) and [custom components]({% slug customcomponents_kuib %}).
 
 All custom templates reside in the `templates` folder at the root application level.
 

@@ -15,7 +15,7 @@ To extend `.angular-cli.json`:
 1. Add the `.angular-cli.json` file to the `artifacts` folder on the root application level.
 1. Add the necessary settings and `devDependences` to `.angular-cli.json`.
 
-    ```json
+    ```json-no-run
     {
       "apps": [
         {

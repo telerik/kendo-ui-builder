@@ -11,10 +11,10 @@ The Login view is one of the system views which the [Application Module]({% slug
 
 ## Features
 
-* Represents the layout of the page where the users submit their credentials and access the application according to their defined user roles. For more information, refer to the articles on [authentication, user roles, and authorization]({% slug authentication_kuib %}).
+* Represents the layout of the page where users submit their credentials and access the application according to their defined user roles. For more information, refer to the articles on [authentication, user roles, and authorization]({% slug authentication_kuib %}).
 * Allows you to edit some of its properties. For more information on which properties are subject to modification, refer to the right-hand vertical toolbar (property grid) of the view.
 * The Login view provides the Login Event Function. It is a function that runs when the user clicks the **Login** button (default: `onLogin`). You have to include any custom code for this event function in the `controller.public.js` file for AngularJS or in the `login.view.component.ts` file for Angular which are located in the `\app\src\modules\application\login` folder. For more information, refer to the article on [custom code]({% slug customcode_kuib %}).
-* Includes custom sections where you can add your own HTML. Each section is identified in the view design page with a placeholder containing descriptive text:
+* Includes custom sections where you can add your own HTML. Each section is identified in the view design page by a placeholder containing descriptive text:
     * Custom top HTML section&mdash;Located in the area above **Header Title**.
     * Custom middle HTML section&mdash;Located in the area below **Header Title** and above **Username Label**.
     * Custom bottom HTML section&mdash;Located in the area below **Password Label**.

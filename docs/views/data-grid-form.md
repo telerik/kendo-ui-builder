@@ -16,7 +16,7 @@ The Data Grid Form view is one of the built-in views that are provided by the Bu
 * Supports editing for the selected item. To enable the feature, either set the **Read-Only-to-Editing** mode, which is `true` by default, or use the data form as a detail view in read-only mode by selecting the **Read-Only** edit mode.
 * Supports error handling.
 * Allows you to set and edit its basic functionalities. For more information on the settings that are subject to modification, refer to the right-hand vertical toolbar (property grid) of the view.
-* Includes custom sections where you can add your own HTML. Each section is identified in the view design page with a placeholder which contains descriptive text.
+* Includes custom sections where you can add your own HTML. Each section is identified in the view design page by a placeholder which contains descriptive text.
     * Custom top HTML section&mdash;Located in the area above **Header Title**.
     * Custom middle HTML section&mdash;Located in the area below **Header Title** and above **Grid** and **Data Form**.
     * Custom bottom HTML section&mdash;Located in the area below **Grid** and **Data Form**.

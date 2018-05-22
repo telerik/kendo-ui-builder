@@ -5,7 +5,7 @@ description: "Use and implement the Date Picker when working with the Kendo UI B
 slug: datepicker_kuib
 ---
 
-# DatePicker
+# Date Picker
 
 The Date Picker is part of the Editors components which the Builder supports.
 

@@ -22,7 +22,7 @@ Similar to the built-in views, the custom views can also have properties.
 
 Each custom view template includes the following parts:
 
-* [Schema](#toc-schema-definition)
+* [Schema definition](#toc-schema-definition)
 * [Design-time template](#toc-design-time-template)
 * [Angular template](#toc-angular-template)
 * [AngularJS template](#toc-angularjs-template)
@@ -33,7 +33,7 @@ The `<view_name>.json` file represents the schema file which is used by the Buil
 
 The following example demonstrates the minimum setup that you need to apply. `<view_name>` and `<description>` are optional.
 
-```json
+```json-no-run
 {
     "$schema": "http://json-schema.org/draft-04/schema#",
     "id": "<view_name>",
@@ -49,7 +49,7 @@ The following example demonstrates the minimum setup that you need to apply. `<v
 
 Often, the projects require the setting of at least one property&mdash;for example, a `title`&mdash;which you need to include in the `properties` object of the schema.
 
-```json
+```json-no-run
 {
     "properties": {
         "title": {
@@ -100,7 +100,7 @@ The wrapper HTML element has the `my-custom-calendar` class whit which the `.dat
 
 * (Optional) `generator/index.js`&mdash;Used to augment the initial model of the template and, in this way, provide additional dynamic behavior when designing the application. For example, you can bind to data some components that are inside the view and display some sample data. Otherwise, they will be empty and not representative to other developers. Another options for you is to show or hide certain parts of the template based on the selected properties. For example, if the `edit` property is `true`, you display a form. In this file you have full access to the meta model. If the template is simple enough, skip it.
 
-    ```js
+    ```js-no-run
     (function(module) {
         'use strict';
 
@@ -120,7 +120,7 @@ The Angular template consists of the following mandatory files:
 
 * `__name__.view.base.component.ts.ejs`&mdash;Used by the Builder to generate a "private" code for that custom view. This file is re-generated on each application generation. The generator automatically creates a `__name__.view.component.ts` file which inherits from that `base` class. `__name__.view.component.ts` is generated only once and can be modified later on without loosing any current changes. This mechanism allows the custom views to have extension points themselves.
 
-    ```ts
+    ```ts-no-run
     import { Component, Injector, OnInit, AfterViewInit, OnDestroy } from '@angular/core';
 
     @Component({
@@ -148,7 +148,7 @@ The Angular template consists of the following mandatory files:
 
     The `ejs` variables in the `@Component` decorator are reserved and you can leave them as they are. They handle the proper naming of the class and the imported typescript symbols that are needed. The `$config` declaration and initialization is also important.
 
-    ```ts
+    ```ts-no-run
     public $config: any = <%- viewConfig %>;
     ```
 
@@ -182,7 +182,7 @@ The Angular template consists of the following mandatory files:
 
     The `generators/index.js` represents the place to pre-calculate some of the view properties or augment its model with properties that are not part of the schema definition. For example, you might want to populate or calculate the view properties based on the context in which the view exists. You have access to the view `context` and the `view` object itself.
 
-    ```ts
+    ```ts-no-run
     (function (module) {
         'use strict';
 
@@ -206,7 +206,7 @@ The AngularJS template consists of the following files:
 
 * (Required) `controller.js.ejs`&mdash;Represents the actual AngularJS controller that defines the logic and applies all AngularJS specifics.
 
-    ```js
+    ```js-no-run
     class BaseController {
         constructor($scope, $injector) {
         }
@@ -217,7 +217,7 @@ The AngularJS template consists of the following files:
 
     The constructor receives `$scope` and `$injector`. You can use the `$scope` to handle AngualarJS events, for example. For convenience, attach `$scope` to `this` so that it becomes available to methods outside the `constructor`.
 
-    ```js
+    ```js-no-run
     class BaseController {
         constructor($scope, $injector) {
             this.$scope = $scope;
@@ -235,7 +235,7 @@ The AngularJS template consists of the following files:
 
     To inject AngularJS or your own services, use `$injector`.
 
-    ```js
+    ```js-no-run
     constructor($scope, $injector) {
         this.$compile = $compile;
         this.$translate = $injector.get('$translate');
@@ -245,7 +245,7 @@ The AngularJS template consists of the following files:
 
     To make a property available to `view`, attach the property to the `this` object.
 
-    ```js
+    ```js-no-run
     constructor($scope, $injector) {
         this.myModel = {
             title: 'some title'
@@ -255,13 +255,13 @@ The AngularJS template consists of the following files:
 
     As a result, the property becomes available through the `vm` object in `view`.
 
-    ```html
+    ```html-no-run
     <h2 ng-bind="vm.myModel.title"></h2>
     ```
 
     > The Builder defines the `vm` name for each `view` in the `routes.js` file.
 
-    ```js
+    ```js-no-run
     controllerAs: 'vm'
     ```
 
@@ -299,7 +299,7 @@ The AngularJS template consists of the following files:
 
     The options that are defined in this file are available in the controller template through the `options` variable. As a result, you can pass them to a variable, for example, `$model`.
 
-    ```js
+    ```js-no-run
     constructor($scope, $injector) {
         this.$model = <%- options %>;
     }
@@ -311,7 +311,7 @@ The AngularJS template consists of the following files:
 
 * (Optional) `generator/index.js`&mdash;Represents the place where you can augment the initial custom view model. This approach is optional and rarely needed, but is useful for calculating or populating values at generation time which will then be passed to the generated source code.
 
-    ```js
+    ```js-no-run
     (function(module) {
         'use strict';
 
@@ -322,8 +322,8 @@ The AngularJS template consists of the following files:
             }
 
             /*
-             * Adds or removes properties from a meta model
-             * @param {object} metaModel - The metaModel being processed, this could be either view or a UI component.
+             * Adds or removes properties from a meta model.
+             * @param {object} metaModel - The metaModel being processed, this could be either a view or a UI component.
              * @param {string} metaPath - The path to the folder with the meta information for the application.
              */
             augmentModel(metaModel, metaPath) {

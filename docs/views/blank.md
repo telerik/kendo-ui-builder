@@ -28,7 +28,7 @@ Due to its specifics, the Blank view provides certain approaches for data bindin
 
 To start working with a Blank view, you need to define data source instances for it which you can later bind to most of its components. The definition of the data source instances is done based on one or more of the existing data sources that are defined for the application data providers. From the **View Properties** pane, add and review the desired data source instances which will be used in the Blank view.
 
-<img src="../images/kuib-views-data-sources.png" class="img-responsive" alt="Blank View Data Sources"/>
+<img src="../../images/kuib-views-data-sources.png" class="img-responsive" alt="Blank View Data Sources"/>
 
 ### Using Data Source Instances
 
@@ -60,8 +60,8 @@ The most important available layout features are:
 
 * Hide on&mdash;You can hide a column on a given screen size by selecting the checkbox for that screen width. You can use this feature to provide more details on larger screens while minimizing the content that is shown for smaller devices.
 
-> * If you have not already dragged and dropped a column, dragging any other component to a row automatically creates a column for it.
-> * To view the results of any layout changes, use the display type preview at the top right of the toolbar.
+  > * If you have not already dragged and dropped a column, dragging any other component to a row automatically creates a column for it.
+  > * To view the results of any layout changes, use the display type preview at the top right of the toolbar.
 
 ## Components
 

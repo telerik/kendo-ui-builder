@@ -204,7 +204,7 @@ To define the template and controller:
     import { config } from './shared.config';
 
     // You can modify or replace module config here
-    import { MyCalendarComponent } from './custom-components/my-calendar/my-calendar.component'; // import the component from the folder you put its files
+    import { MyCalendarComponent } from './custom-components/my-calendar/my-calendar.component'; // import the component from the folder where you put its files
 
     config.declarations.push(MyCalendarComponent); // push it to the declarations array
     config.exports.push(MyCalendarComponent); // don't forget to export your component so it can be used by other modules too

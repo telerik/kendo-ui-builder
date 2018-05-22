@@ -38,7 +38,7 @@ When the Builder generates an application, it outputs a stylesheet file in the f
 
 The CSS rules that you write within this view stylesheet file, no matter how general they are, do not leak out. For example, if you define the following rule, it will color all links in the current view but any links outside that view will remain unchanged.
 
-```css
+```css-no-run
 a {
     color: green;
 }

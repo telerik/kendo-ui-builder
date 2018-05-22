@@ -11,9 +11,9 @@ The Unauthorized view is one of the system views which the [Application Module](
 
 ## Features
 
-* Represents the layout of the page that loads when the users try to access any content that is outside their defined access rights. For more information, refer to the articles on [authentication, user roles, and authorization]({% slug authentication_kuib %}).
+* Represents the layout of the page that loads when users try to access any content that is outside their defined access rights. For more information, refer to the articles on [authentication, user roles, and authorization]({% slug authentication_kuib %}).
 * Allows you to set and edit its basic functionalities. For more information on which properties are subject to modification, refer to the right-hand vertical toolbar (property grid) of the view.
-* Includes custom sections where you can add your own HTML. Each section is identified in the view design page with a placeholder containing descriptive text:
+* Includes custom sections where you can add your own HTML. Each section is identified in the view design page by a placeholder containing descriptive text:
     * Custom top HTML section&mdash;Located in the area above the **Title** text.
     * Custom bottom HTML section&mdash;Located in the area below the **Custom HTML** text.
 

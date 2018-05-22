@@ -15,7 +15,7 @@ To extend `package.json`:
 1. Add the `package.json` file to the `artifacts` folder on the root application level.
 1. Add the necessary `dependencies` and `devDependences` to `package.json`.
 
-    ```json
+    ```json-no-run
     {
         "dependencies": {
            "md5": "^2.2.1"

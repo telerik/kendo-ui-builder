@@ -1,13 +1,13 @@
 ---
-title: Custom HTML
-page_title: Custom HTML - Components - Kendo UI Builder
+title: Custom Html
+page_title: Custom Html - Components - Kendo UI Builder
 description: "Use and implement the Custom HTML component when working with the Kendo UI Builder tool for creating and managing Angular and AngularJS-based web applications."
 slug: customhtml_kuib
 ---
 
-# Custom HTML
+# Custom Html
 
-The Custom HTML component is a custom component that allows you to implement custom HTML.
+The Custom Html component is a custom component that allows you to implement custom HTML.
 
 ## Usage
 

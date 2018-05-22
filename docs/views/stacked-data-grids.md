@@ -16,7 +16,7 @@ The Stacked Data Grids view is one of the built-in views that are provided by th
 * Supports editing for the child grids through the **Incell**, **Inline**, and **Popup** modes.
 * Supports error handling.
 * Allows you to set and edit its basic functionalities. For more information on the settings that are subject to modification, refer to the right-hand vertical toolbar (property grid) of the view.
-* Includes custom sections where you can include your own HTML. Each section is identified in the view design page with a placeholder which contains descriptive text.
+* Includes custom sections where you can include your own HTML. Each section is identified in the view design page by a placeholder which contains descriptive text.
     * Custom top HTML section&mdash;Located in the area above **Header Title**.
     * Custom top parent HTML section&mdash;Located in the area below the **Parent Grid Title** but above **Parent Grid**.
     * Custom middle HTML section&mdash;Located in the area below the **Parent Grid** and above the **Child Grid Title**.
@@ -37,8 +37,8 @@ The Stacked Data Grids view is one of the built-in views that are provided by th
 * **Parent Data Source**&mdash;When you select a data provider, the data source drop-down is automatically populated with all the hierarchical parent data sources that are available for the selected data provider.
 * **Child Data Source**&mdash;When you select a data provider, the data source drop-down is automatically populated with all the hierarchical child data sources that are available for the selected data provider.
 
-> * If the data provider does not contain related data sources, **Parent Data Source** and **Child Data Source** will be empty.
-> * Since the Stacked Data Grids view contains a Grid component, all properties of the Grid component are also available in the Stacked Data Grids view. For more information on specific Grid properties, refer to the article on the [Grid component]({% slug grid_kuib %}).
+  > * If the data provider does not contain related data sources, **Parent Data Source** and **Child Data Source** will be empty.
+  > * Since the Stacked Data Grids view contains a Grid component, all properties of the Grid component are also available in the Stacked Data Grids view. For more information on specific Grid properties, refer to the article on the [Grid component]({% slug grid_kuib %}).
 
 ## Suggested Links
 

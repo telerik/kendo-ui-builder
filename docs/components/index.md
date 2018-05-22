@@ -335,8 +335,8 @@ Components represent the elements of your web application.
                 </li>
                 <li class="col-xs-4 col-md-3">
                     <a href="toolbar/" title="Toolbar">
-                        <img src="../images/icons/components/toolbar.svg" width="64" height="64" alt="Toolbar" title="Toolbar" />
-                        <p>Toolbar</p>
+                        <img src="../images/icons/components/toolbar.svg" width="64" height="64" alt="Tool Bar" title="Tool Bar" />
+                        <p>Tool Bar</p>
                     </a>
                 </li>
             </ul>

@@ -13,7 +13,10 @@ The Tab Strip is part of the Navigation components which the Builder supports.
 
 * Represents a collection of tabs with associated content.
 * Enables users to switch between different tab views inside a single component.
-* To add tabs to a Tab Strip, refer to the **Items** property of the Tab Strip that is further described. To add contents to an existing tab:
+* To add tabs to a Tab Strip, refer to the **Items** property of the Tab Strip that is further described.
+
+  To add contents to an existing tab:
+  
     1. Select the tab from the Tab Strip by its label text in the drop-down menu next to the **Trash bin** icon. The selected tab opens.
     1. Drag at least one layout row to the tab, then drag additional components to that row or to other rows that you added to the tab. Follow the [Blank view layout rules]({% slug blankview_kuib %}#toc-layout).
 
