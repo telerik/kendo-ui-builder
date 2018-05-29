@@ -55,7 +55,7 @@ To change the default values:
 ## Suggested Links
 
 * [Globalization by Kendo UI Builder]({% slug globalizationoverview_kuib %})
-* [Internationalization by Kendo UI for Angular](http://k2build.openstack.progress.com/kendo-angular-ui-develop/components/internationalization/)
-* [Localization by Kendo UI for Angular](http://k2build.openstack.progress.com/kendo-angular-ui-develop/components/localization/)
+* [Internationalization by Kendo UI for Angular](https://www.telerik.com/kendo-angular-ui/components/internationalization/)
+* [Localization by Kendo UI for Angular](https://www.telerik.com/kendo-angular-ui/components/localization/)
 * [Internationalization by Kendo UI for jQuery](https://docs.telerik.com/kendo-ui/framework/globalization/overview)
 * [Localization by Kendo UI for jQuery](https://docs.telerik.com/kendo-ui/framework/localization/overview)
