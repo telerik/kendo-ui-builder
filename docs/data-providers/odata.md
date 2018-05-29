@@ -14,6 +14,10 @@ The Builder supports:
 * For Angular, OData version 4.
 * For AngularJS, OData versions 2, 3, and 4.
 
+> When you first create your application, you might choose to relate it to a data provider that will not be the real data provider for the published application. To override the test URL of that data provider:
+> 1. Generate the application.
+> 2. For Angular, go to `../app/src/environments/` and update the file you need. For AngularJS, update the `../app/src/data-providers.json` file.
+
 ## Setting OData Providers
 
 > All **Name** fields are restrictive. If the symbols you placed in them are not supported, the Builder displays the `Invalid format. Only letters, numbers, "_" and "-" are allowed.` error message.
