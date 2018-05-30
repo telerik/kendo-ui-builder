@@ -13,8 +13,8 @@ The Progress Data service is based on the [`progress.data.JSDO`](https://documen
 The JSDO class is a connector to the mobile services that are provided by Progress and which produce metadata. The catalog file is an extended version and describes the data in a custom format. The catalog file that is necessary for adding the Progress Data provider describes what the service will return and how its endpoints are configured.
 
 > When you first create your application, you might choose to relate it to a data provider that will not be the real data provider for the published application. To override the test URL of that data provider:
-> 1. Generate the application.
-> 2. For Angular, go to `../app/src/environments/` and update the file you need. For AngularJS, update the `../app/src/data-providers.json` file.
+>   1. Generate the application.
+>   2. For Angular, go to `../app/src/environments/` and update the file you need. For AngularJS, update the `../app/src/data-providers.json` file.
 
 ## Setting Progress Data Providers
 

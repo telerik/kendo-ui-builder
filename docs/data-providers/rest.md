@@ -15,8 +15,8 @@ Every data source for the CRUD data operations defines its own endpoint. The dat
 Currently, the Builder does not support hierarchy for the generic REST data provider and has no schema of the data it contains. This means that you can call the data service but cannot relate the data sources through the Builder. To establish the relation between the data, you have to manually add all data fields&mdash;for example, set the types and editors.
 
 > When you first create your application, you might choose to relate it to a data provider that will not be the real data provider for the published application. To override the test URL of that data provider:
-> 1. Generate the application.
-> 2. For Angular, go to `../app/src/environments/` and update the file you need. For AngularJS, update the `../app/src/data-providers.json` file.
+>   1. Generate the application.
+>   2. For Angular, go to `../app/src/environments/` and update the file you need. For AngularJS, update the `../app/src/data-providers.json` file.
 
 ## Setting Generic REST Data Providers
 
