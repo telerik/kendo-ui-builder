@@ -12,11 +12,9 @@ This is commercial software. To use it, you need to agree to the [**Telerik End 
 
 All available Kendo UI commercial licenses may be obtained at http://www.telerik.com/purchase/kendo-ui.
 
-## Running documentation locally
-We use gulp. In order to serve documentation locally just run
-```
-gulp docs
-```
+## Documentation
+
+The Builder utilizes the [Gulp](https://css-tricks.com/gulp-for-beginners/) tool for running its documentation locally. To serve the articles, run `gulp docs`. 
 
 ## Resources
 
