@@ -13,7 +13,7 @@ For both the AngularJS and Angular frameworks, the Builder supports templates fo
 All custom templates reside in the `templates` folder at the root application level.
 
 * `<view_name>` or `<component_name>` represent the names of the selected view or component.
-* The Builder utilizes the EJS templating engine and generates the `.ejs` files. For more information, refer to the [official EJS diocumentation](http://ejs.co/).
+* The Builder utilizes the EJS templating engine and generates the `.ejs` files. For more information, refer to the [official EJS documentation](http://ejs.co/).
 
 ```
 templates/
