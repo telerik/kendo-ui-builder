@@ -120,7 +120,20 @@ The Angular template consists of the following files:
     </my-calendar>
     ```
 
-* (Required) `config.json.ejs`&mdash;Provides a suitable way to pass the calculated properties from the design-time to runtime. Then, use the `$config` variable to access them from both the template and the controller.
+* (Required) `config.json.ejs`&mdash;Provides a way to pass a subset or calculated set of properties from the meta definition to runtime. Then, they become accessible through the `$config` object as shown above. Under the hood, the generator constructs this object and expose it as a public member from the base view:
+
+    ```ts
+    public $config: any = {
+        components: {
+            <component_id>: {
+                <prop_name>: <value>,
+                <prop_name>: <value>,
+                ...
+            },
+            ...
+        },
+    };
+    ```
 
 #### AngularJS
 
