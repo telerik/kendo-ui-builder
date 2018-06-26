@@ -82,12 +82,12 @@ The template consists of several files and some of them are optional. However, t
 
 To add styles to the HTML template, append a `<style></style>` section at the end of the file and "namespace" them with some class with prefix.
 
-```html
+```html-no-run
 <div class="my-custom-calendar">custom calendar</div>
 
 ```
 
-```css
+```css-no-run
 .my-custom-calendar .date-cell {
     color: blue
 }
