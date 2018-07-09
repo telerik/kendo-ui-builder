@@ -81,12 +81,12 @@ The template consists of several files and some of them are optional. However, t
 
 To add styles to the HTML template, append a `<style></style>` section at the end of the file and "namespace" them with some class with prefix.
 
-```html
+```html-no-run
 <div class="my-custom-view">custom calendar</div>
 
 ```
 
-```css
+```css-no-run
 .my-custom-view .date-cell {
     color: blue
 }
@@ -160,7 +160,7 @@ The Angular template consists of the following mandatory files:
 
 * `__name__.view.component.html.ejs`&mdash;Represents the HTML template for that Angular component (views are Angular components too).
 
-    ```html
+    ```html-no-run
     <div>
         <h1><%- view.title %></h1>
 
@@ -171,7 +171,7 @@ The Angular template consists of the following mandatory files:
 
     You can access the properties that are defined in the view schema through the `view` object&mdash;for example, `view.title`. If you change its value from the property editor, for example, if you want to set `My view title`, the change will be rendered to the template after the generation of the application. The result looks similar to the following example.
 
-    ```html
+    ```html-no-run
     <div>
         <h1>My view title</h1>
 
@@ -271,7 +271,7 @@ The AngularJS template consists of the following files:
 
 * (Required) `options.json.ejs`&mdash;Contains the options from the schema definition together with whatever other options you need to define at generation time. For example, if  `title`, `pageable`, `editable`, `selectable`, `filterable`, `events`, and `onRowSelect` were previously defined in the schema, you can use the following options definition.
 
-    ```
+    ```js-no-run
     {
         title: '<%= title %>',
         options: {
