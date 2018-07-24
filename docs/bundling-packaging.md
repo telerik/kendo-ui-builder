@@ -8,12 +8,23 @@ position: 12
 
 # Bundling and Packaging
 
-The Builder provides options to generate the web application in the debug and release (production) modes.
+The Builder provides options to build your web application in debug or release (production) configuration.
 
-The **Generate** button is available on both the **App Design** page and the toolbar of each view. When clicked, it generates the latest source code of the application and outputs the `build_output/debug` and `build_output/release` local folders. The debug version of the generated application contains development-friendly code in a non-minimized format.
+## Overview
 
-When the Builder generates applications for the Angular framework, it uses Angular CLI. When the Builder generates applications for the AngularJS framework, it uses Webpack.
+The **Build** button is available on both the **App Design** page and the toolbar of each view. When clicked, it will allow you to choose the build configuration you would like to build and optionally set the **base href** property.
+
+<img src="../images/kuib-build-configurations.png" class="img-responsive" alt="Kendo UI Builder Build Configurations"/>
+
+When you click **Build** it generates the latest source code of the application and then builds the deployment bundle in `build_output/debug` or `build_output/release` local folders depending on the selected configuration. To deploy your application just copy the contents of the deployment bundle to a web server.
+
+>The debug version of the deployment bundle contains development-friendly code in a non-minimized format. 
+
+## Base Href
+
+If you host your application in a *sub-folder* of your web server you should set the **base href** property to be the name of the *sub-folder*. For example, if `index.html` is on the server at `/my/app/index.html`, set the base href to `/my/app/`. If you copy to the server's root directory, omit this step and leave the *base href* alone.
 
 ## Suggested Links
 
-* [Output Application Modes]({% slug debugging_kuib %})
+* [Frameworks]({% slug frameworks_kuib %})
+* [Troubleshooting]({% slug troubleshooting_kuib %})
