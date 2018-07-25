@@ -8,12 +8,27 @@ position: 12
 
 # Bundling and Packaging
 
-The Builder provides options to generate the web application in the debug and release (production) modes.
+The Builder provides options to build your web application in debug or release (production) configuration by using the **Build** button.
 
-The **Generate** button is available on both the **App Design** page and the toolbar of each view. When clicked, it generates the latest source code of the application and outputs the `build_output/debug` and `build_output/release` local folders. The debug version of the generated application contains development-friendly code in a non-minimized format.
+**Build** allows you to:
+* Choose the desired build configuration
+* (Optional) Set the **Base href** property
 
-When the Builder generates applications for the Angular framework, it uses Angular CLI. When the Builder generates applications for the AngularJS framework, it uses Webpack.
+The button is available on both the **App Design** page and the toolbar of each view.
+
+<img src="../images/kuib-build-configurations.png" class="img-responsive" alt="Kendo UI Builder Build Configurations"/>
+
+## Choosing the Build Configuration
+
+When you click **Build**, the button generates the latest source code of the application and then, depending on the selected configuration, builds the deployment bundle in the `build_output/debug` or `build_output/release` local folders. To deploy your application, copy the contents of the deployment bundle to a web server.
+
+> The debug version of the deployment bundle contains development-friendly code in a non-minimized format.
+
+## Setting the Base href Property
+
+If you host your application in a sub-folder of your web server, you have to set the **Base href** property to the name of that sub-folder. For example, if `index.html` is on the server at `/my/app/index.html`, set **base href** to `/my/app/`. If you copy the project to the root directory of the server, omit this step and disregard the **Base href** setting.
 
 ## Suggested Links
 
-* [Output Application Modes]({% slug debugging_kuib %})
+* [Frameworks]({% slug frameworks_kuib %})
+* [Troubleshooting]({% slug troubleshooting_kuib %})
