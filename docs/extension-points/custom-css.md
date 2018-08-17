@@ -46,7 +46,7 @@ a {
 
 > Global styles that are defined in `app.custom.css` or in custom themes affect individual views.
 
-AngularJS does not support the scoping of view styles by default. When the views are generated, the Builder appends a unique custom attribute to the HTML wrapper of the view which is then automatically used to prefix to every CSS rule. This process occurs during the Webpack compile time.
+AngularJS does not support the scoping of view styles by default. When the views are generated, the Builder appends a unique custom attribute to the HTML wrapper of the view which is then automatically used to prefix to every CSS rule. This process occurs during the Webpack compile time. Use `:root` selector to prefix your CSS properties and style both the view and its components.
 
 Angular tries to emulate the Shadow DOM specification which is more sophisticated than the custom scoping approach that the Builder uses for AngularJS applications. When you write a style for a view, Angular applies it to the direct HTML in the view and not to the Angular components inside that view. Each component is scoped by itself which is inconvenient in generated code scenarios. To work around this issue and be able to style both the view and its components by updating the view stylesheet, prefix your own CSS properties with the `:host /deep/` selector. For more information, refer to the [official Angular documentation](https://angular.io/guide/component-styles).
 
