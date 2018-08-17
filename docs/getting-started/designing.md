@@ -65,6 +65,8 @@ The Dashboard provides options for creating or deleting an application, editing 
 1. Select the location of the project you want to import.
 1. Click **Select Folder** to confirm the import of the application. As a result, the Dashboard displays the card (or list item) for your imported project.
 
+> Note that only applications created with the Builder can be imported.
+
 ## Module Settings
 
 The Builder provides each new project with a default Application Module (App Module).
