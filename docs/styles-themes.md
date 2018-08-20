@@ -63,6 +63,16 @@ To import the custom theme, the Kendo UI Builder requires only the unarchived `.
 
 You can also access the ThemeBuilder for the respective framework of your current project from the **Edit App** page by clicking the **Go to Kendo UI ThemeBuidler** link.
 
+## Enabling the Ripple Effect
+
+For Angular applications, you can enable the [Ripple effect](https://www.telerik.com/kendo-angular-ui/components/ripple/) which is fully compatible with all available Kendo UI themes.
+
+1. On the Dashboard, click the card (or list item) of the application to open the **App Design** page.
+1. Next to the application name, click the **Settings** icon to open the drop-down options list.
+1. Select **Properties** to open the **Edit App** dialog box.
+1. Click the **Theme** drop-down.
+1. Click the **Enable Ripple** checkbox to enable the Ripple effect.
+
 ## Suggested Links
 
 * [Customizing Themes with the Kendo UI Builder]({% slug customthemes_kuib %})
