@@ -2,9 +2,16 @@
 <img width="631" src="https://www.telerik.com/kendo-ui-builder/npm-banner.svg">
 </a>
 
-## Professional Toolset and Components for Creating Web Apps
+## Kendo UI Builder
 
-This repository contains the official documentation resources for the [Progress® Kendo UI® Builder tool](https://www.telerik.com/kendo-ui-builder/) for creating and managing web applications. The documentation resources are part of the Kendo UI Builder suite.
+The Progress® Kendo UI® Builder is a professional tool for creating and managing high-performance, responsive web applications which support the implementation of Kendo UI components.
+
+This repository contains the code and documentation resources of the Kendo UI Builder.
+
+* [Get started](https://www.telerik.com/kendo-ui-builder/getting-started)
+* [Official website](https://www.telerik.com/kendo-ui-builder/documentation/)
+* [Blogs](http://www.telerik.com/blogs/kendo-ui)
+* [Wiki](https://github.com/telerik/kendo-ui-builder/wiki)
 
 ## License
 
@@ -14,13 +21,7 @@ All available Kendo UI commercial licenses may be obtained at http://www.telerik
 
 ## Documentation
 
-The Builder utilizes the [Gulp](https://css-tricks.com/gulp-for-beginners/) tool for running its documentation locally. To serve the articles, run `gulp docs`. 
-
-## Resources
-
-- [Get Started](https://www.telerik.com/kendo-ui-builder/getting-started)
-- [Toolset and Components](https://www.telerik.com/kendo-ui-builder/documentation)
-- [Blogs](http://www.telerik.com/blogs/kendo-ui)
+The Builder utilizes the [Gulp](https://css-tricks.com/gulp-for-beginners/) tool for running its documentation locally. To serve the articles, run `gulp docs`.
 
 ## Questions and Feedback
 
@@ -29,4 +30,3 @@ The Builder utilizes the [Gulp](https://css-tricks.com/gulp-for-beginners/) tool
 *Copyright © 2018 Progress Software Corporation and/or its subsidiaries or affiliates. All Rights Reserved.*
 
 *Progress, Telerik, and certain product names used herein are trademarks or registered trademarks of Progress Software Corporation and/or one of its subsidiaries or affiliates in the U.S. and/or other countries.*
-
