@@ -15,6 +15,7 @@ The Blank view is the user-defined view that is provided by the Builder.
 * Allows you to specify multiple data sources.
 * Supports the creation of responsive layout by dragging and dropping rows and columns.
 * Provides options for adding, modifying, and removing the [built-in]({% slug overviewcomp_kuib %}) or [custom components]({% slug customcomponents_kuib %}) within the view.
+* Copy-paste components
 
 ## Preview
 
@@ -22,7 +23,7 @@ The Blank view is the user-defined view that is provided by the Builder.
 
 ## Data Binding
 
-Due to its specifics, the Blank view provides certain approaches for data binding and defining its data sources.  
+Due to its specifics, the Blank view provides certain approaches for data binding and defining its data sources.
 
 ### Blank View Data Sources
 
@@ -67,6 +68,11 @@ The most important available layout features are:
 
 The Blank view offers a variety of data management, editing, scheduling, and charting components. For the full list of components, refer to the [component overview]({% slug overviewcomp_kuib %}).
 
+## Copy-paste
+
+As of version 3.1, appart from drag-dropping components, you can also copy-paste them too. Component settings are also copied (except IDs are re-generated). You are not limited to what you copy and whre you paste. If needed, the proper containers are infered and placed automatically. Copy-paste works in the same view, from view to view, from module to module, even from app to another app. To copy-paste, use `Ctrl+C/Ctrl+V` for Windows or `Cmd+C/Cmd-V` for Mac. Another way is to use the menu bar `Edit/Copy` and `Edit/Paste` options.
+
+## Custom section
 Similar to the predefined views, the Blank view provides the option for a custom section where you can add your own custom HTML code. For Angular, the Builder generates this file in the `\app\src\app\modules\[module-name]\[view-name]\` folder. For AngularJS, the Builder generates this file in the `\app\src\modules\[module-name]\[view-name]\` folder. Add your custom HTML code to the generated file, which is used to add template code for the **Template** properties of content components added to the **Blank View**.
 
 > Unlike the custom section files that are generated for the predefined views, none of the HTML content that is added to the `topSection.html` file of the Blank view is visible in the view.
