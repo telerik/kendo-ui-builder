@@ -15,7 +15,7 @@ The Blank view is the user-defined view that is provided by the Builder.
 * Allows you to specify multiple data sources.
 * Supports the creation of responsive layout by dragging and dropping rows and columns.
 * Provides options for adding, modifying, and removing the [built-in]({% slug overviewcomp_kuib %}) or [custom components]({% slug customcomponents_kuib %}) within the view.
-* Copy-paste components
+* Enables you to copy and paste components.
 
 ## Preview
 
@@ -68,14 +68,31 @@ The most important available layout features are:
 
 The Blank view offers a variety of data management, editing, scheduling, and charting components. For the full list of components, refer to the [component overview]({% slug overviewcomp_kuib %}).
 
-## Copy-paste
+### Copying and Pasting
 
-As of version 3.1, appart from drag-dropping components, you can also copy-paste them too. Component settings are also copied (except IDs are re-generated). You are not limited to what you copy and whre you paste. If needed, the proper containers are infered and placed automatically. Copy-paste works in the same view, from view to view, from module to module, even from app to another app. To copy-paste, use `Ctrl+C/Ctrl+V` for Windows or `Cmd+C/Cmd-V` for Mac. Another way is to use the menu bar `Edit/Copy` and `Edit/Paste` options.
+As of Kendo UI Builder version 3.1, apart from dragging and dropping components, you can also use the copy-paste functionality to duplicate them. Except for the IDs that are re-generated, the settings of the components are also copied and the proper containers can be inferred and placed automatically.
 
-## Custom section
-Similar to the predefined views, the Blank view provides the option for a custom section where you can add your own custom HTML code. For Angular, the Builder generates this file in the `\app\src\app\modules\[module-name]\[view-name]\` folder. For AngularJS, the Builder generates this file in the `\app\src\modules\[module-name]\[view-name]\` folder. Add your custom HTML code to the generated file, which is used to add template code for the **Template** properties of content components added to the **Blank View**.
+The copy-paste feature works:
+* Within the same view
+* Between views
+* Between modules
+* Between applications
 
-> Unlike the custom section files that are generated for the predefined views, none of the HTML content that is added to the `topSection.html` file of the Blank view is visible in the view.
+To copy and paste:
+* For Windows, use `Ctrl`+`C` for copying and `Ctrl`+`V` for pasting.
+* For Mac OS, use `Cmd`+`C` for copying and `Cmd`+`V` for pasting.
+* You can also use the menu bar options&mdashh;**Edit** > **Copy** for copying and **Edit** > **Paste** for pasting.
+
+### Adding Custom Code
+
+Similar to the predefined views, the Blank view provides a custom section where you can add your own custom HTML code.
+
+* For Angular, the Builder generates the file in the `\app\src\app\modules\[module-name]\[view-name]\` folder.
+* For AngularJS, the Builder generates the file in the `\app\src\modules\[module-name]\[view-name]\` folder.
+
+To use the custom section in the Blank view, add the custom HTML code to the generated file in the respective directory. This custom HTML is used to add the template code for the **Template** properties of the content components which are added to the Blank view.
+
+> Unlike the custom-section files that are generated for the predefined views, the HTML content that is added to the `topSection.html` file of the Blank view is not visible in the view.
 
 ## Suggested Links
 
