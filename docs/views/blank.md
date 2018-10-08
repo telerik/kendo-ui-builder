@@ -22,7 +22,7 @@ The Blank view is the user-defined view that is provided by the Builder.
 
 ## Data Binding
 
-Due to its specifics, the Blank view provides certain approaches for data binding and defining its data sources.  
+Due to its specifics, the Blank view provides certain approaches for data binding and defining its data sources.
 
 ### Blank View Data Sources
 
@@ -44,8 +44,8 @@ The view provides the following display types:
 
 * **Desktop**
 * **Laptop**
-* **Tablet Landscape**
-* **Tablet Portrait**
+* **Tablet**
+* **Phone**
 
 The two basic layout elements in the Blank view are rows and columns. You can drag and drop these elements from the **Components** palette:
 
@@ -56,7 +56,7 @@ The most important available layout features are:
 
 * Column width&mdash;You can specify or change the column width (column span) for each screen size. There are 12 available column slots in each row. A column can occupy one or more slots. For example, you can have 12 columns that span one slot each, or three columns that span four slots each.
 
-  > Unless you enter a different width for the Desktop, Laptop, and Tablet Portrait screen sizes, the required Tablet Landscape width will be used for all screen sizes.
+  > Unless you enter a different width for the Desktop, Laptop, and Phone screen sizes, the required Tablet width will be used for all screen sizes.
 
 * Hide on&mdash;You can hide a column on a given screen size by selecting the checkbox for that screen width. You can use this feature to provide more details on larger screens while minimizing the content that is shown for smaller devices.
 
