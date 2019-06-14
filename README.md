@@ -27,6 +27,6 @@ The Builder utilizes the [Gulp](https://css-tricks.com/gulp-for-beginners/) tool
 
 - [Feedback Portal](http://kendoui-feedback.telerik.com/forums/912307-kendo-ui-builder)
 
-*Copyright © 2018 Progress Software Corporation and/or its subsidiaries or affiliates. All Rights Reserved.*
+*Copyright © 2019 Progress Software Corporation and/or one of its subsidiaries or affiliates. All Rights Reserved.*
 
 *Progress, Telerik, and certain product names used herein are trademarks or registered trademarks of Progress Software Corporation and/or one of its subsidiaries or affiliates in the U.S. and/or other countries.*
